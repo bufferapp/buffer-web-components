@@ -1,2 +1,3 @@
 # buffer-web-components
-Buffer Dashboard Specific Components
+
+Buffer Dashboard "Molecules" (concept from attomic design) http://bradfrost.com/blog/post/atomic-web-design/
