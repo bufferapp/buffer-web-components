@@ -1,0 +1,12 @@
+exports[`Snapshots ColabTool default 1`] = `
+<div>
+  ColabTool
+</div>
+`;
+
+exports[`Snapshots ImagePost default 1`] = `
+<div
+  className="card">
+  Hi!
+</div>
+`;

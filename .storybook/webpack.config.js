@@ -2,10 +2,7 @@ const PostCSSImport = require('postcss-import');
 const PostCSSCustomProperties = require('postcss-custom-properties');
 const PostCSShexrgba = require('postcss-hexrgba');
 
-const classNameFormat = '[local]';
-
-// NOTE: If using this in an environment, a more unique name
-// format like '[name]_[local]_[hash:base64:5]' is appropriate
+const classNameFormat = '[name]_[local]_[hash:base64:5]';
 
 module.exports = {
   module: {
@@ -16,6 +13,16 @@ module.exports = {
           'style-loader',
           `css-loader?modules&importLoaders=1&localIdentName=${classNameFormat}`,
           'postcss-loader',
+        ],
+      },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules(?!\/@bufferapp\/components)/,
+        loader: 'babel-loader',
+        presets: ['es2015', 'stage-0', 'react'],
+        plugins: [
+          'transform-object-assign',
+          'add-module-exports',
         ],
       },
     ],
