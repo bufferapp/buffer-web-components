@@ -4,7 +4,7 @@
   "description": "UI components for buffer web",
   "main": "index.js",
   "scripts": {
-    "start": "start-storybook -p 9001",
+    "start": "start-storybook -p 9002",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "./node_modules/eslint/bin/eslint.js . --ignore-pattern coverage .storybook node_modules",
     "test": "npm run lint && jest --coverage",
@@ -16,7 +16,7 @@
       "\\.(css|less)$": "identity-obj-proxy"
     },
     "transformIgnorePatterns": [
-      "node_modules/(?!@bufferapp\/components)"
+      "node_modules/(?!@bufferapp/components)"
     ],
     "verbose": true,
     "coverageThreshold": {
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "2.35.3",
+    "@kadira/storybook-addon-links": "^1.0.1",
     "@kadira/storybook-deployer": "1.1.0",
     "babel-cli": "6.22.2",
     "babel-eslint": "7.1.1",
@@ -70,6 +71,6 @@
     "style-loader": "0.13.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.1.4"
+    "@bufferapp/components": "0.1.12"
   }
 }

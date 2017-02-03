@@ -1,0 +1,37 @@
+@import '@bufferapp/components/variables.css';
+
+.post-details {
+  display: flex;
+  padding: 1em;
+  background: #FCFCFC;
+  border-top: var(--border-width) solid var(--mystic);
+}
+
+.post-source {
+  flex-grow: 1;
+}
+
+.post-author {
+  display: flex;
+}
+
+.post-icon {
+  color: var(--shuttle-gray);
+}
+
+.post-icon, .post-details-author-image {
+  margin-right: 0.5em;
+}
+
+.post-button-last {
+  margin-left: 2em;
+}
+
+.post-confirming-delete > .post-icon,
+.post-confirming-delete > span {
+  color: var(--torch-red);
+}
+
+.post-cancel-delete {
+  margin-left: 0.5em;
+}

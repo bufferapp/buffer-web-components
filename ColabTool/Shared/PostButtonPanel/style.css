@@ -1,0 +1,11 @@
+.button-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  min-width: 13em;
+  box-sizing: border-box;
+}
+
+.bottom-button {
+  margin-top: 0.5em;
+}
