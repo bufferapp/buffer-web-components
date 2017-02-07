@@ -105,13 +105,10 @@ exports[`Snapshots Post default 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -121,7 +118,7 @@ exports[`Snapshots Post default 1`] = `
             <span
               className="post-icon">
               <i
-                className="icon small undefined bi bi-text" />
+                className="icon small undefined bi bi-link" />
             </span>
             <span
               className="text small">
@@ -175,13 +172,10 @@ exports[`Snapshots Post hovered 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -272,13 +266,10 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -381,13 +372,10 @@ exports[`Snapshots Post isDeleting 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -448,13 +436,10 @@ exports[`Snapshots Post isWorking 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -464,7 +449,7 @@ exports[`Snapshots Post isWorking 1`] = `
             <span
               className="post-icon">
               <i
-                className="icon small undefined bi bi-text" />
+                className="icon small undefined bi bi-link" />
             </span>
             <span
               className="text small">
@@ -518,13 +503,10 @@ exports[`Snapshots Post isWorkingManager 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -534,7 +516,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
             <span
               className="post-icon">
               <i
-                className="icon small undefined bi bi-text" />
+                className="icon small undefined bi bi-link" />
             </span>
             <span
               className="text small">
@@ -588,13 +570,10 @@ exports[`Snapshots Post manager 1`] = `
       onMouseLeave={[Function]}>
       <div
         className="post-content">
-        <div
-          className="post-content">
-          <span
-            className="text">
-            I am a text-only test post.
-          </span>
-        </div>
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
       </div>
       <div
         className="post-details">
@@ -604,7 +583,7 @@ exports[`Snapshots Post manager 1`] = `
             <span
               className="post-icon">
               <i
-                className="icon small undefined bi bi-text" />
+                className="icon small undefined bi bi-link" />
             </span>
             <span
               className="text small">
@@ -642,6 +621,140 @@ exports[`Snapshots Post manager 1`] = `
       disabled={false}
       onClick={[Function]}>
       Approve
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Post postType:image 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}>
+      <div
+        className="post-content">
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-source">
+          <div>
+            <span
+              className="post-icon">
+              <i
+                className="icon small undefined bi bi-image" />
+            </span>
+            <span
+              className="text small">
+              via web
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "width": "1em",
+                }
+              } />
+          </span>
+          <span
+            className="text small">
+            ash@buffer.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Post postType:link 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}>
+      <div
+        className="post-content">
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-source">
+          <div>
+            <span
+              className="post-icon">
+              <i
+                className="icon small undefined bi bi-link" />
+            </span>
+            <span
+              className="text small">
+              via web
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "width": "1em",
+                }
+              } />
+          </span>
+          <span
+            className="text small">
+            ash@buffer.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
     </button>
   </div>
 </div>

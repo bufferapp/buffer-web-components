@@ -43,7 +43,7 @@ const Post = ({
           onDeleteConfirmClick={onDeleteConfirmClick}
           onEditClick={onEditClick}
           profile={profile}
-          postType={postType}
+          postType={postType === 'text' ? 'link' : postType}
         />
       </Card>
     </div>
@@ -78,7 +78,7 @@ Post.commonPropTypes = {
 Post.propTypes = {
   ...Post.commonPropTypes,
   children: PropTypes.node.isRequired,
-  postType: PropTypes.oneOf(['image', 'link', 'text']).isRequired,
+  postType: PropTypes.oneOf(['image', 'link', 'text']),
 };
 
 Post.defaultProps = {
@@ -87,6 +87,7 @@ Post.defaultProps = {
   isWorking: false,
   hovered: false,
   manager: false,
+  postType: 'text',
 };
 
 export default Post;

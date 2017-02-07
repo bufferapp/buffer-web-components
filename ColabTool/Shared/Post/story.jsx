@@ -6,7 +6,6 @@ import {
 import { linkTo } from '@kadira/storybook-addon-links';
 import { Text } from '@bufferapp/components';
 import Post from './index';
-import style from './style.css';
 
 const profile = {
   name: 'Ash',
@@ -14,36 +13,29 @@ const profile = {
   email: 'ash@buffer.com',
 };
 
-const text = 'I am a text-only test post.';
-
-const postType = 'text';
-
 const children = (
-  <div className={style['post-content']}>
-    <Text>
-      {text}
-    </Text>
-  </div>
+  <Text>
+    {'I am a text-only test post.'}
+  </Text>
 );
 
 storiesOf('Post')
   .add('default', () => (
     <Post
-    	children={children}
-    	profile={profile}
-    	onMouseEnter={linkTo('Post', 'hovered')}
-    	onMouseLeave={linkTo('Post', 'default')}
-    	onApproveClick={linkTo('Post', 'isWorking')}
-    	onCancelConfirmClick={linkTo('Post', 'hovered')}
-    	onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
-    	onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
-    	onEditClick={action('edit-click')}
-      postType={postType}
-    />
+      profile={profile}
+      onMouseEnter={linkTo('Post', 'hovered')}
+      onMouseLeave={linkTo('Post', 'default')}
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+    >
+      {children}
+    </Post>
   ))
   .add('manager', () => (
     <Post
-      children={children}
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
       onApproveClick={linkTo('Post', 'isWorkingManager')}
@@ -52,13 +44,13 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       manager
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
   ))
   .add('hovered', () => (
     <Post
-      children={children}
       hovered
       onMouseEnter={linkTo('Post', 'hovered')}
       onMouseLeave={linkTo('Post', 'default')}
@@ -67,13 +59,13 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
   ))
   .add('isConfirmingDelete', () => (
     <Post
-      children={children}
       isConfirmingDelete
       onMouseEnter={linkTo('Post', 'hovered')}
       onMouseLeave={linkTo('Post', 'default')}
@@ -82,13 +74,13 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
   ))
   .add('isDeleting', () => (
     <Post
-      children={children}
       isDeleting
       onMouseEnter={linkTo('Post', 'hovered')}
       onMouseLeave={linkTo('Post', 'default')}
@@ -97,13 +89,13 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
   ))
   .add('isWorking', () => (
     <Post
-      children={children}
       isWorking
       onMouseEnter={linkTo('Post', 'hovered')}
       onMouseLeave={linkTo('Post', 'default')}
@@ -112,13 +104,13 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
   ))
   .add('isWorkingManager', () => (
     <Post
-      children={children}
       manager
       onMouseEnter={linkTo('Post', 'hovered')}
       onMouseLeave={linkTo('Post', 'default')}
@@ -128,7 +120,38 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       isWorking
-      postType={postType}
       profile={profile}
-    />
+    >
+      {children}
+    </Post>
+  ))
+  .add('postType:image', () => (
+    <Post
+      profile={profile}
+      onMouseEnter={action('mouse-enter')}
+      onMouseLeave={action('mous-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      postType={'image'}
+    >
+      {children}
+    </Post>
+  ))
+  .add('postType:link', () => (
+    <Post
+      profile={profile}
+      onMouseEnter={action('mouse-enter')}
+      onMouseLeave={action('mous-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      postType={'link'}
+    >
+      {children}
+    </Post>
   ));
