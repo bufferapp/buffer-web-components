@@ -30,21 +30,6 @@ storiesOf('ImagePost')
       links={links}
       profile={profile}
       text={text}
-      onMouseEnter={linkTo('ImagePost', 'hovered')}
-      onMouseLeave={linkTo('ImagePost', 'default')}
-      onApproveClick={linkTo('ImagePost', 'isWorking')}
-      onCancelConfirmClick={linkTo('ImagePost', 'hovered')}
-      onDeleteClick={linkTo('ImagePost', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('ImagePost', 'isDeleting')}
-      onEditClick={action('edit-click')}
-    />
-  ))
-  .add('manager', () => (
-    <ImagePost
-      imageSrc={imageSrc}
-      links={links}
-      profile={profile}
-      text={text}
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
       onApproveClick={action('approve-click')}
@@ -52,70 +37,5 @@ storiesOf('ImagePost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
-      manager
-    />
-  ))
-  .add('hovered', () => (
-    <ImagePost
-      imageSrc={imageSrc}
-      links={links}
-      profile={profile}
-      text={text}
-      onMouseEnter={linkTo('ImagePost', 'hovered')}
-      onMouseLeave={linkTo('ImagePost', 'default')}
-      onApproveClick={linkTo('ImagePost', 'isWorking')}
-      onCancelConfirmClick={linkTo('ImagePost', 'hovered')}
-      onDeleteClick={linkTo('ImagePost', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('ImagePost', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      hovered
-    />
-  ))
-  .add('isConfirmingDelete', () => (
-    <ImagePost
-      imageSrc={imageSrc}
-      links={links}
-      profile={profile}
-      text={text}
-      onMouseEnter={linkTo('ImagePost', 'hovered')}
-      onMouseLeave={linkTo('ImagePost', 'default')}
-      onApproveClick={linkTo('ImagePost', 'isWorking')}
-      onCancelConfirmClick={linkTo('ImagePost', 'hovered')}
-      onDeleteClick={linkTo('ImagePost', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('ImagePost', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      isConfirmingDelete
-    />
-  ))
-  .add('isDeleting', () => (
-    <ImagePost
-      imageSrc={imageSrc}
-      links={links}
-      profile={profile}
-      text={text}
-      onMouseEnter={linkTo('ImagePost', 'hovered')}
-      onMouseLeave={linkTo('ImagePost', 'default')}
-      onApproveClick={linkTo('ImagePost', 'isWorking')}
-      onCancelConfirmClick={linkTo('ImagePost', 'hovered')}
-      onDeleteClick={linkTo('ImagePost', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('ImagePost', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      isDeleting
-    />
-  ))
-  .add('isWorking', () => (
-    <ImagePost
-      imageSrc={imageSrc}
-      links={links}
-      profile={profile}
-      text={text}
-      onMouseEnter={linkTo('ImagePost', 'hovered')}
-      onMouseLeave={linkTo('ImagePost', 'default')}
-      onApproveClick={linkTo('ImagePost', 'isWorking')}
-      onCancelConfirmClick={linkTo('ImagePost', 'hovered')}
-      onDeleteClick={linkTo('ImagePost', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('ImagePost', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      isWorking
     />
   ));

@@ -1,10 +1,5 @@
-.post-container {
-  display: flex;
-}
-
 .post-content {
   display: flex;
-  padding: 1em;
 }
 
 .post-content-text {

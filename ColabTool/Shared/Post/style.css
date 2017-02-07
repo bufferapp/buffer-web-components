@@ -1,0 +1,7 @@
+.post-container {
+  display: flex;
+}
+
+.post-content {
+  padding: 1em;
+}

@@ -7,6 +7,7 @@ import {
 import style from './style.css';
 import PostButtonPanel from '../Shared/PostButtonPanel';
 import PostDetails from '../Shared/PostDetails';
+import Post from '../Shared/Post';
 
 const ImagePost = ({
   isConfirmingDelete,
@@ -25,57 +26,52 @@ const ImagePost = ({
   onMouseLeave,
   profile,
   text,
-}) =>
-  <div className={style['post-container']}>
-    <div className={style.post}>
-      <Card
-        hovered={hovered}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
-        noPadding
-      >
-        <div className={style['post-content']}>
-          <span className={style['post-content-text']}>
-            <LinkifiedText
-              links={links}
-            >
-              {text}
-            </LinkifiedText>
-          </span>
-          <div>
-            <Image
-              src={imageSrc}
-              width={'15em'}
-              border={'rounded'}
-            />
-          </div>
-        </div>
-        <PostDetails
-          isDeleting={isDeleting}
-          isConfirmingDelete={isConfirmingDelete}
-          hovered={hovered}
-          onCancelConfirmClick={onCancelConfirmClick}
-          onDeleteClick={onDeleteClick}
-          onDeleteConfirmClick={onDeleteConfirmClick}
-          onEditClick={onEditClick}
-          profile={profile}
-          postType={'image'}
+}) => {
+  const children = (
+    <div className={style['post-content']}>
+      <span className={style['post-content-text']}>
+        <LinkifiedText
+          links={links}
+        >
+          {text}
+        </LinkifiedText>
+      </span>
+      <div>
+        <Image
+          src={imageSrc}
+          width={'15em'}
+          border={'rounded'}
         />
-      </Card>
+      </div>
     </div>
-    <PostButtonPanel
-      disabled={hovered || isConfirmingDelete || isDeleting}
+  );
+
+  return (
+    <Post
+      children={children}
+      isConfirmingDelete={isConfirmingDelete}
+      isDeleting={isDeleting}
+      isWorking={isWorking}
+      hovered={hovered}
+      imageSrc={imageSrc}
+      links={links}
       manager={manager}
       onApproveClick={onApproveClick}
-      isWorking={isWorking}
+      onCancelConfirmClick={onCancelConfirmClick}
+      onDeleteClick={onDeleteClick}
+      onDeleteConfirmClick={onDeleteConfirmClick}
+      onEditClick={onEditClick}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      profile={profile}
+      postType={'image'}
+      text={text}
     />
-  </div>;
+  );
+};
 
 ImagePost.propTypes = {
-  isConfirmingDelete: PropTypes.bool,
-  isDeleting: PropTypes.bool,
-  isWorking: PropTypes.bool,
-  hovered: PropTypes.bool,
+  ...Post.commonPropTypes,
   imageSrc: PropTypes.string.isRequired,
   links: PropTypes.arrayOf(
     PropTypes.shape({
@@ -85,28 +81,9 @@ ImagePost.propTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ).isRequired,
-  manager: PropTypes.bool,
-  onApproveClick: PropTypes.func.isRequired,
-  onCancelConfirmClick: PropTypes.func.isRequired,
-  onDeleteClick: PropTypes.func.isRequired,
-  onDeleteConfirmClick: PropTypes.func.isRequired,
-  onEditClick: PropTypes.func.isRequired,
-  onMouseEnter: PropTypes.func.isRequired,
-  onMouseLeave: PropTypes.func.isRequired,
-  profile: PropTypes.shape({
-    name: PropTypes.string,
-    avatarUrl: PropTypes.string,
-    email: PropTypes.string,
-  }).isRequired,
-  text: PropTypes.string.isRequired,
+   text: PropTypes.string.isRequired,
 };
 
-ImagePost.defaultProps = {
-  isConfirmingDelete: false,
-  isDeleting: false,
-  isWorking: false,
-  hovered: false,
-  manager: false,
-};
+ImagePost.defaultProps = Post.defaultProps;
 
 export default ImagePost;
