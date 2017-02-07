@@ -1,0 +1,20 @@
+@import '@bufferapp/components/variables.css';
+
+.scheduleTag {
+    position: relative;
+    background-color: var(--curious-blue);
+    padding: 0.25em 0.25em 0.4em 0.75em;
+    display: inline-block;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.arrow {
+    position: absolute;
+    right: -1em;
+    width: 0;
+    height: 0;
+    top: 0;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid var(--curious-blue);
+}

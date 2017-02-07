@@ -969,3 +969,15 @@ exports[`Snapshots PostDetails postType=link 1`] = `
   </div>
 </div>
 `;
+
+exports[`Snapshots ScheduleTag Default 1`] = `
+<span
+  className="scheduleTag">
+  <span
+    className="text extraSmall thin white">
+    08:52am (GMC)
+  </span>
+  <span
+    className="arrow" />
+</span>
+`;
