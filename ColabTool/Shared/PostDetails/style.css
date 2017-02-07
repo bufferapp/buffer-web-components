@@ -7,7 +7,7 @@
   border-top: var(--border-width) solid var(--mystic);
 }
 
-.post-source {
+.post-controls {
   flex-grow: 1;
 }
 
@@ -15,12 +15,26 @@
   display: flex;
 }
 
+.post-details-author-image {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
 .post-icon {
   color: var(--shuttle-gray);
 }
 
-.post-icon, .post-details-author-image {
+.post-icon,
+.post-details-author-image,
+.post-details-author-email,
+.post-source {
   margin-right: 0.5em;
+}
+
+.post-icon-last {
+  composes: post-icon;
+  margin: 0;
 }
 
 .post-button-last {

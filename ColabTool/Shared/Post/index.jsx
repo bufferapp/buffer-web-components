@@ -37,7 +37,6 @@ const Post = ({
         <PostDetails
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
-          hovered={hovered}
           onCancelConfirmClick={onCancelConfirmClick}
           onDeleteClick={onDeleteClick}
           onDeleteConfirmClick={onDeleteConfirmClick}

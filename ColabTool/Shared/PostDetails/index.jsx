@@ -10,19 +10,14 @@ import style from './style.css';
 /* eslint-disable react/prop-types */
 
 const renderConfirmDelete = ({
-  isConfirmingDelete,
   onCancelConfirmClick,
-}) => {
-  if (isConfirmingDelete) {
-    return (
-      <span className={style['post-cancel-delete']}>
-        <Button onClick={onCancelConfirmClick} noStyle>
-          <Text size={'small'}>Cancel</Text>
-        </Button>
-      </span>
-    );
-  }
-};
+}) =>
+  <span className={style['post-cancel-delete']}>
+    <Button onClick={onCancelConfirmClick} noStyle>
+      <Text size={'small'}>Cancel</Text>
+    </Button>
+  </span>;
+
 
 const renderDeleteButton = ({
   isConfirmingDelete,
@@ -39,71 +34,65 @@ const renderDeleteButton = ({
   </Button>;
 
 const renderDelete = ({
-  isDeleting,
   isConfirmingDelete,
   onCancelConfirmClick,
   onDeleteConfirmClick,
   onDeleteClick,
 }) =>
   <span>
-    { !isDeleting ? renderDeleteButton({
+    {renderDeleteButton({
       isConfirmingDelete,
       onDeleteConfirmClick,
       onDeleteClick,
-    }) : <Text size={'small'}> Deleting... </Text> }
-    {renderConfirmDelete({ isConfirmingDelete, onCancelConfirmClick })}
+    })}
+    {isConfirmingDelete ?
+      renderConfirmDelete({ onCancelConfirmClick }) :
+      undefined
+    }
   </span>;
 
-const renderEdit = ({ isDeleting, onEditClick }) => {
-  if (!isDeleting) {
-    return (
-      <span className={style['post-button-last']}>
-        <Button onClick={onEditClick} noStyle>
-          <span className={style['post-icon']}>
-            <Icon type={'edit'} size={'small'} />
-          </span>
-          <Text size={'small'}>Edit Post</Text>
-        </Button>
+const renderEdit = ({ onEditClick }) =>
+  <span className={style['post-button-last']}>
+    <Button onClick={onEditClick} noStyle>
+      <span className={style['post-icon']}>
+        <Icon type={'edit'} size={'small'} />
       </span>
-    );
-  }
-};
+      <Text size={'small'}>Edit Post</Text>
+    </Button>
+  </span>;
 
-const renderHovered = ({
+const renderControls = ({
   isDeleting,
   isConfirmingDelete,
   onCancelConfirmClick,
   onDeleteClick,
   onEditClick,
   onDeleteConfirmClick,
-}) =>
-  <div>
-    {renderDelete({
-      isDeleting,
-      isConfirmingDelete,
-      onCancelConfirmClick,
-      onDeleteConfirmClick,
-      onDeleteClick,
-    })}
-    {renderEdit({
-      isDeleting,
-      onEditClick,
-    })}
-  </div>;
-
-const renderDefault = postType =>
-  <div>
-    <span className={style['post-icon']}>
-      <Icon type={postType} size={'small'} />
-    </span>
-    <Text size={'small'}>via web</Text>
-  </div>;
+}) => {
+  if (isDeleting) {
+    return (
+      <Text size={'small'}> Deleting... </Text>
+    );
+  }
+  return (
+    <div>
+      {renderDelete({
+        isConfirmingDelete,
+        onCancelConfirmClick,
+        onDeleteConfirmClick,
+        onDeleteClick,
+      })}
+      {renderEdit({
+        onEditClick,
+      })}
+    </div>
+  );
+};
 
 /* eslint-enable react/prop-types */
 
 const PostDetails = ({
   isDeleting,
-  hovered,
   isConfirmingDelete,
   onCancelConfirmClick,
   onDeleteClick,
@@ -113,15 +102,15 @@ const PostDetails = ({
   postType,
 }) =>
   <div className={style['post-details']}>
-    <div className={style['post-source']}>
-      {hovered || isConfirmingDelete || isDeleting ? renderHovered({
+    <div className={style['post-controls']}>
+      {renderControls({
         isDeleting,
         isConfirmingDelete,
         onCancelConfirmClick,
         onDeleteClick,
         onEditClick,
         onDeleteConfirmClick,
-      }) : renderDefault(postType)}
+      })}
     </div>
     <div className={style['post-author']}>
       <span className={style['post-details-author-image']}>
@@ -132,14 +121,21 @@ const PostDetails = ({
           border={'circle'}
         />
       </span>
-      <Text size={'small'}>{profile.email}</Text>
+      <span className={style['post-details-author-email']}>
+        <Text size={'small'}>{profile.email}</Text>
+      </span>
+      <span className={style['post-source']}>
+        <Text size={'small'}>via web</Text>
+      </span>
+      <span className={style['post-icon-last']}>
+        <Icon type={postType} size={'small'} />
+      </span>
     </div>
   </div>;
 
 PostDetails.propTypes = {
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
-  hovered: PropTypes.bool,
   onCancelConfirmClick: PropTypes.func.isRequired,
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
@@ -149,13 +145,12 @@ PostDetails.propTypes = {
     avatarUrl: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  postType: PropTypes.oneOf(['image', 'link', 'text']).isRequired,
+  postType: PropTypes.oneOf(['image', 'link']).isRequired,
 };
 
 PostDetails.defaultProps = {
   isDeleting: false,
   isConfirmingDelete: false,
-  hovered: false,
 };
 
 export default PostDetails;

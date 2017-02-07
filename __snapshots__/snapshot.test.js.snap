@@ -46,141 +46,7 @@ exports[`Snapshots ImagePost default 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
-          <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-image" />
-            </span>
-            <span
-              className="text small">
-              via web
-            </span>
-          </div>
-        </div>
-        <div
-          className="post-author">
-          <span
-            className="post-details-author-image">
-            <img
-              alt="Ash"
-              className="circle"
-              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-              style={
-                Object {
-                  "height": undefined,
-                  "width": "1em",
-                }
-              } />
-          </span>
-          <span
-            className="text small">
-            ash@buffer.com
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="button-panel">
-    <button
-      className="button fill-container"
-      disabled={false}
-      onClick={[Function]}>
-      Request Approval
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Snapshots Post default 1`] = `
-<div
-  className="post-container">
-  <div
-    className="post">
-    <div
-      className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
-      <div
-        className="post-content">
-        <span
-          className="text">
-          I am a text-only test post.
-        </span>
-      </div>
-      <div
-        className="post-details">
-        <div
-          className="post-source">
-          <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-link" />
-            </span>
-            <span
-              className="text small">
-              via web
-            </span>
-          </div>
-        </div>
-        <div
-          className="post-author">
-          <span
-            className="post-details-author-image">
-            <img
-              alt="Ash"
-              className="circle"
-              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-              style={
-                Object {
-                  "height": undefined,
-                  "width": "1em",
-                }
-              } />
-          </span>
-          <span
-            className="text small">
-            ash@buffer.com
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="button-panel">
-    <button
-      className="button fill-container"
-      disabled={false}
-      onClick={[Function]}>
-      Request Approval
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Snapshots Post hovered 1`] = `
-<div
-  className="post-container">
-  <div
-    className="post">
-    <div
-      className="card hovered no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
-      <div
-        className="post-content">
-        <span
-          className="text">
-          I am a text-only test post.
-        </span>
-      </div>
-      <div
-        className="post-details">
-        <div
-          className="post-source">
+          className="post-controls">
           <div>
             <span>
               <button
@@ -236,8 +102,241 @@ exports[`Snapshots Post hovered 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-image" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Post default 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}>
+      <div
+        className="post-content">
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "width": "1em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Post hovered 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card hovered no-padding"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}>
+      <div
+        className="post-content">
+        <span
+          className="text">
+          I am a text-only test post.
+        </span>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "width": "1em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -274,7 +373,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
             <span>
               <button
@@ -342,8 +441,23 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -380,15 +494,11 @@ exports[`Snapshots Post isDeleting 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
-          <div>
-            <span>
-              <span
-                className="text small">
-                 Deleting... 
-              </span>
-            </span>
-          </div>
+          className="post-controls">
+          <span
+            className="text small">
+             Deleting... 
+          </span>
         </div>
         <div
           className="post-author">
@@ -406,8 +516,23 @@ exports[`Snapshots Post isDeleting 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -444,16 +569,43 @@ exports[`Snapshots Post isWorking 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-link" />
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
             </span>
             <span
-              className="text small">
-              via web
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
             </span>
           </div>
         </div>
@@ -473,8 +625,23 @@ exports[`Snapshots Post isWorking 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -511,16 +678,43 @@ exports[`Snapshots Post isWorkingManager 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-link" />
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
             </span>
             <span
-              className="text small">
-              via web
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
             </span>
           </div>
         </div>
@@ -540,8 +734,23 @@ exports[`Snapshots Post isWorkingManager 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -578,16 +787,43 @@ exports[`Snapshots Post manager 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-link" />
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
             </span>
             <span
-              className="text small">
-              via web
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
             </span>
           </div>
         </div>
@@ -607,8 +843,23 @@ exports[`Snapshots Post manager 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -645,16 +896,43 @@ exports[`Snapshots Post postType:image 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-image" />
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
             </span>
             <span
-              className="text small">
-              via web
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
             </span>
           </div>
         </div>
@@ -674,8 +952,23 @@ exports[`Snapshots Post postType:image 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-image" />
           </span>
         </div>
       </div>
@@ -712,16 +1005,43 @@ exports[`Snapshots Post postType:link 1`] = `
       <div
         className="post-details">
         <div
-          className="post-source">
+          className="post-controls">
           <div>
-            <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-link" />
+            <span>
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className={undefined}>
+                  <span
+                    className="post-icon">
+                    <i
+                      className="icon small undefined bi bi-x" />
+                  </span>
+                  <span
+                    className="text small">
+                    Delete Post
+                  </span>
+                </span>
+              </button>
             </span>
             <span
-              className="text small">
-              via web
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
             </span>
           </div>
         </div>
@@ -741,8 +1061,23 @@ exports[`Snapshots Post postType:link 1`] = `
               } />
           </span>
           <span
-            className="text small">
-            ash@buffer.com
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
           </span>
         </div>
       </div>
@@ -824,47 +1159,7 @@ exports[`Snapshots PostDetails default 1`] = `
 <div
   className="post-details">
   <div
-    className="post-source">
-    <div>
-      <span
-        className="post-icon">
-        <i
-          className="icon small undefined bi bi-image" />
-      </span>
-      <span
-        className="text small">
-        via web
-      </span>
-    </div>
-  </div>
-  <div
-    className="post-author">
-    <span
-      className="post-details-author-image">
-      <img
-        alt="Ash"
-        className="circle"
-        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-        style={
-          Object {
-            "height": undefined,
-            "width": "1em",
-          }
-        } />
-    </span>
-    <span
-      className="text small">
-      ash@buffer.com
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Snapshots PostDetails hovered 1`] = `
-<div
-  className="post-details">
-  <div
-    className="post-source">
+    className="post-controls">
     <div>
       <span>
         <button
@@ -920,8 +1215,23 @@ exports[`Snapshots PostDetails hovered 1`] = `
         } />
     </span>
     <span
-      className="text small">
-      ash@buffer.com
+      className="post-details-author-email">
+      <span
+        className="text small">
+        ash@buffer.com
+      </span>
+    </span>
+    <span
+      className="post-source">
+      <span
+        className="text small">
+        via web
+      </span>
+    </span>
+    <span
+      className="post-icon-last">
+      <i
+        className="icon small undefined bi bi-image" />
     </span>
   </div>
 </div>
@@ -931,7 +1241,7 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
 <div
   className="post-details">
   <div
-    className="post-source">
+    className="post-controls">
     <div>
       <span>
         <button
@@ -999,8 +1309,23 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
         } />
     </span>
     <span
-      className="text small">
-      ash@buffer.com
+      className="post-details-author-email">
+      <span
+        className="text small">
+        ash@buffer.com
+      </span>
+    </span>
+    <span
+      className="post-source">
+      <span
+        className="text small">
+        via web
+      </span>
+    </span>
+    <span
+      className="post-icon-last">
+      <i
+        className="icon small undefined bi bi-image" />
     </span>
   </div>
 </div>
@@ -1010,15 +1335,11 @@ exports[`Snapshots PostDetails isDeleting 1`] = `
 <div
   className="post-details">
   <div
-    className="post-source">
-    <div>
-      <span>
-        <span
-          className="text small">
-           Deleting... 
-        </span>
-      </span>
-    </div>
+    className="post-controls">
+    <span
+      className="text small">
+       Deleting... 
+    </span>
   </div>
   <div
     className="post-author">
@@ -1036,8 +1357,23 @@ exports[`Snapshots PostDetails isDeleting 1`] = `
         } />
     </span>
     <span
-      className="text small">
-      ash@buffer.com
+      className="post-details-author-email">
+      <span
+        className="text small">
+        ash@buffer.com
+      </span>
+    </span>
+    <span
+      className="post-source">
+      <span
+        className="text small">
+        via web
+      </span>
+    </span>
+    <span
+      className="post-icon-last">
+      <i
+        className="icon small undefined bi bi-image" />
     </span>
   </div>
 </div>
@@ -1047,16 +1383,43 @@ exports[`Snapshots PostDetails postType=link 1`] = `
 <div
   className="post-details">
   <div
-    className="post-source">
+    className="post-controls">
     <div>
-      <span
-        className="post-icon">
-        <i
-          className="icon small undefined bi bi-link" />
+      <span>
+        <button
+          className="no-style"
+          disabled={undefined}
+          onClick={[Function]}>
+          <span
+            className={undefined}>
+            <span
+              className="post-icon">
+              <i
+                className="icon small undefined bi bi-x" />
+            </span>
+            <span
+              className="text small">
+              Delete Post
+            </span>
+          </span>
+        </button>
       </span>
       <span
-        className="text small">
-        via web
+        className="post-button-last">
+        <button
+          className="no-style"
+          disabled={undefined}
+          onClick={[Function]}>
+          <span
+            className="post-icon">
+            <i
+              className="icon small undefined bi bi-edit" />
+          </span>
+          <span
+            className="text small">
+            Edit Post
+          </span>
+        </button>
       </span>
     </div>
   </div>
@@ -1076,8 +1439,23 @@ exports[`Snapshots PostDetails postType=link 1`] = `
         } />
     </span>
     <span
-      className="text small">
-      ash@buffer.com
+      className="post-details-author-email">
+      <span
+        className="text small">
+        ash@buffer.com
+      </span>
+    </span>
+    <span
+      className="post-source">
+      <span
+        className="text small">
+        via web
+      </span>
+    </span>
+    <span
+      className="post-icon-last">
+      <i
+        className="icon small undefined bi bi-link" />
     </span>
   </div>
 </div>

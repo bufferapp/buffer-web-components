@@ -1,12 +1,9 @@
 import React, { PropTypes } from 'react';
 import {
-  Card,
   Image,
   LinkifiedText,
 } from '@bufferapp/components';
 import style from './style.css';
-import PostButtonPanel from '../Shared/PostButtonPanel';
-import PostDetails from '../Shared/PostDetails';
 import Post from '../Shared/Post';
 
 const ImagePost = ({
@@ -48,7 +45,6 @@ const ImagePost = ({
 
   return (
     <Post
-      children={children}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isWorking={isWorking}
@@ -66,7 +62,9 @@ const ImagePost = ({
       profile={profile}
       postType={'image'}
       text={text}
-    />
+    >
+      {children}
+    </Post>
   );
 };
 
@@ -81,7 +79,7 @@ ImagePost.propTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ).isRequired,
-   text: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 ImagePost.defaultProps = Post.defaultProps;

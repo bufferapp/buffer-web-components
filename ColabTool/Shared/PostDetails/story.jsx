@@ -23,17 +23,6 @@ storiesOf('PostDetails')
       postType={'image'}
     />
   ))
-  .add('hovered', () => (
-    <PostDetails
-      onCancelConfirmClick={linkTo('PostDetails', 'hovered')}
-      onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      postType={'image'}
-      profile={profile}
-      hovered
-    />
-  ))
   .add('postType=link', () => (
     <PostDetails
       onCancelConfirmClick={linkTo('PostDetails', 'hovered')}
