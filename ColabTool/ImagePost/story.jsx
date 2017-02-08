@@ -22,11 +22,43 @@ const profile = {
 };
 
 const imageSrc = 'https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg';
+const squareImage = 'http://lorempixel.com/400/400/cats/';
+const tallImage = 'http://lorempixel.com/400/600/cats/';
 
 storiesOf('ImagePost')
   .add('default', () => (
     <ImagePost
       imageSrc={imageSrc}
+      links={links}
+      profile={profile}
+      text={text}
+      onMouseEnter={action('on-mouse-enter')}
+      onMouseLeave={action('on-mouse-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
+  .add('square image', () => (
+    <ImagePost
+      imageSrc={squareImage}
+      links={links}
+      profile={profile}
+      text={text}
+      onMouseEnter={action('on-mouse-enter')}
+      onMouseLeave={action('on-mouse-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
+  .add('tall image', () => (
+    <ImagePost
+      imageSrc={tallImage}
       links={links}
       profile={profile}
       text={text}

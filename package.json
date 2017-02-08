@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/web-components",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "UI components for buffer web",
   "main": "index.js",
   "scripts": {
@@ -71,6 +71,6 @@
     "style-loader": "0.13.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.1.12"
+    "@bufferapp/components": "0.1.15"
   }
 }
