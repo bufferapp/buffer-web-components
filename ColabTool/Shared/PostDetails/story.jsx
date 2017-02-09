@@ -33,6 +33,16 @@ storiesOf('PostDetails')
       postType={'link'}
     />
   ))
+  .add('postType=retweet', () => (
+    <PostDetails
+      onCancelConfirmClick={linkTo('PostDetails', 'hovered')}
+      onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      profile={profile}
+      postType={'retweet'}
+    />
+  ))
   .add('isConfirmingDelete', () => (
     <PostDetails
       onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}

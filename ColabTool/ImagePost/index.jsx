@@ -23,6 +23,7 @@ const ImagePost = ({
   onMouseLeave,
   profile,
   text,
+  retweetProfile,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -62,8 +63,9 @@ const ImagePost = ({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       profile={profile}
-      postType={'image'}
+      postType={retweetProfile ? 'retweet' : 'image'}
       text={text}
+      retweetProfile={retweetProfile}
     >
       {children}
     </Post>

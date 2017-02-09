@@ -13,6 +13,12 @@ const profile = {
   email: 'ash@buffer.com',
 };
 
+const retweetProfile = {
+  name: 'Joel Gascoigne',
+  handle: '@joelgascoigne',
+  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png',
+};
+
 const children = (
   <Text>
     {'I am a text-only test post.'}
@@ -151,6 +157,22 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       postType={'link'}
+    >
+      {children}
+    </Post>
+  ))
+  .add('retweet', () => (
+    <Post
+      profile={profile}
+      onMouseEnter={action('mouse-enter')}
+      onMouseLeave={action('mous-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      retweetProfile={retweetProfile}
+      postType={'retweet'}
     >
       {children}
     </Post>

@@ -5,6 +5,17 @@ import {
 import style from './style.css';
 import PostButtonPanel from '../PostButtonPanel';
 import PostDetails from '../PostDetails';
+import RetweetPanel from '../RetweetPanel';
+
+const renderRetweetPanel = (retweetProfile) => {
+  if (retweetProfile) {
+    return (
+      <div className={style['retweet-profile-wrapper']}>
+        <RetweetPanel {...retweetProfile} />
+      </div>
+    );
+  }
+};
 
 const Post = ({
   children,
@@ -22,6 +33,7 @@ const Post = ({
   onMouseLeave,
   postType,
   profile,
+  retweetProfile,
 }) =>
   <div className={style['post-container']}>
     <div className={style.post}>
@@ -32,6 +44,7 @@ const Post = ({
         noPadding
       >
         <div className={style['post-content']}>
+          {renderRetweetPanel(retweetProfile)}
           {children}
         </div>
         <PostDetails
@@ -72,12 +85,17 @@ Post.commonPropTypes = {
     avatarUrl: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
+  retweetProfile: PropTypes.shape({
+    name: PropTypes.string,
+    handle: PropTypes.string,
+    avatarUrl: PropTypes.string,
+  }),
 };
 
 Post.propTypes = {
   ...Post.commonPropTypes,
   children: PropTypes.node.isRequired,
-  postType: PropTypes.oneOf(['image', 'link', 'text']),
+  postType: PropTypes.oneOf(['image', 'link', 'text', 'retweet']),
 };
 
 Post.defaultProps = {

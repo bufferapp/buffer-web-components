@@ -145,7 +145,7 @@ PostDetails.propTypes = {
     avatarUrl: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  postType: PropTypes.oneOf(['image', 'link']).isRequired,
+  postType: PropTypes.oneOf(['image', 'link', 'retweet']).isRequired,
 };
 
 PostDetails.defaultProps = {
