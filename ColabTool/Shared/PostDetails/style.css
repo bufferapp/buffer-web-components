@@ -27,9 +27,12 @@
 
 .post-icon,
 .post-details-author-image,
-.post-details-author-email,
 .post-source {
   margin-right: 0.5em;
+}
+
+.post-details-author-email {
+  margin-right: 0.3em;
 }
 
 .post-icon-last {
@@ -37,8 +40,19 @@
   margin: 0;
 }
 
+/* icon shenanigans */
+.post-icon > i::before,
+.post-icon-last > i::before {
+  margin-top: -1px;
+}
+
 .post-button-last {
   margin-left: 2em;
+}
+
+.post-button-last:hover span,
+.post-button:hover span {
+  color: #000;
 }
 
 .post-confirming-delete > .post-icon,

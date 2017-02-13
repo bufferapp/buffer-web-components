@@ -52,23 +52,26 @@ exports[`Snapshots ImagePost default 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -103,7 +106,7 @@ exports[`Snapshots ImagePost default 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -220,23 +223,26 @@ exports[`Snapshots ImagePost retweet 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -271,7 +277,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -358,23 +364,26 @@ exports[`Snapshots ImagePost square image 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -409,7 +418,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -496,23 +505,26 @@ exports[`Snapshots ImagePost tall image 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -547,7 +559,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -608,23 +620,26 @@ exports[`Snapshots Post default 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -659,7 +674,7 @@ exports[`Snapshots Post default 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -720,23 +735,26 @@ exports[`Snapshots Post hovered 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -771,7 +789,7 @@ exports[`Snapshots Post hovered 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -832,23 +850,26 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className="post-confirming-delete">
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className="post-confirming-delete">
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Confirm
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Confirm
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
               <span
                 className="post-cancel-delete">
                 <button
@@ -895,7 +916,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -973,7 +994,7 @@ exports[`Snapshots Post isDeleting 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1034,23 +1055,26 @@ exports[`Snapshots Post isWorking 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1085,7 +1109,7 @@ exports[`Snapshots Post isWorking 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1146,23 +1170,26 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1197,7 +1224,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1258,23 +1285,26 @@ exports[`Snapshots Post manager 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1309,7 +1339,7 @@ exports[`Snapshots Post manager 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1370,23 +1400,26 @@ exports[`Snapshots Post postType:image 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1421,7 +1454,7 @@ exports[`Snapshots Post postType:image 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1482,23 +1515,26 @@ exports[`Snapshots Post postType:link 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1533,7 +1569,7 @@ exports[`Snapshots Post postType:link 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1624,23 +1660,26 @@ exports[`Snapshots Post retweet 1`] = `
           className="post-controls">
           <div>
             <span>
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className={undefined}>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
                   <span
-                    className="post-icon">
-                    <i
-                      className="icon small undefined bi bi-x" />
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
                   </span>
-                  <span
-                    className="text small">
-                    Delete Post
-                  </span>
-                </span>
-              </button>
+                </button>
+              </span>
             </span>
             <span
               className="post-button-last">
@@ -1675,7 +1714,7 @@ exports[`Snapshots Post retweet 1`] = `
                   "maxHeight": undefined,
                   "maxWidth": undefined,
                   "objectFit": undefined,
-                  "width": "1em",
+                  "width": "1.5em",
                 }
               } />
           </span>
@@ -1781,23 +1820,26 @@ exports[`Snapshots PostDetails default 1`] = `
     className="post-controls">
     <div>
       <span>
-        <button
-          className="no-style"
-          disabled={undefined}
-          onClick={[Function]}>
-          <span
-            className={undefined}>
+        <span
+          className="post-button">
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}>
             <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-x" />
+              className={undefined}>
+              <span
+                className="post-icon">
+                <i
+                  className="icon small undefined bi bi-x" />
+              </span>
+              <span
+                className="text small">
+                Delete Post
+              </span>
             </span>
-            <span
-              className="text small">
-              Delete Post
-            </span>
-          </span>
-        </button>
+          </button>
+        </span>
       </span>
       <span
         className="post-button-last">
@@ -1832,7 +1874,7 @@ exports[`Snapshots PostDetails default 1`] = `
             "maxHeight": undefined,
             "maxWidth": undefined,
             "objectFit": undefined,
-            "width": "1em",
+            "width": "1.5em",
           }
         } />
     </span>
@@ -1866,23 +1908,26 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
     className="post-controls">
     <div>
       <span>
-        <button
-          className="no-style"
-          disabled={undefined}
-          onClick={[Function]}>
-          <span
-            className="post-confirming-delete">
+        <span
+          className="post-button">
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}>
             <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-x" />
+              className="post-confirming-delete">
+              <span
+                className="post-icon">
+                <i
+                  className="icon small undefined bi bi-x" />
+              </span>
+              <span
+                className="text small">
+                Confirm
+              </span>
             </span>
-            <span
-              className="text small">
-              Confirm
-            </span>
-          </span>
-        </button>
+          </button>
+        </span>
         <span
           className="post-cancel-delete">
           <button
@@ -1929,7 +1974,7 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
             "maxHeight": undefined,
             "maxWidth": undefined,
             "objectFit": undefined,
-            "width": "1em",
+            "width": "1.5em",
           }
         } />
     </span>
@@ -1980,7 +2025,7 @@ exports[`Snapshots PostDetails isDeleting 1`] = `
             "maxHeight": undefined,
             "maxWidth": undefined,
             "objectFit": undefined,
-            "width": "1em",
+            "width": "1.5em",
           }
         } />
     </span>
@@ -2014,23 +2059,26 @@ exports[`Snapshots PostDetails postType=link 1`] = `
     className="post-controls">
     <div>
       <span>
-        <button
-          className="no-style"
-          disabled={undefined}
-          onClick={[Function]}>
-          <span
-            className={undefined}>
+        <span
+          className="post-button">
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}>
             <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-x" />
+              className={undefined}>
+              <span
+                className="post-icon">
+                <i
+                  className="icon small undefined bi bi-x" />
+              </span>
+              <span
+                className="text small">
+                Delete Post
+              </span>
             </span>
-            <span
-              className="text small">
-              Delete Post
-            </span>
-          </span>
-        </button>
+          </button>
+        </span>
       </span>
       <span
         className="post-button-last">
@@ -2065,7 +2113,7 @@ exports[`Snapshots PostDetails postType=link 1`] = `
             "maxHeight": undefined,
             "maxWidth": undefined,
             "objectFit": undefined,
-            "width": "1em",
+            "width": "1.5em",
           }
         } />
     </span>
@@ -2099,23 +2147,26 @@ exports[`Snapshots PostDetails postType=retweet 1`] = `
     className="post-controls">
     <div>
       <span>
-        <button
-          className="no-style"
-          disabled={undefined}
-          onClick={[Function]}>
-          <span
-            className={undefined}>
+        <span
+          className="post-button">
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}>
             <span
-              className="post-icon">
-              <i
-                className="icon small undefined bi bi-x" />
+              className={undefined}>
+              <span
+                className="post-icon">
+                <i
+                  className="icon small undefined bi bi-x" />
+              </span>
+              <span
+                className="text small">
+                Delete Post
+              </span>
             </span>
-            <span
-              className="text small">
-              Delete Post
-            </span>
-          </span>
-        </button>
+          </button>
+        </span>
       </span>
       <span
         className="post-button-last">
@@ -2150,7 +2201,7 @@ exports[`Snapshots PostDetails postType=retweet 1`] = `
             "maxHeight": undefined,
             "maxWidth": undefined,
             "objectFit": undefined,
-            "width": "1em",
+            "width": "1.5em",
           }
         } />
     </span>

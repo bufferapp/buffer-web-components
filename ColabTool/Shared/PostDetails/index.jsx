@@ -24,14 +24,16 @@ const renderDeleteButton = ({
   onDeleteConfirmClick,
   onDeleteClick,
 }) =>
-  <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-    <span className={isConfirmingDelete ? style['post-confirming-delete'] : undefined}>
-      <span className={style['post-icon']}>
-        <Icon type={'x'} size={'small'} />
+  <span className={style['post-button']}>
+    <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
+      <span className={isConfirmingDelete ? style['post-confirming-delete'] : undefined}>
+        <span className={style['post-icon']}>
+          <Icon type={'x'} size={'small'} />
+        </span>
+        <Text size={'small'}>{ isConfirmingDelete ? 'Confirm' : 'Delete Post' }</Text>
       </span>
-      <Text size={'small'}>{ isConfirmingDelete ? 'Confirm' : 'Delete Post' }</Text>
-    </span>
-  </Button>;
+    </Button>
+  </span>;
 
 const renderDelete = ({
   isConfirmingDelete,
@@ -117,7 +119,7 @@ const PostDetails = ({
         <Image
           alt={profile.name}
           src={profile.avatarUrl}
-          width={'1em'}
+          width={'1.5em'}
           border={'circle'}
         />
       </span>
