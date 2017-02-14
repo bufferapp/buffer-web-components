@@ -11,8 +11,8 @@ exports[`Snapshots ImagePost default 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <div
@@ -152,8 +152,8 @@ exports[`Snapshots ImagePost retweet 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <div
@@ -323,8 +323,8 @@ exports[`Snapshots ImagePost square image 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <div
@@ -464,8 +464,8 @@ exports[`Snapshots ImagePost tall image 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <div
@@ -605,8 +605,8 @@ exports[`Snapshots Post default 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -713,121 +713,6 @@ exports[`Snapshots Post default 1`] = `
 </div>
 `;
 
-exports[`Snapshots Post hovered 1`] = `
-<div
-  className="post-container">
-  <div
-    className="post">
-    <div
-      className="card hovered no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
-      <div
-        className="post-content">
-        <span
-          className="text">
-          I am a text-only test post.
-        </span>
-      </div>
-      <div
-        className="post-details">
-        <div
-          className="post-controls">
-          <div>
-            <span>
-              <span
-                className="post-button">
-                <button
-                  className="no-style"
-                  disabled={undefined}
-                  onClick={[Function]}>
-                  <span
-                    className={undefined}>
-                    <span
-                      className="post-icon">
-                      <i
-                        className="icon small undefined bi bi-x" />
-                    </span>
-                    <span
-                      className="text small">
-                      Delete Post
-                    </span>
-                  </span>
-                </button>
-              </span>
-            </span>
-            <span
-              className="post-button-last">
-              <button
-                className="no-style"
-                disabled={undefined}
-                onClick={[Function]}>
-                <span
-                  className="post-icon">
-                  <i
-                    className="icon small undefined bi bi-edit" />
-                </span>
-                <span
-                  className="text small">
-                  Edit Post
-                </span>
-              </button>
-            </span>
-          </div>
-        </div>
-        <div
-          className="post-author">
-          <span
-            className="post-details-author-image">
-            <img
-              alt="Ash"
-              className="circle"
-              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-              style={
-                Object {
-                  "height": undefined,
-                  "maxHeight": undefined,
-                  "maxWidth": undefined,
-                  "objectFit": undefined,
-                  "width": "1.5em",
-                }
-              } />
-          </span>
-          <span
-            className="post-details-author-email">
-            <span
-              className="text small">
-              ash@buffer.com
-            </span>
-          </span>
-          <span
-            className="post-source">
-            <span
-              className="text small">
-              via web
-            </span>
-          </span>
-          <span
-            className="post-icon-last">
-            <i
-              className="icon small undefined bi bi-link" />
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="button-panel">
-    <button
-      className="button fill-container"
-      disabled={true}
-      onClick={[Function]}>
-      Request Approval
-    </button>
-  </div>
-</div>
-`;
-
 exports[`Snapshots Post isConfirmingDelete 1`] = `
 <div
   className="post-container">
@@ -835,8 +720,8 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -962,8 +847,8 @@ exports[`Snapshots Post isDeleting 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1040,8 +925,8 @@ exports[`Snapshots Post isWorking 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1155,8 +1040,8 @@ exports[`Snapshots Post isWorkingManager 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1270,8 +1155,8 @@ exports[`Snapshots Post manager 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1385,8 +1270,8 @@ exports[`Snapshots Post postType:image 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1500,8 +1385,8 @@ exports[`Snapshots Post postType:link 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <span
@@ -1615,8 +1500,8 @@ exports[`Snapshots Post retweet 1`] = `
     className="post">
     <div
       className="card no-padding"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}>
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
       <div
         className="post-content">
         <div

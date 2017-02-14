@@ -10,7 +10,6 @@ const ImagePost = ({
   isConfirmingDelete,
   isDeleting,
   isWorking,
-  hovered,
   imageSrc,
   links,
   manager,
@@ -19,8 +18,6 @@ const ImagePost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  onMouseEnter,
-  onMouseLeave,
   profile,
   text,
   retweetProfile,
@@ -51,7 +48,6 @@ const ImagePost = ({
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isWorking={isWorking}
-      hovered={hovered}
       imageSrc={imageSrc}
       links={links}
       manager={manager}
@@ -60,8 +56,6 @@ const ImagePost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
       profile={profile}
       postType={retweetProfile ? 'retweet' : 'image'}
       text={text}

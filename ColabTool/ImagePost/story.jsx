@@ -38,8 +38,6 @@ storiesOf('ImagePost')
       links={links}
       profile={profile}
       text={text}
-      onMouseEnter={action('on-mouse-enter')}
-      onMouseLeave={action('on-mouse-leave')}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
       onDeleteClick={action('delete-click')}
@@ -53,8 +51,6 @@ storiesOf('ImagePost')
       links={links}
       profile={profile}
       text={text}
-      onMouseEnter={action('on-mouse-enter')}
-      onMouseLeave={action('on-mouse-leave')}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
       onDeleteClick={action('delete-click')}
@@ -68,8 +64,6 @@ storiesOf('ImagePost')
       links={links}
       profile={profile}
       text={text}
-      onMouseEnter={action('on-mouse-enter')}
-      onMouseLeave={action('on-mouse-leave')}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
       onDeleteClick={action('delete-click')}
@@ -83,8 +77,6 @@ storiesOf('ImagePost')
       links={links}
       profile={profile}
       text={text}
-      onMouseEnter={action('on-mouse-enter')}
-      onMouseLeave={action('on-mouse-leave')}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
       onDeleteClick={action('delete-click')}

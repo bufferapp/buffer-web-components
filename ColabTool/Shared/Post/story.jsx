@@ -29,8 +29,6 @@ storiesOf('Post')
   .add('default', () => (
     <Post
       profile={profile}
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
@@ -55,26 +53,9 @@ storiesOf('Post')
       {children}
     </Post>
   ))
-  .add('hovered', () => (
-    <Post
-      hovered
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
-      onApproveClick={linkTo('Post', 'isWorking')}
-      onCancelConfirmClick={linkTo('Post', 'hovered')}
-      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
-      onEditClick={action('edit-click')}
-      profile={profile}
-    >
-      {children}
-    </Post>
-  ))
   .add('isConfirmingDelete', () => (
     <Post
       isConfirmingDelete
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
@@ -88,8 +69,6 @@ storiesOf('Post')
   .add('isDeleting', () => (
     <Post
       isDeleting
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
@@ -103,8 +82,6 @@ storiesOf('Post')
   .add('isWorking', () => (
     <Post
       isWorking
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
@@ -118,8 +95,6 @@ storiesOf('Post')
   .add('isWorkingManager', () => (
     <Post
       manager
-      onMouseEnter={linkTo('Post', 'hovered')}
-      onMouseLeave={linkTo('Post', 'default')}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}

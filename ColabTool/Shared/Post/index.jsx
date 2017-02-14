@@ -22,15 +22,12 @@ const Post = ({
   isConfirmingDelete,
   isDeleting,
   isWorking,
-  hovered,
   manager,
   onApproveClick,
   onCancelConfirmClick,
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  onMouseEnter,
-  onMouseLeave,
   postType,
   profile,
   retweetProfile,
@@ -38,9 +35,6 @@ const Post = ({
   <div className={style['post-container']}>
     <div className={style.post}>
       <Card
-        hovered={hovered}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
         noPadding
       >
         <div className={style['post-content']}>
@@ -60,7 +54,7 @@ const Post = ({
       </Card>
     </div>
     <PostButtonPanel
-      disabled={hovered || isConfirmingDelete || isDeleting}
+      disabled={isConfirmingDelete || isDeleting}
       manager={manager}
       onApproveClick={onApproveClick}
       isWorking={isWorking}
@@ -71,15 +65,12 @@ Post.commonPropTypes = {
   isConfirmingDelete: PropTypes.bool,
   isDeleting: PropTypes.bool,
   isWorking: PropTypes.bool,
-  hovered: PropTypes.bool,
   manager: PropTypes.bool,
   onApproveClick: PropTypes.func.isRequired,
   onCancelConfirmClick: PropTypes.func.isRequired,
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
-  onMouseEnter: PropTypes.func.isRequired,
-  onMouseLeave: PropTypes.func.isRequired,
   profile: PropTypes.shape({
     name: PropTypes.string,
     avatarUrl: PropTypes.string,
@@ -102,7 +93,6 @@ Post.defaultProps = {
   isConfirmingDelete: false,
   isDeleting: false,
   isWorking: false,
-  hovered: false,
   manager: false,
   postType: 'text',
 };
