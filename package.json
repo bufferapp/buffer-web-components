@@ -71,6 +71,6 @@
     "style-loader": "0.13.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.1.15"
+    "@bufferapp/components": "0.1.16"
   }
 }

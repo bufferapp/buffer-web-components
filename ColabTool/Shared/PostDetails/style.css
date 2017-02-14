@@ -52,7 +52,7 @@
 
 .post-button-last:hover span,
 .post-button:hover span {
-  color: #000;
+  color: var(--black);
 }
 
 .post-confirming-delete > .post-icon,
