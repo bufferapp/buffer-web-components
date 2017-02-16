@@ -35,9 +35,10 @@ const ImagePost = ({
         <Image
           src={imageSrc}
           width={'15em'}
-          maxWidth={'15em'}
-          maxHeight={'15em'}
+          maxHeight={'20em'}
+          minHeight={'10em'}
           border={'rounded'}
+          objectFit={'cover'}
         />
       </div>
     </div>

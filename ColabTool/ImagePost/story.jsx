@@ -29,7 +29,8 @@ const retweetProfile = {
 
 const imageSrc = 'https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg';
 const squareImage = 'http://lorempixel.com/400/400/cats/';
-const tallImage = 'http://lorempixel.com/400/600/cats/';
+const tallImage = 'http://lorempixel.com/400/900/cats/';
+const wideImage = 'http://lorempixel.com/900/400/cats/';
 
 storiesOf('ImagePost')
   .add('default', () => (
@@ -61,6 +62,19 @@ storiesOf('ImagePost')
   .add('tall image', () => (
     <ImagePost
       imageSrc={tallImage}
+      links={links}
+      profile={profile}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
+  .add('wide image', () => (
+    <ImagePost
+      imageSrc={wideImage}
       links={links}
       profile={profile}
       text={text}
