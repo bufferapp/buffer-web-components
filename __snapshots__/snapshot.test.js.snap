@@ -1013,7 +1013,7 @@ exports[`Snapshots Post isDeleting 1`] = `
   <div
     className="post">
     <div
-      className="card no-padding"
+      className="card faded no-padding"
       onMouseEnter={undefined}
       onMouseLeave={undefined}>
       <div

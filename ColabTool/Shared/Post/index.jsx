@@ -35,6 +35,7 @@ const Post = ({
   <div className={style['post-container']}>
     <div className={style.post}>
       <Card
+        faded={isDeleting}
         noPadding
       >
         <div className={style['post-content']}>
