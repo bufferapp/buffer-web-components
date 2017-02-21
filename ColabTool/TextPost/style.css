@@ -1,0 +1,8 @@
+.post-content {
+  display: flex;
+}
+
+.post-content-text {
+  padding-right: 1em;
+  flex-grow: 1;
+}
