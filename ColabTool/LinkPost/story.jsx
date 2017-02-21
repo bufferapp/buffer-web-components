@@ -18,6 +18,7 @@ const linkAttachment = {
   title: 'What is a Product Designer?',
   description: 'A brief history at how history and markets influence design titles',
   url: 'https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x',
+  thumbnailUrl: 'https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg',
 };
 
 const profile = {
@@ -26,7 +27,6 @@ const profile = {
   email: 'ash@buffer.com',
 };
 
-const imageSrc = 'https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg';
 const squareImage = 'http://lorempixel.com/400/400/cats/';
 const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
@@ -34,7 +34,6 @@ const wideImage = 'http://lorempixel.com/900/400/cats/';
 storiesOf('LinkPost')
   .add('default', () => (
     <LinkPost
-      imageSrc={imageSrc}
       links={links}
       linkAttachment={linkAttachment}
       profile={profile}
@@ -48,9 +47,8 @@ storiesOf('LinkPost')
   ))
   .add('square image', () => (
     <LinkPost
-      imageSrc={squareImage}
       links={links}
-      linkAttachment={linkAttachment}
+      linkAttachment={{...linkAttachment, thumbnailUrl: squareImage}}
       profile={profile}
       text={text}
       onApproveClick={action('approve-click')}
@@ -62,9 +60,8 @@ storiesOf('LinkPost')
   ))
   .add('tall image', () => (
     <LinkPost
-      imageSrc={tallImage}
       links={links}
-      linkAttachment={linkAttachment}
+      linkAttachment={{...linkAttachment, thumbnailUrl: tallImage}}
       profile={profile}
       text={text}
       onApproveClick={action('approve-click')}
@@ -76,9 +73,8 @@ storiesOf('LinkPost')
   ))
   .add('wide image', () => (
     <LinkPost
-      imageSrc={wideImage}
       links={links}
-      linkAttachment={linkAttachment}
+      linkAttachment={{...linkAttachment, thumbnailUrl: wideImage}}
       profile={profile}
       text={text}
       onApproveClick={action('approve-click')}

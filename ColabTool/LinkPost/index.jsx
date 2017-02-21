@@ -13,7 +13,6 @@ const LinkPost = ({
   isConfirmingDelete,
   isDeleting,
   isWorking,
-  imageSrc,
   links,
   linkAttachment,
   manager,
@@ -41,7 +40,7 @@ const LinkPost = ({
           >
             <div className={style['link-attachment-content']}>
               <Image
-                src={imageSrc}
+                src={linkAttachment.thumbnailUrl}
                 width={'15em'}
                 minWidth={'15em'}
                 maxWidth={'15em'}
@@ -78,7 +77,6 @@ const LinkPost = ({
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isWorking={isWorking}
-      imageSrc={imageSrc}
       links={links}
       linkAttachment={linkAttachment}
       manager={manager}
@@ -98,7 +96,6 @@ const LinkPost = ({
 
 LinkPost.propTypes = {
   ...Post.commonPropTypes,
-  imageSrc: PropTypes.string.isRequired,
   links: PropTypes.arrayOf(
     PropTypes.shape({
       rawString: PropTypes.string,
@@ -111,6 +108,7 @@ LinkPost.propTypes = {
       title: PropTypes.string,
       description: PropTypes.string,
       url: PropTypes.string,
+      thumbnailUrl: PropTypes.string,
     }).isRequired,
   text: PropTypes.string.isRequired,
 };
