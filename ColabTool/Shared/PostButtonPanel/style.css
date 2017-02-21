@@ -1,8 +1,8 @@
 .button-panel {
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
-  min-width: 13em;
+  padding: 0.5em 1em;
+  min-width: 12em;
   box-sizing: border-box;
 }
 

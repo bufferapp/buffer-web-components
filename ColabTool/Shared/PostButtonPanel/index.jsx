@@ -8,11 +8,11 @@ const calculateButtonText = ({ manager, isWorking }) => {
   if (manager && !isWorking) {
     return 'Approve';
   } else if (manager) {
-    return 'Approving ...';
+    return 'Approving...';
   } else if (!isWorking) {
     return 'Request Approval';
   }
-  return 'Requesting Approval ...';
+  return 'Requesting...';
 };
 
 const PostButtonPanel = ({

@@ -1914,7 +1914,7 @@ exports[`Snapshots Post isWorking 1`] = `
       className="button fill-container"
       disabled={true}
       onClick={[Function]}>
-      Requesting Approval ...
+      Requesting...
     </button>
   </div>
 </div>
@@ -2031,7 +2031,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
       className="button fill-container"
       disabled={true}
       onClick={[Function]}>
-      Approving ...
+      Approving...
     </button>
   </div>
 </div>
@@ -2568,7 +2568,7 @@ exports[`Snapshots PostButtonPanel manager, isWorking 1`] = `
     className="button fill-container"
     disabled={true}
     onClick={[Function]}>
-    Approving ...
+    Approving...
   </button>
 </div>
 `;
@@ -2592,7 +2592,7 @@ exports[`Snapshots PostButtonPanel member, isWorking 1`] = `
     className="button fill-container"
     disabled={true}
     onClick={[Function]}>
-    Requesting Approval ...
+    Requesting...
   </button>
 </div>
 `;
