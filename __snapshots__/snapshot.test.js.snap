@@ -761,6 +761,722 @@ exports[`Snapshots ImagePost wide image 1`] = `
 </div>
 `;
 
+exports[`Snapshots LinkPost default 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
+      <div
+        className="post-content">
+        <div
+          className="post-content">
+          <div
+            className="post-content-text">
+            <span
+              className="text">
+              What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+              <a
+                className="link"
+                href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+                http://buff.ly/1LTbUqv
+              </a>
+            </span>
+          </div>
+          <div>
+            <a
+              className="link unstyled"
+              href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+              <div
+                className="card no-padding"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}>
+                <div
+                  className="link-attachment-content">
+                  <img
+                    alt="Image"
+                    className="rounded"
+                    src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                    style={
+                      Object {
+                        "height": "10em",
+                        "maxHeight": undefined,
+                        "maxWidth": "15em",
+                        "minHeight": undefined,
+                        "minWidth": "15em",
+                        "objectFit": "cover",
+                        "width": "15em",
+                      }
+                    } />
+                  <div
+                    className="link-attachment-text">
+                    <div>
+                      <span
+                        className="text">
+                        What is a Product Designer?
+                      </span>
+                    </div>
+                    <div
+                      className="link-url">
+                      <span
+                        className="text small gray">
+                        https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="text small">
+                        A brief history at how history and markets influence design titles
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
+                  <span
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.5em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots LinkPost square image 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
+      <div
+        className="post-content">
+        <div
+          className="post-content">
+          <div
+            className="post-content-text">
+            <span
+              className="text">
+              What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+              <a
+                className="link"
+                href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+                http://buff.ly/1LTbUqv
+              </a>
+            </span>
+          </div>
+          <div>
+            <a
+              className="link unstyled"
+              href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+              <div
+                className="card no-padding"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}>
+                <div
+                  className="link-attachment-content">
+                  <img
+                    alt="Image"
+                    className="rounded"
+                    src="http://lorempixel.com/400/400/cats/"
+                    style={
+                      Object {
+                        "height": "10em",
+                        "maxHeight": undefined,
+                        "maxWidth": "15em",
+                        "minHeight": undefined,
+                        "minWidth": "15em",
+                        "objectFit": "cover",
+                        "width": "15em",
+                      }
+                    } />
+                  <div
+                    className="link-attachment-text">
+                    <div>
+                      <span
+                        className="text">
+                        What is a Product Designer?
+                      </span>
+                    </div>
+                    <div
+                      className="link-url">
+                      <span
+                        className="text small gray">
+                        https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="text small">
+                        A brief history at how history and markets influence design titles
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
+                  <span
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.5em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots LinkPost tall image 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
+      <div
+        className="post-content">
+        <div
+          className="post-content">
+          <div
+            className="post-content-text">
+            <span
+              className="text">
+              What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+              <a
+                className="link"
+                href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+                http://buff.ly/1LTbUqv
+              </a>
+            </span>
+          </div>
+          <div>
+            <a
+              className="link unstyled"
+              href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+              <div
+                className="card no-padding"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}>
+                <div
+                  className="link-attachment-content">
+                  <img
+                    alt="Image"
+                    className="rounded"
+                    src="http://lorempixel.com/400/900/cats/"
+                    style={
+                      Object {
+                        "height": "10em",
+                        "maxHeight": undefined,
+                        "maxWidth": "15em",
+                        "minHeight": undefined,
+                        "minWidth": "15em",
+                        "objectFit": "cover",
+                        "width": "15em",
+                      }
+                    } />
+                  <div
+                    className="link-attachment-text">
+                    <div>
+                      <span
+                        className="text">
+                        What is a Product Designer?
+                      </span>
+                    </div>
+                    <div
+                      className="link-url">
+                      <span
+                        className="text small gray">
+                        https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="text small">
+                        A brief history at how history and markets influence design titles
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
+                  <span
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.5em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots LinkPost wide image 1`] = `
+<div
+  className="post-container">
+  <div
+    className="post">
+    <div
+      className="card no-padding"
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}>
+      <div
+        className="post-content">
+        <div
+          className="post-content">
+          <div
+            className="post-content-text">
+            <span
+              className="text">
+              What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+              <a
+                className="link"
+                href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+                http://buff.ly/1LTbUqv
+              </a>
+            </span>
+          </div>
+          <div>
+            <a
+              className="link unstyled"
+              href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x">
+              <div
+                className="card no-padding"
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}>
+                <div
+                  className="link-attachment-content">
+                  <img
+                    alt="Image"
+                    className="rounded"
+                    src="http://lorempixel.com/900/400/cats/"
+                    style={
+                      Object {
+                        "height": "10em",
+                        "maxHeight": undefined,
+                        "maxWidth": "15em",
+                        "minHeight": undefined,
+                        "minWidth": "15em",
+                        "objectFit": "cover",
+                        "width": "15em",
+                      }
+                    } />
+                  <div
+                    className="link-attachment-text">
+                    <div>
+                      <span
+                        className="text">
+                        What is a Product Designer?
+                      </span>
+                    </div>
+                    <div
+                      className="link-url">
+                      <span
+                        className="text small gray">
+                        https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="text small">
+                        A brief history at how history and markets influence design titles
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="post-details">
+        <div
+          className="post-controls">
+          <div>
+            <span>
+              <span
+                className="post-button">
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}>
+                  <span
+                    className={undefined}>
+                    <span
+                      className="post-icon">
+                      <i
+                        className="icon small undefined bi bi-x" />
+                    </span>
+                    <span
+                      className="text small">
+                      Delete Post
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </span>
+            <span
+              className="post-button-last">
+              <button
+                className="no-style"
+                disabled={undefined}
+                onClick={[Function]}>
+                <span
+                  className="post-icon">
+                  <i
+                    className="icon small undefined bi bi-edit" />
+                </span>
+                <span
+                  className="text small">
+                  Edit Post
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-author">
+          <span
+            className="post-details-author-image">
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.5em",
+                }
+              } />
+          </span>
+          <span
+            className="post-details-author-email">
+            <span
+              className="text small">
+              ash@buffer.com
+            </span>
+          </span>
+          <span
+            className="post-source">
+            <span
+              className="text small">
+              via web
+            </span>
+          </span>
+          <span
+            className="post-icon-last">
+            <i
+              className="icon small undefined bi bi-link" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="button-panel">
+    <button
+      className="button fill-container"
+      disabled={false}
+      onClick={[Function]}>
+      Request Approval
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Snapshots Post default 1`] = `
 <div
   className="post-container">

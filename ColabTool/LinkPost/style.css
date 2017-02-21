@@ -1,0 +1,24 @@
+.post-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-content-text {
+  padding-bottom: 1em;
+}
+
+.link-attachment-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-attachment-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  flex-grow: 1;
+}
+
+.link-url {
+  margin: 0.25em 1em 1em 0;
+}
