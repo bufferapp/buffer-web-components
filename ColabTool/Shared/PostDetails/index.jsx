@@ -1,9 +1,13 @@
 import React, { PropTypes } from 'react';
 import {
   Button,
-  Icon,
   Image,
   Text,
+  CloseIcon,
+  EditIcon,
+  LinkIcon,
+  ImageIcon,
+  RetweetIcon,
 } from '@bufferapp/components';
 import style from './style.css';
 
@@ -26,12 +30,12 @@ const renderDeleteButton = ({
 }) =>
   <span className={style['post-button']}>
     <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-      <span className={isConfirmingDelete ? style['post-confirming-delete'] : undefined}>
-        <span className={style['post-icon']}>
-          <Icon type={'x'} size={'small'} />
-        </span>
-        <Text size={'small'}>{ isConfirmingDelete ? 'Confirm' : 'Delete Post' }</Text>
+      <span className={style['post-icon']}>
+        <CloseIcon color={isConfirmingDelete ? 'torchRed' : undefined} size={'small'} />
       </span>
+      <Text size={'small'} color={isConfirmingDelete ? 'torchRed' : undefined}>
+        {isConfirmingDelete ? 'Confirm' : 'Delete Post'}
+      </Text>
     </Button>
   </span>;
 
@@ -57,7 +61,7 @@ const renderEdit = ({ onEditClick }) =>
   <span className={style['post-button-last']}>
     <Button onClick={onEditClick} noStyle>
       <span className={style['post-icon']}>
-        <Icon type={'edit'} size={'small'} />
+        <EditIcon size={'small'} />
       </span>
       <Text size={'small'}>Edit Post</Text>
     </Button>
@@ -89,6 +93,17 @@ const renderControls = ({
       })}
     </div>
   );
+};
+
+const renderPostTypeIcon = (postType) => {
+  switch (postType) {
+    case 'image':
+      return (<ImageIcon size={'small'} />);
+    case 'retweet':
+      return (<RetweetIcon size={'small'} />);
+    default:
+      return (<LinkIcon size={'small'} />);
+  }
 };
 
 /* eslint-enable react/prop-types */
@@ -130,7 +145,7 @@ const PostDetails = ({
         <Text size={'small'}>via web</Text>
       </span>
       <span className={style['post-icon-last']}>
-        <Icon type={postType} size={'small'} />
+        {renderPostTypeIcon(postType)}
       </span>
     </div>
   </div>;

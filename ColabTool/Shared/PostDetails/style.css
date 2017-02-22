@@ -40,12 +40,6 @@
   margin: 0;
 }
 
-/* icon shenanigans */
-.post-icon > i::before,
-.post-icon-last > i::before {
-  margin-top: -1px;
-}
-
 .post-button-last {
   margin-left: 2em;
 }
@@ -55,11 +49,15 @@
   color: var(--black);
 }
 
-.post-confirming-delete > .post-icon,
-.post-confirming-delete > span {
-  color: var(--torch-red);
+.post-button-last:hover svg g,
+.post-button:hover svg g {
+  fill: var(--black);
 }
 
 .post-cancel-delete {
   margin-left: 0.5em;
+}
+
+.post-cancel-delete:hover span {
+  color: var(--black);
 }
