@@ -41,10 +41,10 @@ const LinkPost = ({
             <div className={style['link-attachment-content']}>
               <Image
                 src={linkAttachment.thumbnailUrl}
-                width={'15em'}
-                minWidth={'15em'}
-                maxWidth={'15em'}
-                height={'10em'}
+                width={'15rem'}
+                minWidth={'15rem'}
+                maxWidth={'15rem'}
+                height={'10rem'}
                 border={'rounded'}
                 objectFit={'cover'}
               />
@@ -68,7 +68,7 @@ const LinkPost = ({
             </div>
           </Card>
         </Link>
-      </div> 
+      </div>
     </div>
   );
 
@@ -105,11 +105,11 @@ LinkPost.propTypes = {
     }),
   ).isRequired,
   linkAttachment: PropTypes.shape({
-      title: PropTypes.string,
-      description: PropTypes.string,
-      url: PropTypes.string,
-      thumbnailUrl: PropTypes.string,
-    }).isRequired,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    url: PropTypes.string,
+    thumbnailUrl: PropTypes.string,
+  }).isRequired,
   text: PropTypes.string.isRequired,
 };
 

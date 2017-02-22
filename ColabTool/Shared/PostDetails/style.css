@@ -2,7 +2,7 @@
 
 .post-details {
   display: flex;
-  padding: 1em;
+  padding: 1rem;
   background: #FCFCFC;
   border-top: var(--border-width) solid var(--mystic);
 }
@@ -28,11 +28,11 @@
 .post-icon,
 .post-details-author-image,
 .post-source {
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
 }
 
 .post-details-author-email {
-  margin-right: 0.3em;
+  margin-right: 0.3rem;
 }
 
 .post-icon-last {
@@ -41,7 +41,7 @@
 }
 
 .post-button-last {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .post-button-last:hover span,
@@ -55,7 +55,7 @@
 }
 
 .post-cancel-delete {
-  margin-left: 0.5em;
+  margin-left: 0.5rem;
 }
 
 .post-cancel-delete:hover span {

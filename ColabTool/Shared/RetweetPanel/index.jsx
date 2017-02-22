@@ -14,8 +14,8 @@ const RetweetPanel = ({
     <Image
       src={avatarUrl}
       border={'circle'}
-      height={'2em'}
-      width={'2em'}
+      height={'2rem'}
+      width={'2rem'}
     />
     <div className={style['retweet-handle-container']}>
       <Text size={'small'}>{name}</Text>

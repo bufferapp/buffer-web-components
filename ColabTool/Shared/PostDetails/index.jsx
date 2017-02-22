@@ -134,7 +134,7 @@ const PostDetails = ({
         <Image
           alt={profile.name}
           src={profile.avatarUrl}
-          width={'1.5em'}
+          width={'1.25rem'}
           border={'circle'}
         />
       </span>

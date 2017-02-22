@@ -6,5 +6,5 @@ const date = '08:52am (GMC)';
 
 storiesOf('ScheduleTag')
   .add('Default', () => (
-    <ScheduleTag dateString={date}></ScheduleTag>
+    <ScheduleTag dateString={date} />
   ));

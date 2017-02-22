@@ -1,9 +1,10 @@
 .retweet-panel-container {
   display: flex;
+  align-items: center;
 }
 
 .retweet-handle-container {
   display: flex;
   flex-direction: column;
-  margin-left: 1em;
+  margin-left: 1rem;
 }

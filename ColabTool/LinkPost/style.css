@@ -4,7 +4,7 @@
 }
 
 .post-content-text {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 .link-attachment-content {
@@ -15,10 +15,10 @@
 .link-attachment-text {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 1rem;
   flex-grow: 1;
 }
 
 .link-url {
-  margin: 0.25em 1em 1em 0;
+  margin: 0.25rem 1rem 1rem 0;
 }
