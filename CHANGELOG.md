@@ -2,7 +2,7 @@
 
 ## 0.0.1 (February 23, 2017)
 
-- Bump `buffer-components` dependancy version to `0.2.0`
+- Bump `buffer-components` dependancy version to `0.2.1`
 
 ---
 
