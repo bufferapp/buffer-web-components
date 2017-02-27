@@ -28,7 +28,7 @@ const renderDeleteButton = ({
   onDeleteConfirmClick,
   onDeleteClick,
 }) =>
-  <span className={style['post-button']}>
+  <span className={style['post-button-last']}>
     <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
       <span className={style['post-icon']}>
         <CloseIcon color={isConfirmingDelete ? 'torchRed' : undefined} size={'small'} />
@@ -58,7 +58,7 @@ const renderDelete = ({
   </span>;
 
 const renderEdit = ({ onEditClick }) =>
-  <span className={style['post-button-last']}>
+  <span className={style['post-button']}>
     <Button onClick={onEditClick} noStyle>
       <span className={style['post-icon']}>
         <EditIcon size={'small'} />
@@ -82,14 +82,14 @@ const renderControls = ({
   }
   return (
     <div>
+      {renderEdit({
+        onEditClick,
+      })}
       {renderDelete({
         isConfirmingDelete,
         onCancelConfirmClick,
         onDeleteConfirmClick,
         onDeleteClick,
-      })}
-      {renderEdit({
-        onEditClick,
       })}
     </div>
   );
