@@ -1,9 +1,11 @@
 .post-container {
   display: flex;
+  width: 100%;
 }
 
 .post {
   flex-grow: 1;
+  min-width: 0;
 }
 
 .post-content {

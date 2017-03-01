@@ -46,6 +46,20 @@ storiesOf('ImagePost')
       onEditClick={action('edit-click')}
     />
   ))
+  .add('manager', () => (
+    <ImagePost
+      imageSrc={imageSrc}
+      links={links}
+      profile={profile}
+      text={text}
+      manager
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
   .add('square image', () => (
     <ImagePost
       imageSrc={squareImage}

@@ -17,8 +17,13 @@
   flex-direction: column;
   padding: 1rem;
   flex-grow: 1;
+  min-width: 0;
 }
 
 .link-url {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(50, 59, 67, 0.3);
   margin: 0.25rem 1rem 1rem 0;
 }

@@ -40,6 +40,19 @@ storiesOf('TextPost')
       onEditClick={action('edit-click')}
     />
   ))
+  .add('manager', () => (
+    <TextPost
+      links={links}
+      profile={profile}
+      text={text}
+      manager
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
   .add('retweet', () => (
     <TextPost
       links={links}
