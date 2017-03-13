@@ -18,7 +18,7 @@ const ImagePost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  profile,
+  draftDetails,
   text,
   retweetProfile,
 }) => {
@@ -57,8 +57,7 @@ const ImagePost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
-      profile={profile}
-      postType={retweetProfile ? 'retweet' : 'image'}
+      draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}
     >

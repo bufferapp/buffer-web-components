@@ -14,10 +14,13 @@ const links = [{
 
 const text = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
-const profile = {
-  name: 'Ash',
+const draftDetails = {
+  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
+  via: 'web',
+  createdAt: 'March 2nd at 12:45pm (GMT)',
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const retweetProfile = {
@@ -37,7 +40,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={imageSrc}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -50,7 +53,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={imageSrc}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       manager
       onApproveClick={action('approve-click')}
@@ -64,7 +67,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={squareImage}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -77,7 +80,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={tallImage}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -90,7 +93,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={wideImage}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -103,7 +106,7 @@ storiesOf('ImagePost')
     <ImagePost
       imageSrc={imageSrc}
       links={links}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}

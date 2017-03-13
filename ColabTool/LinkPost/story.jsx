@@ -21,10 +21,13 @@ const linkAttachment = {
   thumbnailUrl: 'https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg',
 };
 
-const profile = {
-  name: 'Ash',
+const draftDetails = {
+  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
+  via: 'web',
+  createdAt: 'March 2nd at 12:45pm (GMT)',
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const squareImage = 'http://lorempixel.com/400/400/cats/';
@@ -36,7 +39,7 @@ storiesOf('LinkPost')
     <LinkPost
       links={links}
       linkAttachment={linkAttachment}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -49,7 +52,7 @@ storiesOf('LinkPost')
     <LinkPost
       links={links}
       linkAttachment={linkAttachment}
-      profile={profile}
+      draftDetails={draftDetails}
       text={text}
       manager
       onApproveClick={action('approve-click')}
@@ -62,8 +65,8 @@ storiesOf('LinkPost')
   .add('square image', () => (
     <LinkPost
       links={links}
-      linkAttachment={{...linkAttachment, thumbnailUrl: squareImage}}
-      profile={profile}
+      linkAttachment={{ ...linkAttachment, thumbnailUrl: squareImage }}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -75,8 +78,8 @@ storiesOf('LinkPost')
   .add('tall image', () => (
     <LinkPost
       links={links}
-      linkAttachment={{...linkAttachment, thumbnailUrl: tallImage}}
-      profile={profile}
+      linkAttachment={{ ...linkAttachment, thumbnailUrl: tallImage }}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
@@ -88,8 +91,8 @@ storiesOf('LinkPost')
   .add('wide image', () => (
     <LinkPost
       links={links}
-      linkAttachment={{...linkAttachment, thumbnailUrl: wideImage}}
-      profile={profile}
+      linkAttachment={{ ...linkAttachment, thumbnailUrl: wideImage }}
+      draftDetails={draftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}

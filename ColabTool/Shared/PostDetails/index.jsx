@@ -1,13 +1,8 @@
 import React, { PropTypes } from 'react';
 import {
   Button,
-  Image,
   Text,
-  CloseIcon,
-  EditIcon,
-  LinkIcon,
-  ImageIcon,
-  RetweetIcon,
+  ClockIcon,
 } from '@bufferapp/components';
 import style from './style.css';
 
@@ -28,13 +23,10 @@ const renderDeleteButton = ({
   onDeleteConfirmClick,
   onDeleteClick,
 }) =>
-  <span className={style['post-button-last']}>
+  <span className={style['post-button']}>
     <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-      <span className={style['post-icon']}>
-        <CloseIcon color={isConfirmingDelete ? 'torchRed' : undefined} size={'small'} />
-      </span>
       <Text size={'small'} color={isConfirmingDelete ? 'torchRed' : undefined}>
-        {isConfirmingDelete ? 'Confirm' : 'Delete Post'}
+        {isConfirmingDelete ? 'Confirm' : 'Delete'}
       </Text>
     </Button>
   </span>;
@@ -46,30 +38,40 @@ const renderDelete = ({
   onDeleteClick,
 }) =>
   <span>
+    {isConfirmingDelete ?
+      renderConfirmDelete({ onCancelConfirmClick }) :
+      undefined
+    }
     {renderDeleteButton({
       isConfirmingDelete,
       onDeleteConfirmClick,
       onDeleteClick,
     })}
-    {isConfirmingDelete ?
-      renderConfirmDelete({ onCancelConfirmClick }) :
-      undefined
-    }
   </span>;
 
 const renderEdit = ({ onEditClick }) =>
-  <span className={style['post-button']}>
+  <span className={style['post-button-last']}>
     <Button onClick={onEditClick} noStyle>
-      <span className={style['post-icon']}>
-        <EditIcon size={'small'} />
-      </span>
-      <Text size={'small'}>Edit Post</Text>
+      <Text size={'small'}>Edit</Text>
+    </Button>
+  </span>;
+
+const renderApproval = ({
+  onApproveClick,
+}) =>
+  <span className={style['post-button-last']}>
+    <span className={style['vertical-line']} />
+    <Button onClick={onApproveClick} noStyle>
+      <Text size={'small'} color={'blue'}>Approve</Text>
     </Button>
   </span>;
 
 const renderControls = ({
   isDeleting,
   isConfirmingDelete,
+  isWorking,
+  manager,
+  onApproveClick,
   onCancelConfirmClick,
   onDeleteClick,
   onEditClick,
@@ -80,30 +82,29 @@ const renderControls = ({
       <Text size={'small'}> Deleting... </Text>
     );
   }
+
+  if (manager && isWorking && !isDeleting) {
+    return (
+      <Text size={'small'}> Approving... </Text>
+    );
+  }
+
   return (
     <div>
-      {renderEdit({
-        onEditClick,
-      })}
       {renderDelete({
         isConfirmingDelete,
         onCancelConfirmClick,
         onDeleteConfirmClick,
         onDeleteClick,
       })}
+      {renderEdit({
+        onEditClick,
+      })}
+      {manager && renderApproval({
+        onApproveClick,
+      })}
     </div>
   );
-};
-
-const renderPostTypeIcon = (postType) => {
-  switch (postType) {
-    case 'image':
-      return (<ImageIcon size={'small'} />);
-    case 'retweet':
-      return (<RetweetIcon size={'small'} />);
-    default:
-      return (<LinkIcon size={'small'} />);
-  }
 };
 
 /* eslint-enable react/prop-types */
@@ -111,63 +112,63 @@ const renderPostTypeIcon = (postType) => {
 const PostDetails = ({
   isDeleting,
   isConfirmingDelete,
+  isWorking,
+  manager,
+  onApproveClick,
   onCancelConfirmClick,
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  profile,
-  postType,
+  draftDetails,
 }) =>
   <div className={style['post-details']}>
+    <div className={style['post-action-details']}>
+      <span className={style['post-icon']}>
+        <ClockIcon />
+      </span>
+      <span className={style['post-action']}>
+        <Text size={'small'}>{draftDetails.postAction}</Text>
+      </span>
+    </div>
     <div className={style['post-controls']}>
       {renderControls({
         isDeleting,
         isConfirmingDelete,
+        isWorking,
+        manager,
+        onApproveClick,
         onCancelConfirmClick,
         onDeleteClick,
         onEditClick,
         onDeleteConfirmClick,
       })}
     </div>
-    <div className={style['post-author']}>
-      <span className={style['post-details-author-image']}>
-        <Image
-          alt={profile.name}
-          src={profile.avatarUrl}
-          width={'1.25rem'}
-          border={'circle'}
-        />
-      </span>
-      <span className={style['post-details-author-email']}>
-        <Text size={'small'}>{profile.email}</Text>
-      </span>
-      <span className={style['post-source']}>
-        <Text size={'small'}>via web</Text>
-      </span>
-      <span className={style['post-icon-last']}>
-        {renderPostTypeIcon(postType)}
-      </span>
-    </div>
   </div>;
 
 PostDetails.propTypes = {
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
+  isWorking: PropTypes.bool,
+  manager: PropTypes.bool,
+  onApproveClick: PropTypes.func,
   onCancelConfirmClick: PropTypes.func.isRequired,
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
-  profile: PropTypes.shape({
-    name: PropTypes.string,
+  draftDetails: PropTypes.shape({
+    userName: PropTypes.string,
     avatarUrl: PropTypes.string,
     email: PropTypes.string,
+    createdAt: PropTypes.string,
+    via: PropTypes.string,
+    postAction: PropTypes.string,
   }).isRequired,
-  postType: PropTypes.oneOf(['image', 'link', 'retweet']).isRequired,
 };
 
 PostDetails.defaultProps = {
   isDeleting: false,
   isConfirmingDelete: false,
+  isWorking: false,
 };
 
 export default PostDetails;

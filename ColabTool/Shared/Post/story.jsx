@@ -7,10 +7,13 @@ import { linkTo } from '@kadira/storybook-addon-links';
 import { Text } from '@bufferapp/components';
 import Post from './index';
 
-const profile = {
-  name: 'Ash',
+const draftDetails = {
+  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
+  via: 'web',
+  createdAt: 'March 2nd at 12:45pm (GMT)',
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const retweetProfile = {
@@ -28,7 +31,7 @@ const children = (
 storiesOf('Post')
   .add('default', () => (
     <Post
-      profile={profile}
+      draftDetails={draftDetails}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
@@ -48,7 +51,7 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       manager
-      profile={profile}
+      draftDetails={draftDetails}
     >
       {children}
     </Post>
@@ -61,7 +64,7 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      profile={profile}
+      draftDetails={draftDetails}
     >
       {children}
     </Post>
@@ -74,7 +77,7 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      profile={profile}
+      draftDetails={draftDetails}
     >
       {children}
     </Post>
@@ -87,7 +90,7 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
-      profile={profile}
+      draftDetails={draftDetails}
     >
       {children}
     </Post>
@@ -101,44 +104,14 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       isWorking
-      profile={profile}
-    >
-      {children}
-    </Post>
-  ))
-  .add('postType:image', () => (
-    <Post
-      profile={profile}
-      onMouseEnter={action('mouse-enter')}
-      onMouseLeave={action('mous-leave')}
-      onApproveClick={action('approve-click')}
-      onCancelConfirmClick={action('cancel-confirm-click')}
-      onDeleteClick={action('delete-click')}
-      onDeleteConfirmClick={action('delete-confirm-click')}
-      onEditClick={action('edit-click')}
-      postType={'image'}
-    >
-      {children}
-    </Post>
-  ))
-  .add('postType:link', () => (
-    <Post
-      profile={profile}
-      onMouseEnter={action('mouse-enter')}
-      onMouseLeave={action('mous-leave')}
-      onApproveClick={action('approve-click')}
-      onCancelConfirmClick={action('cancel-confirm-click')}
-      onDeleteClick={action('delete-click')}
-      onDeleteConfirmClick={action('delete-confirm-click')}
-      onEditClick={action('edit-click')}
-      postType={'link'}
+      draftDetails={draftDetails}
     >
       {children}
     </Post>
   ))
   .add('retweet', () => (
     <Post
-      profile={profile}
+      draftDetails={draftDetails}
       onMouseEnter={action('mouse-enter')}
       onMouseLeave={action('mous-leave')}
       onApproveClick={action('approve-click')}
@@ -147,7 +120,6 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
-      postType={'retweet'}
     >
       {children}
     </Post>

@@ -21,7 +21,7 @@ const LinkPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  profile,
+  draftDetails,
   text,
 }) => {
   const children = (
@@ -85,8 +85,7 @@ const LinkPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
-      profile={profile}
-      postType={'link'}
+      draftDetails={draftDetails}
       text={text}
     >
       {children}

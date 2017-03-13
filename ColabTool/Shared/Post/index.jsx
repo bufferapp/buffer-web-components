@@ -3,8 +3,8 @@ import {
   Card,
 } from '@bufferapp/components';
 import style from './style.css';
-import PostButtonPanel from '../PostButtonPanel';
 import PostDetails from '../PostDetails';
+import PostTopDetails from '../PostTopDetails';
 import RetweetPanel from '../RetweetPanel';
 
 const renderRetweetPanel = (retweetProfile) => {
@@ -28,8 +28,7 @@ const Post = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
-  postType,
-  profile,
+  draftDetails,
   retweetProfile,
 }) =>
   <div className={style['post-container']}>
@@ -38,6 +37,9 @@ const Post = ({
         faded={isDeleting}
         noPadding
       >
+        <PostTopDetails
+          draftDetails={draftDetails}
+        />
         <div className={style['post-content']}>
           {renderRetweetPanel(retweetProfile)}
           {children}
@@ -45,24 +47,17 @@ const Post = ({
         <PostDetails
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
+          isWorking={isWorking}
+          manager={manager}
+          onApproveClick={onApproveClick}
           onCancelConfirmClick={onCancelConfirmClick}
           onDeleteClick={onDeleteClick}
           onDeleteConfirmClick={onDeleteConfirmClick}
           onEditClick={onEditClick}
-          profile={profile}
-          postType={postType === 'text' ? 'link' : postType}
+          draftDetails={draftDetails}
         />
       </Card>
     </div>
-    {
-      manager &&
-      <PostButtonPanel
-        disabled={isConfirmingDelete || isDeleting}
-        manager={manager}
-        onApproveClick={onApproveClick}
-        isWorking={isWorking}
-      />
-    }
   </div>;
 
 Post.commonPropTypes = {
@@ -70,15 +65,18 @@ Post.commonPropTypes = {
   isDeleting: PropTypes.bool,
   isWorking: PropTypes.bool,
   manager: PropTypes.bool,
-  onApproveClick: PropTypes.func.isRequired,
+  onApproveClick: PropTypes.func,
   onCancelConfirmClick: PropTypes.func.isRequired,
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
-  profile: PropTypes.shape({
-    name: PropTypes.string,
+  draftDetails: PropTypes.shape({
+    userName: PropTypes.string,
     avatarUrl: PropTypes.string,
     email: PropTypes.string,
+    createdAt: PropTypes.string,
+    via: PropTypes.string,
+    postAction: PropTypes.string,
   }).isRequired,
   retweetProfile: PropTypes.shape({
     name: PropTypes.string,
@@ -90,7 +88,6 @@ Post.commonPropTypes = {
 Post.propTypes = {
   ...Post.commonPropTypes,
   children: PropTypes.node.isRequired,
-  postType: PropTypes.oneOf(['image', 'link', 'text', 'retweet']),
 };
 
 Post.defaultProps = {
@@ -98,7 +95,6 @@ Post.defaultProps = {
   isDeleting: false,
   isWorking: false,
   manager: false,
-  postType: 'text',
 };
 
 export default Post;

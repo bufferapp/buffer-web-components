@@ -1,0 +1,25 @@
+@import '@bufferapp/components/variables.css';
+
+.post-details {
+	display: flex;
+	padding: 0.5rem;
+	background: var(--white);
+	border-bottom: var(--border-width) solid var(--mystic);
+}
+
+.post-author {
+  flex-grow: 1;
+}
+
+.post-details-author-image {
+  vertical-align: middle;
+  align-items: center;
+}
+
+.post-details-author-image {
+  margin-right: 0.75rem;
+}
+
+.post-info {
+  margin-right: 0.5rem;
+}
