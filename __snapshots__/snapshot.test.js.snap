@@ -2654,7 +2654,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     onClick={[Function]}
                   >
                     <span
-                      className="text small torchRed"
+                      className="text small red"
                     >
                       Confirm
                     </span>
@@ -3722,7 +3722,7 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
               onClick={[Function]}
             >
               <span
-                className="text small torchRed"
+                className="text small red"
               >
                 Confirm
               </span>
@@ -4081,7 +4081,7 @@ exports[`Snapshots PostDetails managerIsConfirmingDelete 1`] = `
               onClick={[Function]}
             >
               <span
-                className="text small torchRed"
+                className="text small red"
               >
                 Confirm
               </span>
