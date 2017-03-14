@@ -2,6 +2,7 @@
 
 ## 0.1.0 (March 14, 2017)
 
+- Replace use of `torchRed` to `red`
 - Replace use of `curious-blue` to `lochmara`
 - Add a11y addon
 - Bump `buffer-components` dependancy version to `0.3.0`
