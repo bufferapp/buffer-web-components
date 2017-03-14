@@ -2,6 +2,7 @@ import React from 'react';
 import {
   storiesOf,
 } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import PostTopDetails from './index';
 
 const draftDetails = {
@@ -59,6 +60,7 @@ const noNameOrEmailJustTimeDraftDetails = {
 };
 
 storiesOf('PostTopDetails')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <PostTopDetails
       draftDetails={draftDetails}

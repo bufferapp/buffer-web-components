@@ -3,6 +3,7 @@ import {
   storiesOf,
   action,
 } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import LinkPost from './index';
 
 const links = [{
@@ -35,6 +36,7 @@ const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
 storiesOf('LinkPost')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <LinkPost
       links={links}
