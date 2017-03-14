@@ -3,6 +3,7 @@ import {
   storiesOf,
   action,
 } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import TextPost from './index';
 
 const links = [{
@@ -31,6 +32,7 @@ const retweetProfile = {
 
 
 storiesOf('TextPost')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <TextPost
       links={links}

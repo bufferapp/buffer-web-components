@@ -1,8 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import RetweetPanel from './index';
 
 storiesOf('RetweetPanel')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <RetweetPanel
       name={'Joel Gascoigne'}

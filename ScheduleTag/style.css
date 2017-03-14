@@ -2,7 +2,7 @@
 
 .scheduleTag {
     position: relative;
-    background-color: var(--curious-blue);
+    background-color: var(--lochmara);
     padding: 0.25rem 0.25rem 0.4rem 0.75rem;
     display: inline-block;
     border-radius: var(--border-radius) 0 0 var(--border-radius);
@@ -16,5 +16,5 @@
     top: 0;
     border-top: 1rem solid transparent;
     border-bottom: 1rem solid transparent;
-    border-left: 1rem solid var(--curious-blue);
+    border-left: 1rem solid var(--lochmara);
 }

@@ -4,6 +4,7 @@ import {
   action,
 } from '@kadira/storybook';
 import { linkTo } from '@kadira/storybook-addon-links';
+import { checkA11y } from 'storybook-addon-a11y';
 import { Text } from '@bufferapp/components';
 import Post from './index';
 
@@ -29,6 +30,7 @@ const children = (
 );
 
 storiesOf('Post')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <Post
       draftDetails={draftDetails}

@@ -25,7 +25,7 @@ const renderDeleteButton = ({
 }) =>
   <span className={style['post-button']}>
     <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-      <Text size={'small'} color={isConfirmingDelete ? 'torchRed' : undefined}>
+      <Text size={'small'} color={isConfirmingDelete ? 'red' : undefined}>
         {isConfirmingDelete ? 'Confirm' : 'Delete'}
       </Text>
     </Button>

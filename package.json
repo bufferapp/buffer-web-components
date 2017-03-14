@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/web-components",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "UI components for buffer web",
   "main": "index.js",
   "scripts": {
@@ -67,10 +67,11 @@
     "react-addons-test-utils": "15.4.2",
     "react-dom": "15.4.2",
     "react-test-renderer": "15.4.2",
+    "storybook-addon-a11y": "0.0.4",
     "storyshots": "3.2.2",
     "style-loader": "0.13.2"
   },
   "dependencies": {
-    "@bufferapp/components": "0.2.2"
+    "@bufferapp/components": "0.3.0"
   }
 }
