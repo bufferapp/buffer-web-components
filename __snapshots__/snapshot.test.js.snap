@@ -25,26 +25,22 @@ exports[`Snapshots ImagePost default 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -103,42 +99,38 @@ exports[`Snapshots ImagePost default 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -213,26 +205,22 @@ exports[`Snapshots ImagePost manager 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -291,42 +279,38 @@ exports[`Snapshots ImagePost manager 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -419,26 +403,22 @@ exports[`Snapshots ImagePost retweet 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -535,42 +515,38 @@ exports[`Snapshots ImagePost retweet 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -645,26 +621,22 @@ exports[`Snapshots ImagePost square image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -723,42 +695,38 @@ exports[`Snapshots ImagePost square image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -833,26 +801,22 @@ exports[`Snapshots ImagePost tall image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -911,42 +875,38 @@ exports[`Snapshots ImagePost tall image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -1021,26 +981,22 @@ exports[`Snapshots ImagePost wide image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -1099,42 +1055,38 @@ exports[`Snapshots ImagePost wide image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -1209,26 +1161,22 @@ exports[`Snapshots LinkPost default 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -1329,42 +1277,38 @@ exports[`Snapshots LinkPost default 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -1439,26 +1383,22 @@ exports[`Snapshots LinkPost manager 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -1559,42 +1499,38 @@ exports[`Snapshots LinkPost manager 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -1687,26 +1623,22 @@ exports[`Snapshots LinkPost square image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -1807,42 +1739,38 @@ exports[`Snapshots LinkPost square image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -1917,26 +1845,22 @@ exports[`Snapshots LinkPost tall image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2037,42 +1961,38 @@ exports[`Snapshots LinkPost tall image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2147,26 +2067,22 @@ exports[`Snapshots LinkPost wide image 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2267,42 +2183,38 @@ exports[`Snapshots LinkPost wide image 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2377,26 +2289,22 @@ exports[`Snapshots Post default 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2423,42 +2331,38 @@ exports[`Snapshots Post default 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2533,26 +2437,22 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2579,42 +2479,38 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2704,26 +2600,22 @@ exports[`Snapshots Post isDeleting 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2750,42 +2642,38 @@ exports[`Snapshots Post isDeleting 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2831,26 +2719,22 @@ exports[`Snapshots Post isWorking 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -2877,42 +2761,38 @@ exports[`Snapshots Post isWorking 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -2987,26 +2867,22 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -3033,42 +2909,38 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -3114,26 +2986,22 @@ exports[`Snapshots Post manager 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -3160,42 +3028,38 @@ exports[`Snapshots Post manager 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -3288,26 +3152,22 @@ exports[`Snapshots Post retweet 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -3372,42 +3232,38 @@ exports[`Snapshots Post retweet 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -3543,7 +3399,7 @@ exports[`Snapshots PostButtonPanel member, isWorking 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails default 1`] = `
+exports[`Snapshots PostFooter default 1`] = `
 <span>
   <div
     className="post-details"
@@ -3551,42 +3407,38 @@ exports[`Snapshots PostDetails default 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -3639,7 +3491,7 @@ exports[`Snapshots PostDetails default 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
+exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
 <span>
   <div
     className="post-details"
@@ -3647,42 +3499,38 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -3750,7 +3598,7 @@ exports[`Snapshots PostDetails isConfirmingDelete 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails isDeleting 1`] = `
+exports[`Snapshots PostFooter isDeleting 1`] = `
 <span>
   <div
     className="post-details"
@@ -3758,42 +3606,38 @@ exports[`Snapshots PostDetails isDeleting 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -3817,7 +3661,7 @@ exports[`Snapshots PostDetails isDeleting 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails manager 1`] = `
+exports[`Snapshots PostFooter manager 1`] = `
 <span>
   <div
     className="post-details"
@@ -3825,42 +3669,38 @@ exports[`Snapshots PostDetails manager 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -3931,7 +3771,7 @@ exports[`Snapshots PostDetails manager 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails managerIsApproving 1`] = `
+exports[`Snapshots PostFooter managerIsApproving 1`] = `
 <span>
   <div
     className="post-details"
@@ -3939,42 +3779,38 @@ exports[`Snapshots PostDetails managerIsApproving 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -3998,7 +3834,7 @@ exports[`Snapshots PostDetails managerIsApproving 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails managerIsConfirmingDelete 1`] = `
+exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
 <span>
   <div
     className="post-details"
@@ -4006,42 +3842,38 @@ exports[`Snapshots PostDetails managerIsConfirmingDelete 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -4127,7 +3959,7 @@ exports[`Snapshots PostDetails managerIsConfirmingDelete 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostDetails managerIsDeleting 1`] = `
+exports[`Snapshots PostFooter managerIsDeleting 1`] = `
 <span>
   <div
     className="post-details"
@@ -4135,42 +3967,38 @@ exports[`Snapshots PostDetails managerIsDeleting 1`] = `
     <div
       className="post-action-details"
     >
-      <span
-        className="post-icon"
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <g
+          className="shuttleGray"
         >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-            />
-            <rect
-              height="6"
-              rx="1"
-              width="2"
-              x="7"
-              y="3"
-            />
-            <rect
-              height="6"
-              rx="1"
-              transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-              width="2"
-              x="8.41842728"
-              y="6.57842712"
-            />
-          </g>
-        </svg>
-      </span>
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
       <span
         className="post-action"
       >
@@ -4194,7 +4022,7 @@ exports[`Snapshots PostDetails managerIsDeleting 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails default 1`] = `
+exports[`Snapshots PostHeader default 1`] = `
 <span>
   <div
     className="post-details"
@@ -4202,26 +4030,22 @@ exports[`Snapshots PostTopDetails default 1`] = `
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt="Ash"
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4236,7 +4060,7 @@ exports[`Snapshots PostTopDetails default 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails just created at time 1`] = `
+exports[`Snapshots PostHeader just created at time 1`] = `
 <span>
   <div
     className="post-details"
@@ -4244,26 +4068,22 @@ exports[`Snapshots PostTopDetails just created at time 1`] = `
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt="Ash"
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4278,7 +4098,7 @@ exports[`Snapshots PostTopDetails just created at time 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails no userName 1`] = `
+exports[`Snapshots PostHeader no userName 1`] = `
 <span>
   <div
     className="post-details"
@@ -4286,26 +4106,22 @@ exports[`Snapshots PostTopDetails no userName 1`] = `
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt=""
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4320,7 +4136,7 @@ exports[`Snapshots PostTopDetails no userName 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails no userName and just created at time 1`] = `
+exports[`Snapshots PostHeader no userName and just created at time 1`] = `
 <span>
   <div
     className="post-details"
@@ -4328,26 +4144,22 @@ exports[`Snapshots PostTopDetails no userName and just created at time 1`] = `
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt=""
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4362,7 +4174,7 @@ exports[`Snapshots PostTopDetails no userName and just created at time 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails no userName or Email 1`] = `
+exports[`Snapshots PostHeader no userName or Email 1`] = `
 <span>
   <div
     className="post-details"
@@ -4370,26 +4182,22 @@ exports[`Snapshots PostTopDetails no userName or Email 1`] = `
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt=""
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4404,7 +4212,7 @@ exports[`Snapshots PostTopDetails no userName or Email 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostTopDetails no userName or Email and just created at time 1`] = `
+exports[`Snapshots PostHeader no userName or Email and just created at time 1`] = `
 <span>
   <div
     className="post-details"
@@ -4412,26 +4220,22 @@ exports[`Snapshots PostTopDetails no userName or Email and just created at time 
     <div
       className="post-author"
     >
-      <span
-        className="post-details-author-image"
-      >
-        <img
-          alt=""
-          className="circle"
-          src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-          style={
-            Object {
-              "height": undefined,
-              "maxHeight": undefined,
-              "maxWidth": undefined,
-              "minHeight": undefined,
-              "minWidth": undefined,
-              "objectFit": undefined,
-              "width": "1.25rem",
-            }
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
           }
-        />
-      </span>
+        }
+      />
       <span
         className="post-info"
       >
@@ -4521,26 +4325,22 @@ exports[`Snapshots TextPost default 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -4581,42 +4381,38 @@ exports[`Snapshots TextPost default 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -4691,26 +4487,22 @@ exports[`Snapshots TextPost manager 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -4751,42 +4543,38 @@ exports[`Snapshots TextPost manager 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >
@@ -4879,26 +4667,22 @@ exports[`Snapshots TextPost retweet 1`] = `
           <div
             className="post-author"
           >
-            <span
-              className="post-details-author-image"
-            >
-              <img
-                alt="Ash"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "1.25rem",
-                  }
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
                 }
-              />
-            </span>
+              }
+            />
             <span
               className="post-info"
             >
@@ -4977,42 +4761,38 @@ exports[`Snapshots TextPost retweet 1`] = `
           <div
             className="post-action-details"
           >
-            <span
-              className="post-icon"
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
-              <svg
-                className="icon shuttleGray"
-                height="100%"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <g
+                className="shuttleGray"
               >
-                <g
-                  className="shuttleGray"
-                >
-                  <path
-                    d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    width="2"
-                    x="7"
-                    y="3"
-                  />
-                  <rect
-                    height="6"
-                    rx="1"
-                    transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                    width="2"
-                    x="8.41842728"
-                    y="6.57842712"
-                  />
-                </g>
-              </svg>
-            </span>
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
             <span
               className="post-action"
             >

@@ -9,15 +9,17 @@
 
 .post-author {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.post-author > img {
+  margin-right: 0.75rem;
 }
 
 .post-details-author-image {
   vertical-align: middle;
   align-items: center;
-}
-
-.post-details-author-image {
-  margin-right: 0.75rem;
 }
 
 .post-info {

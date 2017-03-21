@@ -9,16 +9,16 @@
 
 .post-action-details {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.post-action-details > svg {
+  margin-right: 0.5rem;
 }
 
 .post-controls {
   display: flex;
-}
-
-.post-icon {
-  margin-right: 0.5rem;
-  vertical-align: middle;
-  align-items: center;
 }
 
 .post-source,

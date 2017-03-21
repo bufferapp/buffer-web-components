@@ -3,7 +3,7 @@ import {
   storiesOf,
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
-import PostTopDetails from './index';
+import PostHeader from './index';
 
 const draftDetails = {
   userName: 'Ash',
@@ -59,35 +59,35 @@ const noNameOrEmailJustTimeDraftDetails = {
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
-storiesOf('PostTopDetails')
+storiesOf('PostHeader')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={draftDetails}
     />
   ))
   .add('just created at time', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={justCreatedTimeDraftDetails}
     />
   ))
   .add('no userName', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={noUserNameDraftDetails}
     />
   ))
   .add('no userName and just created at time', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={noUserNameJustTimeDraftDetails}
     />
   ))
   .add('no userName or Email', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={noNameOrEmailDraftDetails}
     />
   ))
   .add('no userName or Email and just created at time', () => (
-    <PostTopDetails
+    <PostHeader
       draftDetails={noNameOrEmailJustTimeDraftDetails}
     />
   ));

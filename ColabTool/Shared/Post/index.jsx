@@ -3,8 +3,8 @@ import {
   Card,
 } from '@bufferapp/components';
 import style from './style.css';
-import PostDetails from '../PostDetails';
-import PostTopDetails from '../PostTopDetails';
+import PostFooter from '../PostFooter';
+import PostHeader from '../PostHeader';
 import RetweetPanel from '../RetweetPanel';
 
 const renderRetweetPanel = (retweetProfile) => {
@@ -37,14 +37,14 @@ const Post = ({
         faded={isDeleting}
         noPadding
       >
-        <PostTopDetails
+        <PostHeader
           draftDetails={draftDetails}
         />
         <div className={style['post-content']}>
           {renderRetweetPanel(retweetProfile)}
           {children}
         </div>
-        <PostDetails
+        <PostFooter
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
           isWorking={isWorking}

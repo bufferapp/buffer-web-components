@@ -13,26 +13,24 @@ const getPostDetailString = (draftDetails) => {
   return `Created via ${draftDetails.via} ${draftDetails.createdAt}`;
 };
 
-const PostTopDetails = ({
+const PostHeader = ({
   draftDetails,
 }) =>
   <div className={style['post-details']}>
     <div className={style['post-author']}>
-      <span className={style['post-details-author-image']}>
-        <Image
-          alt={draftDetails.userName}
-          src={draftDetails.avatarUrl}
-          width={'1.25rem'}
-          border={'circle'}
-        />
-      </span>
+      <Image
+        alt={draftDetails.userName}
+        src={draftDetails.avatarUrl}
+        width={'1.25rem'}
+        border={'circle'}
+      />
       <span className={style['post-info']}>
         <Text size={'small'} weight={'thin'}>{getPostDetailString(draftDetails)}</Text>
       </span>
     </div>
   </div>;
 
-PostTopDetails.propTypes = {
+PostHeader.propTypes = {
   draftDetails: PropTypes.shape({
     userName: PropTypes.string,
     avatarUrl: PropTypes.string,
@@ -43,4 +41,4 @@ PostTopDetails.propTypes = {
   }).isRequired,
 };
 
-export default PostTopDetails;
+export default PostHeader;

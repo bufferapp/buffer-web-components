@@ -58,13 +58,18 @@ const renderEdit = ({ onEditClick }) =>
 
 const renderApproval = ({
   onApproveClick,
-}) =>
-  <span className={style['post-button-last']}>
-    <span className={style['vertical-line']} />
-    <Button onClick={onApproveClick} noStyle>
-      <Text size={'small'} color={'blue'}>Approve</Text>
-    </Button>
-  </span>;
+  manager,
+}) => {
+  if (manager) {
+    return (<span className={style['post-button-last']}>
+      <span className={style['vertical-line']} />
+      <Button onClick={onApproveClick} noStyle>
+        <Text size={'small'} color={'blue'}>Approve</Text>
+      </Button>
+    </span>);
+  }
+  return null;
+};
 
 const renderControls = ({
   isDeleting,
@@ -81,9 +86,7 @@ const renderControls = ({
     return (
       <Text size={'small'}> Deleting... </Text>
     );
-  }
-
-  if (manager && isWorking && !isDeleting) {
+  } else if (manager && isWorking) {
     return (
       <Text size={'small'}> Approving... </Text>
     );
@@ -100,8 +103,9 @@ const renderControls = ({
       {renderEdit({
         onEditClick,
       })}
-      {manager && renderApproval({
+      {renderApproval({
         onApproveClick,
+        manager,
       })}
     </div>
   );
@@ -109,7 +113,7 @@ const renderControls = ({
 
 /* eslint-enable react/prop-types */
 
-const PostDetails = ({
+const PostFooter = ({
   isDeleting,
   isConfirmingDelete,
   isWorking,
@@ -123,9 +127,7 @@ const PostDetails = ({
 }) =>
   <div className={style['post-details']}>
     <div className={style['post-action-details']}>
-      <span className={style['post-icon']}>
-        <ClockIcon />
-      </span>
+      <ClockIcon />
       <span className={style['post-action']}>
         <Text size={'small'}>{draftDetails.postAction}</Text>
       </span>
@@ -145,7 +147,7 @@ const PostDetails = ({
     </div>
   </div>;
 
-PostDetails.propTypes = {
+PostFooter.propTypes = {
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
   isWorking: PropTypes.bool,
@@ -165,10 +167,10 @@ PostDetails.propTypes = {
   }).isRequired,
 };
 
-PostDetails.defaultProps = {
+PostFooter.defaultProps = {
   isDeleting: false,
   isConfirmingDelete: false,
   isWorking: false,
 };
 
-export default PostDetails;
+export default PostFooter;

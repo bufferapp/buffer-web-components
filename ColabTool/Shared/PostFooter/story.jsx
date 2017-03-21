@@ -5,7 +5,7 @@ import {
 } from '@kadira/storybook';
 import { linkTo } from '@kadira/storybook-addon-links';
 import { checkA11y } from 'storybook-addon-a11y';
-import PostDetails from './index';
+import PostFooter from './index';
 
 const draftDetails = {
   userName: 'Ash',
@@ -16,79 +16,79 @@ const draftDetails = {
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
-storiesOf('PostDetails')
+storiesOf('PostFooter')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <PostDetails
-      onCancelConfirmClick={linkTo('PostDetails', 'default')}
-      onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
+    <PostFooter
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
     />
   ))
   .add('manager', () => (
-    <PostDetails
+    <PostFooter
       manager
-      onApproveClick={linkTo('PostDetails', 'managerIsApproving')}
-      onCancelConfirmClick={linkTo('PostDetails', 'manager')}
-      onDeleteClick={linkTo('PostDetails', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'managerIsDeleting')}
+      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
     />
   ))
   .add('isConfirmingDelete', () => (
-    <PostDetails
-      onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostDetails', 'default')}
+    <PostFooter
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isConfirmingDelete
     />
   ))
   .add('managerIsConfirmingDelete', () => (
-    <PostDetails
+    <PostFooter
       manager
       onApproveClick={action('approve-click')}
-      onDeleteClick={linkTo('PostDetails', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostDetails', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isConfirmingDelete
     />
   ))
   .add('isDeleting', () => (
-    <PostDetails
-      onDeleteClick={linkTo('PostDetails', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostDetails', 'default')}
+    <PostFooter
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isDeleting
     />
   ))
   .add('managerIsDeleting', () => (
-    <PostDetails
+    <PostFooter
       manager
       onApproveClick={action('approve-click')}
-      onDeleteClick={linkTo('PostDetails', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostDetails', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isDeleting
     />
   ))
   .add('managerIsApproving', () => (
-    <PostDetails
+    <PostFooter
       manager
       onApproveClick={action('approve-click')}
-      onDeleteClick={linkTo('PostDetails', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostDetails', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostDetails', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isWorking
