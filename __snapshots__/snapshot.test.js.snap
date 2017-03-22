@@ -2270,6 +2270,268 @@ exports[`Snapshots LinkPost wide image 1`] = `
 </span>
 `;
 
+exports[`Snapshots MultipleImagesPost default 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small thin"
+              >
+                Ash via web, created March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div>
+              <div
+                className="multipleImages rounded"
+                style={
+                  Object {
+                    "height": "15rem",
+                    "width": "20rem",
+                  }
+                }
+              >
+                <div
+                  className="imageWrapper"
+                  height="15rem"
+                  style={undefined}
+                >
+                  <img
+                    alt="Image"
+                    className="verticalAlignBottom"
+                    src="http://lorempixel.com/400/400/cats/"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": "cover",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="imageWrapper"
+                  height="15rem"
+                  style={undefined}
+                >
+                  <img
+                    alt="Image"
+                    className="verticalAlignBottom"
+                    src="http://lorempixel.com/400/400/cats/"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": "cover",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="imageWrapper"
+                  height="15rem"
+                  style={undefined}
+                >
+                  <img
+                    alt="Image"
+                    className="verticalAlignBottom"
+                    src="http://lorempixel.com/400/400/cats/"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": "cover",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="imageWrapper"
+                  height="15rem"
+                  style={undefined}
+                >
+                  <img
+                    alt="Image"
+                    className="verticalAlignBottom"
+                    src="http://lorempixel.com/400/400/cats/"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": "cover",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
 exports[`Snapshots Post default 1`] = `
 <span>
   <div

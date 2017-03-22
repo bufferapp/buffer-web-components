@@ -3,7 +3,7 @@
 .post-details {
   display: flex;
   padding: 1rem;
-  background: #FCFCFC;
+  background-color: #fcfcfc;
   border-top: var(--border-width) solid var(--mystic);
 }
 
