@@ -9,6 +9,7 @@ import Post from '../Shared/Post';
 const ImagePost = ({
   isConfirmingDelete,
   isDeleting,
+  isPastDue,
   isWorking,
   imageSrc,
   links,
@@ -18,6 +19,7 @@ const ImagePost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onRescheduleClick,
   draftDetails,
   text,
   retweetProfile,
@@ -48,6 +50,7 @@ const ImagePost = ({
     <Post
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isPastDue={isPastDue}
       isWorking={isWorking}
       imageSrc={imageSrc}
       links={links}
@@ -57,6 +60,7 @@ const ImagePost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}

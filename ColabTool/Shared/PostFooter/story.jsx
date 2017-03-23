@@ -16,6 +16,11 @@ const draftDetails = {
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
+const draftDetailsPastDue = {
+  ...draftDetails,
+  postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
+};
+
 storiesOf('PostFooter')
   .addDecorator(checkA11y)
   .add('default', () => (
@@ -92,5 +97,29 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isWorking
+    />
+  ))
+  .add('past due', () => (
+    <PostFooter
+      isPastDue
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      draftDetails={draftDetailsPastDue}
+    />
+  ))
+  .add('manager past due', () => (
+    <PostFooter
+      isPastDue
+      manager
+      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      draftDetails={draftDetailsPastDue}
     />
   ));

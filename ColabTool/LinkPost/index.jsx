@@ -12,6 +12,7 @@ import Post from '../Shared/Post';
 const LinkPost = ({
   isConfirmingDelete,
   isDeleting,
+  isPastDue,
   isWorking,
   links,
   linkAttachment,
@@ -21,6 +22,7 @@ const LinkPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onRescheduleClick,
   draftDetails,
   text,
 }) => {
@@ -76,6 +78,7 @@ const LinkPost = ({
     <Post
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isPastDue={isPastDue}
       isWorking={isWorking}
       links={links}
       linkAttachment={linkAttachment}
@@ -85,6 +88,7 @@ const LinkPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
       text={text}
     >

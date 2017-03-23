@@ -24,6 +24,11 @@ const draftDetails = {
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
+const draftDetailsPastDue = {
+  ...draftDetails,
+  postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
+};
+
 const retweetProfile = {
   name: 'Joel Gascoigne',
   handle: '@joelgascoigne',
@@ -69,5 +74,19 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+    />
+  ))
+  .add('past due', () => (
+    <TextPost
+      links={links}
+      draftDetails={draftDetailsPastDue}
+      isPastDue
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
     />
   ));

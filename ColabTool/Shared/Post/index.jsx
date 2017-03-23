@@ -21,6 +21,7 @@ const Post = ({
   children,
   isConfirmingDelete,
   isDeleting,
+  isPastDue,
   isWorking,
   manager,
   onApproveClick,
@@ -28,6 +29,7 @@ const Post = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onRescheduleClick,
   draftDetails,
   retweetProfile,
 }) =>
@@ -47,6 +49,7 @@ const Post = ({
         <PostFooter
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
+          isPastDue={isPastDue}
           isWorking={isWorking}
           manager={manager}
           onApproveClick={onApproveClick}
@@ -54,6 +57,7 @@ const Post = ({
           onDeleteClick={onDeleteClick}
           onDeleteConfirmClick={onDeleteConfirmClick}
           onEditClick={onEditClick}
+          onRescheduleClick={onRescheduleClick}
           draftDetails={draftDetails}
         />
       </Card>
@@ -63,6 +67,7 @@ const Post = ({
 Post.commonPropTypes = {
   isConfirmingDelete: PropTypes.bool,
   isDeleting: PropTypes.bool,
+  isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
   manager: PropTypes.bool,
   onApproveClick: PropTypes.func,
@@ -70,6 +75,7 @@ Post.commonPropTypes = {
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
+  onRescheduleClick: PropTypes.func,
   draftDetails: PropTypes.shape({
     userName: PropTypes.string,
     avatarUrl: PropTypes.string,
@@ -93,6 +99,7 @@ Post.propTypes = {
 Post.defaultProps = {
   isConfirmingDelete: false,
   isDeleting: false,
+  isPastDue: false,
   isWorking: false,
   manager: false,
 };

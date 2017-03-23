@@ -11,6 +11,7 @@ const MultipleImagesPost = ({
   imageUrls,
   isConfirmingDelete,
   isDeleting,
+  isPastDue,
   isWorking,
   links,
   manager,
@@ -19,6 +20,7 @@ const MultipleImagesPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onRescheduleClick,
   retweetProfile,
   text,
 }) => {
@@ -47,6 +49,7 @@ const MultipleImagesPost = ({
       draftDetails={draftDetails}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isPastDue={isPastDue}
       isWorking={isWorking}
       links={links}
       manager={manager}
@@ -55,6 +58,7 @@ const MultipleImagesPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onRescheduleClick={onRescheduleClick}
       retweetProfile={retweetProfile}
       text={text}
     >

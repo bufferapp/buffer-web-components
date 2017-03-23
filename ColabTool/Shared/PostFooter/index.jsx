@@ -3,6 +3,7 @@ import {
   Button,
   Text,
   ClockIcon,
+  WarningIcon,
 } from '@bufferapp/components';
 import style from './style.css';
 
@@ -57,9 +58,20 @@ const renderEdit = ({ onEditClick }) =>
   </span>;
 
 const renderApproval = ({
+  isPastDue,
   onApproveClick,
+  onRescheduleClick,
   manager,
 }) => {
+  if (isPastDue) {
+    return (<span className={style['post-button-last']}>
+      <span className={style['vertical-line']} />
+      <Button onClick={onRescheduleClick} noStyle>
+        <Text size={'small'} color={'blue'}>Reschedule</Text>
+      </Button>
+    </span>);
+  }
+
   if (manager) {
     return (<span className={style['post-button-last']}>
       <span className={style['vertical-line']} />
@@ -71,9 +83,21 @@ const renderApproval = ({
   return null;
 };
 
+const renderIcon = isPastDue => (isPastDue ? <WarningIcon color={'torchRed'} /> : <ClockIcon />);
+
+const renderText = ({
+  draftDetails,
+  isPastDue,
+}) =>
+  <span className={style['post-action']}>
+    <Text size={'small'} color={isPastDue ? 'red' : undefined}>{draftDetails.postAction}</Text>
+    {isPastDue ? <Text size={'small'}> - Please reschedule or delete.</Text> : null}
+  </span>;
+
 const renderControls = ({
   isDeleting,
   isConfirmingDelete,
+  isPastDue,
   isWorking,
   manager,
   onApproveClick,
@@ -81,6 +105,7 @@ const renderControls = ({
   onDeleteClick,
   onEditClick,
   onDeleteConfirmClick,
+  onRescheduleClick,
 }) => {
   if (isDeleting) {
     return (
@@ -104,7 +129,9 @@ const renderControls = ({
         onEditClick,
       })}
       {renderApproval({
+        isPastDue,
         onApproveClick,
+        onRescheduleClick,
         manager,
       })}
     </div>
@@ -116,6 +143,7 @@ const renderControls = ({
 const PostFooter = ({
   isDeleting,
   isConfirmingDelete,
+  isPastDue,
   isWorking,
   manager,
   onApproveClick,
@@ -123,25 +151,26 @@ const PostFooter = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onRescheduleClick,
   draftDetails,
 }) =>
   <div className={style['post-details']}>
     <div className={style['post-action-details']}>
-      <ClockIcon />
-      <span className={style['post-action']}>
-        <Text size={'small'}>{draftDetails.postAction}</Text>
-      </span>
+      {renderIcon(isPastDue)}
+      {renderText({ draftDetails, isPastDue })}
     </div>
     <div className={style['post-controls']}>
       {renderControls({
         isDeleting,
         isConfirmingDelete,
+        isPastDue,
         isWorking,
         manager,
         onApproveClick,
         onCancelConfirmClick,
         onDeleteClick,
         onEditClick,
+        onRescheduleClick,
         onDeleteConfirmClick,
       })}
     </div>
@@ -150,6 +179,7 @@ const PostFooter = ({
 PostFooter.propTypes = {
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
+  isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
   manager: PropTypes.bool,
   onApproveClick: PropTypes.func,
@@ -157,6 +187,7 @@ PostFooter.propTypes = {
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
+  onRescheduleClick: PropTypes.func,
   draftDetails: PropTypes.shape({
     userName: PropTypes.string,
     avatarUrl: PropTypes.string,
@@ -170,6 +201,7 @@ PostFooter.propTypes = {
 PostFooter.defaultProps = {
   isDeleting: false,
   isConfirmingDelete: false,
+  isPastDue: false,
   isWorking: false,
 };
 

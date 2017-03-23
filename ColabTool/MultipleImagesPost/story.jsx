@@ -24,6 +24,11 @@ const draftDetails = {
   via: 'web',
 };
 
+const draftDetailsPastDue = {
+  ...draftDetails,
+  postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
+};
+
 const imageUrls = [
   'http://lorempixel.com/400/400/cats/',
   'http://lorempixel.com/400/400/cats/',
@@ -43,6 +48,21 @@ storiesOf('MultipleImagesPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      text={text}
+    />
+  ))
+  .add('past due', () => (
+    <MultipleImagesPost
+      draftDetails={draftDetailsPastDue}
+      links={links}
+      imageUrls={imageUrls}
+      isPastDue
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
       text={text}
     />
   ));

@@ -125,4 +125,18 @@ storiesOf('Post')
     >
       {children}
     </Post>
+  ))
+  .add('past due', () => (
+    <Post
+      draftDetails={draftDetails}
+      isPastDue
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    >
+      {children}
+    </Post>
   ));
