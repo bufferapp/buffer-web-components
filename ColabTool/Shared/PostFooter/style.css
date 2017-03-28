@@ -2,7 +2,7 @@
 
 .post-details {
   display: flex;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   background-color: #fcfcfc;
   border-top: var(--border-width) solid var(--mystic);
 }

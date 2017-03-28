@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.22 (March 28, 2017)
+
+- Set `padding` on `PostHeader` and `PostFooter`
+- Set `font-weight` in `PostHeader` to default
+- Bump `@bufferapp/components` dependency to `0.4.6`
+
 ## 0.0.21 (March 28, 2017)
 
 - Bump `@bufferapp/components` dependency to `0.4.5`

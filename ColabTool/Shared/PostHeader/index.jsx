@@ -25,7 +25,7 @@ const PostHeader = ({
         border={'circle'}
       />
       <span className={style['post-info']}>
-        <Text size={'small'} weight={'thin'}>{getPostDetailString(draftDetails)}</Text>
+        <Text size={'small'}>{getPostDetailString(draftDetails)}</Text>
       </span>
     </div>
   </div>;
