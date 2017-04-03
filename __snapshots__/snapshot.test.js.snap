@@ -5556,6 +5556,44 @@ exports[`Snapshots PostHeader no userName or Email and just created at time 1`] 
 </span>
 `;
 
+exports[`Snapshots PostHeader no userName via api 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          ash@buffer.com via api, created March 2nd at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
 exports[`Snapshots RetweetPanel default 1`] = `
 <span>
   <div

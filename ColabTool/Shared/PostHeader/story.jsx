@@ -32,6 +32,15 @@ const noUserNameDraftDetails = {
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
+const noUserNameViaApiDraftDetails = {
+  userName: '',
+  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
+  email: 'ash@buffer.com',
+  via: 'api',
+  createdAt: 'March 2nd at 12:45pm (GMT)',
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
 const noUserNameJustTimeDraftDetails = {
   userName: '',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
@@ -74,6 +83,11 @@ storiesOf('PostHeader')
   .add('no userName', () => (
     <PostHeader
       draftDetails={noUserNameDraftDetails}
+    />
+  ))
+  .add('no userName via api', () => (
+    <PostHeader
+      draftDetails={noUserNameViaApiDraftDetails}
     />
   ))
   .add('no userName and just created at time', () => (
