@@ -23,7 +23,10 @@ const PostButtonPanel = ({
 }) =>
   <div className={style['button-panel']}>
     <Button
-      onClick={() => onApproveClick({ manager })}
+      onClick={
+        /* istanbul ignore next */
+        () => onApproveClick({ manager })
+      }
       disabled={isWorking || disabled}
       fillContainer
     >

@@ -7,7 +7,11 @@ import style from './style.css';
 
 const getPostDetailString = (draftDetails) => {
   if (draftDetails.userName || draftDetails.email) {
-    return `${draftDetails.userName || draftDetails.email} via ${draftDetails.via}, created ${draftDetails.createdAt}`;
+    if (draftDetails.via === 'api') {
+      return `${draftDetails.userName || draftDetails.email} created this ${draftDetails.createdAt}`;
+    }
+
+    return `${draftDetails.userName || draftDetails.email} created this via ${draftDetails.via} ${draftDetails.createdAt}`;
   }
 
   return `Created via ${draftDetails.via} ${draftDetails.createdAt}`;

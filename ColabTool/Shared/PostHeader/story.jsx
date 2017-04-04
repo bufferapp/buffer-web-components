@@ -10,7 +10,7 @@ const draftDetails = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
   via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
@@ -28,7 +28,7 @@ const noUserNameDraftDetails = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
   via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
@@ -55,7 +55,7 @@ const noNameOrEmailDraftDetails = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: '',
   via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
@@ -65,6 +65,15 @@ const noNameOrEmailJustTimeDraftDetails = {
   email: '',
   via: 'web',
   createdAt: 'at 12:45pm (GMT)',
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
+const viaApiDraftDetails = {
+  userName: 'Ash',
+  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
+  email: 'ash@buffer.com',
+  via: 'api',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
@@ -103,5 +112,10 @@ storiesOf('PostHeader')
   .add('no userName or Email and just created at time', () => (
     <PostHeader
       draftDetails={noNameOrEmailJustTimeDraftDetails}
+    />
+  ))
+  .add('sent via API', () => (
+    <PostHeader
+      draftDetails={viaApiDraftDetails}
     />
   ));

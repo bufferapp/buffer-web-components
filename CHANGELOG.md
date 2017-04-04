@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.23 (April 3, 2017)
+
+- Add condition that omits printing 'via API' in `PostHeader`
+
 ## 0.0.22 (March 28, 2017)
 
 - Set `padding` on `PostHeader` and `PostFooter`
