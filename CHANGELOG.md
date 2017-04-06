@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.24 (April 6, 2017)
+
+- Set `LinkifiedText` and `Text` components used in posts to use our new `mini` config
+
 ## 0.0.23 (April 3, 2017)
 
 - Add condition that omits printing 'via API' in `PostHeader`
