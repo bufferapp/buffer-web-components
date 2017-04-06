@@ -62,7 +62,7 @@ exports[`Snapshots ImagePost default 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -242,7 +242,7 @@ exports[`Snapshots ImagePost manager 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -369,7 +369,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Approve
                   </span>
@@ -440,7 +440,7 @@ exports[`Snapshots ImagePost past due 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -498,7 +498,7 @@ exports[`Snapshots ImagePost past due 1`] = `
               className="post-action"
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
@@ -557,7 +557,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Reschedule
                   </span>
@@ -666,7 +666,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -846,7 +846,7 @@ exports[`Snapshots ImagePost square image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1026,7 +1026,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1206,7 +1206,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1386,7 +1386,7 @@ exports[`Snapshots LinkPost default 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1440,7 +1440,7 @@ exports[`Snapshots LinkPost default 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -1608,7 +1608,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1662,7 +1662,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -1777,7 +1777,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Approve
                   </span>
@@ -1848,7 +1848,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -1902,7 +1902,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -1948,7 +1948,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               className="post-action"
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
@@ -2007,7 +2007,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Reschedule
                   </span>
@@ -2078,7 +2078,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -2132,7 +2132,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -2300,7 +2300,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -2354,7 +2354,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -2522,7 +2522,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -2576,7 +2576,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                         className="link-url"
                       >
                         <span
-                          className="text small gray"
+                          className="text gray small"
                         >
                           https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
                         </span>
@@ -2744,7 +2744,7 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -3006,7 +3006,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -3146,7 +3146,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
               className="post-action"
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
@@ -3205,7 +3205,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Reschedule
                   </span>
@@ -3270,7 +3270,7 @@ exports[`Snapshots Post default 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -3418,7 +3418,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -3500,7 +3500,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     onClick={[Function]}
                   >
                     <span
-                      className="text small red"
+                      className="text red small"
                     >
                       Confirm
                     </span>
@@ -3581,7 +3581,7 @@ exports[`Snapshots Post isDeleting 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -3700,7 +3700,7 @@ exports[`Snapshots Post isWorking 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -3848,7 +3848,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -3967,7 +3967,7 @@ exports[`Snapshots Post manager 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -4068,7 +4068,7 @@ exports[`Snapshots Post manager 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Approve
                   </span>
@@ -4133,7 +4133,7 @@ exports[`Snapshots Post past due 1`] = `
           className="post-content"
         >
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -4165,7 +4165,7 @@ exports[`Snapshots Post past due 1`] = `
               className="post-action"
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 This post is scheduled for 9:42pm (GMT)
               </span>
@@ -4224,7 +4224,7 @@ exports[`Snapshots Post past due 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Reschedule
                   </span>
@@ -4327,7 +4327,7 @@ exports[`Snapshots Post retweet 1`] = `
             </div>
           </div>
           <span
-            className="text"
+            className="text mini"
           >
             I am a text-only test post.
           </span>
@@ -4676,7 +4676,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               onClick={[Function]}
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 Confirm
               </span>
@@ -4865,7 +4865,7 @@ exports[`Snapshots PostFooter manager 1`] = `
             onClick={[Function]}
           >
             <span
-              className="text small blue"
+              className="text blue small"
             >
               Approve
             </span>
@@ -4906,7 +4906,7 @@ exports[`Snapshots PostFooter manager past due 1`] = `
         className="post-action"
       >
         <span
-          className="text small red"
+          className="text red small"
         >
           This post was scheduled for March 12 at 9:42pm (GMT)
         </span>
@@ -4965,7 +4965,7 @@ exports[`Snapshots PostFooter manager past due 1`] = `
             onClick={[Function]}
           >
             <span
-              className="text small blue"
+              className="text blue small"
             >
               Reschedule
             </span>
@@ -5119,7 +5119,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
               onClick={[Function]}
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 Confirm
               </span>
@@ -5153,7 +5153,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             onClick={[Function]}
           >
             <span
-              className="text small blue"
+              className="text blue small"
             >
               Approve
             </span>
@@ -5257,7 +5257,7 @@ exports[`Snapshots PostFooter past due 1`] = `
         className="post-action"
       >
         <span
-          className="text small red"
+          className="text red small"
         >
           This post was scheduled for March 12 at 9:42pm (GMT)
         </span>
@@ -5316,7 +5316,7 @@ exports[`Snapshots PostFooter past due 1`] = `
             onClick={[Function]}
           >
             <span
-              className="text small blue"
+              className="text blue small"
             >
               Reschedule
             </span>
@@ -5744,7 +5744,7 @@ exports[`Snapshots TextPost default 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -5906,7 +5906,7 @@ exports[`Snapshots TextPost manager 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -6015,7 +6015,7 @@ exports[`Snapshots TextPost manager 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Approve
                   </span>
@@ -6086,7 +6086,7 @@ exports[`Snapshots TextPost past due 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
@@ -6126,7 +6126,7 @@ exports[`Snapshots TextPost past due 1`] = `
               className="post-action"
             >
               <span
-                className="text small red"
+                className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
@@ -6185,7 +6185,7 @@ exports[`Snapshots TextPost past due 1`] = `
                   onClick={[Function]}
                 >
                   <span
-                    className="text small blue"
+                    className="text blue small"
                   >
                     Reschedule
                   </span>
@@ -6294,7 +6294,7 @@ exports[`Snapshots TextPost retweet 1`] = `
               className="post-content-text"
             >
               <span
-                className="text"
+                className="text mini"
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a

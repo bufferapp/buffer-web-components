@@ -29,6 +29,7 @@ const ImagePost = ({
       <span className={style['post-content-text']}>
         <LinkifiedText
           links={links}
+          size={'mini'}
         >
           {text}
         </LinkifiedText>

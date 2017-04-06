@@ -24,7 +24,7 @@ const retweetProfile = {
 };
 
 const children = (
-  <Text>
+  <Text size={'mini'}>
     {'I am a text-only test post.'}
   </Text>
 );
