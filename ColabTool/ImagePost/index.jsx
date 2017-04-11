@@ -1,10 +1,16 @@
 import React, { PropTypes } from 'react';
 import {
+  IdTag,
   Image,
   LinkifiedText,
 } from '@bufferapp/components';
 import style from './style.css';
 import Post from '../Shared/Post';
+
+const renderTag = (type) => {
+  if (!type) return;
+  return <IdTag>{type}</IdTag>;
+};
 
 const ImagePost = ({
   isConfirmingDelete,
@@ -22,6 +28,7 @@ const ImagePost = ({
   onRescheduleClick,
   draftDetails,
   text,
+  type,
   retweetProfile,
 }) => {
   const children = (
@@ -34,7 +41,7 @@ const ImagePost = ({
           {text}
         </LinkifiedText>
       </span>
-      <div>
+      <div className={style['image-wrapper']}>
         <Image
           src={imageSrc}
           width={'15rem'}
@@ -43,7 +50,9 @@ const ImagePost = ({
           border={'rounded'}
           objectFit={'cover'}
         />
+        { renderTag(type) }
       </div>
+
     </div>
   );
 
@@ -83,6 +92,7 @@ ImagePost.propTypes = {
     }),
   ).isRequired,
   text: PropTypes.string.isRequired,
+  type: PropTypes.string,
 };
 
 ImagePost.defaultProps = Post.defaultProps;
