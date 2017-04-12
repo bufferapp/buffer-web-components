@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.26 (April 12, 2017)
+
+- Update `@bufferapp/components` dependency number to `0.4.12`
+
 ## 0.0.25 (April 11, 2017)
 
 - Add `type` to `ImagePost` component props and use new `IdTag` component from `buffer-components` (0.4.10)
