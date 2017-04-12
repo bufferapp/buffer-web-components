@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.27 (April 12, 2017)
+
+- Add `hasPermission` prop to `PostFooter`, `Post`, all post types. Update all stories to include it.
+
 ## 0.0.26 (April 12, 2017)
 
 - Update `@bufferapp/components` dependency number to `0.4.12`
