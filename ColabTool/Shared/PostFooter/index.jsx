@@ -33,37 +33,52 @@ const renderDeleteButton = ({
   </span>;
 
 const renderDelete = ({
+  hasPermission,
   isConfirmingDelete,
   onCancelConfirmClick,
   onDeleteConfirmClick,
   onDeleteClick,
-}) =>
-  <span>
-    {isConfirmingDelete ?
-      renderConfirmDelete({ onCancelConfirmClick }) :
-      undefined
-    }
-    {renderDeleteButton({
-      isConfirmingDelete,
-      onDeleteConfirmClick,
-      onDeleteClick,
-    })}
-  </span>;
+}) => {
+  if (!hasPermission) return;
 
-const renderEdit = ({ onEditClick }) =>
-  <span className={style['post-button-last']}>
-    <Button onClick={onEditClick} noStyle>
-      <Text size={'small'}>Edit</Text>
-    </Button>
-  </span>;
+  return (
+    <span>
+      {isConfirmingDelete ?
+        renderConfirmDelete({ onCancelConfirmClick }) :
+        undefined
+      }
+      {renderDeleteButton({
+        isConfirmingDelete,
+        onDeleteConfirmClick,
+        onDeleteClick,
+      })}
+    </span>
+  );
+};
+
+const renderEdit = ({
+  hasPermission,
+  onEditClick,
+}) => {
+  if (!hasPermission) return;
+
+  return (
+    <span className={style['post-button-last']}>
+      <Button onClick={onEditClick} noStyle>
+        <Text size={'small'}>Edit</Text>
+      </Button>
+    </span>
+  );
+};
 
 const renderApproval = ({
+  hasPermission,
   isPastDue,
   onApproveClick,
   onRescheduleClick,
   manager,
 }) => {
-  if (isPastDue) {
+  if (isPastDue && hasPermission) {
     return (<span className={style['post-button-last']}>
       <span className={style['vertical-line']} />
       <Button onClick={onRescheduleClick} noStyle>
@@ -72,7 +87,7 @@ const renderApproval = ({
     </span>);
   }
 
-  if (manager) {
+  if (!isPastDue && manager) {
     return (<span className={style['post-button-last']}>
       <span className={style['vertical-line']} />
       <Button onClick={onApproveClick} noStyle>
@@ -95,6 +110,7 @@ const renderText = ({
   </span>;
 
 const renderControls = ({
+  hasPermission,
   isDeleting,
   isConfirmingDelete,
   isPastDue,
@@ -120,15 +136,18 @@ const renderControls = ({
   return (
     <div>
       {renderDelete({
+        hasPermission,
         isConfirmingDelete,
         onCancelConfirmClick,
         onDeleteConfirmClick,
         onDeleteClick,
       })}
       {renderEdit({
+        hasPermission,
         onEditClick,
       })}
       {renderApproval({
+        hasPermission,
         isPastDue,
         onApproveClick,
         onRescheduleClick,
@@ -141,6 +160,7 @@ const renderControls = ({
 /* eslint-enable react/prop-types */
 
 const PostFooter = ({
+  hasPermission,
   isDeleting,
   isConfirmingDelete,
   isPastDue,
@@ -161,6 +181,7 @@ const PostFooter = ({
     </div>
     <div className={style['post-controls']}>
       {renderControls({
+        hasPermission,
         isDeleting,
         isConfirmingDelete,
         isPastDue,
@@ -177,6 +198,7 @@ const PostFooter = ({
   </div>;
 
 PostFooter.propTypes = {
+  hasPermission: PropTypes.bool.isRequired,
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
   isPastDue: PropTypes.bool,

@@ -25,6 +25,7 @@ storiesOf('PostFooter')
   .addDecorator(checkA11y)
   .add('default', () => (
     <PostFooter
+      hasPermission
       onCancelConfirmClick={linkTo('PostFooter', 'default')}
       onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
@@ -34,6 +35,7 @@ storiesOf('PostFooter')
   ))
   .add('manager', () => (
     <PostFooter
+      hasPermission
       manager
       onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
       onCancelConfirmClick={linkTo('PostFooter', 'manager')}
@@ -45,6 +47,7 @@ storiesOf('PostFooter')
   ))
   .add('isConfirmingDelete', () => (
     <PostFooter
+      hasPermission
       onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onCancelConfirmClick={linkTo('PostFooter', 'default')}
@@ -55,6 +58,7 @@ storiesOf('PostFooter')
   ))
   .add('managerIsConfirmingDelete', () => (
     <PostFooter
+      hasPermission
       manager
       onApproveClick={action('approve-click')}
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
@@ -67,6 +71,7 @@ storiesOf('PostFooter')
   ))
   .add('isDeleting', () => (
     <PostFooter
+      hasPermission
       onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onCancelConfirmClick={linkTo('PostFooter', 'default')}
@@ -77,6 +82,7 @@ storiesOf('PostFooter')
   ))
   .add('managerIsDeleting', () => (
     <PostFooter
+      hasPermission
       manager
       onApproveClick={action('approve-click')}
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
@@ -89,6 +95,7 @@ storiesOf('PostFooter')
   ))
   .add('managerIsApproving', () => (
     <PostFooter
+      hasPermission
       manager
       onApproveClick={action('approve-click')}
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
@@ -99,8 +106,9 @@ storiesOf('PostFooter')
       isWorking
     />
   ))
-  .add('past due', () => (
+  .add('past due with permission', () => (
     <PostFooter
+      hasPermission
       isPastDue
       onCancelConfirmClick={linkTo('PostFooter', 'default')}
       onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
@@ -112,6 +120,7 @@ storiesOf('PostFooter')
   ))
   .add('manager past due', () => (
     <PostFooter
+      hasPermission
       isPastDue
       manager
       onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
@@ -121,5 +130,29 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
       draftDetails={draftDetailsPastDue}
+    />
+  ))
+  .add('past due no permission', () => (
+    <PostFooter
+      hasPermission={false}
+      isPastDue
+      manager
+      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      draftDetails={draftDetailsPastDue}
+    />
+  ))
+  .add('no permission', () => (
+    <PostFooter
+      hasPermission={false}
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      draftDetails={draftDetails}
     />
   ));

@@ -6,6 +6,7 @@ import style from './style.css';
 import Post from '../Shared/Post';
 
 const TextPost = ({
+  hasPermission,
   isConfirmingDelete,
   isDeleting,
   isPastDue,
@@ -38,6 +39,7 @@ const TextPost = ({
 
   return (
     <Post
+      hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isPastDue={isPastDue}

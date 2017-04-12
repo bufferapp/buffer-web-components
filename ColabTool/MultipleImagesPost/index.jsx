@@ -8,6 +8,7 @@ import Post from '../Shared/Post';
 
 const MultipleImagesPost = ({
   draftDetails,
+  hasPermission,
   imageUrls,
   isConfirmingDelete,
   isDeleting,
@@ -48,6 +49,7 @@ const MultipleImagesPost = ({
   return (
     <Post
       draftDetails={draftDetails}
+      hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isPastDue={isPastDue}

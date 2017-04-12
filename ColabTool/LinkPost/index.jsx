@@ -10,6 +10,7 @@ import style from './style.css';
 import Post from '../Shared/Post';
 
 const LinkPost = ({
+  hasPermission,
   isConfirmingDelete,
   isDeleting,
   isPastDue,
@@ -77,6 +78,7 @@ const LinkPost = ({
 
   return (
     <Post
+      hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isPastDue={isPastDue}

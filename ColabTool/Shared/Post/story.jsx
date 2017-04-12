@@ -33,6 +33,7 @@ storiesOf('Post')
   .addDecorator(checkA11y)
   .add('default', () => (
     <Post
+      hasPermission
       draftDetails={draftDetails}
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
@@ -45,6 +46,7 @@ storiesOf('Post')
   ))
   .add('manager', () => (
     <Post
+      hasPermission
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
       onApproveClick={linkTo('Post', 'isWorkingManager')}
@@ -60,6 +62,7 @@ storiesOf('Post')
   ))
   .add('isConfirmingDelete', () => (
     <Post
+      hasPermission
       isConfirmingDelete
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
@@ -73,6 +76,7 @@ storiesOf('Post')
   ))
   .add('isDeleting', () => (
     <Post
+      hasPermission
       isDeleting
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
@@ -86,6 +90,7 @@ storiesOf('Post')
   ))
   .add('isWorking', () => (
     <Post
+      hasPermission
       isWorking
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
@@ -99,6 +104,7 @@ storiesOf('Post')
   ))
   .add('isWorkingManager', () => (
     <Post
+      hasPermission
       manager
       onApproveClick={linkTo('Post', 'isWorking')}
       onCancelConfirmClick={linkTo('Post', 'hovered')}
@@ -113,6 +119,7 @@ storiesOf('Post')
   ))
   .add('retweet', () => (
     <Post
+      hasPermission
       draftDetails={draftDetails}
       onMouseEnter={action('mouse-enter')}
       onMouseLeave={action('mous-leave')}
@@ -128,6 +135,7 @@ storiesOf('Post')
   ))
   .add('past due', () => (
     <Post
+      hasPermission
       draftDetails={draftDetails}
       isPastDue
       onApproveClick={linkTo('Post', 'isWorking')}
@@ -136,6 +144,34 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+    >
+      {children}
+    </Post>
+  ))
+  .add('past due no permission', () => (
+    <Post
+      hasPermission={false}
+      draftDetails={draftDetails}
+      isPastDue
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    >
+      {children}
+    </Post>
+  ))
+  .add('no permission', () => (
+    <Post
+      hasPermission={false}
+      draftDetails={draftDetails}
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
     >
       {children}
     </Post>

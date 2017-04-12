@@ -40,6 +40,7 @@ storiesOf('TextPost')
   .addDecorator(checkA11y)
   .add('default', () => (
     <TextPost
+      hasPermission
       links={links}
       draftDetails={draftDetails}
       text={text}
@@ -52,6 +53,7 @@ storiesOf('TextPost')
   ))
   .add('manager', () => (
     <TextPost
+      hasPermission
       links={links}
       draftDetails={draftDetails}
       text={text}
@@ -65,6 +67,7 @@ storiesOf('TextPost')
   ))
   .add('retweet', () => (
     <TextPost
+      hasPermission
       links={links}
       draftDetails={draftDetails}
       text={text}
@@ -78,6 +81,7 @@ storiesOf('TextPost')
   ))
   .add('past due', () => (
     <TextPost
+      hasPermission
       links={links}
       draftDetails={draftDetailsPastDue}
       isPastDue
@@ -88,5 +92,33 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+    />
+  ))
+  .add('past due no permission', () => (
+    <TextPost
+      hasPermission={false}
+      links={links}
+      draftDetails={draftDetailsPastDue}
+      isPastDue
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    />
+  ))
+  .add('no permission', () => (
+    <TextPost
+      hasPermission={false}
+      links={links}
+      draftDetails={draftDetails}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
     />
   ));

@@ -47,6 +47,7 @@ storiesOf('ImagePost')
   .addDecorator(checkA11y)
   .add('default', () => (
     <ImagePost
+      hasPermission
       imageSrc={imageSrc}
       links={links}
       draftDetails={draftDetails}
@@ -60,6 +61,7 @@ storiesOf('ImagePost')
   ))
   .add('manager', () => (
     <ImagePost
+      hasPermission
       imageSrc={imageSrc}
       links={links}
       draftDetails={draftDetails}
@@ -74,6 +76,7 @@ storiesOf('ImagePost')
   ))
   .add('square image', () => (
     <ImagePost
+      hasPermission
       imageSrc={squareImage}
       links={links}
       draftDetails={draftDetails}
@@ -87,6 +90,7 @@ storiesOf('ImagePost')
   ))
   .add('tall image', () => (
     <ImagePost
+      hasPermission
       imageSrc={tallImage}
       links={links}
       draftDetails={draftDetails}
@@ -100,6 +104,7 @@ storiesOf('ImagePost')
   ))
   .add('wide image', () => (
     <ImagePost
+      hasPermission
       imageSrc={wideImage}
       links={links}
       draftDetails={draftDetails}
@@ -113,6 +118,7 @@ storiesOf('ImagePost')
   ))
   .add('retweet', () => (
     <ImagePost
+      hasPermission
       imageSrc={imageSrc}
       links={links}
       draftDetails={draftDetails}
@@ -127,6 +133,23 @@ storiesOf('ImagePost')
   ))
   .add('past due', () => (
     <ImagePost
+      hasPermission
+      imageSrc={imageSrc}
+      links={links}
+      draftDetails={draftDetailsPastDue}
+      text={text}
+      isPastDue
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    />
+  ))
+  .add('past due no permission', () => (
+    <ImagePost
+      hasPermission={false}
       imageSrc={imageSrc}
       links={links}
       draftDetails={draftDetailsPastDue}
@@ -142,11 +165,26 @@ storiesOf('ImagePost')
   ))
   .add('Video Tag', () => (
     <ImagePost
+      hasPermission
       imageSrc={imageSrc}
       links={links}
       draftDetails={draftDetails}
       text={text}
       type={type}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+    />
+  ))
+  .add('no permission', () => (
+    <ImagePost
+      hasPermission={false}
+      imageSrc={imageSrc}
+      links={links}
+      draftDetails={draftDetails}
+      text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
       onDeleteClick={action('delete-click')}

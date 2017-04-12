@@ -44,6 +44,7 @@ storiesOf('LinkPost')
   .addDecorator(checkA11y)
   .add('default', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={linkAttachment}
       draftDetails={draftDetails}
@@ -57,6 +58,7 @@ storiesOf('LinkPost')
   ))
   .add('manager', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={linkAttachment}
       draftDetails={draftDetails}
@@ -71,6 +73,7 @@ storiesOf('LinkPost')
   ))
   .add('square image', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={{ ...linkAttachment, thumbnailUrl: squareImage }}
       draftDetails={draftDetails}
@@ -84,6 +87,7 @@ storiesOf('LinkPost')
   ))
   .add('tall image', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={{ ...linkAttachment, thumbnailUrl: tallImage }}
       draftDetails={draftDetails}
@@ -97,6 +101,7 @@ storiesOf('LinkPost')
   ))
   .add('wide image', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={{ ...linkAttachment, thumbnailUrl: wideImage }}
       draftDetails={draftDetails}
@@ -110,10 +115,42 @@ storiesOf('LinkPost')
   ))
   .add('past due', () => (
     <LinkPost
+      hasPermission
       links={links}
       linkAttachment={linkAttachment}
       draftDetails={draftDetailsPastDue}
       isPastDue
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    />
+  ))
+  .add('past due no permission', () => (
+    <LinkPost
+      hasPermission={false}
+      links={links}
+      linkAttachment={linkAttachment}
+      draftDetails={draftDetailsPastDue}
+      isPastDue
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+    />
+  ))
+  .add('no permission', () => (
+    <LinkPost
+      hasPermission={false}
+      links={links}
+      linkAttachment={linkAttachment}
+      draftDetails={draftDetailsPastDue}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}

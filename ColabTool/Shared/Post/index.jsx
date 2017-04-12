@@ -19,6 +19,7 @@ const renderRetweetPanel = (retweetProfile) => {
 
 const Post = ({
   children,
+  hasPermission,
   isConfirmingDelete,
   isDeleting,
   isPastDue,
@@ -47,6 +48,7 @@ const Post = ({
           {children}
         </div>
         <PostFooter
+          hasPermission={hasPermission}
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
           isPastDue={isPastDue}
@@ -65,6 +67,7 @@ const Post = ({
   </div>;
 
 Post.commonPropTypes = {
+  hasPermission: PropTypes.bool.isRequired,
   isConfirmingDelete: PropTypes.bool,
   isDeleting: PropTypes.bool,
   isPastDue: PropTypes.bool,

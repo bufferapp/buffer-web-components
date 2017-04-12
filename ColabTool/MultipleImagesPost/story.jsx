@@ -41,6 +41,21 @@ storiesOf('MultipleImagesPost')
   .add('default', () => (
     <MultipleImagesPost
       draftDetails={draftDetails}
+      hasPermission
+      links={links}
+      imageUrls={imageUrls}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      text={text}
+    />
+  ))
+  .add('no permission', () => (
+    <MultipleImagesPost
+      draftDetails={draftDetails}
+      hasPermission={false}
       links={links}
       imageUrls={imageUrls}
       onApproveClick={action('approve-click')}
@@ -54,6 +69,23 @@ storiesOf('MultipleImagesPost')
   .add('past due', () => (
     <MultipleImagesPost
       draftDetails={draftDetailsPastDue}
+      hasPermission
+      links={links}
+      imageUrls={imageUrls}
+      isPastDue
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      text={text}
+    />
+  ))
+  .add('past due no permission', () => (
+    <MultipleImagesPost
+      draftDetails={draftDetailsPastDue}
+      hasPermission={false}
       links={links}
       imageUrls={imageUrls}
       isPastDue

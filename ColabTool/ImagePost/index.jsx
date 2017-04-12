@@ -13,6 +13,7 @@ const renderTag = (type) => {
 };
 
 const ImagePost = ({
+  hasPermission,
   isConfirmingDelete,
   isDeleting,
   isPastDue,
@@ -58,6 +59,7 @@ const ImagePost = ({
 
   return (
     <Post
+      hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
       isPastDue={isPastDue}
