@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.28 (April 17, 2017)
+
+- Use `unstyled` and `newTab` in `LinkifiedText` for all post types using that component. Update stories to include it.
+
 ## 0.0.27 (April 12, 2017)
 
 - Add `hasPermission` prop to `PostFooter`, `Post`, all post types. Update all stories to include it.
