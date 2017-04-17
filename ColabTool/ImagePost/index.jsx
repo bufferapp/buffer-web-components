@@ -38,6 +38,8 @@ const ImagePost = ({
         <LinkifiedText
           links={links}
           size={'mini'}
+          newTab
+          unstyled
         >
           {text}
         </LinkifiedText>

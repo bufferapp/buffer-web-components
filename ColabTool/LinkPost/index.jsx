@@ -33,6 +33,8 @@ const LinkPost = ({
         <LinkifiedText
           links={links}
           size={'mini'}
+          newTab
+          unstyled
         >
           {text}
         </LinkifiedText>

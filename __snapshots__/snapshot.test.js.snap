@@ -66,8 +66,9 @@ exports[`Snapshots ImagePost Video Tag 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -257,8 +258,9 @@ exports[`Snapshots ImagePost default 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -439,8 +441,9 @@ exports[`Snapshots ImagePost manager 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -639,8 +642,9 @@ exports[`Snapshots ImagePost no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -788,8 +792,9 @@ exports[`Snapshots ImagePost past due 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -978,8 +983,9 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1155,8 +1161,9 @@ exports[`Snapshots ImagePost retweet 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1337,8 +1344,9 @@ exports[`Snapshots ImagePost square image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1519,8 +1527,9 @@ exports[`Snapshots ImagePost tall image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1701,8 +1710,9 @@ exports[`Snapshots ImagePost wide image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1883,8 +1893,9 @@ exports[`Snapshots LinkPost default 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -1894,6 +1905,7 @@ exports[`Snapshots LinkPost default 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -2105,8 +2117,9 @@ exports[`Snapshots LinkPost manager 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -2116,6 +2129,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -2345,8 +2359,9 @@ exports[`Snapshots LinkPost no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -2356,6 +2371,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -2534,8 +2550,9 @@ exports[`Snapshots LinkPost past due 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -2545,6 +2562,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -2764,8 +2782,9 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -2775,6 +2794,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -2943,8 +2963,9 @@ exports[`Snapshots LinkPost square image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -2954,6 +2975,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -3165,8 +3187,9 @@ exports[`Snapshots LinkPost tall image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -3176,6 +3199,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -3387,8 +3411,9 @@ exports[`Snapshots LinkPost wide image 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -3398,6 +3423,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_self"
               >
                 <div
                   className="card no-padding"
@@ -3609,8 +3635,9 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -3871,8 +3898,9 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -4100,8 +4128,9 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -4370,8 +4399,9 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -7385,8 +7415,9 @@ exports[`Snapshots TextPost default 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -7547,8 +7578,9 @@ exports[`Snapshots TextPost manager 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -7727,8 +7759,9 @@ exports[`Snapshots TextPost no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -7856,8 +7889,9 @@ exports[`Snapshots TextPost past due 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -8026,8 +8060,9 @@ exports[`Snapshots TextPost past due no permission 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
@@ -8183,8 +8218,9 @@ exports[`Snapshots TextPost retweet 1`] = `
               >
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
-                  className="link"
+                  className="link unstyled"
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
                 >
                   http://buff.ly/1LTbUqv
                 </a>
