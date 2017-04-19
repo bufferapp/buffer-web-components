@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.29 (April 19, 2017)
+
+- Add `DateTimeForm` component
+
 ## 0.0.28 (April 17, 2017)
 
 - Use `unstyled` and `newTab` in `LinkifiedText` for all post types using that component. Update stories to include it.
