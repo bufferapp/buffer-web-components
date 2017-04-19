@@ -66,12 +66,15 @@
     "react": "15.5.4",
     "react-addons-test-utils": "15.4.2",
     "react-dom": "15.5.4",
+    "react-redux": "5.0.4",
     "react-test-renderer": "15.4.2",
+    "redux": "3.6.0",
     "storybook-addon-a11y": "0.0.4",
     "storyshots": "3.2.2",
     "style-loader": "0.16.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.4.14"
+    "@bufferapp/components": "0.4.16",
+    "redux-form": "6.6.3"
   }
 }
