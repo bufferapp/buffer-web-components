@@ -16,12 +16,18 @@ const links = [{
 const text = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
 const draftDetails = {
-  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  isRetweet: false,
   postAction: 'This post is scheduled for 9:42pm (GMT)',
+  userName: 'Ash',
+  via: 'api',
+};
+
+const isARetweetDraftDetails = {
+  ...draftDetails,
+  isRetweet: true,
 };
 
 const draftDetailsPastDue = {
@@ -69,7 +75,7 @@ storiesOf('TextPost')
     <TextPost
       hasPermission
       links={links}
-      draftDetails={draftDetails}
+      draftDetails={isARetweetDraftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}

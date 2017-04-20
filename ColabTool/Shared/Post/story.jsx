@@ -9,19 +9,34 @@ import { Text } from '@bufferapp/components';
 import Post from './index';
 
 const draftDetails = {
-  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  isRetweet: false,
   postAction: 'This post is scheduled for 9:42pm (GMT)',
+  userName: 'Ash',
+  via: 'web',
+};
+
+const isARetweetDraftDetails = {
+  ...draftDetails,
+  isRetweet: true,
 };
 
 const retweetProfile = {
-  name: 'Joel Gascoigne',
-  handle: '@joelgascoigne',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png',
+  handle: '@joelgascoigne',
+  name: 'Joel Gascoigne',
 };
+
+const links = [{
+  rawString: 'http://buff.ly/1LTbUqv',
+  displayString: 'http://buff.ly/1LTbUqv',
+  url: 'https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x',
+  indices: [74, 96],
+}];
+
+const retweetComment = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
 const children = (
   <Text size={'mini'}>
@@ -120,7 +135,7 @@ storiesOf('Post')
   .add('retweet', () => (
     <Post
       hasPermission
-      draftDetails={draftDetails}
+      draftDetails={isARetweetDraftDetails}
       onMouseEnter={action('mouse-enter')}
       onMouseLeave={action('mous-leave')}
       onApproveClick={action('approve-click')}
@@ -129,6 +144,24 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+    >
+      {children}
+    </Post>
+  ))
+  .add('retweet with comment', () => (
+    <Post
+      hasPermission
+      draftDetails={isARetweetDraftDetails}
+      links={links}
+      onMouseEnter={action('mouse-enter')}
+      onMouseLeave={action('mous-leave')}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      retweetProfile={retweetProfile}
+      retweetComment={retweetComment}
     >
       {children}
     </Post>

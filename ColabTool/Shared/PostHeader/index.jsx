@@ -6,15 +6,16 @@ import {
 import style from './style.css';
 
 const getPostDetailString = (draftDetails) => {
-  if (draftDetails.userName || draftDetails.email) {
-    if (draftDetails.via === 'api') {
-      return `${draftDetails.userName || draftDetails.email} created this ${draftDetails.createdAt}`;
-    }
+  const idInfo = draftDetails.userName || draftDetails.email;
+  const retweetString = draftDetails.isRetweet ? ' retweet' : '';
+  const isViaApi = draftDetails.via === 'api' || draftDetails.via === 'web';
+  const viaString = isViaApi ? ' ' : ` via ${draftDetails.via}`;
 
-    return `${draftDetails.userName || draftDetails.email} created this via ${draftDetails.via} ${draftDetails.createdAt}`;
+  if (idInfo) {
+    return `${idInfo} created this${retweetString} ${viaString} ${draftDetails.createdAt}`;
   }
 
-  return `Created via ${draftDetails.via} ${draftDetails.createdAt}`;
+  return `Created this${retweetString}${viaString} ${draftDetails.createdAt}`;
 };
 
 const PostHeader = ({
@@ -36,12 +37,13 @@ const PostHeader = ({
 
 PostHeader.propTypes = {
   draftDetails: PropTypes.shape({
-    userName: PropTypes.string,
     avatarUrl: PropTypes.string,
-    email: PropTypes.string,
     createdAt: PropTypes.string,
-    via: PropTypes.string,
+    email: PropTypes.string,
+    isRetweet: PropTypes.bool,
     postAction: PropTypes.string,
+    userName: PropTypes.string,
+    via: PropTypes.string,
   }).isRequired,
 };
 

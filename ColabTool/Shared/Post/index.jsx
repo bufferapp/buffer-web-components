@@ -1,20 +1,51 @@
 import React, { PropTypes } from 'react';
 import {
   Card,
+  LinkifiedText,
 } from '@bufferapp/components';
 import style from './style.css';
 import PostFooter from '../PostFooter';
 import PostHeader from '../PostHeader';
 import RetweetPanel from '../RetweetPanel';
 
-const renderRetweetPanel = (retweetProfile) => {
+const renderRetweetComment = ({retweetComment, links}) => (
+  <div className={style.comment}>
+    <LinkifiedText
+      links={links}
+      newTab
+      size={'mini'}
+      unstyled
+    >
+      { retweetComment }
+    </LinkifiedText>
+  </div>
+);
+
+const renderContent = ({
+  children,
+  links,
+  retweetComment,
+  retweetProfile,
+}) => {
   if (retweetProfile) {
     return (
-      <div className={style['retweet-profile-wrapper']}>
-        <RetweetPanel {...retweetProfile} />
+      <div className={style['post-content']}>
+        { retweetComment ? renderRetweetComment({retweetComment, links}) : '' }
+        <Card>
+          <div className={style['retweet-profile-wrapper']}>
+            <RetweetPanel {...retweetProfile} />
+          </div>
+          { children }
+        </Card>
       </div>
     );
   }
+
+  return (
+    <div className={style['post-content']}>
+      { children }
+    </div>
+  );
 };
 
 const Post = ({
@@ -24,6 +55,7 @@ const Post = ({
   isDeleting,
   isPastDue,
   isWorking,
+  links,
   manager,
   onApproveClick,
   onCancelConfirmClick,
@@ -32,6 +64,7 @@ const Post = ({
   onEditClick,
   onRescheduleClick,
   draftDetails,
+  retweetComment,
   retweetProfile,
 }) =>
   <div className={style['post-container']}>
@@ -43,10 +76,7 @@ const Post = ({
         <PostHeader
           draftDetails={draftDetails}
         />
-        <div className={style['post-content']}>
-          {renderRetweetPanel(retweetProfile)}
-          {children}
-        </div>
+        {renderContent({children, links, retweetProfile, retweetComment})}
         <PostFooter
           hasPermission={hasPermission}
           isDeleting={isDeleting}
@@ -72,6 +102,14 @@ Post.commonPropTypes = {
   isDeleting: PropTypes.bool,
   isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      rawString: PropTypes.string,
+      displayString: PropTypes.string,
+      expandedUrl: PropTypes.string,
+      indices: PropTypes.arrayOf(React.PropTypes.number),
+    }),
+  ),
   manager: PropTypes.bool,
   onApproveClick: PropTypes.func,
   onCancelConfirmClick: PropTypes.func.isRequired,
@@ -80,18 +118,20 @@ Post.commonPropTypes = {
   onEditClick: PropTypes.func.isRequired,
   onRescheduleClick: PropTypes.func,
   draftDetails: PropTypes.shape({
-    userName: PropTypes.string,
     avatarUrl: PropTypes.string,
-    email: PropTypes.string,
     createdAt: PropTypes.string,
-    via: PropTypes.string,
+    email: PropTypes.string,
+    isRetweet: PropTypes.bool,
     postAction: PropTypes.string,
+    userName: PropTypes.string,
+    via: PropTypes.string,
   }).isRequired,
   retweetProfile: PropTypes.shape({
-    name: PropTypes.string,
-    handle: PropTypes.string,
     avatarUrl: PropTypes.string,
+    handle: PropTypes.string,
+    name: PropTypes.string,
   }),
+  retweetComment: PropTypes.string,
 };
 
 Post.propTypes = {

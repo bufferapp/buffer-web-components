@@ -9,72 +9,78 @@ const draftDetails = {
   userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   email: 'ash@buffer.com',
-  via: 'web',
+  via: 'Buffer for Android',
   createdAt: 'on March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const justCreatedTimeDraftDetails = {
-  userName: 'Ash',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const noUserNameDraftDetails = {
-  userName: '',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'on March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const noUserNameViaApiDraftDetails = {
-  userName: '',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: 'ash@buffer.com',
-  via: 'api',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const noUserNameJustTimeDraftDetails = {
-  userName: '',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const noNameOrEmailDraftDetails = {
-  userName: '',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: '',
-  via: 'web',
-  createdAt: 'on March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
-};
-
-const noNameOrEmailJustTimeDraftDetails = {
-  userName: '',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: '',
-  via: 'web',
-  createdAt: 'at 12:45pm (GMT)',
   postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const viaApiDraftDetails = {
-  userName: 'Ash',
-  avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
-  email: 'ash@buffer.com',
+  ...draftDetails,
   via: 'api',
-  createdAt: 'on March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
+const justCreatedTimeDraftDetails = {
+  ...draftDetails,
+  createdAt: 'at 12:45pm (GMT)',
+};
+const justCreatedTimeViaApiDraftDetails = {
+  ...draftDetails,
+  via: 'api',
+  createdAt: 'at 12:45pm (GMT)',
+};
+
+const noUserNameViaApiDraftDetails = {
+  ...draftDetails,
+  userName: '',
+  via: 'api',
+};
+
+const noUserNameDraftDetails = {
+    ...draftDetails,
+  userName: '',
+};
+
+const noUserNameJustTimeDraftDetails = {
+  ...draftDetails,
+  userName: '',
+  createdAt: 'at 12:45pm (GMT)',
+};
+
+const noUserNameJustTimeViaApiDraftDetails = {
+  ...draftDetails,
+  userName: '',
+  createdAt: 'at 12:45pm (GMT)',
+  via: 'api',
+};
+
+const noNameOrEmailDraftDetails = {
+  ...draftDetails,
+  userName: '',
+  email: '',
+};
+
+const noNameOrEmailJustTimeDraftDetails = {
+  ...draftDetails,
+  userName: '',
+  email: '',
+  via: 'web',
+  createdAt: 'at 12:45pm (GMT)',
+};
+
+const isRetweetDraftDetails = {
+  ...draftDetails,
+  isRetweet: true,
+};
+
+const isRetweetViaApiDraftDetails = {
+  ...isRetweetDraftDetails,
+  via: 'api',
+};
+
+const noUsernameOrEmailIsRetweetDraftDetails = {
+  ...isRetweetDraftDetails,
+  userName: '',
+  email: '',
 };
 
 storiesOf('PostHeader')
@@ -84,9 +90,19 @@ storiesOf('PostHeader')
       draftDetails={draftDetails}
     />
   ))
-  .add('just created at time', () => (
+  .add('sent via API', () => (
+    <PostHeader
+      draftDetails={viaApiDraftDetails}
+    />
+  ))
+  .add('createdAt time', () => (
     <PostHeader
       draftDetails={justCreatedTimeDraftDetails}
+    />
+  ))
+  .add('createdAt time [api]', () => (
+    <PostHeader
+      draftDetails={justCreatedTimeViaApiDraftDetails}
     />
   ))
   .add('no userName', () => (
@@ -94,14 +110,19 @@ storiesOf('PostHeader')
       draftDetails={noUserNameDraftDetails}
     />
   ))
-  .add('no userName via api', () => (
+  .add('no userName [api]', () => (
     <PostHeader
       draftDetails={noUserNameViaApiDraftDetails}
     />
   ))
-  .add('no userName and just created at time', () => (
+  .add('no userName and createdAt time', () => (
     <PostHeader
       draftDetails={noUserNameJustTimeDraftDetails}
+    />
+  ))
+  .add('no userName and createdAt time [api]', () => (
+    <PostHeader
+      draftDetails={noUserNameJustTimeViaApiDraftDetails}
     />
   ))
   .add('no userName or Email', () => (
@@ -109,13 +130,23 @@ storiesOf('PostHeader')
       draftDetails={noNameOrEmailDraftDetails}
     />
   ))
-  .add('no userName or Email and just created at time', () => (
+  .add('no userName or Email and createdAt time [api]', () => (
     <PostHeader
       draftDetails={noNameOrEmailJustTimeDraftDetails}
     />
   ))
-  .add('sent via API', () => (
+  .add('retweet', () => (
     <PostHeader
-      draftDetails={viaApiDraftDetails}
+      draftDetails={isRetweetDraftDetails}
+    />
+  ))
+  .add('retweet [api]', () => (
+    <PostHeader
+      draftDetails={isRetweetViaApiDraftDetails}
+    />
+  ))
+  .add('no userName or Email and a retweet', () => (
+    <PostHeader
+      draftDetails={noUsernameOrEmailIsRetweetDraftDetails}
     />
   ));

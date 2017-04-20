@@ -3506,7 +3506,7 @@ exports[`Snapshots ImagePost Video Tag 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -3698,7 +3698,7 @@ exports[`Snapshots ImagePost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -3881,7 +3881,7 @@ exports[`Snapshots ImagePost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4082,7 +4082,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4232,7 +4232,7 @@ exports[`Snapshots ImagePost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4423,7 +4423,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4563,7 +4563,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this retweet   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4571,82 +4571,89 @@ exports[`Snapshots ImagePost retweet 1`] = `
         <div
           className="post-content"
         >
+          
           <div
-            className="retweet-profile-wrapper"
+            className="card"
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
           >
             <div
-              className="retweet-panel-container"
+              className="retweet-profile-wrapper"
             >
-              <img
-                alt="Image"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
-                style={
-                  Object {
-                    "height": "2rem",
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "2rem",
-                  }
-                }
-              />
               <div
-                className="retweet-handle-container"
+                className="retweet-panel-container"
               >
-                <span
-                  className="text small"
+                <img
+                  alt="Image"
+                  className="circle"
+                  src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+                  style={
+                    Object {
+                      "height": "2rem",
+                      "maxHeight": undefined,
+                      "maxWidth": undefined,
+                      "minHeight": undefined,
+                      "minWidth": undefined,
+                      "objectFit": undefined,
+                      "width": "2rem",
+                    }
+                  }
+                />
+                <div
+                  className="retweet-handle-container"
                 >
-                  Joel Gascoigne
-                </span>
-                <span
-                  className="text extraSmall"
-                >
-                  @joelgascoigne
-                </span>
+                  <span
+                    className="text small"
+                  >
+                    Joel Gascoigne
+                  </span>
+                  <span
+                    className="text extraSmall"
+                  >
+                    @joelgascoigne
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="post-content"
-          >
-            <span
-              className="post-content-text"
+            <div
+              className="post-content"
             >
               <span
-                className="text mini"
+                className="post-content-text"
               >
-                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
-                <a
-                  className="link unstyled"
-                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  target="_blank"
+                <span
+                  className="text mini"
                 >
-                  http://buff.ly/1LTbUqv
-                </a>
+                  What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                  <a
+                    className="link unstyled"
+                    href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                    target="_blank"
+                  >
+                    http://buff.ly/1LTbUqv
+                  </a>
+                </span>
               </span>
-            </span>
-            <div
-              className="image-wrapper"
-            >
-              <img
-                alt="Image"
-                className="rounded"
-                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": "20rem",
-                    "maxWidth": undefined,
-                    "minHeight": "10rem",
-                    "minWidth": undefined,
-                    "objectFit": "cover",
-                    "width": "15rem",
+              <div
+                className="image-wrapper"
+              >
+                <img
+                  alt="Image"
+                  className="rounded"
+                  src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                  style={
+                    Object {
+                      "height": undefined,
+                      "maxHeight": "20rem",
+                      "maxWidth": undefined,
+                      "minHeight": "10rem",
+                      "minWidth": undefined,
+                      "objectFit": "cover",
+                      "width": "15rem",
+                    }
                   }
-                }
-              />
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -4784,7 +4791,7 @@ exports[`Snapshots ImagePost square image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4967,7 +4974,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5150,7 +5157,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5333,7 +5340,7 @@ exports[`Snapshots LinkPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5557,7 +5564,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5799,7 +5806,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5990,7 +5997,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6222,7 +6229,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6403,7 +6410,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6627,7 +6634,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6851,7 +6858,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7075,7 +7082,7 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7338,7 +7345,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7568,7 +7575,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7839,7 +7846,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8059,7 +8066,7 @@ exports[`Snapshots Post default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8207,7 +8214,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8370,7 +8377,7 @@ exports[`Snapshots Post isDeleting 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8489,7 +8496,7 @@ exports[`Snapshots Post isWorking 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8637,7 +8644,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8756,7 +8763,7 @@ exports[`Snapshots Post manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8922,7 +8929,7 @@ exports[`Snapshots Post no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9037,7 +9044,7 @@ exports[`Snapshots Post past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9193,7 +9200,7 @@ exports[`Snapshots Post past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9298,7 +9305,200 @@ exports[`Snapshots Post retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          
+          <div
+            className="card"
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+          >
+            <div
+              className="retweet-profile-wrapper"
+            >
+              <div
+                className="retweet-panel-container"
+              >
+                <img
+                  alt="Image"
+                  className="circle"
+                  src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+                  style={
+                    Object {
+                      "height": "2rem",
+                      "maxHeight": undefined,
+                      "maxWidth": undefined,
+                      "minHeight": undefined,
+                      "minWidth": undefined,
+                      "objectFit": undefined,
+                      "width": "2rem",
+                    }
+                  }
+                />
+                <div
+                  className="retweet-handle-container"
+                >
+                  <span
+                    className="text small"
+                  >
+                    Joel Gascoigne
+                  </span>
+                  <span
+                    className="text extraSmall"
+                  >
+                    @joelgascoigne
+                  </span>
+                </div>
+              </div>
+            </div>
+            <span
+              className="text mini"
+            >
+              I am a text-only test post.
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Post retweet with comment 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this retweet   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9307,48 +9507,70 @@ exports[`Snapshots Post retweet 1`] = `
           className="post-content"
         >
           <div
-            className="retweet-profile-wrapper"
+            className="comment"
+          >
+            <span
+              className="text mini"
+            >
+              What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+              <a
+                className="link unstyled"
+                href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                target="_blank"
+              >
+                http://buff.ly/1LTbUqv
+              </a>
+            </span>
+          </div>
+          <div
+            className="card"
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
           >
             <div
-              className="retweet-panel-container"
+              className="retweet-profile-wrapper"
             >
-              <img
-                alt="Image"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
-                style={
-                  Object {
-                    "height": "2rem",
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "2rem",
-                  }
-                }
-              />
               <div
-                className="retweet-handle-container"
+                className="retweet-panel-container"
               >
-                <span
-                  className="text small"
+                <img
+                  alt="Image"
+                  className="circle"
+                  src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+                  style={
+                    Object {
+                      "height": "2rem",
+                      "maxHeight": undefined,
+                      "maxWidth": undefined,
+                      "minHeight": undefined,
+                      "minWidth": undefined,
+                      "objectFit": undefined,
+                      "width": "2rem",
+                    }
+                  }
+                />
+                <div
+                  className="retweet-handle-container"
                 >
-                  Joel Gascoigne
-                </span>
-                <span
-                  className="text extraSmall"
-                >
-                  @joelgascoigne
-                </span>
+                  <span
+                    className="text small"
+                  >
+                    Joel Gascoigne
+                  </span>
+                  <span
+                    className="text extraSmall"
+                  >
+                    @joelgascoigne
+                  </span>
+                </div>
               </div>
             </div>
+            <span
+              className="text mini"
+            >
+              I am a text-only test post.
+            </span>
           </div>
-          <span
-            className="text mini"
-          >
-            I am a text-only test post.
-          </span>
         </div>
         <div
           className="post-details"
@@ -10454,6 +10676,82 @@ exports[`Snapshots PostFooter past due with permission 1`] = `
 </span>
 `;
 
+exports[`Snapshots PostHeader createdAt time [api] 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          Ash created this   at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostHeader createdAt time 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          Ash created this  via Buffer for Android at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
 exports[`Snapshots PostHeader default 1`] = `
 <span>
   <div
@@ -10484,7 +10782,7 @@ exports[`Snapshots PostHeader default 1`] = `
         <span
           className="text small"
         >
-          Ash created this via web on March 2nd at 12:45pm (GMT)
+          Ash created this  via Buffer for Android on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10492,7 +10790,7 @@ exports[`Snapshots PostHeader default 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostHeader just created at time 1`] = `
+exports[`Snapshots PostHeader no userName [api] 1`] = `
 <span>
   <div
     className="post-details"
@@ -10501,7 +10799,7 @@ exports[`Snapshots PostHeader just created at time 1`] = `
       className="post-author"
     >
       <img
-        alt="Ash"
+        alt=""
         className="circle"
         src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
         style={
@@ -10522,7 +10820,7 @@ exports[`Snapshots PostHeader just created at time 1`] = `
         <span
           className="text small"
         >
-          Ash created this via web at 12:45pm (GMT)
+          ash@buffer.com created this   on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10560,7 +10858,7 @@ exports[`Snapshots PostHeader no userName 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this via web on March 2nd at 12:45pm (GMT)
+          ash@buffer.com created this  via Buffer for Android on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10568,7 +10866,7 @@ exports[`Snapshots PostHeader no userName 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostHeader no userName and just created at time 1`] = `
+exports[`Snapshots PostHeader no userName and createdAt time [api] 1`] = `
 <span>
   <div
     className="post-details"
@@ -10598,7 +10896,45 @@ exports[`Snapshots PostHeader no userName and just created at time 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this via web at 12:45pm (GMT)
+          ash@buffer.com created this   at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostHeader no userName and createdAt time 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt=""
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          ash@buffer.com created this  via Buffer for Android at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10636,7 +10972,7 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
         <span
           className="text small"
         >
-          Created via web on March 2nd at 12:45pm (GMT)
+          Created this via Buffer for Android on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10644,7 +10980,7 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostHeader no userName or Email and just created at time 1`] = `
+exports[`Snapshots PostHeader no userName or Email and a retweet 1`] = `
 <span>
   <div
     className="post-details"
@@ -10674,7 +11010,7 @@ exports[`Snapshots PostHeader no userName or Email and just created at time 1`] 
         <span
           className="text small"
         >
-          Created via web at 12:45pm (GMT)
+          Created this retweet via Buffer for Android on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10682,7 +11018,7 @@ exports[`Snapshots PostHeader no userName or Email and just created at time 1`] 
 </span>
 `;
 
-exports[`Snapshots PostHeader no userName via api 1`] = `
+exports[`Snapshots PostHeader no userName or Email and createdAt time [api] 1`] = `
 <span>
   <div
     className="post-details"
@@ -10712,7 +11048,83 @@ exports[`Snapshots PostHeader no userName via api 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this March 2nd at 12:45pm (GMT)
+          Created this  at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostHeader retweet [api] 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          Ash created this retweet   on March 2nd at 12:45pm (GMT)
+        </span>
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostHeader retweet 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-author"
+    >
+      <img
+        alt="Ash"
+        className="circle"
+        src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+        style={
+          Object {
+            "height": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "objectFit": undefined,
+            "width": "1.25rem",
+          }
+        }
+      />
+      <span
+        className="post-info"
+      >
+        <span
+          className="text small"
+        >
+          Ash created this retweet  via Buffer for Android on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10750,7 +11162,7 @@ exports[`Snapshots PostHeader sent via API 1`] = `
         <span
           className="text small"
         >
-          Ash created this on March 2nd at 12:45pm (GMT)
+          Ash created this   on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10855,7 +11267,7 @@ exports[`Snapshots TextPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11018,7 +11430,7 @@ exports[`Snapshots TextPost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11199,7 +11611,7 @@ exports[`Snapshots TextPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11329,7 +11741,7 @@ exports[`Snapshots TextPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11500,7 +11912,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11620,7 +12032,7 @@ exports[`Snapshots TextPost retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this via web March 2nd at 12:45pm (GMT)
+                Ash created this retweet   on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11628,63 +12040,70 @@ exports[`Snapshots TextPost retweet 1`] = `
         <div
           className="post-content"
         >
+          
           <div
-            className="retweet-profile-wrapper"
+            className="card"
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
           >
             <div
-              className="retweet-panel-container"
+              className="retweet-profile-wrapper"
             >
-              <img
-                alt="Image"
-                className="circle"
-                src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
-                style={
-                  Object {
-                    "height": "2rem",
-                    "maxHeight": undefined,
-                    "maxWidth": undefined,
-                    "minHeight": undefined,
-                    "minWidth": undefined,
-                    "objectFit": undefined,
-                    "width": "2rem",
-                  }
-                }
-              />
               <div
-                className="retweet-handle-container"
+                className="retweet-panel-container"
               >
-                <span
-                  className="text small"
+                <img
+                  alt="Image"
+                  className="circle"
+                  src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+                  style={
+                    Object {
+                      "height": "2rem",
+                      "maxHeight": undefined,
+                      "maxWidth": undefined,
+                      "minHeight": undefined,
+                      "minWidth": undefined,
+                      "objectFit": undefined,
+                      "width": "2rem",
+                    }
+                  }
+                />
+                <div
+                  className="retweet-handle-container"
                 >
-                  Joel Gascoigne
-                </span>
-                <span
-                  className="text extraSmall"
-                >
-                  @joelgascoigne
-                </span>
+                  <span
+                    className="text small"
+                  >
+                    Joel Gascoigne
+                  </span>
+                  <span
+                    className="text extraSmall"
+                  >
+                    @joelgascoigne
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="post-content"
-          >
-            <span
-              className="post-content-text"
+            <div
+              className="post-content"
             >
               <span
-                className="text mini"
+                className="post-content-text"
               >
-                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
-                <a
-                  className="link unstyled"
-                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  target="_blank"
+                <span
+                  className="text mini"
                 >
-                  http://buff.ly/1LTbUqv
-                </a>
+                  What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                  <a
+                    className="link unstyled"
+                    href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                    target="_blank"
+                  >
+                    http://buff.ly/1LTbUqv
+                  </a>
+                </span>
               </span>
-            </span>
+            </div>
           </div>
         </div>
         <div

@@ -18,12 +18,18 @@ const text = 'What is a Product Designer? An awesome story by @jgadapee over on 
 const type = 'VIDEO';
 
 const draftDetails = {
-  userName: 'Ash',
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
+  createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
-  via: 'web',
-  createdAt: 'March 2nd at 12:45pm (GMT)',
+  isRetweet: false,
   postAction: 'This post is scheduled for 9:42pm (GMT)',
+  userName: 'Ash',
+  via: 'web',
+};
+
+const isARetweetDraftDetails = {
+  ...draftDetails,
+  isRetweet: true,
 };
 
 const draftDetailsPastDue = {
@@ -121,7 +127,7 @@ storiesOf('ImagePost')
       hasPermission
       imageSrc={imageSrc}
       links={links}
-      draftDetails={draftDetails}
+      draftDetails={isARetweetDraftDetails}
       text={text}
       onApproveClick={action('approve-click')}
       onCancelConfirmClick={action('cancel-confirm-click')}
