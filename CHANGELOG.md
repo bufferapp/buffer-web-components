@@ -1,8 +1,9 @@
 # Changelog
 
-## 0.0.29 (April 19, 2017)
+## 0.0.29 (April 20, 2017)
 
 - Add `DateTimeForm` component
+- Update retweet UI, add `isRetweet` to `draftDetails` for shared `Post` component.
 
 ## 0.0.28 (April 17, 2017)
 
