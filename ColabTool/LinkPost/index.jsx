@@ -40,7 +40,7 @@ const LinkPost = ({
         </LinkifiedText>
       </div>
       <div>
-        <Link href={linkAttachment.url} unstyled>
+        <Link href={linkAttachment.url} unstyled newTab>
           <Card
             noPadding
           >

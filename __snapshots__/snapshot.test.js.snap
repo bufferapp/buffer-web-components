@@ -5371,7 +5371,7 @@ exports[`Snapshots LinkPost default 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -5595,7 +5595,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -5837,7 +5837,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -6028,7 +6028,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -6260,7 +6260,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -6441,7 +6441,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -6665,7 +6665,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
@@ -6889,7 +6889,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               <a
                 className="link unstyled"
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                target="_self"
+                target="_blank"
               >
                 <div
                   className="card no-padding"
