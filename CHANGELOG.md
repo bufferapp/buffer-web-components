@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.31 (April 21, 2017)
+
+- Use `newTab` config in `Link` component in `LinkPost`.
+
 ## 0.0.30 (April 21, 2017)
 
 - Add `retweetCommentLinks` to `TextPost`, `Post` components.
