@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.30 (April 21, 2017)
+
+- Add `retweetCommentLinks` to `TextPost`, `Post` components.
+
 ## 0.0.29 (April 20, 2017)
 
 - Add `DateTimeForm` component
