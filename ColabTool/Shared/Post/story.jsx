@@ -152,7 +152,7 @@ storiesOf('Post')
     <Post
       hasPermission
       draftDetails={isARetweetDraftDetails}
-      links={links}
+      retweetCommentLinks={links}
       onMouseEnter={action('mouse-enter')}
       onMouseLeave={action('mous-leave')}
       onApproveClick={action('approve-click')}

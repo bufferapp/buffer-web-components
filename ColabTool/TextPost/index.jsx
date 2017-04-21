@@ -23,6 +23,8 @@ const TextPost = ({
   draftDetails,
   text,
   retweetProfile,
+  retweetComment,
+  retweetCommentLinks,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -58,6 +60,8 @@ const TextPost = ({
       draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}
+      retweetComment={retweetComment}
+      retweetCommentLinks={retweetCommentLinks}
     >
       {children}
     </Post>
@@ -74,6 +78,14 @@ TextPost.propTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ).isRequired,
+  retweetCommentLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      rawString: PropTypes.string,
+      displayString: PropTypes.string,
+      expandedUrl: PropTypes.string,
+      indices: PropTypes.arrayOf(React.PropTypes.number),
+    }),
+  ),
   text: PropTypes.string.isRequired,
 };
 

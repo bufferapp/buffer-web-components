@@ -8,10 +8,10 @@ import PostFooter from '../PostFooter';
 import PostHeader from '../PostHeader';
 import RetweetPanel from '../RetweetPanel';
 
-const renderRetweetComment = ({retweetComment, links}) => (
+const renderRetweetComment = ({retweetComment, retweetCommentLinks}) => (
   <div className={style.comment}>
     <LinkifiedText
-      links={links}
+      links={retweetCommentLinks}
       newTab
       size={'mini'}
       unstyled
@@ -23,14 +23,14 @@ const renderRetweetComment = ({retweetComment, links}) => (
 
 const renderContent = ({
   children,
-  links,
   retweetComment,
+  retweetCommentLinks,
   retweetProfile,
 }) => {
   if (retweetProfile) {
     return (
       <div className={style['post-content']}>
-        { retweetComment ? renderRetweetComment({retweetComment, links}) : '' }
+        { retweetComment ? renderRetweetComment({retweetComment, retweetCommentLinks}) : '' }
         <Card>
           <div className={style['retweet-profile-wrapper']}>
             <RetweetPanel {...retweetProfile} />
@@ -55,7 +55,6 @@ const Post = ({
   isDeleting,
   isPastDue,
   isWorking,
-  links,
   manager,
   onApproveClick,
   onCancelConfirmClick,
@@ -65,6 +64,7 @@ const Post = ({
   onRescheduleClick,
   draftDetails,
   retweetComment,
+  retweetCommentLinks,
   retweetProfile,
 }) =>
   <div className={style['post-container']}>
@@ -76,7 +76,7 @@ const Post = ({
         <PostHeader
           draftDetails={draftDetails}
         />
-        {renderContent({children, links, retweetProfile, retweetComment})}
+        {renderContent({children, retweetProfile, retweetComment, retweetCommentLinks})}
         <PostFooter
           hasPermission={hasPermission}
           isDeleting={isDeleting}
@@ -102,14 +102,6 @@ Post.commonPropTypes = {
   isDeleting: PropTypes.bool,
   isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
-  links: PropTypes.arrayOf(
-    PropTypes.shape({
-      rawString: PropTypes.string,
-      displayString: PropTypes.string,
-      expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(React.PropTypes.number),
-    }),
-  ),
   manager: PropTypes.bool,
   onApproveClick: PropTypes.func,
   onCancelConfirmClick: PropTypes.func.isRequired,
@@ -132,6 +124,14 @@ Post.commonPropTypes = {
     name: PropTypes.string,
   }),
   retweetComment: PropTypes.string,
+  retweetCommentLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      rawString: PropTypes.string,
+      displayString: PropTypes.string,
+      expandedUrl: PropTypes.string,
+      indices: PropTypes.arrayOf(React.PropTypes.number),
+    }),
+  ),
 };
 
 Post.propTypes = {

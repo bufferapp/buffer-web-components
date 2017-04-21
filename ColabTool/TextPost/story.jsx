@@ -15,6 +15,15 @@ const links = [{
 
 const text = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
+const retweetComment = 'Awesome book news here: http://buff.ly/2oZYTnY';
+
+const retweetCommentLinks = [{
+  rawString: 'http://buff.ly/2oZYTnY',
+  displayString: 'http://buff.ly/2oZYTnY',
+  url: 'https://www.theguardian.com/books',
+  indices: [24, 46],
+}];
+
 const draftDetails = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   createdAt: 'on March 2nd at 12:45pm (GMT)',
@@ -83,6 +92,22 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+    />
+  ))
+  .add('retweet with comment', () => (
+    <TextPost
+      hasPermission
+      links={links}
+      draftDetails={isARetweetDraftDetails}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      retweetProfile={retweetProfile}
+      retweetComment={retweetComment}
+      retweetCommentLinks={retweetCommentLinks}
     />
   ))
   .add('past due', () => (
