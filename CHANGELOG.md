@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.33 (April 27, 2017)
+
+- Add error display to `DateTimeForm`
+
 ## 0.0.32 (April 26, 2017)
 
 - Use `color` and `reducedPadding` config in `Card` component in `Post`.
