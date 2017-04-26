@@ -13,7 +13,13 @@ const renderTimezoneLabel = timezoneLabel =>
     <Text>{timezoneLabel}</Text>
   </div>;
 
+const renderError = error =>
+  <div className={styles.error}>
+    <Text color={'red'}>{error}</Text>
+  </div>;
+
 const DateTimeForm = ({
+  error,
   handleSubmit,
   submitting,
   timezoneLabel,
@@ -32,6 +38,7 @@ const DateTimeForm = ({
     <div className={styles.time}>
       <Field name={'time'} component={InputTime} />
     </div>
+    { error ? renderError(error) : null }
     <div className={styles.submitButton}>
       <Button
         onClick={handleSubmit}
@@ -44,6 +51,7 @@ const DateTimeForm = ({
   </form>;
 
 DateTimeForm.propTypes = {
+  error: PropTypes.string,
   handleSubmit: PropTypes.func.isRequired,
   submitting: PropTypes.bool.isRequired,
   timezoneLabel: PropTypes.string,

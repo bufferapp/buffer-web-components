@@ -22,11 +22,15 @@
     "coverageThreshold": {
       "global": {
         "branches": 100,
-        "functions": 97,
-        "lines": 98,
-        "statements": 98
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
       }
-    }
+    },
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "story.jsx"
+    ]
   },
   "repository": {
     "type": "git",
@@ -52,6 +56,7 @@
     "babel-preset-react": "6.23.0",
     "babel-preset-stage-0": "6.22.0",
     "css-loader": "0.28.0",
+    "enzyme": "2.8.0",
     "eslint": "3.19.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
@@ -74,7 +79,7 @@
     "style-loader": "0.16.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.4.18",
+    "@bufferapp/components": "0.4.19",
     "redux-form": "6.6.3"
   }
 }

@@ -5,7 +5,10 @@ import {
 } from '@kadira/storybook';
 import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
-import { reducer as formReducer } from 'redux-form';
+import {
+  reducer as formReducer,
+  SubmissionError,
+} from 'redux-form';
 import { checkA11y } from 'storybook-addon-a11y';
 import DateTimeForm from './index';
 
@@ -62,5 +65,27 @@ storiesOf('DateTimeForm')
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
       disableBefore={disableBefore}
+    />
+  ))
+  .add('with error', () => (
+    <DateTimeForm
+      onSubmit={() => {
+        throw new SubmissionError({
+          _error: 'Oops! You need to schedule your update for some time in the future!',
+        })
+      }}
+      initialMonthYear={initialMonthYear}
+      initialValues={initialValues}
+    />
+  ))
+  .add('with submitting delay', () => (
+    <DateTimeForm
+      onSubmit={() => new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve();
+        }, 2000);
+      })}
+      initialMonthYear={initialMonthYear}
+      initialValues={initialValues}
     />
   ));

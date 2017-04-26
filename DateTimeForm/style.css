@@ -1,4 +1,4 @@
-.time, .submitButton, .timezoneLabel {
+.time, .submitButton, .timezoneLabel, .error {
   margin-top: 1rem;
   text-align: center;
 }
