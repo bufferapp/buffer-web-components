@@ -31,7 +31,10 @@ const renderContent = ({
     return (
       <div className={style['post-content']}>
         { retweetComment ? renderRetweetComment({retweetComment, retweetCommentLinks}) : '' }
-        <Card>
+        <Card
+          color={'off-white'}
+          reducedPadding
+        >
           <div className={style['retweet-profile-wrapper']}>
             <RetweetPanel {...retweetProfile} />
           </div>

@@ -3506,7 +3506,7 @@ exports[`Snapshots ImagePost Video Tag 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -3698,7 +3698,7 @@ exports[`Snapshots ImagePost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -3881,7 +3881,7 @@ exports[`Snapshots ImagePost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4082,7 +4082,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4232,7 +4232,7 @@ exports[`Snapshots ImagePost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4423,7 +4423,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4563,7 +4563,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4573,7 +4573,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
         >
           
           <div
-            className="card"
+            className="card reduced-padding offWhite"
             onMouseEnter={undefined}
             onMouseLeave={undefined}
           >
@@ -4791,7 +4791,7 @@ exports[`Snapshots ImagePost square image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -4974,7 +4974,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5157,7 +5157,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5340,7 +5340,7 @@ exports[`Snapshots LinkPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5564,7 +5564,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5806,7 +5806,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -5997,7 +5997,7 @@ exports[`Snapshots LinkPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6229,7 +6229,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6410,7 +6410,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6634,7 +6634,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -6858,7 +6858,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7082,7 +7082,7 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7345,7 +7345,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7575,7 +7575,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -7846,7 +7846,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   March 2nd at 12:45pm (GMT)
+                Ash created this March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8066,7 +8066,7 @@ exports[`Snapshots Post default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8214,7 +8214,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8377,7 +8377,7 @@ exports[`Snapshots Post isDeleting 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8496,7 +8496,7 @@ exports[`Snapshots Post isWorking 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8644,7 +8644,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8763,7 +8763,7 @@ exports[`Snapshots Post manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -8929,7 +8929,7 @@ exports[`Snapshots Post no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9044,7 +9044,7 @@ exports[`Snapshots Post past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9200,7 +9200,7 @@ exports[`Snapshots Post past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9305,7 +9305,7 @@ exports[`Snapshots Post retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9315,7 +9315,7 @@ exports[`Snapshots Post retweet 1`] = `
         >
           
           <div
-            className="card"
+            className="card reduced-padding offWhite"
             onMouseEnter={undefined}
             onMouseLeave={undefined}
           >
@@ -9498,7 +9498,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
               <span
                 className="text small"
               >
-                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -9523,7 +9523,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
             </span>
           </div>
           <div
-            className="card"
+            className="card reduced-padding offWhite"
             onMouseEnter={undefined}
             onMouseLeave={undefined}
           >
@@ -10706,7 +10706,7 @@ exports[`Snapshots PostHeader createdAt time [api] 1`] = `
         <span
           className="text small"
         >
-          Ash created this   at 12:45pm (GMT)
+          Ash created this at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10744,7 +10744,7 @@ exports[`Snapshots PostHeader createdAt time 1`] = `
         <span
           className="text small"
         >
-          Ash created this  via Buffer for Android at 12:45pm (GMT)
+          Ash created this at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10782,7 +10782,7 @@ exports[`Snapshots PostHeader default 1`] = `
         <span
           className="text small"
         >
-          Ash created this  via Buffer for Android on March 2nd at 12:45pm (GMT)
+          Ash created this on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10820,7 +10820,7 @@ exports[`Snapshots PostHeader no userName [api] 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this   on March 2nd at 12:45pm (GMT)
+          ash@buffer.com created this on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10858,7 +10858,7 @@ exports[`Snapshots PostHeader no userName 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this  via Buffer for Android on March 2nd at 12:45pm (GMT)
+          ash@buffer.com created this on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10896,7 +10896,7 @@ exports[`Snapshots PostHeader no userName and createdAt time [api] 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this   at 12:45pm (GMT)
+          ash@buffer.com created this at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10934,7 +10934,7 @@ exports[`Snapshots PostHeader no userName and createdAt time 1`] = `
         <span
           className="text small"
         >
-          ash@buffer.com created this  via Buffer for Android at 12:45pm (GMT)
+          ash@buffer.com created this at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -10972,7 +10972,7 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
         <span
           className="text small"
         >
-          Created this via Buffer for Android on March 2nd at 12:45pm (GMT)
+          Created this on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11010,7 +11010,7 @@ exports[`Snapshots PostHeader no userName or Email and a retweet 1`] = `
         <span
           className="text small"
         >
-          Created this retweet via Buffer for Android on March 2nd at 12:45pm (GMT)
+          Created this retweet on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11048,7 +11048,7 @@ exports[`Snapshots PostHeader no userName or Email and createdAt time [api] 1`] 
         <span
           className="text small"
         >
-          Created this  at 12:45pm (GMT)
+          Created this at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11086,7 +11086,7 @@ exports[`Snapshots PostHeader retweet [api] 1`] = `
         <span
           className="text small"
         >
-          Ash created this retweet   on March 2nd at 12:45pm (GMT)
+          Ash created this retweet on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11124,7 +11124,7 @@ exports[`Snapshots PostHeader retweet 1`] = `
         <span
           className="text small"
         >
-          Ash created this retweet  via Buffer for Android on March 2nd at 12:45pm (GMT)
+          Ash created this retweet on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11162,7 +11162,7 @@ exports[`Snapshots PostHeader sent via API 1`] = `
         <span
           className="text small"
         >
-          Ash created this   on March 2nd at 12:45pm (GMT)
+          Ash created this on March 2nd at 12:45pm (GMT)
         </span>
       </span>
     </div>
@@ -11267,7 +11267,7 @@ exports[`Snapshots TextPost default 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11430,7 +11430,7 @@ exports[`Snapshots TextPost manager 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11611,7 +11611,7 @@ exports[`Snapshots TextPost no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11741,7 +11741,7 @@ exports[`Snapshots TextPost past due 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -11912,7 +11912,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
               <span
                 className="text small"
               >
-                Ash created this   on March 2nd at 12:45pm (GMT)
+                Ash created this on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -12032,7 +12032,7 @@ exports[`Snapshots TextPost retweet 1`] = `
               <span
                 className="text small"
               >
-                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -12042,7 +12042,7 @@ exports[`Snapshots TextPost retweet 1`] = `
         >
           
           <div
-            className="card"
+            className="card reduced-padding offWhite"
             onMouseEnter={undefined}
             onMouseLeave={undefined}
           >
@@ -12240,7 +12240,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
               <span
                 className="text small"
               >
-                Ash created this retweet   on March 2nd at 12:45pm (GMT)
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
               </span>
             </span>
           </div>
@@ -12265,7 +12265,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
             </span>
           </div>
           <div
-            className="card"
+            className="card reduced-padding offWhite"
             onMouseEnter={undefined}
             onMouseLeave={undefined}
           >

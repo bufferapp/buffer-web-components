@@ -8,14 +8,12 @@ import style from './style.css';
 const getPostDetailString = (draftDetails) => {
   const idInfo = draftDetails.userName || draftDetails.email;
   const retweetString = draftDetails.isRetweet ? ' retweet' : '';
-  const isViaApi = draftDetails.via === 'api' || draftDetails.via === 'web';
-  const viaString = isViaApi ? ' ' : ` via ${draftDetails.via}`;
 
   if (idInfo) {
-    return `${idInfo} created this${retweetString} ${viaString} ${draftDetails.createdAt}`;
+    return `${idInfo} created this${retweetString} ${draftDetails.createdAt}`;
   }
 
-  return `Created this${retweetString}${viaString} ${draftDetails.createdAt}`;
+  return `Created this${retweetString} ${draftDetails.createdAt}`;
 };
 
 const PostHeader = ({
