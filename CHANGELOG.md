@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.32 (April 26, 2017)
+
+- Use `color` and `reducedPadding` config in `Card` component in `Post`.
+- Remove 'via' text in `PostHeader`.
+
 ## 0.0.31 (April 21, 2017)
 
 - Use `newTab` config in `Link` component in `LinkPost`.
