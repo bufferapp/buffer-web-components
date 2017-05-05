@@ -7,9 +7,9 @@ import {
 import style from './style.css';
 import Post from '../Shared/Post';
 
-const renderTag = (type) => {
-  if (!type) return;
-  return <IdTag>{type}</IdTag>;
+const renderTag = (tag) => {
+  if (!tag) return;
+  return <IdTag>{tag}</IdTag>;
 };
 
 const ImagePost = ({
@@ -29,7 +29,7 @@ const ImagePost = ({
   onRescheduleClick,
   draftDetails,
   text,
-  type,
+  tag,
   retweetProfile,
 }) => {
   const children = (
@@ -53,7 +53,7 @@ const ImagePost = ({
           border={'rounded'}
           objectFit={'cover'}
         />
-        { renderTag(type) }
+        { renderTag(tag) }
       </div>
 
     </div>
@@ -96,7 +96,7 @@ ImagePost.propTypes = {
     }),
   ).isRequired,
   text: PropTypes.string.isRequired,
-  type: PropTypes.string,
+  tag: PropTypes.string,
 };
 
 ImagePost.defaultProps = Post.defaultProps;

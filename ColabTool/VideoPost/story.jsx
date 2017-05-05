@@ -4,7 +4,7 @@ import {
   action,
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
-import ImagePost from './index';
+import VideoPost from './index';
 
 const links = [{
   rawString: 'http://buff.ly/1LTbUqv',
@@ -47,10 +47,10 @@ const squareImage = 'http://lorempixel.com/400/400/cats/';
 const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
-storiesOf('ImagePost')
+storiesOf('VideoPost')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={imageSrc}
       links={links}
@@ -64,7 +64,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('manager', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={imageSrc}
       links={links}
@@ -79,7 +79,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('square image', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={squareImage}
       links={links}
@@ -93,7 +93,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('tall image', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={tallImage}
       links={links}
@@ -107,7 +107,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('wide image', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={wideImage}
       links={links}
@@ -121,7 +121,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('retweet', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={imageSrc}
       links={links}
@@ -136,7 +136,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('past due', () => (
-    <ImagePost
+    <VideoPost
       hasPermission
       imageSrc={imageSrc}
       links={links}
@@ -152,7 +152,7 @@ storiesOf('ImagePost')
     />
   ))
   .add('past due no permission', () => (
-    <ImagePost
+    <VideoPost
       hasPermission={false}
       imageSrc={imageSrc}
       links={links}
@@ -167,23 +167,8 @@ storiesOf('ImagePost')
       onRescheduleClick={action('reschedule-click')}
     />
   ))
-  .add('tag', () => (
-    <ImagePost
-      hasPermission
-      imageSrc={imageSrc}
-      links={links}
-      draftDetails={draftDetails}
-      text={text}
-      tag={'GIF'}
-      onApproveClick={action('approve-click')}
-      onCancelConfirmClick={action('cancel-confirm-click')}
-      onDeleteClick={action('delete-click')}
-      onDeleteConfirmClick={action('delete-confirm-click')}
-      onEditClick={action('edit-click')}
-    />
-  ))
   .add('no permission', () => (
-    <ImagePost
+    <VideoPost
       hasPermission={false}
       imageSrc={imageSrc}
       links={links}

@@ -5780,198 +5780,6 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
 </span>
 `;
 
-exports[`Snapshots ImagePost Video Tag 1`] = `
-<span>
-  <div
-    className="post-container"
-  >
-    <div
-      className="post"
-    >
-      <div
-        className="card no-padding"
-        onMouseEnter={undefined}
-        onMouseLeave={undefined}
-      >
-        <div
-          className="post-details"
-        >
-          <div
-            className="post-author"
-          >
-            <img
-              alt="Ash"
-              className="circle"
-              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
-              style={
-                Object {
-                  "height": undefined,
-                  "maxHeight": undefined,
-                  "maxWidth": undefined,
-                  "minHeight": undefined,
-                  "minWidth": undefined,
-                  "objectFit": undefined,
-                  "width": "1.25rem",
-                }
-              }
-            />
-            <span
-              className="post-info"
-            >
-              <span
-                className="text small"
-              >
-                Ash created this on March 2nd at 12:45pm (GMT)
-              </span>
-            </span>
-          </div>
-        </div>
-        <div
-          className="post-content"
-        >
-          <div
-            className="post-content"
-          >
-            <span
-              className="post-content-text"
-            >
-              <span
-                className="text mini"
-              >
-                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
-                <a
-                  className="link unstyled"
-                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  target="_blank"
-                >
-                  http://buff.ly/1LTbUqv
-                </a>
-              </span>
-            </span>
-            <div
-              className="image-wrapper"
-            >
-              <img
-                alt="Image"
-                className="rounded"
-                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
-                style={
-                  Object {
-                    "height": undefined,
-                    "maxHeight": "20rem",
-                    "maxWidth": undefined,
-                    "minHeight": "10rem",
-                    "minWidth": undefined,
-                    "objectFit": "cover",
-                    "width": "15rem",
-                  }
-                }
-              />
-              <span
-                className="label"
-              >
-                <span
-                  className="text white"
-                >
-                  VIDEO
-                </span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="post-details"
-        >
-          <div
-            className="post-action-details"
-          >
-            <svg
-              className="icon shuttleGray"
-              height="100%"
-              version="1.1"
-              viewBox="0 0 16 16"
-              width="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <g
-                className="shuttleGray"
-              >
-                <path
-                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-                />
-                <rect
-                  height="6"
-                  rx="1"
-                  width="2"
-                  x="7"
-                  y="3"
-                />
-                <rect
-                  height="6"
-                  rx="1"
-                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-                  width="2"
-                  x="8.41842728"
-                  y="6.57842712"
-                />
-              </g>
-            </svg>
-            <span
-              className="post-action"
-            >
-              <span
-                className="text small"
-              >
-                This post is scheduled for 9:42pm (GMT)
-              </span>
-            </span>
-          </div>
-          <div
-            className="post-controls"
-          >
-            <div>
-              <span>
-                <span
-                  className="post-button"
-                >
-                  <button
-                    className="no-style"
-                    disabled={undefined}
-                    onClick={[Function]}
-                  >
-                    <span
-                      className="text small"
-                    >
-                      Delete
-                    </span>
-                  </button>
-                </span>
-              </span>
-              <span
-                className="post-button-last"
-              >
-                <button
-                  className="no-style"
-                  disabled={undefined}
-                  onClick={[Function]}
-                >
-                  <span
-                    className="text small"
-                  >
-                    Edit
-                  </span>
-                </button>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</span>
-`;
-
 exports[`Snapshots ImagePost default 1`] = `
 <span>
   <div
@@ -7152,6 +6960,198 @@ exports[`Snapshots ImagePost square image 1`] = `
                   }
                 }
               />
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots ImagePost tag 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  GIF
+                </span>
+              </span>
             </div>
           </div>
         </div>
@@ -13485,6 +13485,2402 @@ exports[`Snapshots PostHeader sent via API 1`] = `
 </span>
 `;
 
+exports[`Snapshots PostList default 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:58 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      New thing
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:59 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      Another thing, that is also new
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots PostList image posts 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:58 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      New thing
+                    </span>
+                  </span>
+                  <div
+                    className="image-wrapper"
+                  >
+                    <img
+                      alt="Image"
+                      className="rounded"
+                      src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "maxHeight": "20rem",
+                          "maxWidth": undefined,
+                          "minHeight": "10rem",
+                          "minWidth": undefined,
+                          "objectFit": "cover",
+                          "width": "15rem",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:59 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      Another thing, that is also new
+                    </span>
+                  </span>
+                  <div
+                    className="image-wrapper"
+                  >
+                    <img
+                      alt="Image"
+                      className="rounded"
+                      src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "maxHeight": "20rem",
+                          "maxWidth": undefined,
+                          "minHeight": "10rem",
+                          "minWidth": undefined,
+                          "objectFit": "cover",
+                          "width": "15rem",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots PostList link posts 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Ash"
+                    className="circle"
+                    src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Ash created this March 2nd at 12:45pm (GMT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <div
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                      <a
+                        className="link unstyled"
+                        href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                        target="_blank"
+                      >
+                        http://buff.ly/1LTbUqv
+                      </a>
+                    </span>
+                  </div>
+                  <div>
+                    <a
+                      className="link unstyled"
+                      href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                      target="_blank"
+                    >
+                      <div
+                        className="card no-padding"
+                        onMouseEnter={undefined}
+                        onMouseLeave={undefined}
+                      >
+                        <div
+                          className="link-attachment-content"
+                        >
+                          <img
+                            alt="Image"
+                            className="rounded"
+                            src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                            style={
+                              Object {
+                                "height": "10rem",
+                                "maxHeight": undefined,
+                                "maxWidth": "15rem",
+                                "minHeight": undefined,
+                                "minWidth": "15rem",
+                                "objectFit": "cover",
+                                "width": "15rem",
+                              }
+                            }
+                          />
+                          <div
+                            className="link-attachment-text"
+                          >
+                            <div>
+                              <span
+                                className="text"
+                              >
+                                What is a Product Designer?
+                              </span>
+                            </div>
+                            <div
+                              className="link-url"
+                            >
+                              <span
+                                className="text gray small"
+                              >
+                                https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                              </span>
+                            </div>
+                            <div>
+                              <span
+                                className="text small"
+                              >
+                                A brief history at how history and markets influence design titles
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for 9:42pm (GMT)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Ash"
+                    className="circle"
+                    src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Ash created this March 2nd at 12:45pm (GMT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <div
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                      <a
+                        className="link unstyled"
+                        href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                        target="_blank"
+                      >
+                        http://buff.ly/1LTbUqv
+                      </a>
+                    </span>
+                  </div>
+                  <div>
+                    <a
+                      className="link unstyled"
+                      href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                      target="_blank"
+                    >
+                      <div
+                        className="card no-padding"
+                        onMouseEnter={undefined}
+                        onMouseLeave={undefined}
+                      >
+                        <div
+                          className="link-attachment-content"
+                        >
+                          <img
+                            alt="Image"
+                            className="rounded"
+                            src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                            style={
+                              Object {
+                                "height": "10rem",
+                                "maxHeight": undefined,
+                                "maxWidth": "15rem",
+                                "minHeight": undefined,
+                                "minWidth": "15rem",
+                                "objectFit": "cover",
+                                "width": "15rem",
+                              }
+                            }
+                          />
+                          <div
+                            className="link-attachment-text"
+                          >
+                            <div>
+                              <span
+                                className="text"
+                              >
+                                What is a Product Designer?
+                              </span>
+                            </div>
+                            <div
+                              className="link-url"
+                            >
+                              <span
+                                className="text gray small"
+                              >
+                                https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x
+                              </span>
+                            </div>
+                            <div>
+                              <span
+                                className="text small"
+                              >
+                                A brief history at how history and markets influence design titles
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for 9:42pm (GMT)
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots PostList missing type 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:58 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      New thing
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:59 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      Another thing, that is also new
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots PostList multiple image posts 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:58 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      New thing
+                    </span>
+                  </span>
+                  <div>
+                    <div
+                      className="multipleImages rounded"
+                      style={
+                        Object {
+                          "height": "15rem",
+                          "width": "20rem",
+                        }
+                      }
+                    >
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:59 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      Another thing, that is also new
+                    </span>
+                  </span>
+                  <div>
+                    <div
+                      className="multipleImages rounded"
+                      style={
+                        Object {
+                          "height": "15rem",
+                          "width": "20rem",
+                        }
+                      }
+                    >
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="imageWrapper"
+                        height="15rem"
+                        style={undefined}
+                      >
+                        <img
+                          alt="Image"
+                          className="verticalAlignBottom"
+                          src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "maxHeight": undefined,
+                              "maxWidth": undefined,
+                              "minHeight": undefined,
+                              "minWidth": undefined,
+                              "objectFit": "cover",
+                              "width": "100%",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots PostList video posts 1`] = `
+<span>
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:58 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      New thing
+                    </span>
+                  </span>
+                  <div
+                    className="image-wrapper"
+                  >
+                    <img
+                      alt="Image"
+                      className="rounded"
+                      src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "maxHeight": "20rem",
+                          "maxWidth": undefined,
+                          "minHeight": "10rem",
+                          "minWidth": undefined,
+                          "objectFit": "cover",
+                          "width": "15rem",
+                        }
+                      }
+                    />
+                    <span
+                      className="label"
+                    >
+                      <span
+                        className="text white"
+                      >
+                        VIDEO
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="li"
+    >
+      <div
+        className="post"
+      >
+        <div
+          className="post-container"
+        >
+          <div
+            className="post"
+          >
+            <div
+              className="card no-padding"
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+            >
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-author"
+                >
+                  <img
+                    alt="Herminia Kirlin PhD"
+                    className="circle"
+                    src="https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm"
+                    style={
+                      Object {
+                        "height": undefined,
+                        "maxHeight": undefined,
+                        "maxWidth": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "objectFit": undefined,
+                        "width": "1.25rem",
+                      }
+                    }
+                  />
+                  <span
+                    className="post-info"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Herminia Kirlin PhD created this May 3rd at 2:59 PM (CDT)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="post-content"
+              >
+                <div
+                  className="post-content"
+                >
+                  <span
+                    className="post-content-text"
+                  >
+                    <span
+                      className="text mini"
+                    >
+                      Another thing, that is also new
+                    </span>
+                  </span>
+                  <div
+                    className="image-wrapper"
+                  >
+                    <img
+                      alt="Image"
+                      className="rounded"
+                      src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "maxHeight": "20rem",
+                          "maxWidth": undefined,
+                          "minHeight": "10rem",
+                          "minWidth": undefined,
+                          "objectFit": "cover",
+                          "width": "15rem",
+                        }
+                      }
+                    />
+                    <span
+                      className="label"
+                    >
+                      <span
+                        className="text white"
+                      >
+                        VIDEO
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="post-details"
+              >
+                <div
+                  className="post-action-details"
+                >
+                  <svg
+                    className="icon shuttleGray"
+                    height="100%"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      className="shuttleGray"
+                    >
+                      <path
+                        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        width="2"
+                        x="7"
+                        y="3"
+                      />
+                      <rect
+                        height="6"
+                        rx="1"
+                        transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                        width="2"
+                        x="8.41842728"
+                        y="6.57842712"
+                      />
+                    </g>
+                  </svg>
+                  <span
+                    className="post-action"
+                  >
+                    <span
+                      className="text small"
+                    >
+                      This post is scheduled for May 3rd
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="post-controls"
+                >
+                  <div>
+                    <span>
+                      <span
+                        className="post-button"
+                      >
+                        <button
+                          className="no-style"
+                          disabled={undefined}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="text small"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </span>
+                    </span>
+                    <span
+                      className="post-button-last"
+                    >
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text small"
+                        >
+                          Edit
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
 exports[`Snapshots RetweetPanel default 1`] = `
 <span>
   <div
@@ -14639,6 +17035,1729 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   >
                     http://buff.ly/1LTbUqv
                   </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost default 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost manager 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                    Approve
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost no permission 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost past due 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon torchRed"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="torchRed"
+              >
+                <path
+                  d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text red small"
+              >
+                This post was scheduled for March 12 at 9:42pm (GMT)
+              </span>
+              <span
+                className="text small"
+              >
+                 - Please reschedule or delete.
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                    Reschedule
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost past due no permission 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon torchRed"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="torchRed"
+              >
+                <path
+                  d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text red small"
+              >
+                This post was scheduled for March 12 at 9:42pm (GMT)
+              </span>
+              <span
+                className="text small"
+              >
+                 - Please reschedule or delete.
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost retweet 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this retweet on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          
+          <div
+            className="card reduced-padding offWhite"
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+          >
+            <div
+              className="retweet-profile-wrapper"
+            >
+              <div
+                className="retweet-panel-container"
+              >
+                <img
+                  alt="Image"
+                  className="circle"
+                  src="https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png"
+                  style={
+                    Object {
+                      "height": "2rem",
+                      "maxHeight": undefined,
+                      "maxWidth": undefined,
+                      "minHeight": undefined,
+                      "minWidth": undefined,
+                      "objectFit": undefined,
+                      "width": "2rem",
+                    }
+                  }
+                />
+                <div
+                  className="retweet-handle-container"
+                >
+                  <span
+                    className="text small"
+                  >
+                    Joel Gascoigne
+                  </span>
+                  <span
+                    className="text extraSmall"
+                  >
+                    @joelgascoigne
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="post-content"
+            >
+              <span
+                className="post-content-text"
+              >
+                <span
+                  className="text mini"
+                >
+                  What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                  <a
+                    className="link unstyled"
+                    href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                    target="_blank"
+                  >
+                    http://buff.ly/1LTbUqv
+                  </a>
+                </span>
+              </span>
+              <div
+                className="image-wrapper"
+              >
+                <img
+                  alt="Image"
+                  className="rounded"
+                  src="https://cdn-images-1.medium.com/max/2000/1*1Kua7bNJfvLlTxWqgxVKfw.jpeg"
+                  style={
+                    Object {
+                      "height": undefined,
+                      "maxHeight": "20rem",
+                      "maxWidth": undefined,
+                      "minHeight": "10rem",
+                      "minWidth": undefined,
+                      "objectFit": "cover",
+                      "width": "15rem",
+                    }
+                  }
+                />
+                <span
+                  className="label"
+                >
+                  <span
+                    className="text white"
+                  >
+                    VIDEO
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost square image 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="http://lorempixel.com/400/400/cats/"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost tall image 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="http://lorempixel.com/400/900/cats/"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-action-details"
+          >
+            <svg
+              className="icon shuttleGray"
+              height="100%"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                className="shuttleGray"
+              >
+                <path
+                  d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  width="2"
+                  x="7"
+                  y="3"
+                />
+                <rect
+                  height="6"
+                  rx="1"
+                  transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+                  width="2"
+                  x="8.41842728"
+                  y="6.57842712"
+                />
+              </g>
+            </svg>
+            <span
+              className="post-action"
+            >
+              <span
+                className="text small"
+              >
+                This post is scheduled for 9:42pm (GMT)
+              </span>
+            </span>
+          </div>
+          <div
+            className="post-controls"
+          >
+            <div>
+              <span>
+                <span
+                  className="post-button"
+                >
+                  <button
+                    className="no-style"
+                    disabled={undefined}
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="text small"
+                    >
+                      Delete
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                className="post-button-last"
+              >
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={[Function]}
+                >
+                  <span
+                    className="text small"
+                  >
+                    Edit
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots VideoPost wide image 1`] = `
+<span>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="card no-padding"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <div
+          className="post-details"
+        >
+          <div
+            className="post-author"
+          >
+            <img
+              alt="Ash"
+              className="circle"
+              src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+              style={
+                Object {
+                  "height": undefined,
+                  "maxHeight": undefined,
+                  "maxWidth": undefined,
+                  "minHeight": undefined,
+                  "minWidth": undefined,
+                  "objectFit": undefined,
+                  "width": "1.25rem",
+                }
+              }
+            />
+            <span
+              className="post-info"
+            >
+              <span
+                className="text small"
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          className="post-content"
+        >
+          <div
+            className="post-content"
+          >
+            <span
+              className="post-content-text"
+            >
+              <span
+                className="text mini"
+              >
+                What is a Product Designer? An awesome story by @jgadapee over on Medium! 
+                <a
+                  className="link unstyled"
+                  href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
+                  target="_blank"
+                >
+                  http://buff.ly/1LTbUqv
+                </a>
+              </span>
+            </span>
+            <div
+              className="image-wrapper"
+            >
+              <img
+                alt="Image"
+                className="rounded"
+                src="http://lorempixel.com/900/400/cats/"
+                style={
+                  Object {
+                    "height": undefined,
+                    "maxHeight": "20rem",
+                    "maxWidth": undefined,
+                    "minHeight": "10rem",
+                    "minWidth": undefined,
+                    "objectFit": "cover",
+                    "width": "15rem",
+                  }
+                }
+              />
+              <span
+                className="label"
+              >
+                <span
+                  className="text white"
+                >
+                  VIDEO
                 </span>
               </span>
             </div>
