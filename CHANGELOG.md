@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.34 (May 5, 2017)
+
+- Add `PostList` and `VideoPost`
+
 ## 0.0.33 (April 27, 2017)
 
 - Add error display to `DateTimeForm`
