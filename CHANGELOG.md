@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.36 (May 16, 2017)
+
+- Add `Move to Drafts` and `Request Approval` buttons to `PostFooter`
+- Add `view`, `onMoveToDraftsClick`, `onRequestApprovalClick` prop to `PostFooter` and all Post types
+
 ## 0.0.35 (May 15, 2017)
 
 - Add `BreadCrumb`
