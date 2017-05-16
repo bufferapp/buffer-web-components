@@ -18,6 +18,8 @@ const renderPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
 }) => {
   const postWithEventHandlers = {
@@ -27,6 +29,8 @@ const renderPost = ({
     onDeleteClick: () => onDeleteClick({ post }),
     onDeleteConfirmClick: () => onDeleteConfirmClick({ post }),
     onEditClick: () => onEditClick({ post }),
+    onMoveToDraftsClick: () => onMoveToDraftsClick({ post }),
+    onRequestApprovalClick: () => onRequestApprovalClick({ post }),
     onRescheduleClick: e => onRescheduleClick({ post, target: e.target }),
   };
   switch (post.type) {
@@ -54,6 +58,8 @@ const PostList = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
 }) =>
   <List
@@ -67,6 +73,8 @@ const PostList = ({
             onDeleteClick,
             onDeleteConfirmClick,
             onEditClick,
+            onMoveToDraftsClick,
+            onRequestApprovalClick,
             onRescheduleClick,
           })
         }

@@ -21,9 +21,12 @@ const MultipleImagesPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   retweetProfile,
   text,
+  view,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -63,9 +66,12 @@ const MultipleImagesPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onMoveToDraftsClick={onMoveToDraftsClick}
+      onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       retweetProfile={retweetProfile}
       text={text}
+      view={view}
     >
       {children}
     </Post>

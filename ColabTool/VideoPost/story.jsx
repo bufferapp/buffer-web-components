@@ -47,9 +47,11 @@ const squareImage = 'http://lorempixel.com/400/400/cats/';
 const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
+const draftsView = 'drafts';
+
 storiesOf('VideoPost')
   .addDecorator(checkA11y)
-  .add('default', () => (
+  .add('default. All drafts view.', () => (
     <VideoPost
       hasPermission
       imageSrc={imageSrc}
@@ -61,6 +63,7 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ))
   .add('manager', () => (
@@ -76,6 +79,7 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ))
   .add('square image', () => (
@@ -90,6 +94,7 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ))
   .add('tall image', () => (
@@ -104,6 +109,7 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ))
   .add('wide image', () => (
@@ -118,6 +124,7 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ))
   .add('retweet', () => (
@@ -133,6 +140,7 @@ storiesOf('VideoPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+      view={draftsView}
     />
   ))
   .add('past due', () => (
@@ -149,6 +157,7 @@ storiesOf('VideoPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={draftsView}
     />
   ))
   .add('past due no permission', () => (
@@ -165,6 +174,7 @@ storiesOf('VideoPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={draftsView}
     />
   ))
   .add('no permission', () => (
@@ -179,5 +189,6 @@ storiesOf('VideoPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     />
   ));

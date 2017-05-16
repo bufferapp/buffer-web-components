@@ -22,6 +22,7 @@ export const posts = [
     retweetCommentLinks: [],
     text: 'New thing',
     type: 'text',
+    view: 'drafts',
   },
   {
     id: '590a3693749c200e007b23c7',
@@ -46,6 +47,7 @@ export const posts = [
     retweetCommentLinks: [],
     text: 'Another thing, that is also new',
     type: 'text',
+    view: 'drafts',
   },
 ];
 
@@ -116,4 +118,9 @@ export const confirmDeletePosts = posts.map(post => ({
 export const pastDuePosts = posts.map(post => ({
   ...post,
   isPastDue: true,
+}));
+
+export const approvalViewPosts = posts.map(post => ({
+  ...post,
+  view: 'approval',
 }));

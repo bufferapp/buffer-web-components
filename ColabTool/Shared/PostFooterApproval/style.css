@@ -1,0 +1,7 @@
+@import '@bufferapp/components/variables.css';
+
+.vertical-line {
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+  border-left: var(--border-width) solid var(--mystic);
+}

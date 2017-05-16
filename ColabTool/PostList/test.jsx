@@ -6,6 +6,7 @@ import {
   managerPosts,
   confirmDeletePosts,
   pastDuePosts,
+  approvalViewPosts,
 } from './postData';
 
 describe('PostList', () => {
@@ -19,6 +20,8 @@ describe('PostList', () => {
         onDeleteClick={() => {}}
         onDeleteConfirmClick={() => {}}
         onEditClick={handleEditClick}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={() => {}}
       />,
     );
@@ -43,6 +46,8 @@ describe('PostList', () => {
         onDeleteClick={() => {}}
         onDeleteConfirmClick={() => {}}
         onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={() => {}}
       />,
     );
@@ -67,6 +72,8 @@ describe('PostList', () => {
         onDeleteClick={() => {}}
         onDeleteConfirmClick={handleDeleteConfirmClick}
         onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={() => {}}
       />,
     );
@@ -91,6 +98,8 @@ describe('PostList', () => {
         onDeleteClick={() => {}}
         onDeleteConfirmClick={() => {}}
         onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={() => {}}
       />,
     );
@@ -115,6 +124,8 @@ describe('PostList', () => {
         onDeleteClick={handleDeleteClick}
         onDeleteConfirmClick={() => {}}
         onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={() => {}}
       />,
     );
@@ -139,6 +150,8 @@ describe('PostList', () => {
         onDeleteClick={() => {}}
         onDeleteConfirmClick={() => {}}
         onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={() => {}}
         onRescheduleClick={handleRescheduleClick}
       />,
     );
@@ -151,6 +164,58 @@ describe('PostList', () => {
       .toBeCalledWith({
         post: pastDuePosts[0],
         target: jasmine.any(Object),
+      });
+  });
+
+  it('should trigger onMoveToDraftsClick', () => {
+    const handleMoveToDraftsClick = jest.fn();
+    const wrapper = mount(
+      <PostList
+        posts={approvalViewPosts}
+        onApproveClick={() => {}}
+        onDeleteCancel={() => {}}
+        onDeleteClick={() => {}}
+        onDeleteConfirmClick={() => {}}
+        onEditClick={() => {}}
+        onMoveToDraftsClick={handleMoveToDraftsClick}
+        onRequestApprovalClick={() => {}}
+        onRescheduleClick={() => {}}
+      />,
+    );
+    // click on the Move to Drafts button
+    wrapper
+      .find('button')
+      .at(1)
+      .simulate('click');
+    expect(handleMoveToDraftsClick)
+      .toBeCalledWith({
+        post: approvalViewPosts[0],
+      });
+  });
+
+  it('should trigger onRequestApprovalClick', () => {
+    const handleRequestApprovalClick = jest.fn();
+    const wrapper = mount(
+      <PostList
+        posts={posts}
+        onApproveClick={() => {}}
+        onDeleteCancel={() => {}}
+        onDeleteClick={() => {}}
+        onDeleteConfirmClick={() => {}}
+        onEditClick={() => {}}
+        onMoveToDraftsClick={() => {}}
+        onRequestApprovalClick={handleRequestApprovalClick}
+        onRescheduleClick={() => {}}
+      />,
+    );
+    // click on the Request Approval buttons
+    wrapper
+      .find('button')
+      .at(2)
+      .simulate('click');
+    expect(handleRequestApprovalClick)
+      .toBeCalledWith({
+        post: posts[0],
       });
   });
 });

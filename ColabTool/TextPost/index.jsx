@@ -19,12 +19,15 @@ const TextPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
   text,
   retweetProfile,
   retweetComment,
   retweetCommentLinks,
+  view,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -56,12 +59,15 @@ const TextPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onMoveToDraftsClick={onMoveToDraftsClick}
+      onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}
       retweetComment={retweetComment}
       retweetCommentLinks={retweetCommentLinks}
+      view={view}
     >
       {children}
     </Post>

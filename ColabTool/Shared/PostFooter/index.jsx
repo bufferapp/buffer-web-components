@@ -5,65 +5,23 @@ import {
   ClockIcon,
   WarningIcon,
 } from '@bufferapp/components';
+import PostFooterDelete from '../PostFooterDelete';
+import PostFooterApproval from '../PostFooterApproval';
 import style from './style.css';
 
 /* eslint-disable react/prop-types */
 
-const renderConfirmDelete = ({
-  onCancelConfirmClick,
-}) =>
-  <span className={style['post-cancel-delete']}>
-    <Button onClick={onCancelConfirmClick} noStyle>
-      <Text size={'small'}>Cancel</Text>
-    </Button>
-  </span>;
-
-
-const renderDeleteButton = ({
-  isConfirmingDelete,
-  onDeleteConfirmClick,
-  onDeleteClick,
-}) =>
-  <span className={style['post-button']}>
-    <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-      <Text size={'small'} color={isConfirmingDelete ? 'red' : undefined}>
-        {isConfirmingDelete ? 'Confirm' : 'Delete'}
-      </Text>
-    </Button>
-  </span>;
-
-const renderDelete = ({
-  hasPermission,
-  isConfirmingDelete,
-  onCancelConfirmClick,
-  onDeleteConfirmClick,
-  onDeleteClick,
-}) => {
-  if (!hasPermission) return;
-
-  return (
-    <span>
-      {isConfirmingDelete ?
-        renderConfirmDelete({ onCancelConfirmClick }) :
-        undefined
-      }
-      {renderDeleteButton({
-        isConfirmingDelete,
-        onDeleteConfirmClick,
-        onDeleteClick,
-      })}
-    </span>
-  );
-};
-
 const renderEdit = ({
   hasPermission,
+  manager,
   onEditClick,
+  view,
 }) => {
   if (!hasPermission) return;
+  if (!manager && view === 'approval') return;
 
   return (
-    <span className={style['post-button-last']}>
+    <span className={style['post-button-edit']}>
       <Button onClick={onEditClick} noStyle>
         <Text size={'small'}>Edit</Text>
       </Button>
@@ -71,42 +29,36 @@ const renderEdit = ({
   );
 };
 
-const renderApproval = ({
-  hasPermission,
-  isPastDue,
-  onApproveClick,
-  onRescheduleClick,
-  manager,
-}) => {
-  if (isPastDue && hasPermission) {
-    return (<span className={style['post-button-last']}>
-      <span className={style['vertical-line']} />
-      <Button onClick={onRescheduleClick} noStyle>
-        <Text size={'small'} color={'blue'}>Reschedule</Text>
-      </Button>
-    </span>);
-  }
-
-  if (!isPastDue && manager) {
-    return (<span className={style['post-button-last']}>
-      <span className={style['vertical-line']} />
-      <Button onClick={onApproveClick} noStyle>
-        <Text size={'small'} color={'blue'}>Approve</Text>
-      </Button>
-    </span>);
-  }
-  return null;
-};
-
 const renderIcon = isPastDue => (isPastDue ? <WarningIcon color={'torchRed'} /> : <ClockIcon />);
+
+const renderMoveToDrafts = ({
+  hasPermission,
+  manager,
+  onMoveToDraftsClick,
+  view,
+}) => {
+  if (view !== 'approval' || !hasPermission) return;
+
+  return (<span>
+    <span className={style['vertical-line']} />
+    <Button onClick={onMoveToDraftsClick} noStyle>
+      <Text size={'small'} color={'blue'}> Move to Drafts </Text>
+    </Button>
+  </span>);
+};
 
 const renderText = ({
   draftDetails,
   isPastDue,
+  view,
 }) =>
   <span className={style['post-action']}>
     <Text size={'small'} color={isPastDue ? 'red' : undefined}>{draftDetails.postAction}</Text>
-    {isPastDue ? <Text size={'small'}> - Please reschedule or delete.</Text> : null}
+    {
+      isPastDue && view === 'drafts' ?
+        <Text size={'small'}> - Please reschedule or delete.</Text>
+      : null
+    }
   </span>;
 
 const renderControls = ({
@@ -121,38 +73,58 @@ const renderControls = ({
   onDeleteClick,
   onEditClick,
   onDeleteConfirmClick,
+  onMoveToDraftsClick,
   onRescheduleClick,
+  onRequestApprovalClick,
+  view,
 }) => {
+  const workingCopy = view === 'drafts' ? 'Adding...' : 'Approving...';
+
   if (isDeleting) {
     return (
       <Text size={'small'}> Deleting... </Text>
     );
   } else if (manager && isWorking) {
     return (
-      <Text size={'small'}> Approving... </Text>
+      <Text size={'small'}>{workingCopy}</Text>
+    );
+  } else if (isWorking) {
+    return (
+      <Text size={'small'}> Requesting... </Text>
     );
   }
 
   return (
     <div>
-      {renderDelete({
-        hasPermission,
-        isConfirmingDelete,
-        onCancelConfirmClick,
-        onDeleteConfirmClick,
-        onDeleteClick,
-      })}
+      { hasPermission &&
+        <PostFooterDelete
+          isConfirmingDelete={isConfirmingDelete}
+          onCancelConfirmClick={onCancelConfirmClick}
+          onDeleteConfirmClick={onDeleteConfirmClick}
+          onDeleteClick={onDeleteClick}
+        />
+      }
       {renderEdit({
         hasPermission,
-        onEditClick,
-      })}
-      {renderApproval({
-        hasPermission,
-        isPastDue,
-        onApproveClick,
-        onRescheduleClick,
         manager,
+        onEditClick,
+        view,
       })}
+      {renderMoveToDrafts({
+        hasPermission,
+        manager,
+        onMoveToDraftsClick,
+        view,
+      })}
+      <PostFooterApproval
+        hasPermission={hasPermission}
+        isPastDue={isPastDue}
+        onApproveClick={onApproveClick}
+        onRequestApprovalClick={onRequestApprovalClick}
+        onRescheduleClick={onRescheduleClick}
+        manager={manager}
+        view={view}
+      />
     </div>
   );
 };
@@ -171,13 +143,16 @@ const PostFooter = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
+  view,
 }) =>
   <div className={style['post-details']}>
     <div className={style['post-action-details']}>
       {renderIcon(isPastDue)}
-      {renderText({ draftDetails, isPastDue })}
+      {renderText({ draftDetails, isPastDue, view })}
     </div>
     <div className={style['post-controls']}>
       {renderControls({
@@ -191,8 +166,11 @@ const PostFooter = ({
         onCancelConfirmClick,
         onDeleteClick,
         onEditClick,
+        onMoveToDraftsClick,
+        onRequestApprovalClick,
         onRescheduleClick,
         onDeleteConfirmClick,
+        view,
       })}
     </div>
   </div>;
@@ -209,6 +187,8 @@ PostFooter.propTypes = {
   onDeleteClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
+  onMoveToDraftsClick: PropTypes.func,
+  onRequestApprovalClick: PropTypes.func,
   onRescheduleClick: PropTypes.func,
   draftDetails: PropTypes.shape({
     userName: PropTypes.string,
@@ -218,6 +198,7 @@ PostFooter.propTypes = {
     via: PropTypes.string,
     postAction: PropTypes.string,
   }).isRequired,
+  view: PropTypes.string.isRequired,
 };
 
 PostFooter.defaultProps = {

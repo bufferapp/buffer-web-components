@@ -21,28 +21,154 @@ const draftDetailsPastDue = {
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
 };
 
+const draftsView = 'drafts';
+const approvalView = 'approval';
+
 storiesOf('PostFooter')
   .addDecorator(checkA11y)
-  .add('default', () => (
+  .add('drafts view: manager', () => (
     <PostFooter
       hasPermission
-      onCancelConfirmClick={linkTo('PostFooter', 'default')}
-      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      manager
+      onApproveClick={linkTo('PostFooter', 'drafts view: managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
+      view={draftsView}
     />
   ))
-  .add('manager', () => (
+  .add('drafts view: manager past due', () => (
     <PostFooter
       hasPermission
+      isPastDue
       manager
       onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
       onCancelConfirmClick={linkTo('PostFooter', 'manager')}
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      draftDetails={draftDetailsPastDue}
+      view={draftsView}
+    />
+  ))
+  .add('drafts view: not manager', () => (
+    <PostFooter
+      hasPermission
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
       draftDetails={draftDetails}
+      view={draftsView}
+    />
+  ))
+  .add('drafts view: not manager past due', () => (
+    <PostFooter
+      hasPermission
+      isPastDue
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
+      draftDetails={draftDetails}
+      view={draftsView}
+    />
+  ))
+  .add('drafts view: not manager, no permission', () => (
+    <PostFooter
+      hasPermission={false}
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
+      draftDetails={draftDetails}
+      view={draftsView}
+    />
+  ))
+  .add('drafts view: not manager past due, no permission', () => (
+    <PostFooter
+      hasPermission={false}
+      isPastDue
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
+      draftDetails={draftDetails}
+      view={draftsView}
+    />
+  ))
+  .add('approval view: manager', () => (
+    <PostFooter
+      hasPermission
+      manager
+      onApproveClick={linkTo('PostFooter', 'approval view: managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onMoveToDraftsClick={action('move-to-drafts-click')}
+      draftDetails={draftDetails}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: manager past due', () => (
+    <PostFooter
+      hasPermission
+      isPastDue
+      manager
+      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      draftDetails={draftDetailsPastDue}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: not a manager', () => (
+    <PostFooter
+      hasPermission
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onMoveToDraftsClick={action('move-to-drafts-click')}
+      draftDetails={draftDetails}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: not a manager past due', () => (
+    <PostFooter
+      hasPermission
+      isPastDue
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      onMoveToDraftsClick={action('move-to-drafts-click')}
+      draftDetails={draftDetails}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: not manager, no permission', () => (
+    <PostFooter
+      hasPermission={false}
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
+      draftDetails={draftDetails}
+      view={approvalView}
     />
   ))
   .add('isConfirmingDelete', () => (
@@ -54,6 +180,7 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isConfirmingDelete
+      view={draftsView}
     />
   ))
   .add('managerIsConfirmingDelete', () => (
@@ -67,6 +194,7 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isConfirmingDelete
+      view={draftsView}
     />
   ))
   .add('isDeleting', () => (
@@ -78,22 +206,10 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isDeleting
+      view={draftsView}
     />
   ))
-  .add('managerIsDeleting', () => (
-    <PostFooter
-      hasPermission
-      manager
-      onApproveClick={action('approve-click')}
-      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
-      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
-      onEditClick={action('edit-click')}
-      draftDetails={draftDetails}
-      isDeleting
-    />
-  ))
-  .add('managerIsApproving', () => (
+  .add('drafts view: managerIsApproving', () => (
     <PostFooter
       hasPermission
       manager
@@ -104,46 +220,34 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
       isWorking
+      view={draftsView}
     />
   ))
-  .add('past due with permission', () => (
+  .add('approval view: managerIsApproving', () => (
     <PostFooter
       hasPermission
-      isPastDue
-      onCancelConfirmClick={linkTo('PostFooter', 'default')}
-      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      manager
+      onApproveClick={action('approve-click')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
       onEditClick={action('edit-click')}
-      onRescheduleClick={action('reschedule-click')}
-      draftDetails={draftDetailsPastDue}
+      draftDetails={draftDetails}
+      isWorking
+      view={approvalView}
     />
   ))
-  .add('manager past due', () => (
+  .add('drafts view: isWorking', () => (
     <PostFooter
       hasPermission
-      isPastDue
-      manager
-      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
-      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onApproveClick={action('approve-click')}
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
-      onEditClick={action('edit-click')}
-      onRescheduleClick={action('reschedule-click')}
-      draftDetails={draftDetailsPastDue}
-    />
-  ))
-  .add('past due no permission', () => (
-    <PostFooter
-      hasPermission={false}
-      isPastDue
-      manager
-      onApproveClick={linkTo('PostFooter', 'managerIsApproving')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onCancelConfirmClick={linkTo('PostFooter', 'manager')}
-      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
-      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
-      onRescheduleClick={action('reschedule-click')}
-      draftDetails={draftDetailsPastDue}
+      draftDetails={draftDetails}
+      isWorking
+      view={draftsView}
     />
   ))
   .add('no permission', () => (
@@ -154,5 +258,6 @@ storiesOf('PostFooter')
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
+      view={draftsView}
     />
   ));

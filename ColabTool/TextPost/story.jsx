@@ -50,10 +50,12 @@ const retweetProfile = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/503a5c8ffc99f72a7f00002e/f49c2ff693f1c307af5e1b3d84e581ca.png',
 };
 
+const approvalView = 'approval';
+
 
 storiesOf('TextPost')
   .addDecorator(checkA11y)
-  .add('default', () => (
+  .add('default. All approval view.', () => (
     <TextPost
       hasPermission
       links={links}
@@ -64,6 +66,7 @@ storiesOf('TextPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('manager', () => (
@@ -78,6 +81,7 @@ storiesOf('TextPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('retweet', () => (
@@ -92,6 +96,7 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+      view={approvalView}
     />
   ))
   .add('retweet with comment', () => (
@@ -108,6 +113,7 @@ storiesOf('TextPost')
       retweetProfile={retweetProfile}
       retweetComment={retweetComment}
       retweetCommentLinks={retweetCommentLinks}
+      view={approvalView}
     />
   ))
   .add('past due', () => (
@@ -123,6 +129,7 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={approvalView}
     />
   ))
   .add('past due no permission', () => (
@@ -138,6 +145,7 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={approvalView}
     />
   ))
   .add('no permission', () => (
@@ -151,5 +159,6 @@ storiesOf('TextPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ));

@@ -38,6 +38,8 @@ const links = [{
 
 const retweetComment = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
+const draftsView = 'drafts';
+
 const children = (
   <Text size={'mini'}>
     {'I am a text-only test post.'}
@@ -55,6 +57,7 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -71,6 +74,7 @@ storiesOf('Post')
       onEditClick={action('edit-click')}
       manager
       draftDetails={draftDetails}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -85,6 +89,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -99,6 +104,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -113,6 +119,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       draftDetails={draftDetails}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -128,6 +135,7 @@ storiesOf('Post')
       onEditClick={action('edit-click')}
       isWorking
       draftDetails={draftDetails}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -144,6 +152,7 @@ storiesOf('Post')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -162,6 +171,7 @@ storiesOf('Post')
       onEditClick={action('edit-click')}
       retweetProfile={retweetProfile}
       retweetComment={retweetComment}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -177,6 +187,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -192,6 +203,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={draftsView}
     >
       {children}
     </Post>
@@ -205,6 +217,7 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
+      view={draftsView}
     >
       {children}
     </Post>

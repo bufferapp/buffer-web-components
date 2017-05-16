@@ -23,9 +23,12 @@ const LinkPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
   text,
+  view,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -93,9 +96,12 @@ const LinkPost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onMoveToDraftsClick={onMoveToDraftsClick}
+      onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
       text={text}
+      view={view}
     >
       {children}
     </Post>

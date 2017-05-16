@@ -26,16 +26,13 @@
   margin-right: 0.5rem;
 }
 
-.post-button {
-  margin-left: 0.5rem;
-}
-
-.post-button-last {
-  margin-left: 1rem;
+.post-button-edit {
+  margin-left: 0.7rem;
 }
 
 .vertical-line {
-  margin-right: 1rem;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
   border-left: var(--border-width) solid var(--mystic);
 }
 

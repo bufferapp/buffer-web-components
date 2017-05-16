@@ -26,11 +26,14 @@ const ImagePost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
   text,
   tag,
   retweetProfile,
+  view,
 }) => {
   const children = (
     <div className={style['post-content']}>
@@ -74,10 +77,13 @@ const ImagePost = ({
       onDeleteClick={onDeleteClick}
       onDeleteConfirmClick={onDeleteConfirmClick}
       onEditClick={onEditClick}
+      onMoveToDraftsClick={onMoveToDraftsClick}
+      onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}
+      view={view}
     >
       {children}
     </Post>

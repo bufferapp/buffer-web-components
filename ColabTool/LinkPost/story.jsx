@@ -40,9 +40,11 @@ const squareImage = 'http://lorempixel.com/400/400/cats/';
 const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
+const approvalView = 'approval';
+
 storiesOf('LinkPost')
   .addDecorator(checkA11y)
-  .add('default', () => (
+  .add('default. All approval view.', () => (
     <LinkPost
       hasPermission
       links={links}
@@ -54,6 +56,7 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('manager', () => (
@@ -69,6 +72,7 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('square image', () => (
@@ -83,6 +87,7 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('tall image', () => (
@@ -97,6 +102,7 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('wide image', () => (
@@ -111,6 +117,7 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
     />
   ))
   .add('past due', () => (
@@ -127,6 +134,7 @@ storiesOf('LinkPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={approvalView}
     />
   ))
   .add('past due no permission', () => (
@@ -143,6 +151,7 @@ storiesOf('LinkPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={approvalView}
     />
   ))
   .add('no permission', () => (
@@ -158,5 +167,6 @@ storiesOf('LinkPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      view={approvalView}
     />
   ));

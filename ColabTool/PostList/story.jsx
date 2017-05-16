@@ -24,6 +24,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ))
@@ -35,6 +37,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ))
@@ -46,6 +50,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ))
@@ -57,6 +63,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ))
@@ -68,6 +76,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ))
@@ -79,6 +89,8 @@ storiesOf('PostList')
       onDeleteClick={action('onDeleteClick')}
       onDeleteConfirmClick={action('onDeleteConfirmClick')}
       onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
       onRescheduleClick={action('onRescheduleClick')}
     />
   ));

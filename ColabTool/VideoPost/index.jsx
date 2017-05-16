@@ -15,11 +15,14 @@ const VideoPost = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
   text,
   tag,
   retweetProfile,
+  view,
 }) =>
   <ImagePost
     hasPermission={hasPermission}
@@ -38,8 +41,11 @@ const VideoPost = ({
     onDeleteClick={onDeleteClick}
     onDeleteConfirmClick={onDeleteConfirmClick}
     onEditClick={onEditClick}
+    onMoveToDraftsClick={onMoveToDraftsClick}
+    onRequestApprovalClick={onRequestApprovalClick}
     onRescheduleClick={onRescheduleClick}
     retweetProfile={retweetProfile}
+    view={view}
   />;
 
 VideoPost.propTypes = ImagePost.propTypes;

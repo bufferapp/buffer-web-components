@@ -36,9 +36,11 @@ const imageUrls = [
   'http://lorempixel.com/400/400/cats/',
 ];
 
+const draftsView = 'drafts';
+
 storiesOf('MultipleImagesPost')
   .addDecorator(checkA11y)
-  .add('default', () => (
+  .add('default. All drafts view.', () => (
     <MultipleImagesPost
       draftDetails={draftDetails}
       hasPermission
@@ -50,6 +52,7 @@ storiesOf('MultipleImagesPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       text={text}
+      view={draftsView}
     />
   ))
   .add('no permission', () => (
@@ -64,6 +67,7 @@ storiesOf('MultipleImagesPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       text={text}
+      view={draftsView}
     />
   ))
   .add('past due', () => (
@@ -80,6 +84,7 @@ storiesOf('MultipleImagesPost')
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
       text={text}
+      view={draftsView}
     />
   ))
   .add('past due no permission', () => (
@@ -96,5 +101,6 @@ storiesOf('MultipleImagesPost')
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
       text={text}
+      view={draftsView}
     />
   ));

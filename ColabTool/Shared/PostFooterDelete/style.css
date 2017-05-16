@@ -1,0 +1,9 @@
+@import '@bufferapp/components/variables.css';
+
+.post-button-delete {
+  margin-left: 0.5rem;
+}
+
+.post-cancel-delete:hover span {
+  color: var(--black);
+}

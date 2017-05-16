@@ -5824,7 +5824,7 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
 </span>
 `;
 
-exports[`Snapshots ImagePost default 1`] = `
+exports[`Snapshots ImagePost default. All drafts view. 1`] = `
 <span>
   <div
     className="post-container"
@@ -5968,7 +5968,7 @@ exports[`Snapshots ImagePost default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -5984,7 +5984,7 @@ exports[`Snapshots ImagePost default 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -5995,6 +5995,22 @@ exports[`Snapshots ImagePost default 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -6151,7 +6167,7 @@ exports[`Snapshots ImagePost manager 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -6167,7 +6183,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -6181,9 +6197,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -6195,7 +6209,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                   <span
                     className="text blue small"
                   >
-                    Approve
+                    Add to Queue
                   </span>
                 </button>
               </span>
@@ -6492,7 +6506,7 @@ exports[`Snapshots ImagePost past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -6508,7 +6522,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -6522,9 +6536,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -6878,7 +6890,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -6894,7 +6906,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -6905,6 +6917,22 @@ exports[`Snapshots ImagePost retweet 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -7061,7 +7089,7 @@ exports[`Snapshots ImagePost square image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -7077,7 +7105,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -7088,6 +7116,22 @@ exports[`Snapshots ImagePost square image 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -7253,7 +7297,7 @@ exports[`Snapshots ImagePost tag 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -7269,7 +7313,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -7280,6 +7324,22 @@ exports[`Snapshots ImagePost tag 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -7436,7 +7496,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -7452,7 +7512,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -7463,6 +7523,22 @@ exports[`Snapshots ImagePost tall image 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -7619,7 +7695,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -7635,7 +7711,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -7649,6 +7725,22 @@ exports[`Snapshots ImagePost wide image 1`] = `
                   </span>
                 </button>
               </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
+                  </span>
+                </button>
+              </span>
             </div>
           </div>
         </div>
@@ -7658,7 +7750,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
 </span>
 `;
 
-exports[`Snapshots LinkPost default 1`] = `
+exports[`Snapshots LinkPost default. All approval view. 1`] = `
 <span>
   <div
     className="post-container"
@@ -7843,7 +7935,7 @@ exports[`Snapshots LinkPost default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -7858,18 +7950,19 @@ exports[`Snapshots LinkPost default 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -8067,7 +8160,7 @@ exports[`Snapshots LinkPost manager 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -8083,7 +8176,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -8097,9 +8190,23 @@ exports[`Snapshots LinkPost manager 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Move to Drafts 
+                  </span>
+                </button>
+              </span>
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -8477,11 +8584,6 @@ exports[`Snapshots LinkPost past due 1`] = `
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
-              <span
-                className="text small"
-              >
-                 - Please reschedule or delete.
-              </span>
             </span>
           </div>
           <div
@@ -8490,7 +8592,7 @@ exports[`Snapshots LinkPost past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -8505,24 +8607,23 @@ exports[`Snapshots LinkPost past due 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -8708,11 +8809,6 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                 className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
-              </span>
-              <span
-                className="text small"
-              >
-                 - Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -8913,7 +9009,7 @@ exports[`Snapshots LinkPost square image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -8928,18 +9024,19 @@ exports[`Snapshots LinkPost square image 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -9137,7 +9234,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -9152,18 +9249,19 @@ exports[`Snapshots LinkPost tall image 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -9361,7 +9459,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -9376,18 +9474,19 @@ exports[`Snapshots LinkPost wide image 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -9400,7 +9499,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
 </span>
 `;
 
-exports[`Snapshots MultipleImagesPost default 1`] = `
+exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
 <span>
   <div
     className="post-container"
@@ -9624,7 +9723,7 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -9640,7 +9739,7 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -9651,6 +9750,22 @@ exports[`Snapshots MultipleImagesPost default 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -10107,7 +10222,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -10123,7 +10238,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -10137,9 +10252,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -10493,7 +10606,7 @@ exports[`Snapshots Post default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -10509,7 +10622,7 @@ exports[`Snapshots Post default 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -10520,6 +10633,22 @@ exports[`Snapshots Post default 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -10656,7 +10785,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                   </button>
                 </span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -10672,7 +10801,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -10683,6 +10812,22 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -10920,40 +11065,11 @@ exports[`Snapshots Post isWorking 1`] = `
           <div
             className="post-controls"
           >
-            <div>
-              <span>
-                <span
-                  className="post-button"
-                >
-                  <button
-                    className="no-style"
-                    disabled={undefined}
-                    onClick={[Function]}
-                  >
-                    <span
-                      className="text small"
-                    >
-                      Delete
-                    </span>
-                  </button>
-                </span>
-              </span>
-              <span
-                className="post-button-last"
-              >
-                <button
-                  className="no-style"
-                  disabled={undefined}
-                  onClick={[Function]}
-                >
-                  <span
-                    className="text small"
-                  >
-                    Edit
-                  </span>
-                </button>
-              </span>
-            </div>
+            <span
+              className="text small"
+            >
+               Requesting... 
+            </span>
           </div>
         </div>
       </div>
@@ -11071,7 +11187,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
             <span
               className="text small"
             >
-               Approving... 
+              Adding...
             </span>
           </div>
         </div>
@@ -11190,7 +11306,7 @@ exports[`Snapshots Post manager 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -11206,7 +11322,7 @@ exports[`Snapshots Post manager 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -11220,9 +11336,7 @@ exports[`Snapshots Post manager 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -11234,7 +11348,7 @@ exports[`Snapshots Post manager 1`] = `
                   <span
                     className="text blue small"
                   >
-                    Approve
+                    Add to Queue
                   </span>
                 </button>
               </span>
@@ -11461,7 +11575,7 @@ exports[`Snapshots Post past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -11477,7 +11591,7 @@ exports[`Snapshots Post past due 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -11491,9 +11605,7 @@ exports[`Snapshots Post past due 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -11777,7 +11889,7 @@ exports[`Snapshots Post retweet 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -11793,7 +11905,7 @@ exports[`Snapshots Post retweet 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -11804,6 +11916,22 @@ exports[`Snapshots Post retweet 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -11985,7 +12113,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -12001,7 +12129,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -12012,6 +12140,22 @@ exports[`Snapshots Post retweet with comment 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -12104,7 +12248,7 @@ exports[`Snapshots PostButtonPanel member, isWorking 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostFooter default 1`] = `
+exports[`Snapshots PostFooter approval view: manager 1`] = `
 <span>
   <div
     className="post-details"
@@ -12160,7 +12304,7 @@ exports[`Snapshots PostFooter default 1`] = `
       <div>
         <span>
           <span
-            className="post-button"
+            className="post-button-delete"
           >
             <button
               className="no-style"
@@ -12176,7 +12320,7 @@ exports[`Snapshots PostFooter default 1`] = `
           </span>
         </span>
         <span
-          className="post-button-last"
+          className="post-button-edit"
         >
           <button
             className="no-style"
@@ -12190,7 +12334,1103 @@ exports[`Snapshots PostFooter default 1`] = `
             </span>
           </button>
         </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+               Move to Drafts 
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+              Approve
+            </span>
+          </button>
+        </span>
       </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter approval view: manager past due 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon torchRed"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="torchRed"
+        >
+          <path
+            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text red small"
+        >
+          This post was scheduled for March 12 at 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span
+          className="post-button-edit"
+        >
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text small"
+            >
+              Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={undefined}
+          >
+            <span
+              className="text blue small"
+            >
+               Move to Drafts 
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+              Reschedule
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter approval view: managerIsApproving 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <span
+        className="text small"
+      >
+        Approving...
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter approval view: not a manager 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+               Move to Drafts 
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon torchRed"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="torchRed"
+        >
+          <path
+            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text red small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+               Move to Drafts 
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+              Reschedule
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter approval view: not manager, no permission 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div />
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: isWorking 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <span
+        className="text small"
+      >
+         Requesting... 
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: manager 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span
+          className="post-button-edit"
+        >
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text small"
+            >
+              Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+              Add to Queue
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon torchRed"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="torchRed"
+        >
+          <path
+            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text red small"
+        >
+          This post was scheduled for March 12 at 9:42pm (GMT)
+        </span>
+        <span
+          className="text small"
+        >
+           - Please reschedule or delete.
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span
+          className="post-button-edit"
+        >
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text small"
+            >
+              Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+              Reschedule
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: managerIsApproving 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <span
+        className="text small"
+      >
+        Adding...
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: not manager 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span
+          className="post-button-edit"
+        >
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text small"
+            >
+              Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text blue small"
+            >
+               Request Approval 
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon torchRed"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="torchRed"
+        >
+          <path
+            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text red small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+        <span
+          className="text small"
+        >
+           - Please reschedule or delete.
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div>
+        <span>
+          <span
+            className="post-button-delete"
+          >
+            <button
+              className="no-style"
+              disabled={undefined}
+              onClick={[Function]}
+            >
+              <span
+                className="text small"
+              >
+                Delete
+              </span>
+            </button>
+          </span>
+        </span>
+        <span
+          className="post-button-edit"
+        >
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={[Function]}
+          >
+            <span
+              className="text small"
+            >
+              Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={undefined}
+          >
+            <span
+              className="text blue small"
+            >
+              Reschedule
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: not manager past due, no permission 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon torchRed"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="torchRed"
+        >
+          <path
+            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text red small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+        <span
+          className="text small"
+        >
+           - Please reschedule or delete.
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div />
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots PostFooter drafts view: not manager, no permission 1`] = `
+<span>
+  <div
+    className="post-details"
+  >
+    <div
+      className="post-action-details"
+    >
+      <svg
+        className="icon shuttleGray"
+        height="100%"
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
+          />
+          <rect
+            height="6"
+            rx="1"
+            width="2"
+            x="7"
+            y="3"
+          />
+          <rect
+            height="6"
+            rx="1"
+            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
+            width="2"
+            x="8.41842728"
+            y="6.57842712"
+          />
+        </g>
+      </svg>
+      <span
+        className="post-action"
+      >
+        <span
+          className="text small"
+        >
+          This post is scheduled for 9:42pm (GMT)
+        </span>
+      </span>
+    </div>
+    <div
+      className="post-controls"
+    >
+      <div />
     </div>
   </div>
 </span>
@@ -12267,7 +13507,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
             </button>
           </span>
           <span
-            className="post-button"
+            className="post-button-delete"
           >
             <button
               className="no-style"
@@ -12283,7 +13523,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
           </span>
         </span>
         <span
-          className="post-button-last"
+          className="post-button-edit"
         >
           <button
             className="no-style"
@@ -12294,6 +13534,22 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               className="text small"
             >
               Edit
+            </span>
+          </button>
+        </span>
+        <span>
+          <span
+            className="vertical-line"
+          />
+          <button
+            className="no-style"
+            disabled={undefined}
+            onClick={undefined}
+          >
+            <span
+              className="text blue small"
+            >
+               Request Approval 
             </span>
           </button>
         </span>
@@ -12360,279 +13616,6 @@ exports[`Snapshots PostFooter isDeleting 1`] = `
         className="text small"
       >
          Deleting... 
-      </span>
-    </div>
-  </div>
-</span>
-`;
-
-exports[`Snapshots PostFooter manager 1`] = `
-<span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
-    >
-      <svg
-        className="icon shuttleGray"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="shuttleGray"
-        >
-          <path
-            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-          />
-          <rect
-            height="6"
-            rx="1"
-            width="2"
-            x="7"
-            y="3"
-          />
-          <rect
-            height="6"
-            rx="1"
-            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-            width="2"
-            x="8.41842728"
-            y="6.57842712"
-          />
-        </g>
-      </svg>
-      <span
-        className="post-action"
-      >
-        <span
-          className="text small"
-        >
-          This post is scheduled for 9:42pm (GMT)
-        </span>
-      </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <div>
-        <span>
-          <span
-            className="post-button"
-          >
-            <button
-              className="no-style"
-              disabled={undefined}
-              onClick={[Function]}
-            >
-              <span
-                className="text small"
-              >
-                Delete
-              </span>
-            </button>
-          </span>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text small"
-            >
-              Edit
-            </span>
-          </button>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <span
-            className="vertical-line"
-          />
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text blue small"
-            >
-              Approve
-            </span>
-          </button>
-        </span>
-      </div>
-    </div>
-  </div>
-</span>
-`;
-
-exports[`Snapshots PostFooter manager past due 1`] = `
-<span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
-    >
-      <svg
-        className="icon torchRed"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="torchRed"
-        >
-          <path
-            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
-          />
-        </g>
-      </svg>
-      <span
-        className="post-action"
-      >
-        <span
-          className="text red small"
-        >
-          This post was scheduled for March 12 at 9:42pm (GMT)
-        </span>
-        <span
-          className="text small"
-        >
-           - Please reschedule or delete.
-        </span>
-      </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <div>
-        <span>
-          <span
-            className="post-button"
-          >
-            <button
-              className="no-style"
-              disabled={undefined}
-              onClick={[Function]}
-            >
-              <span
-                className="text small"
-              >
-                Delete
-              </span>
-            </button>
-          </span>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text small"
-            >
-              Edit
-            </span>
-          </button>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <span
-            className="vertical-line"
-          />
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text blue small"
-            >
-              Reschedule
-            </span>
-          </button>
-        </span>
-      </div>
-    </div>
-  </div>
-</span>
-`;
-
-exports[`Snapshots PostFooter managerIsApproving 1`] = `
-<span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
-    >
-      <svg
-        className="icon shuttleGray"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="shuttleGray"
-        >
-          <path
-            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-          />
-          <rect
-            height="6"
-            rx="1"
-            width="2"
-            x="7"
-            y="3"
-          />
-          <rect
-            height="6"
-            rx="1"
-            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-            width="2"
-            x="8.41842728"
-            y="6.57842712"
-          />
-        </g>
-      </svg>
-      <span
-        className="post-action"
-      >
-        <span
-          className="text small"
-        >
-          This post is scheduled for 9:42pm (GMT)
-        </span>
-      </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <span
-        className="text small"
-      >
-         Approving... 
       </span>
     </div>
   </div>
@@ -12710,7 +13693,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             </button>
           </span>
           <span
-            className="post-button"
+            className="post-button-delete"
           >
             <button
               className="no-style"
@@ -12726,7 +13709,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
           </span>
         </span>
         <span
-          className="post-button-last"
+          className="post-button-edit"
         >
           <button
             className="no-style"
@@ -12740,9 +13723,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             </span>
           </button>
         </span>
-        <span
-          className="post-button-last"
-        >
+        <span>
           <span
             className="vertical-line"
           />
@@ -12754,74 +13735,11 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             <span
               className="text blue small"
             >
-              Approve
+              Add to Queue
             </span>
           </button>
         </span>
       </div>
-    </div>
-  </div>
-</span>
-`;
-
-exports[`Snapshots PostFooter managerIsDeleting 1`] = `
-<span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
-    >
-      <svg
-        className="icon shuttleGray"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="shuttleGray"
-        >
-          <path
-            d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z"
-          />
-          <rect
-            height="6"
-            rx="1"
-            width="2"
-            x="7"
-            y="3"
-          />
-          <rect
-            height="6"
-            rx="1"
-            transform="translate(9.418427, 9.578427) rotate(-225.000000) translate(-9.418427, -9.578427) "
-            width="2"
-            x="8.41842728"
-            y="6.57842712"
-          />
-        </g>
-      </svg>
-      <span
-        className="post-action"
-      >
-        <span
-          className="text small"
-        >
-          This post is scheduled for 9:42pm (GMT)
-        </span>
-      </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <span
-        className="text small"
-      >
-         Deleting... 
-      </span>
     </div>
   </div>
 </span>
@@ -12886,152 +13804,217 @@ exports[`Snapshots PostFooter no permission 1`] = `
 </span>
 `;
 
-exports[`Snapshots PostFooter past due no permission 1`] = `
+exports[`Snapshots PostFooterApproval approval view: manager 1`] = `
 <span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
     >
-      <svg
-        className="icon torchRed"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="torchRed"
-        >
-          <path
-            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
-          />
-        </g>
-      </svg>
       <span
-        className="post-action"
+        className="text blue small"
       >
-        <span
-          className="text red small"
-        >
-          This post was scheduled for March 12 at 9:42pm (GMT)
-        </span>
-        <span
-          className="text small"
-        >
-           - Please reschedule or delete.
-        </span>
+        Approve
       </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <div />
-    </div>
-  </div>
+    </button>
+  </span>
 </span>
 `;
 
-exports[`Snapshots PostFooter past due with permission 1`] = `
+exports[`Snapshots PostFooterApproval approval view: manager past due 1`] = `
 <span>
-  <div
-    className="post-details"
-  >
-    <div
-      className="post-action-details"
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
     >
-      <svg
-        className="icon torchRed"
-        height="100%"
-        version="1.1"
-        viewBox="0 0 16 16"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          className="torchRed"
-        >
-          <path
-            d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
-          />
-        </g>
-      </svg>
       <span
-        className="post-action"
+        className="text blue small"
+      >
+        Reschedule
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval approval view: not manager 1`] = `<span />`;
+
+exports[`Snapshots PostFooterApproval approval view: not manager. past due 1`] = `
+<span>
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="text blue small"
+      >
+        Reschedule
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval approval view: not manager. past due. no permissions. 1`] = `<span />`;
+
+exports[`Snapshots PostFooterApproval drafts view: manager 1`] = `
+<span>
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="text blue small"
+      >
+        Add to Queue
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval drafts view: manager past due 1`] = `
+<span>
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="text blue small"
+      >
+        Reschedule
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval drafts view: not manager 1`] = `
+<span>
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="text blue small"
+      >
+         Request Approval 
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval drafts view: not manager. no permissions. 1`] = `<span />`;
+
+exports[`Snapshots PostFooterApproval drafts view: not manager. past due 1`] = `
+<span>
+  <span>
+    <span
+      className="vertical-line"
+    />
+    <button
+      className="no-style"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="text blue small"
+      >
+        Reschedule
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterApproval drafts view: not manager. past due. no permissions. 1`] = `<span />`;
+
+exports[`Snapshots PostFooterDelete default 1`] = `
+<span>
+  <span>
+    <span
+      className="post-button-delete"
+    >
+      <button
+        className="no-style"
+        disabled={undefined}
+        onClick={[Function]}
+      >
+        <span
+          className="text small"
+        >
+          Delete
+        </span>
+      </button>
+    </span>
+  </span>
+</span>
+`;
+
+exports[`Snapshots PostFooterDelete isConfirmingDelete 1`] = `
+<span>
+  <span>
+    <span
+      className="post-cancel-delete"
+    >
+      <button
+        className="no-style"
+        disabled={undefined}
+        onClick={[Function]}
+      >
+        <span
+          className="text small"
+        >
+          Cancel
+        </span>
+      </button>
+    </span>
+    <span
+      className="post-button-delete"
+    >
+      <button
+        className="no-style"
+        disabled={undefined}
+        onClick={[Function]}
       >
         <span
           className="text red small"
         >
-          This post was scheduled for March 12 at 9:42pm (GMT)
+          Confirm
         </span>
-        <span
-          className="text small"
-        >
-           - Please reschedule or delete.
-        </span>
-      </span>
-    </div>
-    <div
-      className="post-controls"
-    >
-      <div>
-        <span>
-          <span
-            className="post-button"
-          >
-            <button
-              className="no-style"
-              disabled={undefined}
-              onClick={[Function]}
-            >
-              <span
-                className="text small"
-              >
-                Delete
-              </span>
-            </button>
-          </span>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text small"
-            >
-              Edit
-            </span>
-          </button>
-        </span>
-        <span
-          className="post-button-last"
-        >
-          <span
-            className="vertical-line"
-          />
-          <button
-            className="no-style"
-            disabled={undefined}
-            onClick={[Function]}
-          >
-            <span
-              className="text blue small"
-            >
-              Reschedule
-            </span>
-          </button>
-        </span>
-      </div>
-    </div>
-  </div>
+      </button>
+    </span>
+  </span>
 </span>
 `;
 
@@ -13655,7 +14638,7 @@ exports[`Snapshots PostList default 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -13671,7 +14654,7 @@ exports[`Snapshots PostList default 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -13682,6 +14665,22 @@ exports[`Snapshots PostList default 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -13814,7 +14813,7 @@ exports[`Snapshots PostList default 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -13830,7 +14829,7 @@ exports[`Snapshots PostList default 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -13841,6 +14840,22 @@ exports[`Snapshots PostList default 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14002,7 +15017,7 @@ exports[`Snapshots PostList image posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14018,7 +15033,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14029,6 +15044,22 @@ exports[`Snapshots PostList image posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14181,7 +15212,7 @@ exports[`Snapshots PostList image posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14197,7 +15228,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14208,6 +15239,22 @@ exports[`Snapshots PostList image posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14417,7 +15464,7 @@ exports[`Snapshots PostList link posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14433,7 +15480,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14444,6 +15491,22 @@ exports[`Snapshots PostList link posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14644,7 +15707,7 @@ exports[`Snapshots PostList link posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14660,7 +15723,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14671,6 +15734,22 @@ exports[`Snapshots PostList link posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14812,7 +15891,7 @@ exports[`Snapshots PostList missing type 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14828,7 +15907,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14839,6 +15918,22 @@ exports[`Snapshots PostList missing type 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -14971,7 +16066,7 @@ exports[`Snapshots PostList missing type 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -14987,7 +16082,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -14998,6 +16093,22 @@ exports[`Snapshots PostList missing type 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -15239,7 +16350,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -15255,7 +16366,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -15266,6 +16377,22 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -15498,7 +16625,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -15514,7 +16641,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -15525,6 +16652,22 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -15695,7 +16838,7 @@ exports[`Snapshots PostList video posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -15711,7 +16854,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -15722,6 +16865,22 @@ exports[`Snapshots PostList video posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -15883,7 +17042,7 @@ exports[`Snapshots PostList video posts 1`] = `
                   <div>
                     <span>
                       <span
-                        className="post-button"
+                        className="post-button-delete"
                       >
                         <button
                           className="no-style"
@@ -15899,7 +17058,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       </span>
                     </span>
                     <span
-                      className="post-button-last"
+                      className="post-button-edit"
                     >
                       <button
                         className="no-style"
@@ -15910,6 +17069,22 @@ exports[`Snapshots PostList video posts 1`] = `
                           className="text small"
                         >
                           Edit
+                        </span>
+                      </button>
+                    </span>
+                    <span>
+                      <span
+                        className="vertical-line"
+                      />
+                      <button
+                        className="no-style"
+                        disabled={undefined}
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="text blue small"
+                        >
+                           Request Approval 
                         </span>
                       </button>
                     </span>
@@ -15981,7 +17156,7 @@ exports[`Snapshots ScheduleTag Default 1`] = `
 </span>
 `;
 
-exports[`Snapshots TextPost default 1`] = `
+exports[`Snapshots TextPost default. All approval view. 1`] = `
 <span>
   <div
     className="post-container"
@@ -16105,7 +17280,7 @@ exports[`Snapshots TextPost default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -16120,18 +17295,19 @@ exports[`Snapshots TextPost default 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -16268,7 +17444,7 @@ exports[`Snapshots TextPost manager 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -16284,7 +17460,7 @@ exports[`Snapshots TextPost manager 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -16298,9 +17474,23 @@ exports[`Snapshots TextPost manager 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Move to Drafts 
+                  </span>
+                </button>
+              </span>
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -16556,11 +17746,6 @@ exports[`Snapshots TextPost past due 1`] = `
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
               </span>
-              <span
-                className="text small"
-              >
-                 - Please reschedule or delete.
-              </span>
             </span>
           </div>
           <div
@@ -16569,7 +17754,7 @@ exports[`Snapshots TextPost past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -16584,24 +17769,23 @@ exports[`Snapshots TextPost past due 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -16726,11 +17910,6 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                 className="text red small"
               >
                 This post was scheduled for March 12 at 9:42pm (GMT)
-              </span>
-              <span
-                className="text small"
-              >
-                 - Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -16915,7 +18094,7 @@ exports[`Snapshots TextPost retweet 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -16930,18 +18109,19 @@ exports[`Snapshots TextPost retweet 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -17138,7 +18318,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -17153,18 +18333,19 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   </button>
                 </span>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
+                <span
+                  className="vertical-line"
+                />
                 <button
                   className="no-style"
                   disabled={undefined}
-                  onClick={[Function]}
+                  onClick={undefined}
                 >
                   <span
-                    className="text small"
+                    className="text blue small"
                   >
-                    Edit
+                     Move to Drafts 
                   </span>
                 </button>
               </span>
@@ -17177,7 +18358,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
 </span>
 `;
 
-exports[`Snapshots VideoPost default 1`] = `
+exports[`Snapshots VideoPost default. All drafts view. 1`] = `
 <span>
   <div
     className="post-container"
@@ -17330,7 +18511,7 @@ exports[`Snapshots VideoPost default 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -17346,7 +18527,7 @@ exports[`Snapshots VideoPost default 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -17357,6 +18538,22 @@ exports[`Snapshots VideoPost default 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -17522,7 +18719,7 @@ exports[`Snapshots VideoPost manager 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -17538,7 +18735,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -17552,9 +18749,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -17566,7 +18761,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                   <span
                     className="text blue small"
                   >
-                    Approve
+                    Add to Queue
                   </span>
                 </button>
               </span>
@@ -17881,7 +19076,7 @@ exports[`Snapshots VideoPost past due 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -17897,7 +19092,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -17911,9 +19106,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                   </span>
                 </button>
               </span>
-              <span
-                className="post-button-last"
-              >
+              <span>
                 <span
                   className="vertical-line"
                 />
@@ -18285,7 +19478,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -18301,7 +19494,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -18312,6 +19505,22 @@ exports[`Snapshots VideoPost retweet 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -18477,7 +19686,7 @@ exports[`Snapshots VideoPost square image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -18493,7 +19702,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -18504,6 +19713,22 @@ exports[`Snapshots VideoPost square image 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -18669,7 +19894,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -18685,7 +19910,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -18696,6 +19921,22 @@ exports[`Snapshots VideoPost tall image 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>
@@ -18861,7 +20102,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
             <div>
               <span>
                 <span
-                  className="post-button"
+                  className="post-button-delete"
                 >
                   <button
                     className="no-style"
@@ -18877,7 +20118,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                 </span>
               </span>
               <span
-                className="post-button-last"
+                className="post-button-edit"
               >
                 <button
                   className="no-style"
@@ -18888,6 +20129,22 @@ exports[`Snapshots VideoPost wide image 1`] = `
                     className="text small"
                   >
                     Edit
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  className="vertical-line"
+                />
+                <button
+                  className="no-style"
+                  disabled={undefined}
+                  onClick={undefined}
+                >
+                  <span
+                    className="text blue small"
+                  >
+                     Request Approval 
                   </span>
                 </button>
               </span>

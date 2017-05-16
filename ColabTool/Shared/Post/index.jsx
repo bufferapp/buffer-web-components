@@ -64,11 +64,14 @@ const Post = ({
   onDeleteClick,
   onDeleteConfirmClick,
   onEditClick,
+  onMoveToDraftsClick,
+  onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
   retweetComment,
   retweetCommentLinks,
   retweetProfile,
+  view,
 }) =>
   <div className={style['post-container']}>
     <div className={style.post}>
@@ -92,8 +95,11 @@ const Post = ({
           onDeleteClick={onDeleteClick}
           onDeleteConfirmClick={onDeleteConfirmClick}
           onEditClick={onEditClick}
+          onMoveToDraftsClick={onMoveToDraftsClick}
+          onRequestApprovalClick={onRequestApprovalClick}
           onRescheduleClick={onRescheduleClick}
           draftDetails={draftDetails}
+          view={view}
         />
       </Card>
     </div>
@@ -112,6 +118,8 @@ Post.commonPropTypes = {
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onEditClick: PropTypes.func.isRequired,
   onRescheduleClick: PropTypes.func,
+  onMoveToDraftsClick: PropTypes.func,
+  onRequestApprovalClick: PropTypes.func,
   draftDetails: PropTypes.shape({
     avatarUrl: PropTypes.string,
     createdAt: PropTypes.string,
@@ -135,6 +143,7 @@ Post.commonPropTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ),
+  view: PropTypes.string.isRequired,
 };
 
 Post.propTypes = {
