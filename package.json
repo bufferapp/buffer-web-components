@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/web-components",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "UI components for buffer web",
   "main": "index.js",
   "scripts": {
@@ -79,7 +79,7 @@
     "style-loader": "0.16.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.4.19",
+    "@bufferapp/components": "0.4.20",
     "redux-form": "6.6.3"
   }
 }

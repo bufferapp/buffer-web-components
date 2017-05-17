@@ -1,0 +1,11 @@
+@import '@bufferapp/components/variables.css';
+
+.sectionHeader {
+  display: flex;
+  height: 3rem;
+  border-bottom: var(--border-width) solid var(--mystic);
+}
+
+.sectionHeader span {
+  align-self: center;
+}

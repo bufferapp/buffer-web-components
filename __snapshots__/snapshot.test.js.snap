@@ -17156,6 +17156,20 @@ exports[`Snapshots ScheduleTag Default 1`] = `
 </span>
 `;
 
+exports[`Snapshots SectionHeader default 1`] = `
+<span>
+  <div
+    className="sectionHeader"
+  >
+    <span
+      className="text outerSpace"
+    >
+      A section header
+    </span>
+  </div>
+</span>
+`;
+
 exports[`Snapshots TextPost default. All approval view. 1`] = `
 <span>
   <div
