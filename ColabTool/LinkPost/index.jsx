@@ -13,6 +13,7 @@ const LinkPost = ({
   hasPermission,
   isConfirmingDelete,
   isDeleting,
+  isMoving,
   isPastDue,
   isWorking,
   links,
@@ -86,6 +87,7 @@ const LinkPost = ({
       hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isMoving={isMoving}
       isPastDue={isPastDue}
       isWorking={isWorking}
       links={links}

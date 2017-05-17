@@ -9,6 +9,7 @@ const TextPost = ({
   hasPermission,
   isConfirmingDelete,
   isDeleting,
+  isMoving,
   isPastDue,
   isWorking,
   imageSrc,
@@ -49,6 +50,7 @@ const TextPost = ({
       hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isMoving={isMoving}
       isPastDue={isPastDue}
       isWorking={isWorking}
       imageSrc={imageSrc}

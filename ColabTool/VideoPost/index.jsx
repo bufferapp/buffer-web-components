@@ -5,6 +5,7 @@ const VideoPost = ({
   hasPermission,
   isConfirmingDelete,
   isDeleting,
+  isMoving,
   isPastDue,
   isWorking,
   imageSrc,
@@ -28,6 +29,7 @@ const VideoPost = ({
     hasPermission={hasPermission}
     isConfirmingDelete={isConfirmingDelete}
     isDeleting={isDeleting}
+    isMoving={isMoving}
     isPastDue={isPastDue}
     isWorking={isWorking}
     imageSrc={imageSrc}

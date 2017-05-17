@@ -39,6 +39,7 @@ const links = [{
 const retweetComment = 'What is a Product Designer? An awesome story by @jgadapee over on Medium! http://buff.ly/1LTbUqv';
 
 const draftsView = 'drafts';
+const approvalView = 'approval';
 
 const children = (
   <Text size={'mini'}>
@@ -136,6 +137,22 @@ storiesOf('Post')
       isWorking
       draftDetails={draftDetails}
       view={draftsView}
+    >
+      {children}
+    </Post>
+  ))
+  .add('approval view: isMoving', () => (
+    <Post
+      hasPermission
+      isMoving
+      isWorking
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      draftDetails={draftDetails}
+      view={approvalView}
     >
       {children}
     </Post>

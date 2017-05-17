@@ -113,7 +113,7 @@ storiesOf('PostFooter')
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
-      onMoveToDraftsClick={action('move-to-drafts-click')}
+      onMoveToDraftsClick={linkTo('PostFooter', 'approval view: manager moving to drafts')}
       draftDetails={draftDetails}
       view={approvalView}
     />
@@ -140,7 +140,7 @@ storiesOf('PostFooter')
       onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
       onEditClick={action('edit-click')}
-      onMoveToDraftsClick={action('move-to-drafts-click')}
+      onMoveToDraftsClick={linkTo('PostFooter', 'approval view: not manager moving to drafts')}
       draftDetails={draftDetails}
       view={approvalView}
     />
@@ -166,6 +166,37 @@ storiesOf('PostFooter')
       onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onEditClick={action('edit-click')}
+      onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
+      draftDetails={draftDetails}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: manager moving to drafts', () => (
+    <PostFooter
+      hasPermission
+      isMoving
+      isWorking
+      manager
+      onApproveClick={linkTo('PostFooter', 'approval view: managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      onMoveToDraftsClick={action('move-to-drafts-click')}
+      draftDetails={draftDetails}
+      view={approvalView}
+    />
+  ))
+  .add('approval view: not manager moving to drafts', () => (
+    <PostFooter
+      hasPermission
+      isMoving
+      isWorking
+      onCancelConfirmClick={linkTo('PostFooter', 'default')}
+      onDeleteClick={linkTo('PostFooter', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      onMoveToDraftsClick={action('move-to-drafts-click')}
       onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
       draftDetails={draftDetails}
       view={approvalView}

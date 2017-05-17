@@ -16,6 +16,7 @@ const ImagePost = ({
   hasPermission,
   isConfirmingDelete,
   isDeleting,
+  isMoving,
   isPastDue,
   isWorking,
   imageSrc,
@@ -67,6 +68,7 @@ const ImagePost = ({
       hasPermission={hasPermission}
       isConfirmingDelete={isConfirmingDelete}
       isDeleting={isDeleting}
+      isMoving={isMoving}
       isPastDue={isPastDue}
       isWorking={isWorking}
       imageSrc={imageSrc}

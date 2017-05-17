@@ -65,6 +65,7 @@ const renderControls = ({
   hasPermission,
   isDeleting,
   isConfirmingDelete,
+  isMoving,
   isPastDue,
   isWorking,
   manager,
@@ -78,17 +79,27 @@ const renderControls = ({
   onRequestApprovalClick,
   view,
 }) => {
-  const workingCopy = view === 'drafts' ? 'Adding...' : 'Approving...';
-
   if (isDeleting) {
     return (
       <Text size={'small'}> Deleting... </Text>
     );
-  } else if (manager && isWorking) {
+  }
+
+  const approvalView = view === 'approval';
+
+  if (approvalView && isMoving) {
     return (
-      <Text size={'small'}>{workingCopy}</Text>
+      <Text size={'small'}> Moving... </Text>
     );
-  } else if (isWorking) {
+  }
+
+  if (manager && isWorking) {
+    return (
+      <Text size={'small'}>{ approvalView ? 'Approving...' : 'Adding...' }</Text>
+    );
+  }
+
+  if (!approvalView && isWorking) {
     return (
       <Text size={'small'}> Requesting... </Text>
     );
@@ -135,6 +146,7 @@ const PostFooter = ({
   hasPermission,
   isDeleting,
   isConfirmingDelete,
+  isMoving,
   isPastDue,
   isWorking,
   manager,
@@ -159,6 +171,7 @@ const PostFooter = ({
         hasPermission,
         isDeleting,
         isConfirmingDelete,
+        isMoving,
         isPastDue,
         isWorking,
         manager,
@@ -179,6 +192,7 @@ PostFooter.propTypes = {
   hasPermission: PropTypes.bool.isRequired,
   isDeleting: PropTypes.bool,
   isConfirmingDelete: PropTypes.bool,
+  isMoving: PropTypes.bool,
   isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
   manager: PropTypes.bool,
@@ -204,6 +218,7 @@ PostFooter.propTypes = {
 PostFooter.defaultProps = {
   isDeleting: false,
   isConfirmingDelete: false,
+  isMoving: false,
   isPastDue: false,
   isWorking: false,
 };

@@ -56,6 +56,7 @@ const Post = ({
   hasPermission,
   isConfirmingDelete,
   isDeleting,
+  isMoving,
   isPastDue,
   isWorking,
   manager,
@@ -87,6 +88,7 @@ const Post = ({
           hasPermission={hasPermission}
           isDeleting={isDeleting}
           isConfirmingDelete={isConfirmingDelete}
+          isMoving={isMoving}
           isPastDue={isPastDue}
           isWorking={isWorking}
           manager={manager}
@@ -109,6 +111,7 @@ Post.commonPropTypes = {
   hasPermission: PropTypes.bool.isRequired,
   isConfirmingDelete: PropTypes.bool,
   isDeleting: PropTypes.bool,
+  isMoving: PropTypes.bool,
   isPastDue: PropTypes.bool,
   isWorking: PropTypes.bool,
   manager: PropTypes.bool,
@@ -154,6 +157,7 @@ Post.propTypes = {
 Post.defaultProps = {
   isConfirmingDelete: false,
   isDeleting: false,
+  isMoving: false,
   isPastDue: false,
   isWorking: false,
   manager: false,
