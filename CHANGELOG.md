@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 (May 17, 2017)
+
+- Remove `SectionHeader` component and add it to [Components Library](https://github.com/bufferapp/buffer-components)
+
 ## 0.0.37 (May 17, 2017)
 
 - Add `SectionHeader` component
