@@ -1,15 +1,12 @@
 import React, { PropTypes } from 'react';
 import {
-  Button,
-} from '@bufferapp/components';
-import {
   borderWidth,
 } from '@bufferapp/components/style/border';
 import {
   mystic,
 } from '@bufferapp/components/style/color';
 import HoverableText from '../../../HoverableText';
-import HoverableFocusable from '../../../HoverableFocusable';
+import HoverableButton from '../../../HoverableButton';
 
 const verticalLineStyle = {
   marginRight: '0.7rem',
@@ -32,57 +29,45 @@ const PostFooterApproval = ({
   if (isPastDue && hasPermission) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableFocusable>
-        <Button onClick={onRescheduleClick} noStyle>
-          <HoverableFocusable>
-            <HoverableText
-              size={'small'}
-              color={'curiousBlue'}
-              hoverColor={'toryBlue'}
-            >
-              Reschedule
-            </HoverableText>
-          </HoverableFocusable>
-        </Button>
-      </HoverableFocusable>
+      <HoverableButton onClick={onRescheduleClick} noStyle>
+        <HoverableText
+          size={'small'}
+          color={'curiousBlue'}
+          hoverColor={'toryBlue'}
+        >
+          Reschedule
+        </HoverableText>
+      </HoverableButton>
     </span>);
   }
 
   if (manager) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableFocusable>
-        <Button onClick={onApproveClick} noStyle>
-          <HoverableFocusable>
-            <HoverableText
-              size={'small'}
-              color={'curiousBlue'}
-              hoverColor={'toryBlue'}
-            >
-              {managerCopy}
-            </HoverableText>
-          </HoverableFocusable>
-        </Button>
-      </HoverableFocusable>
+      <HoverableButton onClick={onApproveClick} noStyle>
+        <HoverableText
+          size={'small'}
+          color={'curiousBlue'}
+          hoverColor={'toryBlue'}
+        >
+          {managerCopy}
+        </HoverableText>
+      </HoverableButton>
     </span>);
   }
 
   if (isDraftsView && hasPermission) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableFocusable>
-        <Button onClick={onRequestApprovalClick} noStyle>
-          <HoverableFocusable>
-            <HoverableText
-              size={'small'}
-              color={'curiousBlue'}
-              hoverColor={'toryBlue'}
-            >
-              Request Approval
-            </HoverableText>
-          </HoverableFocusable>
-        </Button>
-      </HoverableFocusable>
+      <HoverableButton onClick={onRequestApprovalClick} noStyle>
+        <HoverableText
+          size={'small'}
+          color={'curiousBlue'}
+          hoverColor={'toryBlue'}
+        >
+          Request Approval
+        </HoverableText>
+      </HoverableButton>
     </span>);
   }
   return null;

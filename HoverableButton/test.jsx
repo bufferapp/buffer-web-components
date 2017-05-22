@@ -3,14 +3,12 @@ import { mount } from 'enzyme';
 import {
   Button,
 } from '@bufferapp/components';
-import HoverableFocusable from './index';
+import HoverableButton from './index';
 
-describe('HoverableFocusable', () => {
+describe('HoverableButton', () => {
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
     const wrapper = mount(
-      <HoverableFocusable>
-        <Button>Hi</Button>
-      </HoverableFocusable>,
+      <HoverableButton>A Button</HoverableButton>,
     );
     const button = wrapper
       .find(Button);
@@ -24,9 +22,7 @@ describe('HoverableFocusable', () => {
 
   it('should toggle focused prop when focus and blur are triggered', () => {
     const wrapper = mount(
-      <HoverableFocusable>
-        <Button>Hi</Button>
-      </HoverableFocusable>,
+      <HoverableButton>A Button</HoverableButton>,
     );
     const button = wrapper
       .find(Button);

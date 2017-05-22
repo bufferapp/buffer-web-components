@@ -6062,6 +6062,87 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
 </span>
 `;
 
+exports[`Snapshots HoverableButton default 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Hoverable Button!
+  </button>
+</span>
+`;
+
+exports[`Snapshots HoverableButton with text that changes text on hover 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "background": "none",
+        "backgroundColor": "unset",
+        "border": "none",
+        "borderRadius": "unset",
+        "color": "unset",
+        "cursor": "pointer",
+        "display": "unset",
+        "fontFamily": "unset",
+        "fontSize": "unset",
+        "fontWeight": "unset",
+        "margin": "unset",
+        "outline": "none",
+        "padding": 0,
+        "transition": "unset",
+      }
+    }
+  >
+    <span
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Hover And This Changes Color
+      </span>
+    </span>
+  </button>
+</span>
+`;
+
 exports[`Snapshots HoverableFocusable with Button 1`] = `
 <span>
   <button
@@ -6563,8 +6644,8 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -6616,8 +6697,8 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -6671,8 +6752,8 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -7004,8 +7085,8 @@ exports[`Snapshots ImagePost manager 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -7057,8 +7138,8 @@ exports[`Snapshots ImagePost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -7112,8 +7193,8 @@ exports[`Snapshots ImagePost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -7721,8 +7802,8 @@ exports[`Snapshots ImagePost past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -7774,8 +7855,8 @@ exports[`Snapshots ImagePost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -7829,8 +7910,8 @@ exports[`Snapshots ImagePost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -8523,8 +8604,8 @@ exports[`Snapshots ImagePost retweet 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -8576,8 +8657,8 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -8631,8 +8712,8 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -8964,8 +9045,8 @@ exports[`Snapshots ImagePost square image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -9017,8 +9098,8 @@ exports[`Snapshots ImagePost square image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -9072,8 +9153,8 @@ exports[`Snapshots ImagePost square image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -9439,8 +9520,8 @@ exports[`Snapshots ImagePost tag 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -9492,8 +9573,8 @@ exports[`Snapshots ImagePost tag 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -9547,8 +9628,8 @@ exports[`Snapshots ImagePost tag 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -9880,8 +9961,8 @@ exports[`Snapshots ImagePost tall image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -9933,8 +10014,8 @@ exports[`Snapshots ImagePost tall image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -9988,8 +10069,8 @@ exports[`Snapshots ImagePost tall image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -10321,8 +10402,8 @@ exports[`Snapshots ImagePost wide image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -10374,8 +10455,8 @@ exports[`Snapshots ImagePost wide image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -10429,8 +10510,8 @@ exports[`Snapshots ImagePost wide image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -10861,8 +10942,8 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -10917,8 +10998,8 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -11349,8 +11430,8 @@ exports[`Snapshots LinkPost manager 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -11402,8 +11483,8 @@ exports[`Snapshots LinkPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -11457,8 +11538,8 @@ exports[`Snapshots LinkPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -11512,8 +11593,8 @@ exports[`Snapshots LinkPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -12307,8 +12388,8 @@ exports[`Snapshots LinkPost past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -12363,8 +12444,8 @@ exports[`Snapshots LinkPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -12418,8 +12499,8 @@ exports[`Snapshots LinkPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -13213,8 +13294,8 @@ exports[`Snapshots LinkPost square image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -13269,8 +13350,8 @@ exports[`Snapshots LinkPost square image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -13701,8 +13782,8 @@ exports[`Snapshots LinkPost tall image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -13757,8 +13838,8 @@ exports[`Snapshots LinkPost tall image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -14189,8 +14270,8 @@ exports[`Snapshots LinkPost wide image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -14245,8 +14326,8 @@ exports[`Snapshots LinkPost wide image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -14678,8 +14759,8 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -14731,8 +14812,8 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -14786,8 +14867,8 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -15595,8 +15676,8 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -15648,8 +15729,8 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -15703,8 +15784,8 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -16588,8 +16669,8 @@ exports[`Snapshots Post default 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -16641,8 +16722,8 @@ exports[`Snapshots Post default 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -16696,8 +16777,8 @@ exports[`Snapshots Post default 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -16972,8 +17053,8 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -17024,8 +17105,8 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -17077,8 +17158,8 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -17132,8 +17213,8 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -18108,8 +18189,8 @@ exports[`Snapshots Post manager 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -18161,8 +18242,8 @@ exports[`Snapshots Post manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -18216,8 +18297,8 @@ exports[`Snapshots Post manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -18711,8 +18792,8 @@ exports[`Snapshots Post past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -18764,8 +18845,8 @@ exports[`Snapshots Post past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -18819,8 +18900,8 @@ exports[`Snapshots Post past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -19399,8 +19480,8 @@ exports[`Snapshots Post retweet 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -19452,8 +19533,8 @@ exports[`Snapshots Post retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -19507,8 +19588,8 @@ exports[`Snapshots Post retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -19903,8 +19984,8 @@ exports[`Snapshots Post retweet with comment 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -19956,8 +20037,8 @@ exports[`Snapshots Post retweet with comment 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -20011,8 +20092,8 @@ exports[`Snapshots Post retweet with comment 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -20171,8 +20252,8 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -20224,8 +20305,8 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -20279,8 +20360,8 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -20334,8 +20415,8 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -20590,8 +20671,8 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -20643,8 +20724,8 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -20698,8 +20779,8 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -20753,8 +20834,8 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -21024,8 +21105,8 @@ exports[`Snapshots PostFooter approval view: not a manager 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -21080,8 +21161,8 @@ exports[`Snapshots PostFooter approval view: not a manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -21222,8 +21303,8 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -21278,8 +21359,8 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -21333,8 +21414,8 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -21821,8 +21902,8 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -21874,8 +21955,8 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -21929,8 +22010,8 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22083,8 +22164,8 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -22136,8 +22217,8 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22191,8 +22272,8 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22462,8 +22543,8 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -22515,8 +22596,8 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22570,8 +22651,8 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22724,8 +22805,8 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -22777,8 +22858,8 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -22832,8 +22913,8 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -23192,8 +23273,8 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -23244,8 +23325,8 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -23297,8 +23378,8 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -23352,8 +23433,8 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -23623,8 +23704,8 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -23675,8 +23756,8 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
               }
             >
               <span
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
               >
                 <span
                   style={
@@ -23728,8 +23809,8 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -23783,8 +23864,8 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
             }
           >
             <span
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
             >
               <span
                 style={
@@ -23949,8 +24030,8 @@ exports[`Snapshots PostFooterApproval approval view: manager 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24009,8 +24090,8 @@ exports[`Snapshots PostFooterApproval approval view: manager past due 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24071,8 +24152,8 @@ exports[`Snapshots PostFooterApproval approval view: not manager. past due 1`] =
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24133,8 +24214,8 @@ exports[`Snapshots PostFooterApproval drafts view: manager 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24193,8 +24274,8 @@ exports[`Snapshots PostFooterApproval drafts view: manager past due 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24253,8 +24334,8 @@ exports[`Snapshots PostFooterApproval drafts view: not manager 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24315,8 +24396,8 @@ exports[`Snapshots PostFooterApproval drafts view: not manager. past due 1`] = `
       }
     >
       <span
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
       >
         <span
           style={
@@ -24375,8 +24456,8 @@ exports[`Snapshots PostFooterDelete default 1`] = `
         }
       >
         <span
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
         >
           <span
             style={
@@ -24434,8 +24515,8 @@ exports[`Snapshots PostFooterDelete isConfirmingDelete 1`] = `
         }
       >
         <span
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
         >
           <span
             style={
@@ -24486,8 +24567,8 @@ exports[`Snapshots PostFooterDelete isConfirmingDelete 1`] = `
         }
       >
         <span
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
         >
           <span
             style={
@@ -25694,8 +25775,8 @@ exports[`Snapshots PostList default 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -25747,8 +25828,8 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -25802,8 +25883,8 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -26106,8 +26187,8 @@ exports[`Snapshots PostList default 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -26159,8 +26240,8 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -26214,8 +26295,8 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -26557,8 +26638,8 @@ exports[`Snapshots PostList image posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -26610,8 +26691,8 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -26665,8 +26746,8 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -26993,8 +27074,8 @@ exports[`Snapshots PostList image posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -27046,8 +27127,8 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -27101,8 +27182,8 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -27559,8 +27640,8 @@ exports[`Snapshots PostList link posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -27612,8 +27693,8 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -27667,8 +27748,8 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -28110,8 +28191,8 @@ exports[`Snapshots PostList link posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -28163,8 +28244,8 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -28218,8 +28299,8 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -28537,8 +28618,8 @@ exports[`Snapshots PostList missing type 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -28590,8 +28671,8 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -28645,8 +28726,8 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -28949,8 +29030,8 @@ exports[`Snapshots PostList missing type 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -29002,8 +29083,8 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -29057,8 +29138,8 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -29500,8 +29581,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -29553,8 +29634,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -29608,8 +29689,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -30036,8 +30117,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -30089,8 +30170,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -30144,8 +30225,8 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -30521,8 +30602,8 @@ exports[`Snapshots PostList video posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -30574,8 +30655,8 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -30629,8 +30710,8 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -30991,8 +31072,8 @@ exports[`Snapshots PostList video posts 1`] = `
                           }
                         >
                           <span
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
                           >
                             <span
                               style={
@@ -31044,8 +31125,8 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -31099,8 +31180,8 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       >
                         <span
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
+                          onMouseEnter={undefined}
+                          onMouseLeave={undefined}
                         >
                           <span
                             style={
@@ -31684,8 +31765,8 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -31740,8 +31821,8 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -32049,8 +32130,8 @@ exports[`Snapshots TextPost manager 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -32102,8 +32183,8 @@ exports[`Snapshots TextPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -32157,8 +32238,8 @@ exports[`Snapshots TextPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -32212,8 +32293,8 @@ exports[`Snapshots TextPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -32761,8 +32842,8 @@ exports[`Snapshots TextPost past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -32817,8 +32898,8 @@ exports[`Snapshots TextPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -32872,8 +32953,8 @@ exports[`Snapshots TextPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -33506,8 +33587,8 @@ exports[`Snapshots TextPost retweet 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -33562,8 +33643,8 @@ exports[`Snapshots TextPost retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -33991,8 +34072,8 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -34047,8 +34128,8 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -34414,8 +34495,8 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -34467,8 +34548,8 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -34522,8 +34603,8 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -34889,8 +34970,8 @@ exports[`Snapshots VideoPost manager 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -34942,8 +35023,8 @@ exports[`Snapshots VideoPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -34997,8 +35078,8 @@ exports[`Snapshots VideoPost manager 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -35674,8 +35755,8 @@ exports[`Snapshots VideoPost past due 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -35727,8 +35808,8 @@ exports[`Snapshots VideoPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -35782,8 +35863,8 @@ exports[`Snapshots VideoPost past due 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -36544,8 +36625,8 @@ exports[`Snapshots VideoPost retweet 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -36597,8 +36678,8 @@ exports[`Snapshots VideoPost retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -36652,8 +36733,8 @@ exports[`Snapshots VideoPost retweet 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -37019,8 +37100,8 @@ exports[`Snapshots VideoPost square image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -37072,8 +37153,8 @@ exports[`Snapshots VideoPost square image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -37127,8 +37208,8 @@ exports[`Snapshots VideoPost square image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -37494,8 +37575,8 @@ exports[`Snapshots VideoPost tall image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -37547,8 +37628,8 @@ exports[`Snapshots VideoPost tall image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -37602,8 +37683,8 @@ exports[`Snapshots VideoPost tall image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -37969,8 +38050,8 @@ exports[`Snapshots VideoPost wide image 1`] = `
                     }
                   >
                     <span
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
                     >
                       <span
                         style={
@@ -38022,8 +38103,8 @@ exports[`Snapshots VideoPost wide image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={
@@ -38077,8 +38158,8 @@ exports[`Snapshots VideoPost wide image 1`] = `
                   }
                 >
                   <span
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
                   >
                     <span
                       style={

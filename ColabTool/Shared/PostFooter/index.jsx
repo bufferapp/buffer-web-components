@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
 import {
-  Button,
   Text,
   ClockIcon,
   WarningIcon,
@@ -14,7 +13,7 @@ import {
 import PostFooterDelete from '../PostFooterDelete';
 import PostFooterApproval from '../PostFooterApproval';
 import HoverableText from '../../../HoverableText';
-import HoverableFocusable from '../../../HoverableFocusable';
+import HoverableButton from '../../../HoverableButton';
 
 const postDetailsStyle = {
   display: 'flex',
@@ -68,17 +67,13 @@ const renderEdit = ({
 
   return (
     <span style={postButtonEdit}>
-      <HoverableFocusable>
-        <Button onClick={onEditClick} noStyle>
-          <HoverableFocusable>
-            <HoverableText
-              size={'small'}
-            >
-              Edit
-            </HoverableText>
-          </HoverableFocusable>
-        </Button>
-      </HoverableFocusable>
+      <HoverableButton onClick={onEditClick} noStyle>
+        <HoverableText
+          size={'small'}
+        >
+          Edit
+        </HoverableText>
+      </HoverableButton>
     </span>
   );
 };
@@ -94,19 +89,15 @@ const renderMoveToDrafts = ({
 
   return (<span>
     <span style={verticalLineStyle} />
-    <HoverableFocusable>
-      <Button onClick={onMoveToDraftsClick} noStyle>
-        <HoverableFocusable>
-          <HoverableText
-            size={'small'}
-            color={'curiousBlue'}
-            hoverColor={'toryBlue'}
-          >
-            Move to Drafts
-          </HoverableText>
-        </HoverableFocusable>
-      </Button>
-    </HoverableFocusable>
+    <HoverableButton onClick={onMoveToDraftsClick} noStyle>
+      <HoverableText
+        size={'small'}
+        color={'curiousBlue'}
+        hoverColor={'toryBlue'}
+      >
+        Move to Drafts
+      </HoverableText>
+    </HoverableButton>
   </span>);
 };
 
