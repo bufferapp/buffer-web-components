@@ -7,3 +7,4 @@ export TextPost from './ColabTool/TextPost';
 export MultipleImagesPost from './ColabTool/MultipleImagesPost';
 export VideoPost from './ColabTool/VideoPost';
 export DateTimeForm from './DateTimeForm';
+export ScheduleSettingHeader from './ScheduleSetting/ScheduleSettingHeader';

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 (May 22, 2017)
+
+- Add `ScheduleSettingHeader` component
+
 ## 0.1.1 (May 17, 2017)
 
 - Add `isMoving` prop to `PostFooter` component and all Post types

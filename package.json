@@ -79,7 +79,7 @@
     "style-loader": "0.16.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.4.21",
+    "@bufferapp/components": "0.4.24",
     "redux-form": "6.6.3"
   }
 }
