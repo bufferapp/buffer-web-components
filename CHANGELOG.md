@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 (May 22, 2017)
+
+- Add `HoverableButton` component
+
 ## 0.1.3 (May 22, 2017)
 
 - Migrate to JSS/inline styled components
