@@ -3,7 +3,34 @@ import {
   Image,
   Text,
 } from '@bufferapp/components';
-import style from './style.css';
+import {
+  white,
+  mystic,
+} from '@bufferapp/components/style/color';
+import {
+  borderWidth,
+} from '@bufferapp/components/style/border';
+
+const postDetailsStyle = {
+  display: 'flex',
+  padding: '0.5rem 1rem',
+  background: white,
+  borderBottom: `${borderWidth} solid ${mystic}`,
+};
+
+const postAuthorStyle = {
+  flexGrow: 1,
+  display: 'flex',
+};
+
+const postDetailsAuthorImageStyle = {
+  marginRight: '0.75rem',
+};
+
+const postInfoStyle = {
+  marginRight: '0.5rem',
+};
+
 
 const getPostDetailString = (draftDetails) => {
   const idInfo = draftDetails.userName || draftDetails.email;
@@ -19,15 +46,17 @@ const getPostDetailString = (draftDetails) => {
 const PostHeader = ({
   draftDetails,
 }) =>
-  <div className={style['post-details']}>
-    <div className={style['post-author']}>
-      <Image
-        alt={draftDetails.userName}
-        src={draftDetails.avatarUrl}
-        width={'1.25rem'}
-        border={'circle'}
-      />
-      <span className={style['post-info']}>
+  <div style={postDetailsStyle}>
+    <div style={postAuthorStyle}>
+      <div style={postDetailsAuthorImageStyle}>
+        <Image
+          alt={draftDetails.userName}
+          src={draftDetails.avatarUrl}
+          width={'1.25rem'}
+          border={'circle'}
+        />
+      </div>
+      <span style={postInfoStyle}>
         <Text size={'small'}>{getPostDetailString(draftDetails)}</Text>
       </span>
     </div>

@@ -1,9 +1,3 @@
-const PostCSSImport = require('postcss-import');
-const PostCSSCustomProperties = require('postcss-custom-properties');
-const PostCSShexrgba = require('postcss-hexrgba');
-
-const classNameFormat = '[name]_[local]_[hash:base64:5]';
-
 module.exports = {
   module: {
     loaders: [
@@ -11,8 +5,7 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style-loader',
-          `css-loader?modules&importLoaders=1&localIdentName=${classNameFormat}`,
-          'postcss-loader',
+          'css-loader',
         ],
       },
       {
@@ -27,9 +20,4 @@ module.exports = {
       },
     ],
   },
-  postcss: [
-    PostCSSImport,
-    PostCSSCustomProperties,
-    PostCSShexrgba,
-  ],
 };

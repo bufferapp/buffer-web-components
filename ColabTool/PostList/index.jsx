@@ -7,7 +7,11 @@ import ImagePost from '../ImagePost';
 import MultipleImagesPost from '../MultipleImagesPost';
 import LinkPost from '../LinkPost';
 import VideoPost from '../VideoPost';
-import styles from './style.css';
+
+const postStyle = {
+  marginBottom: '2rem',
+};
+
 
 /* eslint-disable react/prop-types */
 
@@ -64,7 +68,7 @@ const PostList = ({
 }) =>
   <List
     items={posts.map(post =>
-      <div className={styles.post}>
+      <div style={postStyle}>
         {
           renderPost({
             post,
@@ -93,6 +97,8 @@ PostList.propTypes = {
   onDeleteClick: PropTypes.func,
   onDeleteConfirmClick: PropTypes.func,
   onEditClick: PropTypes.func,
+  onMoveToDraftsClick: PropTypes.func,
+  onRequestApprovalClick: PropTypes.func,
   onRescheduleClick: PropTypes.func,
 };
 

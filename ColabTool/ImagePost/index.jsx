@@ -4,12 +4,35 @@ import {
   Image,
   LinkifiedText,
 } from '@bufferapp/components';
-import style from './style.css';
 import Post from '../Shared/Post';
+
+const postContentStyle = {
+  display: 'flex',
+};
+
+const postContentTextStyle = {
+  paddingRight: '1rem',
+  flexGrow: 1,
+};
+
+const imageWrapperStyle = {
+  position: 'relative',
+};
+
+const imageTagStyle = {
+  position: 'absolute',
+  bottom: '0.7rem',
+  left: '0.7rem',
+};
+
 
 const renderTag = (tag) => {
   if (!tag) return;
-  return <IdTag>{tag}</IdTag>;
+  return (
+    <span style={imageTagStyle}>
+      <IdTag>{tag}</IdTag>
+    </span>
+  );
 };
 
 const ImagePost = ({
@@ -37,8 +60,8 @@ const ImagePost = ({
   view,
 }) => {
   const children = (
-    <div className={style['post-content']}>
-      <span className={style['post-content-text']}>
+    <div style={postContentStyle}>
+      <span style={postContentTextStyle}>
         <LinkifiedText
           links={links}
           size={'mini'}
@@ -48,7 +71,7 @@ const ImagePost = ({
           {text}
         </LinkifiedText>
       </span>
-      <div className={style['image-wrapper']}>
+      <div style={imageWrapperStyle}>
         <Image
           src={imageSrc}
           width={'15rem'}

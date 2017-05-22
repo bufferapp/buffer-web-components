@@ -36,7 +36,7 @@ const noUserNameViaApiDraftDetails = {
 };
 
 const noUserNameDraftDetails = {
-    ...draftDetails,
+  ...draftDetails,
   userName: '',
 };
 

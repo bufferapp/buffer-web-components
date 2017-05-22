@@ -4,7 +4,24 @@ import {
   Select,
   Text,
 } from '@bufferapp/components';
-import style from './style.css';
+
+const textStyle = {
+  flexGrow: 1,
+};
+
+const serviceStyle = {
+  textTransform: 'capitalize',
+};
+
+const timezoneStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  flexDirection: 'row',
+};
+
+const timezoneItemStyle = {
+  marginRight: '0.5rem',
+};
 
 const ScheduleSettingHeader = ({
   profileName,
@@ -13,17 +30,17 @@ const ScheduleSettingHeader = ({
   timezoneOptions,
 }) => (
   <SectionHeader>
-    <span className={style.text}>
+    <span className={textStyle}>
       <Text>
         Posting schedule for the <strong>{profileName}</strong>
-        <span className={style.service}> {profileService} {profileServiceType}</span>
+        <span className={serviceStyle}> {profileService} {profileServiceType}</span>
       </Text>
     </span>
-    <span className={style.timezone}>
-      <span className={style.timezoneItem}>
+    <span className={timezoneStyle}>
+      <span className={timezoneItemStyle}>
         <Text size={'small'}>Schedule Timezone:</Text>
       </span>
-      <span className={style.timezoneItem}>
+      <span className={timezoneItemStyle}>
         <Select options={timezoneOptions} />
       </span>
     </span>

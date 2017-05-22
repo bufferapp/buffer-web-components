@@ -2,8 +2,17 @@ import React, { PropTypes } from 'react';
 import {
   LinkifiedText,
 } from '@bufferapp/components';
-import style from './style.css';
 import Post from '../Shared/Post';
+
+const postContentStyle = {
+  display: 'flex',
+};
+
+const postContentTextStyle = {
+  paddingRight: '1rem',
+  flexGrow: 1,
+};
+
 
 const TextPost = ({
   hasPermission,
@@ -31,8 +40,8 @@ const TextPost = ({
   view,
 }) => {
   const children = (
-    <div className={style['post-content']}>
-      <span className={style['post-content-text']}>
+    <div style={postContentStyle}>
+      <span style={postContentTextStyle}>
         <LinkifiedText
           links={links}
           size={'mini'}

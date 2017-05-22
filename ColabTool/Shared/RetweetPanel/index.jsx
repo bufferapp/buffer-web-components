@@ -3,21 +3,31 @@ import {
   Image,
   Text,
 } from '@bufferapp/components';
-import style from './style.css';
+
+const retweetPanelContainerStyle = {
+  display: 'flex',
+  alignItems: 'center',
+};
+
+const retweetHandleContainer = {
+  display: 'flex',
+  flexDirection: 'column',
+  marginLeft: '1rem',
+};
 
 const RetweetPanel = ({
   name,
   handle,
   avatarUrl,
 }) =>
-  <div className={style['retweet-panel-container']}>
+  <div style={retweetPanelContainerStyle}>
     <Image
       src={avatarUrl}
       border={'circle'}
       height={'2rem'}
       width={'2rem'}
     />
-    <div className={style['retweet-handle-container']}>
+    <div style={retweetHandleContainer}>
       <Text size={'small'}>{name}</Text>
       <Text size={'extra-small'}>{handle}</Text>
     </div>

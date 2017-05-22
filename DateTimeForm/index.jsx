@@ -6,16 +6,21 @@ import {
   InputTime,
   Text,
 } from '@bufferapp/components';
-import styles from './style.css';
+import HoverableFocusable from '../HoverableFocusable';
+
+const formItemStyle = {
+  marginTop: '1rem',
+  textAlign: 'center',
+};
 
 const renderTimezoneLabel = timezoneLabel =>
-  <div className={styles.timezoneLabel}>
+  <div style={formItemStyle}>
     <Text>{timezoneLabel}</Text>
   </div>;
 
 const renderError = error =>
-  <div className={styles.error}>
-    <Text color={'red'}>{error}</Text>
+  <div style={formItemStyle}>
+    <Text color={'torchRed'}>{error}</Text>
   </div>;
 
 const DateTimeForm = ({
@@ -35,17 +40,19 @@ const DateTimeForm = ({
         initialMonthYear={initialMonthYear}
       />
     </div>
-    <div className={styles.time}>
+    <div style={formItemStyle}>
       <Field name={'time'} component={InputTime} />
     </div>
     { error ? renderError(error) : null }
-    <div className={styles.submitButton}>
-      <Button
-        onClick={handleSubmit}
-        disabled={submitting}
-      >
-          Schedule
-      </Button>
+    <div style={formItemStyle}>
+      <HoverableFocusable>
+        <Button
+          onClick={handleSubmit}
+          disabled={submitting}
+        >
+            Schedule
+        </Button>
+      </HoverableFocusable>
     </div>
     { timezoneLabel ? renderTimezoneLabel(timezoneLabel) : null }
   </form>;

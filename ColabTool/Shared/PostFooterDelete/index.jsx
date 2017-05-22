@@ -1,17 +1,27 @@
 import React, { PropTypes } from 'react';
 import {
   Button,
-  Text,
 } from '@bufferapp/components';
-import style from './style.css';
+import HoverableText from '../../../HoverableText';
+import HoverableFocusable from '../../../HoverableFocusable';
+
+const postButtonDeleteStyle = {
+  marginLeft: '0.5rem',
+};
+
+/* eslint-disable react/prop-types */
 
 const renderConfirmDelete = ({
   onCancelConfirmClick,
 }) =>
-  <span className={style['post-cancel-delete']}>
-    <Button onClick={onCancelConfirmClick} noStyle>
-      <Text size={'small'}>Cancel</Text>
-    </Button>
+  <span style={postButtonDeleteStyle}>
+    <HoverableFocusable>
+      <Button onClick={onCancelConfirmClick} noStyle>
+        <HoverableFocusable>
+          <HoverableText size={'small'}>Cancel</HoverableText>
+        </HoverableFocusable>
+      </Button>
+    </HoverableFocusable>
   </span>;
 
 
@@ -20,13 +30,22 @@ const renderDeleteButton = ({
   onDeleteConfirmClick,
   onDeleteClick,
 }) =>
-  <span className={style['post-button-delete']}>
-    <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
-      <Text size={'small'} color={isConfirmingDelete ? 'red' : undefined}>
-        {isConfirmingDelete ? 'Confirm' : 'Delete'}
-      </Text>
-    </Button>
+  <span style={postButtonDeleteStyle}>
+    <HoverableFocusable>
+      <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
+        <HoverableFocusable>
+          <HoverableText
+            color={isConfirmingDelete ? 'torchRed' : undefined}
+            size={'small'}
+          >
+            {isConfirmingDelete ? 'Confirm' : 'Delete'}
+          </HoverableText>
+        </HoverableFocusable>
+      </Button>
+    </HoverableFocusable>
   </span>;
+
+/* eslint-enable react/prop-types */
 
 const PostFooterDelete = ({
   isConfirmingDelete,

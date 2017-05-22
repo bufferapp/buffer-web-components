@@ -3,7 +3,6 @@ import {
   storiesOf,
   action,
 } from '@kadira/storybook';
-import { linkTo } from '@kadira/storybook-addon-links';
 import { checkA11y } from 'storybook-addon-a11y';
 import PostFooterApproval from './index';
 

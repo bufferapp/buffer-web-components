@@ -72,7 +72,7 @@ storiesOf('DateTimeForm')
       onSubmit={() => {
         throw new SubmissionError({
           _error: 'Oops! You need to schedule your update for some time in the future!',
-        })
+        });
       }}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
@@ -80,7 +80,7 @@ storiesOf('DateTimeForm')
   ))
   .add('with submitting delay', () => (
     <DateTimeForm
-      onSubmit={() => new Promise((resolve, reject) => {
+      onSubmit={() => new Promise((resolve) => {
         setTimeout(() => {
           resolve();
         }, 2000);

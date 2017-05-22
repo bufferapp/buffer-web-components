@@ -6,8 +6,38 @@ import {
   LinkifiedText,
   Text,
 } from '@bufferapp/components';
-import style from './style.css';
 import Post from '../Shared/Post';
+
+const postContentStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+};
+
+const postContentTextStyle = {
+  paddingBottom: '1rem',
+};
+
+const linkAttachmentContentStyle = {
+  display: 'flex',
+  flexDirection: 'row',
+};
+
+const linkAttachmentTextStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  padding: '1rem',
+  flexGrow: 1,
+  minWidth: 0,
+};
+
+const linkUrlStyle = {
+  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  color: 'rgba(50, 59, 67, 0.3)',
+  margin: '0.25rem 1rem 1rem 0',
+};
+
 
 const LinkPost = ({
   hasPermission,
@@ -32,8 +62,8 @@ const LinkPost = ({
   view,
 }) => {
   const children = (
-    <div className={style['post-content']}>
-      <div className={style['post-content-text']}>
+    <div style={postContentStyle}>
+      <div style={postContentTextStyle}>
         <LinkifiedText
           links={links}
           size={'mini'}
@@ -48,7 +78,7 @@ const LinkPost = ({
           <Card
             noPadding
           >
-            <div className={style['link-attachment-content']}>
+            <div style={linkAttachmentContentStyle}>
               <Image
                 src={linkAttachment.thumbnailUrl}
                 width={'15rem'}
@@ -58,14 +88,14 @@ const LinkPost = ({
                 border={'rounded'}
                 objectFit={'cover'}
               />
-              <div className={style['link-attachment-text']}>
+              <div style={linkAttachmentTextStyle}>
                 <div>
                   <Text>
                     {linkAttachment.title}
                   </Text>
                 </div>
-                <div className={style['link-url']}>
-                  <Text size={'small'} color={'gray'}>
+                <div style={linkUrlStyle}>
+                  <Text size={'small'} color={'outerSpaceLight'}>
                     {linkAttachment.url}
                   </Text>
                 </div>

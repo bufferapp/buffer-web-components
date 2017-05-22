@@ -5,9 +5,55 @@ import {
   ClockIcon,
   WarningIcon,
 } from '@bufferapp/components';
+import {
+  borderWidth,
+} from '@bufferapp/components/style/border';
+import {
+  mystic,
+} from '@bufferapp/components/style/color';
 import PostFooterDelete from '../PostFooterDelete';
 import PostFooterApproval from '../PostFooterApproval';
-import style from './style.css';
+import HoverableText from '../../../HoverableText';
+import HoverableFocusable from '../../../HoverableFocusable';
+
+const postDetailsStyle = {
+  display: 'flex',
+  padding: '0.5rem 1rem',
+  backgroundColor: '#fcfcfc',
+  borderTop: `${borderWidth} solid ${mystic}`,
+};
+
+
+const postActionDetailsStyle = {
+  flexGrow: 1,
+  display: 'flex',
+  alignItems: 'center',
+};
+
+
+const postActionDetailsIconStyle = {
+  marginRight: '0.5rem',
+  display: 'flex',
+  alignItems: 'center',
+};
+
+const postControlsStyle = {
+  display: 'flex',
+};
+
+const postActionStyle = {
+  marginRight: '0.5rem',
+};
+
+const postButtonEdit = {
+  marginLeft: '0.7rem',
+};
+
+const verticalLineStyle = {
+  marginRight: '0.7rem',
+  marginLeft: '0.7rem',
+  borderLeft: `${borderWidth} solid ${mystic}`,
+};
 
 /* eslint-disable react/prop-types */
 
@@ -21,10 +67,18 @@ const renderEdit = ({
   if (!manager && view === 'approval') return;
 
   return (
-    <span className={style['post-button-edit']}>
-      <Button onClick={onEditClick} noStyle>
-        <Text size={'small'}>Edit</Text>
-      </Button>
+    <span style={postButtonEdit}>
+      <HoverableFocusable>
+        <Button onClick={onEditClick} noStyle>
+          <HoverableFocusable>
+            <HoverableText
+              size={'small'}
+            >
+              Edit
+            </HoverableText>
+          </HoverableFocusable>
+        </Button>
+      </HoverableFocusable>
     </span>
   );
 };
@@ -33,17 +87,26 @@ const renderIcon = isPastDue => (isPastDue ? <WarningIcon color={'torchRed'} /> 
 
 const renderMoveToDrafts = ({
   hasPermission,
-  manager,
   onMoveToDraftsClick,
   view,
 }) => {
   if (view !== 'approval' || !hasPermission) return;
 
   return (<span>
-    <span className={style['vertical-line']} />
-    <Button onClick={onMoveToDraftsClick} noStyle>
-      <Text size={'small'} color={'blue'}> Move to Drafts </Text>
-    </Button>
+    <span style={verticalLineStyle} />
+    <HoverableFocusable>
+      <Button onClick={onMoveToDraftsClick} noStyle>
+        <HoverableFocusable>
+          <HoverableText
+            size={'small'}
+            color={'curiousBlue'}
+            hoverColor={'toryBlue'}
+          >
+            Move to Drafts
+          </HoverableText>
+        </HoverableFocusable>
+      </Button>
+    </HoverableFocusable>
   </span>);
 };
 
@@ -52,8 +115,8 @@ const renderText = ({
   isPastDue,
   view,
 }) =>
-  <span className={style['post-action']}>
-    <Text size={'small'} color={isPastDue ? 'red' : undefined}>{draftDetails.postAction}</Text>
+  <span style={postActionStyle}>
+    <Text size={'small'} color={isPastDue ? 'torchRed' : undefined}>{draftDetails.postAction}</Text>
     {
       isPastDue && view === 'drafts' ?
         <Text size={'small'}> - Please reschedule or delete.</Text>
@@ -161,12 +224,14 @@ const PostFooter = ({
   draftDetails,
   view,
 }) =>
-  <div className={style['post-details']}>
-    <div className={style['post-action-details']}>
-      {renderIcon(isPastDue)}
+  <div style={postDetailsStyle}>
+    <div style={postActionDetailsStyle}>
+      <div style={postActionDetailsIconStyle}>
+        {renderIcon(isPastDue)}
+      </div>
       {renderText({ draftDetails, isPastDue, view })}
     </div>
-    <div className={style['post-controls']}>
+    <div style={postControlsStyle}>
       {renderControls({
         hasPermission,
         isDeleting,

@@ -3,13 +3,40 @@ import {
   Card,
   LinkifiedText,
 } from '@bufferapp/components';
-import style from './style.css';
 import PostFooter from '../PostFooter';
 import PostHeader from '../PostHeader';
 import RetweetPanel from '../RetweetPanel';
 
-const renderRetweetComment = ({retweetComment, retweetCommentLinks}) => (
-  <div className={style.comment}>
+const postContainerStyle = {
+  display: 'flex',
+  width: '100%',
+};
+
+const postStyle = {
+  flexGrow: 1,
+  minWidth: 0,
+};
+
+const postContentStyle = {
+  padding: '1rem',
+};
+
+const retweetProfileWrapperStyle = {
+  marginBottom: '1rem',
+};
+
+const commentStyle = {
+  marginBottom: '1rem',
+};
+
+
+/* eslint-disable react/prop-types */
+
+const renderRetweetComment = ({
+  retweetComment,
+  retweetCommentLinks,
+}) => (
+  <div style={commentStyle}>
     <LinkifiedText
       links={retweetCommentLinks}
       newTab
@@ -29,13 +56,13 @@ const renderContent = ({
 }) => {
   if (retweetProfile) {
     return (
-      <div className={style['post-content']}>
-        { retweetComment ? renderRetweetComment({retweetComment, retweetCommentLinks}) : '' }
+      <div style={postContentStyle}>
+        { retweetComment ? renderRetweetComment({ retweetComment, retweetCommentLinks }) : '' }
         <Card
           color={'off-white'}
           reducedPadding
         >
-          <div className={style['retweet-profile-wrapper']}>
+          <div style={retweetProfileWrapperStyle}>
             <RetweetPanel {...retweetProfile} />
           </div>
           { children }
@@ -45,11 +72,13 @@ const renderContent = ({
   }
 
   return (
-    <div className={style['post-content']}>
+    <div style={postContentStyle}>
       { children }
     </div>
   );
 };
+
+/* eslint-enable react/prop-types */
 
 const Post = ({
   children,
@@ -74,8 +103,8 @@ const Post = ({
   retweetProfile,
   view,
 }) =>
-  <div className={style['post-container']}>
-    <div className={style.post}>
+  <div style={postContainerStyle}>
+    <div style={postStyle}>
       <Card
         faded={isDeleting}
         noPadding
@@ -83,7 +112,12 @@ const Post = ({
         <PostHeader
           draftDetails={draftDetails}
         />
-        {renderContent({children, retweetProfile, retweetComment, retweetCommentLinks})}
+        {renderContent({
+          children,
+          retweetProfile,
+          retweetComment,
+          retweetCommentLinks,
+        })}
         <PostFooter
           hasPermission={hasPermission}
           isDeleting={isDeleting}

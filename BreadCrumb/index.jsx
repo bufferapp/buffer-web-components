@@ -3,16 +3,37 @@ import {
   ArrowRightIcon,
   Text,
 } from '@bufferapp/components';
-import style from './style.css';
+
+const breadCrumbStyle = {
+  alignItems: 'center',
+  display: 'flex',
+};
+
+const arrowStyle = {
+  display: 'flex',
+  alignSelf: 'center',
+  marginRight: '0.357rem',
+  marginLeft: '0.357rem',
+};
+
+const childPage = {
+  display: 'flex',
+};
 
 const BreadCrumb = props => (
-  <div className={style.container}>
+  <div style={breadCrumbStyle}>
     <Text size={'small'}>{props.parentPage}</Text>
-    <span className={style.arrow}>
+    <span style={arrowStyle}>
       <ArrowRightIcon />
     </span>
-    <span className={style.childPage}>
-      <Text size={'small'} weight={'bold'}>{props.childPage}</Text>
+    <span style={childPage}>
+      <Text
+        size={'small'}
+        weight={'bold'}
+        color={'outerSpace'}
+      >
+        {props.childPage}
+      </Text>
     </span>
   </div>
 );
