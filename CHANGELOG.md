@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 (May 22, 2017)
+
+- Migrate to JSS/inline styled components
+
 ## 0.1.2 (May 22, 2017)
 
 - Add `ScheduleSettingHeader` component

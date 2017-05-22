@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/web-components",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "UI components for buffer web",
   "main": "index.js",
   "scripts": {
