@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6 (May 23, 2017)
+
+- Align items in center of `PostHeader` author
+
 ## 0.1.5 (May 22, 2017)
 
 - Migrate to self managed `Button`
