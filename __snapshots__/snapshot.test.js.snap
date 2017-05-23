@@ -6219,14 +6219,16 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -6237,7 +6239,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -6247,7 +6249,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -6660,14 +6662,16 @@ exports[`Snapshots ImagePost manager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -6678,7 +6682,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -6688,7 +6692,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -7101,14 +7105,16 @@ exports[`Snapshots ImagePost no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -7119,7 +7125,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -7129,7 +7135,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -7380,14 +7386,16 @@ exports[`Snapshots ImagePost past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -7398,7 +7406,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -7408,7 +7416,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -7818,14 +7826,16 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -7836,7 +7846,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -7846,7 +7856,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -8094,14 +8104,16 @@ exports[`Snapshots ImagePost retweet 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -8112,7 +8124,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -8122,7 +8134,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -8620,14 +8632,16 @@ exports[`Snapshots ImagePost square image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -8638,7 +8652,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -8648,7 +8662,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -9061,14 +9075,16 @@ exports[`Snapshots ImagePost tag 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -9079,7 +9095,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -9089,7 +9105,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -9536,14 +9552,16 @@ exports[`Snapshots ImagePost tall image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -9554,7 +9572,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -9564,7 +9582,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -9977,14 +9995,16 @@ exports[`Snapshots ImagePost wide image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -9995,7 +10015,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -10005,7 +10025,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -10418,14 +10438,16 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -10436,7 +10458,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -10446,7 +10468,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -10906,14 +10928,16 @@ exports[`Snapshots LinkPost manager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -10924,7 +10948,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -10934,7 +10958,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -11501,14 +11525,16 @@ exports[`Snapshots LinkPost no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -11519,7 +11545,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -11529,7 +11555,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -11879,14 +11905,16 @@ exports[`Snapshots LinkPost past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -11897,7 +11925,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -11907,7 +11935,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -12407,14 +12435,16 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -12425,7 +12455,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -12435,7 +12465,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -12770,14 +12800,16 @@ exports[`Snapshots LinkPost square image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -12788,7 +12820,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -12798,7 +12830,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -13258,14 +13290,16 @@ exports[`Snapshots LinkPost tall image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -13276,7 +13310,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -13286,7 +13320,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -13746,14 +13780,16 @@ exports[`Snapshots LinkPost wide image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -13764,7 +13800,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -13774,7 +13810,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -14234,14 +14270,16 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -14252,7 +14290,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -14262,7 +14300,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -14775,14 +14813,16 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -14793,7 +14833,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -14803,7 +14843,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -15154,14 +15194,16 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -15172,7 +15214,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -15182,7 +15224,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -15692,14 +15734,16 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -15710,7 +15754,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -15720,7 +15764,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -16068,14 +16112,16 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -16086,7 +16132,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -16096,7 +16142,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -16301,14 +16347,16 @@ exports[`Snapshots Post default 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -16319,7 +16367,7 @@ exports[`Snapshots Post default 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -16329,7 +16377,7 @@ exports[`Snapshots Post default 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -16685,14 +16733,16 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -16703,7 +16753,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -16713,7 +16763,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -17122,14 +17172,16 @@ exports[`Snapshots Post isDeleting 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -17140,7 +17192,7 @@ exports[`Snapshots Post isDeleting 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -17150,7 +17202,7 @@ exports[`Snapshots Post isDeleting 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -17355,14 +17407,16 @@ exports[`Snapshots Post isWorking 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -17373,7 +17427,7 @@ exports[`Snapshots Post isWorking 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -17383,7 +17437,7 @@ exports[`Snapshots Post isWorking 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -17588,14 +17642,16 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -17606,7 +17662,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -17616,7 +17672,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -17821,14 +17877,16 @@ exports[`Snapshots Post manager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -17839,7 +17897,7 @@ exports[`Snapshots Post manager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -17849,7 +17907,7 @@ exports[`Snapshots Post manager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -18205,14 +18263,16 @@ exports[`Snapshots Post no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -18223,7 +18283,7 @@ exports[`Snapshots Post no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -18233,7 +18293,7 @@ exports[`Snapshots Post no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -18427,14 +18487,16 @@ exports[`Snapshots Post past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -18445,7 +18507,7 @@ exports[`Snapshots Post past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -18455,7 +18517,7 @@ exports[`Snapshots Post past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -18808,14 +18870,16 @@ exports[`Snapshots Post past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -18826,7 +18890,7 @@ exports[`Snapshots Post past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -18836,7 +18900,7 @@ exports[`Snapshots Post past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -19027,14 +19091,16 @@ exports[`Snapshots Post retweet 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -19045,7 +19111,7 @@ exports[`Snapshots Post retweet 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -19055,7 +19121,7 @@ exports[`Snapshots Post retweet 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -19496,14 +19562,16 @@ exports[`Snapshots Post retweet with comment 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -19514,7 +19582,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -19524,7 +19592,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -24438,14 +24506,16 @@ exports[`Snapshots PostHeader createdAt time [api] 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24456,7 +24526,7 @@ exports[`Snapshots PostHeader createdAt time [api] 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24466,7 +24536,7 @@ exports[`Snapshots PostHeader createdAt time [api] 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24507,14 +24577,16 @@ exports[`Snapshots PostHeader createdAt time 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24525,7 +24597,7 @@ exports[`Snapshots PostHeader createdAt time 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24535,7 +24607,7 @@ exports[`Snapshots PostHeader createdAt time 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24576,14 +24648,16 @@ exports[`Snapshots PostHeader default 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24594,7 +24668,7 @@ exports[`Snapshots PostHeader default 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24604,7 +24678,7 @@ exports[`Snapshots PostHeader default 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24645,14 +24719,16 @@ exports[`Snapshots PostHeader no userName [api] 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24663,7 +24739,7 @@ exports[`Snapshots PostHeader no userName [api] 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24673,7 +24749,7 @@ exports[`Snapshots PostHeader no userName [api] 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24714,14 +24790,16 @@ exports[`Snapshots PostHeader no userName 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24732,7 +24810,7 @@ exports[`Snapshots PostHeader no userName 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24742,7 +24820,7 @@ exports[`Snapshots PostHeader no userName 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24783,14 +24861,16 @@ exports[`Snapshots PostHeader no userName and createdAt time [api] 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24801,7 +24881,7 @@ exports[`Snapshots PostHeader no userName and createdAt time [api] 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24811,7 +24891,7 @@ exports[`Snapshots PostHeader no userName and createdAt time [api] 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24852,14 +24932,16 @@ exports[`Snapshots PostHeader no userName and createdAt time 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24870,7 +24952,7 @@ exports[`Snapshots PostHeader no userName and createdAt time 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24880,7 +24962,7 @@ exports[`Snapshots PostHeader no userName and createdAt time 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24921,14 +25003,16 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -24939,7 +25023,7 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -24949,7 +25033,7 @@ exports[`Snapshots PostHeader no userName or Email 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -24990,14 +25074,16 @@ exports[`Snapshots PostHeader no userName or Email and a retweet 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -25008,7 +25094,7 @@ exports[`Snapshots PostHeader no userName or Email and a retweet 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -25018,7 +25104,7 @@ exports[`Snapshots PostHeader no userName or Email and a retweet 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -25059,14 +25145,16 @@ exports[`Snapshots PostHeader no userName or Email and createdAt time [api] 1`] 
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -25077,7 +25165,7 @@ exports[`Snapshots PostHeader no userName or Email and createdAt time [api] 1`] 
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -25087,7 +25175,7 @@ exports[`Snapshots PostHeader no userName or Email and createdAt time [api] 1`] 
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -25128,14 +25216,16 @@ exports[`Snapshots PostHeader retweet [api] 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -25146,7 +25236,7 @@ exports[`Snapshots PostHeader retweet [api] 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -25156,7 +25246,7 @@ exports[`Snapshots PostHeader retweet [api] 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -25197,14 +25287,16 @@ exports[`Snapshots PostHeader retweet 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -25215,7 +25307,7 @@ exports[`Snapshots PostHeader retweet 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -25225,7 +25317,7 @@ exports[`Snapshots PostHeader retweet 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -25266,14 +25358,16 @@ exports[`Snapshots PostHeader sent via API 1`] = `
     <div
       style={
         Object {
+          "alignItems": "center",
           "display": "flex",
           "flexGrow": 1,
         }
       }
     >
-      <div
+      <span
         style={
           Object {
+            "display": "flex",
             "marginRight": "0.75rem",
           }
         }
@@ -25284,7 +25378,7 @@ exports[`Snapshots PostHeader sent via API 1`] = `
           style={
             Object {
               "borderRadius": "50%",
-              "height": undefined,
+              "height": "1.25rem",
               "maxHeight": undefined,
               "maxWidth": undefined,
               "minHeight": undefined,
@@ -25294,7 +25388,7 @@ exports[`Snapshots PostHeader sent via API 1`] = `
             }
           }
         />
-      </div>
+      </span>
       <span
         style={
           Object {
@@ -25390,14 +25484,16 @@ exports[`Snapshots PostList default 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -25408,7 +25504,7 @@ exports[`Snapshots PostList default 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -25418,7 +25514,7 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -25802,14 +25898,16 @@ exports[`Snapshots PostList default 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -25820,7 +25918,7 @@ exports[`Snapshots PostList default 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -25830,7 +25928,7 @@ exports[`Snapshots PostList default 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -26229,14 +26327,16 @@ exports[`Snapshots PostList image posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -26247,7 +26347,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -26257,7 +26357,7 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -26665,14 +26765,16 @@ exports[`Snapshots PostList image posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -26683,7 +26785,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -26693,7 +26795,7 @@ exports[`Snapshots PostList image posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -27116,14 +27218,16 @@ exports[`Snapshots PostList link posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -27134,7 +27238,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -27144,7 +27248,7 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -27667,14 +27771,16 @@ exports[`Snapshots PostList link posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -27685,7 +27791,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -27695,7 +27801,7 @@ exports[`Snapshots PostList link posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -28233,14 +28339,16 @@ exports[`Snapshots PostList missing type 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -28251,7 +28359,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -28261,7 +28369,7 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -28645,14 +28753,16 @@ exports[`Snapshots PostList missing type 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -28663,7 +28773,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -28673,7 +28783,7 @@ exports[`Snapshots PostList missing type 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -29072,14 +29182,16 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -29090,7 +29202,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -29100,7 +29212,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -29608,14 +29720,16 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -29626,7 +29740,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -29636,7 +29750,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -30159,14 +30273,16 @@ exports[`Snapshots PostList video posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -30177,7 +30293,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -30187,7 +30303,7 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -30629,14 +30745,16 @@ exports[`Snapshots PostList video posts 1`] = `
                 <div
                   style={
                     Object {
+                      "alignItems": "center",
                       "display": "flex",
                       "flexGrow": 1,
                     }
                   }
                 >
-                  <div
+                  <span
                     style={
                       Object {
+                        "display": "flex",
                         "marginRight": "0.75rem",
                       }
                     }
@@ -30647,7 +30765,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       style={
                         Object {
                           "borderRadius": "50%",
-                          "height": undefined,
+                          "height": "1.25rem",
                           "maxHeight": undefined,
                           "maxWidth": undefined,
                           "minHeight": undefined,
@@ -30657,7 +30775,7 @@ exports[`Snapshots PostList video posts 1`] = `
                         }
                       }
                     />
-                  </div>
+                  </span>
                   <span
                     style={
                       Object {
@@ -31364,14 +31482,16 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -31382,7 +31502,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -31392,7 +31512,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -31729,14 +31849,16 @@ exports[`Snapshots TextPost manager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -31747,7 +31869,7 @@ exports[`Snapshots TextPost manager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -31757,7 +31879,7 @@ exports[`Snapshots TextPost manager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -32201,14 +32323,16 @@ exports[`Snapshots TextPost no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -32219,7 +32343,7 @@ exports[`Snapshots TextPost no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -32229,7 +32353,7 @@ exports[`Snapshots TextPost no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -32456,14 +32580,16 @@ exports[`Snapshots TextPost past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -32474,7 +32600,7 @@ exports[`Snapshots TextPost past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -32484,7 +32610,7 @@ exports[`Snapshots TextPost past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -32861,14 +32987,16 @@ exports[`Snapshots TextPost past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -32879,7 +33007,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -32889,7 +33017,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -33101,14 +33229,16 @@ exports[`Snapshots TextPost retweet 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -33119,7 +33249,7 @@ exports[`Snapshots TextPost retweet 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -33129,7 +33259,7 @@ exports[`Snapshots TextPost retweet 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -33551,14 +33681,16 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -33569,7 +33701,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -33579,7 +33711,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -34036,14 +34168,16 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -34054,7 +34188,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -34064,7 +34198,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -34511,14 +34645,16 @@ exports[`Snapshots VideoPost manager 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -34529,7 +34665,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -34539,7 +34675,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -34986,14 +35122,16 @@ exports[`Snapshots VideoPost no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -35004,7 +35142,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -35014,7 +35152,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -35299,14 +35437,16 @@ exports[`Snapshots VideoPost past due 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -35317,7 +35457,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -35327,7 +35467,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -35771,14 +35911,16 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -35789,7 +35931,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -35799,7 +35941,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -36081,14 +36223,16 @@ exports[`Snapshots VideoPost retweet 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -36099,7 +36243,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -36109,7 +36253,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -36641,14 +36785,16 @@ exports[`Snapshots VideoPost square image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -36659,7 +36805,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -36669,7 +36815,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -37116,14 +37262,16 @@ exports[`Snapshots VideoPost tall image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -37134,7 +37282,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -37144,7 +37292,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {
@@ -37591,14 +37739,16 @@ exports[`Snapshots VideoPost wide image 1`] = `
           <div
             style={
               Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexGrow": 1,
               }
             }
           >
-            <div
+            <span
               style={
                 Object {
+                  "display": "flex",
                   "marginRight": "0.75rem",
                 }
               }
@@ -37609,7 +37759,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                 style={
                   Object {
                     "borderRadius": "50%",
-                    "height": undefined,
+                    "height": "1.25rem",
                     "maxHeight": undefined,
                     "maxWidth": undefined,
                     "minHeight": undefined,
@@ -37619,7 +37769,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                   }
                 }
               />
-            </div>
+            </span>
             <span
               style={
                 Object {

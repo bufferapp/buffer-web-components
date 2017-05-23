@@ -21,10 +21,12 @@ const postDetailsStyle = {
 const postAuthorStyle = {
   flexGrow: 1,
   display: 'flex',
+  alignItems: 'center',
 };
 
 const postDetailsAuthorImageStyle = {
   marginRight: '0.75rem',
+  display: 'flex',
 };
 
 const postInfoStyle = {
@@ -48,14 +50,15 @@ const PostHeader = ({
 }) =>
   <div style={postDetailsStyle}>
     <div style={postAuthorStyle}>
-      <div style={postDetailsAuthorImageStyle}>
+      <span style={postDetailsAuthorImageStyle}>
         <Image
           alt={draftDetails.userName}
           src={draftDetails.avatarUrl}
           width={'1.25rem'}
+          height={'1.25rem'}
           border={'circle'}
         />
-      </div>
+      </span>
       <span style={postInfoStyle}>
         <Text size={'small'}>{getPostDetailString(draftDetails)}</Text>
       </span>
