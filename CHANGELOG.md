@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5 (May 22, 2017)
+
+- Migrate to self managed `Button`
+
 ## 0.1.4 (May 22, 2017)
 
 - Add `HoverableButton` component
