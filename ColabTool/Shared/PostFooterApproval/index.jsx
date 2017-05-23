@@ -1,12 +1,14 @@
 import React, { PropTypes } from 'react';
 import {
+  Button,
+} from '@bufferapp/components';
+import {
   borderWidth,
 } from '@bufferapp/components/style/border';
 import {
   mystic,
 } from '@bufferapp/components/style/color';
 import HoverableText from '../../../HoverableText';
-import HoverableButton from '../../../HoverableButton';
 
 const verticalLineStyle = {
   marginRight: '0.7rem',
@@ -29,7 +31,7 @@ const PostFooterApproval = ({
   if (isPastDue && hasPermission) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableButton onClick={onRescheduleClick} noStyle>
+      <Button onClick={onRescheduleClick} noStyle>
         <HoverableText
           size={'small'}
           color={'curiousBlue'}
@@ -37,14 +39,14 @@ const PostFooterApproval = ({
         >
           Reschedule
         </HoverableText>
-      </HoverableButton>
+      </Button>
     </span>);
   }
 
   if (manager) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableButton onClick={onApproveClick} noStyle>
+      <Button onClick={onApproveClick} noStyle>
         <HoverableText
           size={'small'}
           color={'curiousBlue'}
@@ -52,14 +54,14 @@ const PostFooterApproval = ({
         >
           {managerCopy}
         </HoverableText>
-      </HoverableButton>
+      </Button>
     </span>);
   }
 
   if (isDraftsView && hasPermission) {
     return (<span>
       <span style={verticalLineStyle} />
-      <HoverableButton onClick={onRequestApprovalClick} noStyle>
+      <Button onClick={onRequestApprovalClick} noStyle>
         <HoverableText
           size={'small'}
           color={'curiousBlue'}
@@ -67,7 +69,7 @@ const PostFooterApproval = ({
         >
           Request Approval
         </HoverableText>
-      </HoverableButton>
+      </Button>
     </span>);
   }
   return null;

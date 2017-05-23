@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import {
+  Button,
   Text,
   ClockIcon,
   WarningIcon,
@@ -13,7 +14,6 @@ import {
 import PostFooterDelete from '../PostFooterDelete';
 import PostFooterApproval from '../PostFooterApproval';
 import HoverableText from '../../../HoverableText';
-import HoverableButton from '../../../HoverableButton';
 
 const postDetailsStyle = {
   display: 'flex',
@@ -67,13 +67,13 @@ const renderEdit = ({
 
   return (
     <span style={postButtonEdit}>
-      <HoverableButton onClick={onEditClick} noStyle>
+      <Button onClick={onEditClick} noStyle>
         <HoverableText
           size={'small'}
         >
           Edit
         </HoverableText>
-      </HoverableButton>
+      </Button>
     </span>
   );
 };
@@ -89,7 +89,7 @@ const renderMoveToDrafts = ({
 
   return (<span>
     <span style={verticalLineStyle} />
-    <HoverableButton onClick={onMoveToDraftsClick} noStyle>
+    <Button onClick={onMoveToDraftsClick} noStyle>
       <HoverableText
         size={'small'}
         color={'curiousBlue'}
@@ -97,7 +97,7 @@ const renderMoveToDrafts = ({
       >
         Move to Drafts
       </HoverableText>
-    </HoverableButton>
+    </Button>
   </span>);
 };
 

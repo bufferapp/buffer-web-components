@@ -6062,172 +6062,6 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
 </span>
 `;
 
-exports[`Snapshots HoverableButton default 1`] = `
-<span>
-  <button
-    disabled={undefined}
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "backgroundColor": "#168eea",
-        "border": "0.063rem solid transparent",
-        "borderRadius": "2rem",
-        "color": "#fff",
-        "cursor": "pointer",
-        "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
-        "fontSize": "0.8rem",
-        "fontWeight": 400,
-        "margin": "0",
-        "outline": "none",
-        "padding": "0.5rem 2rem",
-        "transition": "background-color 0.1s linear",
-      }
-    }
-  >
-    Hoverable Button!
-  </button>
-</span>
-`;
-
-exports[`Snapshots HoverableButton with text that changes text on hover 1`] = `
-<span>
-  <button
-    disabled={undefined}
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "background": "none",
-        "backgroundColor": "unset",
-        "border": "none",
-        "borderRadius": "unset",
-        "color": "unset",
-        "cursor": "pointer",
-        "display": "unset",
-        "fontFamily": "unset",
-        "fontSize": "unset",
-        "fontWeight": "unset",
-        "margin": "unset",
-        "outline": "none",
-        "padding": 0,
-        "transition": "unset",
-      }
-    }
-  >
-    <span
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
-    >
-      <span
-        style={
-          Object {
-            "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
-            "fontSize": "1rem",
-            "fontWeight": 400,
-          }
-        }
-      >
-        Hover And This Changes Color
-      </span>
-    </span>
-  </button>
-</span>
-`;
-
-exports[`Snapshots HoverableFocusable with Button 1`] = `
-<span>
-  <button
-    disabled={undefined}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "backgroundColor": "#168eea",
-        "border": "0.063rem solid transparent",
-        "borderRadius": "2rem",
-        "color": "#fff",
-        "cursor": "pointer",
-        "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
-        "fontSize": "0.8rem",
-        "fontWeight": 400,
-        "margin": "0",
-        "outline": "none",
-        "padding": "0.5rem 2rem",
-        "transition": "background-color 0.1s linear",
-      }
-    }
-  >
-    Hoverable + Focusable
-  </button>
-</span>
-`;
-
-exports[`Snapshots HoverableFocusable with Link 1`] = `
-<span>
-  <a
-    href="https://buffer.com"
-    onBlur={[Function]}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "color": "#168eea",
-      }
-    }
-    target="_self"
-  >
-    Hoverable + Focusable Link
-  </a>
-</span>
-`;
-
-exports[`Snapshots HoverableFocusable with warning Button 1`] = `
-<span>
-  <button
-    disabled={undefined}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "backgroundColor": "transparent",
-        "border": "0.063rem solid transparent",
-        "borderColor": "#ff1e1e",
-        "borderRadius": "2rem",
-        "color": "#323b43",
-        "cursor": "pointer",
-        "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
-        "fontSize": "0.8rem",
-        "fontWeight": 400,
-        "margin": "0",
-        "outline": "none",
-        "padding": "0.5rem 2rem",
-        "transition": "background-color 0.1s linear",
-      }
-    }
-  >
-    Danger!
-  </button>
-</span>
-`;
-
 exports[`Snapshots HoverableText color = torchRed 1`] = `
 <span>
   <span
@@ -6471,10 +6305,10 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -6912,10 +6746,10 @@ exports[`Snapshots ImagePost manager 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -7353,10 +7187,10 @@ exports[`Snapshots ImagePost no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -7632,10 +7466,10 @@ exports[`Snapshots ImagePost past due 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -8070,10 +7904,10 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -8430,10 +8264,10 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                   <a
                     href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                    onBlur={undefined}
-                    onFocus={undefined}
-                    onMouseEnter={undefined}
-                    onMouseLeave={undefined}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                     style={
                       Object {
                         "color": "#168eea",
@@ -8872,10 +8706,10 @@ exports[`Snapshots ImagePost square image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -9313,10 +9147,10 @@ exports[`Snapshots ImagePost tag 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -9788,10 +9622,10 @@ exports[`Snapshots ImagePost tall image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -10229,10 +10063,10 @@ exports[`Snapshots ImagePost wide image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -10670,10 +10504,10 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -10689,10 +10523,10 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -11158,10 +10992,10 @@ exports[`Snapshots LinkPost manager 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -11177,10 +11011,10 @@ exports[`Snapshots LinkPost manager 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -11753,10 +11587,10 @@ exports[`Snapshots LinkPost no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -11772,10 +11606,10 @@ exports[`Snapshots LinkPost no permission 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -12131,10 +11965,10 @@ exports[`Snapshots LinkPost past due 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -12150,10 +11984,10 @@ exports[`Snapshots LinkPost past due 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -12659,10 +12493,10 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -12678,10 +12512,10 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -13022,10 +12856,10 @@ exports[`Snapshots LinkPost square image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -13041,10 +12875,10 @@ exports[`Snapshots LinkPost square image 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -13510,10 +13344,10 @@ exports[`Snapshots LinkPost tall image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -13529,10 +13363,10 @@ exports[`Snapshots LinkPost tall image 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -13998,10 +13832,10 @@ exports[`Snapshots LinkPost wide image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -14017,10 +13851,10 @@ exports[`Snapshots LinkPost wide image 1`] = `
             <div>
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -14486,10 +14320,10 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -15027,10 +14861,10 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -15406,10 +15240,10 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -15944,10 +15778,10 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -19740,10 +19574,10 @@ exports[`Snapshots Post retweet with comment 1`] = `
               What is a Product Designer? An awesome story by @jgadapee over on Medium! 
               <a
                 href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -27368,10 +27202,10 @@ exports[`Snapshots PostList link posts 1`] = `
                       What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                       <a
                         href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                        onBlur={undefined}
-                        onFocus={undefined}
-                        onMouseEnter={undefined}
-                        onMouseLeave={undefined}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
                         style={
                           Object {
                             "color": "#168eea",
@@ -27387,10 +27221,10 @@ exports[`Snapshots PostList link posts 1`] = `
                   <div>
                     <a
                       href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                      onBlur={undefined}
-                      onFocus={undefined}
-                      onMouseEnter={undefined}
-                      onMouseLeave={undefined}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
                       style={
                         Object {
                           "color": "#168eea",
@@ -27919,10 +27753,10 @@ exports[`Snapshots PostList link posts 1`] = `
                       What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                       <a
                         href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                        onBlur={undefined}
-                        onFocus={undefined}
-                        onMouseEnter={undefined}
-                        onMouseLeave={undefined}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
                         style={
                           Object {
                             "color": "#168eea",
@@ -27938,10 +27772,10 @@ exports[`Snapshots PostList link posts 1`] = `
                   <div>
                     <a
                       href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                      onBlur={undefined}
-                      onFocus={undefined}
-                      onMouseEnter={undefined}
-                      onMouseLeave={undefined}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
                       style={
                         Object {
                           "color": "#168eea",
@@ -31616,10 +31450,10 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -31981,10 +31815,10 @@ exports[`Snapshots TextPost manager 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -32453,10 +32287,10 @@ exports[`Snapshots TextPost no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -32708,10 +32542,10 @@ exports[`Snapshots TextPost past due 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -33113,10 +32947,10 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -33437,10 +33271,10 @@ exports[`Snapshots TextPost retweet 1`] = `
                   What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                   <a
                     href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                    onBlur={undefined}
-                    onFocus={undefined}
-                    onMouseEnter={undefined}
-                    onMouseLeave={undefined}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                     style={
                       Object {
                         "color": "#168eea",
@@ -33795,10 +33629,10 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
               Awesome book news here: 
               <a
                 href="https://www.theguardian.com/books"
-                onBlur={undefined}
-                onFocus={undefined}
-                onMouseEnter={undefined}
-                onMouseLeave={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
                     "color": "#168eea",
@@ -33922,10 +33756,10 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                   <a
                     href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                    onBlur={undefined}
-                    onFocus={undefined}
-                    onMouseEnter={undefined}
-                    onMouseLeave={undefined}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                     style={
                       Object {
                         "color": "#168eea",
@@ -34288,10 +34122,10 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -34763,10 +34597,10 @@ exports[`Snapshots VideoPost manager 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -35238,10 +35072,10 @@ exports[`Snapshots VideoPost no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -35551,10 +35385,10 @@ exports[`Snapshots VideoPost past due 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -36023,10 +35857,10 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -36417,10 +36251,10 @@ exports[`Snapshots VideoPost retweet 1`] = `
                   What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                   <a
                     href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                    onBlur={undefined}
-                    onFocus={undefined}
-                    onMouseEnter={undefined}
-                    onMouseLeave={undefined}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                     style={
                       Object {
                         "color": "#168eea",
@@ -36893,10 +36727,10 @@ exports[`Snapshots VideoPost square image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -37368,10 +37202,10 @@ exports[`Snapshots VideoPost tall image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",
@@ -37843,10 +37677,10 @@ exports[`Snapshots VideoPost wide image 1`] = `
                 What is a Product Designer? An awesome story by @jgadapee over on Medium! 
                 <a
                   href="https://austinstartups.com/what-is-a-product-designer-who-cares-eb38fc7afa7b#.i3r34a75x"
-                  onBlur={undefined}
-                  onFocus={undefined}
-                  onMouseEnter={undefined}
-                  onMouseLeave={undefined}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "color": "#168eea",

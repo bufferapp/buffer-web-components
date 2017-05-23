@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react';
+import {
+  Button,
+} from '@bufferapp/components';
 import HoverableText from '../../../HoverableText';
-import HoverableButton from '../../../HoverableButton';
 
 const postButtonDeleteStyle = {
   marginLeft: '0.5rem',
@@ -12,9 +14,9 @@ const renderConfirmDelete = ({
   onCancelConfirmClick,
 }) =>
   <span style={postButtonDeleteStyle}>
-    <HoverableButton onClick={onCancelConfirmClick} noStyle>
+    <Button onClick={onCancelConfirmClick} noStyle>
       <HoverableText size={'small'}>Cancel</HoverableText>
-    </HoverableButton>
+    </Button>
   </span>;
 
 
@@ -24,14 +26,14 @@ const renderDeleteButton = ({
   onDeleteClick,
 }) =>
   <span style={postButtonDeleteStyle}>
-    <HoverableButton onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
+    <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
       <HoverableText
         color={isConfirmingDelete ? 'torchRed' : undefined}
         size={'small'}
       >
         {isConfirmingDelete ? 'Confirm' : 'Delete'}
       </HoverableText>
-    </HoverableButton>
+    </Button>
   </span>;
 
 /* eslint-enable react/prop-types */

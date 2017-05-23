@@ -6,7 +6,6 @@ import {
   InputTime,
   Text,
 } from '@bufferapp/components';
-import HoverableButton from '../HoverableButton';
 
 const formItemStyle = {
   marginTop: '1rem',
@@ -45,12 +44,12 @@ const DateTimeForm = ({
     </div>
     { error ? renderError(error) : null }
     <div style={formItemStyle}>
-      <HoverableButton
+      <Button
         onClick={handleSubmit}
         disabled={submitting}
       >
           Schedule
-      </HoverableButton>
+      </Button>
     </div>
     { timezoneLabel ? renderTimezoneLabel(timezoneLabel) : null }
   </form>;
