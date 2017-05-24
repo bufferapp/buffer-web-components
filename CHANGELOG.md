@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7 (May 24, 2017)
+
+- Update `@bufferapp/components` dependency number to `0.5.3`
+- Only show ClockIcon in `PostFooter` if `scheduledAt` is Set
+- Add `scheduledAt` prop to `PostFooter`, shared `Post`, and all post types
+
 ## 0.1.6 (May 23, 2017)
 
 - Align items in center of `PostHeader` author
