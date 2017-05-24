@@ -36,6 +36,7 @@ const MultipleImagesPost = ({
   onRequestApprovalClick,
   onRescheduleClick,
   retweetProfile,
+  scheduledAt,
   text,
   view,
 }) => {
@@ -82,6 +83,7 @@ const MultipleImagesPost = ({
       onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       retweetProfile={retweetProfile}
+      scheduledAt={scheduledAt}
       text={text}
       view={view}
     >

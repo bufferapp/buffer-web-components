@@ -12,6 +12,7 @@ import {
   imagePosts,
   multipleImagePosts,
   videoPosts,
+  unscheduledPosts,
 } from './postData';
 
 storiesOf('PostList')
@@ -84,6 +85,19 @@ storiesOf('PostList')
   .add('video posts', () => (
     <PostList
       posts={videoPosts}
+      onApproveClick={action('onApproveClick')}
+      onCancelConfirmClick={action('onCancelConfirmClick')}
+      onDeleteClick={action('onDeleteClick')}
+      onDeleteConfirmClick={action('onDeleteConfirmClick')}
+      onEditClick={action('onEditClick')}
+      onMoveToDraftsClick={action('onMoveToDraftsClick')}
+      onRequestApprovalClick={action('onRequestApprovalClick')}
+      onRescheduleClick={action('onRescheduleClick')}
+    />
+  ))
+  .add('unscheduled posts', () => (
+    <PostList
+      posts={unscheduledPosts}
       onApproveClick={action('onApproveClick')}
       onCancelConfirmClick={action('onCancelConfirmClick')}
       onDeleteClick={action('onDeleteClick')}

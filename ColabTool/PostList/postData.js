@@ -20,6 +20,7 @@ export const posts = [
       isRetweet: false,
     },
     retweetCommentLinks: [],
+    scheduledAt: 1495553578,
     text: 'New thing',
     type: 'text',
     view: 'drafts',
@@ -45,11 +46,26 @@ export const posts = [
       isRetweet: false,
     },
     retweetCommentLinks: [],
+    scheduledAt: 1495553578,
     text: 'Another thing, that is also new',
     type: 'text',
     view: 'drafts',
   },
 ];
+
+export const unscheduledPosts = posts.map(post => ({
+  ...post,
+  draftDetails: {
+    via: 'api',
+    userName: 'Herminia Kirlin PhD',
+    email: 'herminiakirlinphd@gmail.com',
+    avatarUrl: 'https://secure.gravatar.com/avatar/cde7e88ad2321f54ef63a5b5132443b0?s=80&d=mm',
+    createdAt: 'May 3rd at 2:59 PM (CDT)',
+    postAction: 'This post will be added to the queue',
+    isRetweet: false,
+  },
+  scheduledAt: undefined,
+}));
 
 export const linkPosts = posts.map(post => ({
   ...post,

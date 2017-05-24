@@ -13,7 +13,7 @@ const draftDetails = {
   email: 'ash@buffer.com',
   via: 'web',
   createdAt: 'March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
 };
 
 const draftDetailsPastDue = {
@@ -21,11 +21,31 @@ const draftDetailsPastDue = {
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
 };
 
+const draftDetailsScheduled = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
 const draftsView = 'drafts';
 const approvalView = 'approval';
+const scheduledAt = 1495553578;
 
 storiesOf('PostFooter')
   .addDecorator(checkA11y)
+  .add('drafts view: manager - scheduled post', () => (
+    <PostFooter
+      hasPermission
+      manager
+      onApproveClick={linkTo('PostFooter', 'drafts view: managerIsApproving')}
+      onCancelConfirmClick={linkTo('PostFooter', 'manager')}
+      onDeleteClick={linkTo('PostFooter', 'managerIsConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('PostFooter', 'managerIsDeleting')}
+      onEditClick={action('edit-click')}
+      draftDetails={draftDetailsScheduled}
+      scheduledAt={scheduledAt}
+      view={draftsView}
+    />
+  ))
   .add('drafts view: manager', () => (
     <PostFooter
       hasPermission
@@ -51,6 +71,7 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
       draftDetails={draftDetailsPastDue}
+      scheduledAt={scheduledAt}
       view={draftsView}
     />
   ))
@@ -75,7 +96,8 @@ storiesOf('PostFooter')
       onDeleteConfirmClick={linkTo('PostFooter', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRequestApprovalClick={linkTo('PostFooter', 'drafts view: isWorking')}
-      draftDetails={draftDetails}
+      draftDetails={draftDetailsPastDue}
+      scheduledAt={scheduledAt}
       view={draftsView}
     />
   ))
@@ -130,6 +152,7 @@ storiesOf('PostFooter')
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
       draftDetails={draftDetailsPastDue}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))

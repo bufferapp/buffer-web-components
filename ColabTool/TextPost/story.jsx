@@ -29,7 +29,7 @@ const draftDetails = {
   createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
   isRetweet: false,
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
   userName: 'Ash',
   via: 'api',
 };
@@ -44,6 +44,11 @@ const draftDetailsPastDue = {
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
 };
 
+const draftDetailsScheduled = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
 const retweetProfile = {
   name: 'Joel Gascoigne',
   handle: '@joelgascoigne',
@@ -51,6 +56,7 @@ const retweetProfile = {
 };
 
 const approvalView = 'approval';
+const scheduledAt = 123456789;
 
 
 storiesOf('TextPost')
@@ -66,6 +72,21 @@ storiesOf('TextPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
+    />
+  ))
+  .add('scheduled', () => (
+    <TextPost
+      hasPermission
+      links={links}
+      draftDetails={draftDetailsScheduled}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))
@@ -129,6 +150,7 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))
@@ -145,6 +167,7 @@ storiesOf('TextPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))

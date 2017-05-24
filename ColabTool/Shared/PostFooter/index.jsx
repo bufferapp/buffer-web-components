@@ -78,7 +78,14 @@ const renderEdit = ({
   );
 };
 
-const renderIcon = isPastDue => (isPastDue ? <WarningIcon color={'torchRed'} /> : <ClockIcon />);
+const renderIcon = ({ isPastDue, scheduledAt }) => {
+  if (isPastDue) {
+    return (<WarningIcon color={'torchRed'} />);
+  } else if (scheduledAt) {
+    return (<ClockIcon />);
+  }
+  return null;
+};
 
 const renderMoveToDrafts = ({
   hasPermission,
@@ -212,13 +219,14 @@ const PostFooter = ({
   onMoveToDraftsClick,
   onRequestApprovalClick,
   onRescheduleClick,
+  scheduledAt,
   draftDetails,
   view,
 }) =>
   <div style={postDetailsStyle}>
     <div style={postActionDetailsStyle}>
       <div style={postActionDetailsIconStyle}>
-        {renderIcon(isPastDue)}
+        {renderIcon({ isPastDue, scheduledAt })}
       </div>
       {renderText({ draftDetails, isPastDue, view })}
     </div>
@@ -268,6 +276,7 @@ PostFooter.propTypes = {
     via: PropTypes.string,
     postAction: PropTypes.string,
   }).isRequired,
+  scheduledAt: PropTypes.number,
   view: PropTypes.string.isRequired,
 };
 

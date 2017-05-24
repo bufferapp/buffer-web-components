@@ -37,6 +37,7 @@ const TextPost = ({
   retweetProfile,
   retweetComment,
   retweetCommentLinks,
+  scheduledAt,
   view,
 }) => {
   const children = (
@@ -78,6 +79,7 @@ const TextPost = ({
       retweetProfile={retweetProfile}
       retweetComment={retweetComment}
       retweetCommentLinks={retweetCommentLinks}
+      scheduledAt={scheduledAt}
       view={view}
     >
       {children}

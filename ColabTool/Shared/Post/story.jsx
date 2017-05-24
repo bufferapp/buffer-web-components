@@ -13,7 +13,7 @@ const draftDetails = {
   createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
   isRetweet: false,
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
   userName: 'Ash',
   via: 'web',
 };
@@ -21,6 +21,11 @@ const draftDetails = {
 const isARetweetDraftDetails = {
   ...draftDetails,
   isRetweet: true,
+};
+
+const scheduledDraftDetails = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const retweetProfile = {
@@ -40,6 +45,7 @@ const retweetComment = 'What is a Product Designer? An awesome story by @jgadape
 
 const draftsView = 'drafts';
 const approvalView = 'approval';
+const scheduledAt = 123456789;
 
 const children = (
   <Text size={'mini'}>
@@ -58,6 +64,21 @@ storiesOf('Post')
       onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
+      view={draftsView}
+    >
+      {children}
+    </Post>
+  ))
+  .add('scheduled', () => (
+    <Post
+      hasPermission
+      draftDetails={scheduledDraftDetails}
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     >
       {children}
@@ -204,6 +225,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     >
       {children}
@@ -220,6 +242,7 @@ storiesOf('Post')
       onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     >
       {children}

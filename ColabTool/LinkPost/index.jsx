@@ -58,6 +58,7 @@ const LinkPost = ({
   onRequestApprovalClick,
   onRescheduleClick,
   draftDetails,
+  scheduledAt,
   text,
   view,
 }) => {
@@ -132,6 +133,7 @@ const LinkPost = ({
       onRequestApprovalClick={onRequestApprovalClick}
       onRescheduleClick={onRescheduleClick}
       draftDetails={draftDetails}
+      scheduledAt={scheduledAt}
       text={text}
       view={view}
     >

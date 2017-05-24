@@ -19,7 +19,7 @@ const draftDetails = {
   avatarUrl: 'https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg',
   createdAt: 'March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
   userName: 'Ash',
   via: 'web',
 };
@@ -27,6 +27,11 @@ const draftDetails = {
 const draftDetailsPastDue = {
   ...draftDetails,
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
+};
+
+const draftDetailsScheduled = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
 };
 
 const imageUrls = [
@@ -37,6 +42,7 @@ const imageUrls = [
 ];
 
 const draftsView = 'drafts';
+const scheduledAt = 123456789;
 
 storiesOf('MultipleImagesPost')
   .addDecorator(checkA11y)
@@ -70,6 +76,23 @@ storiesOf('MultipleImagesPost')
       view={draftsView}
     />
   ))
+  .add('scheduled', () => (
+    <MultipleImagesPost
+      draftDetails={draftDetailsScheduled}
+      hasPermission
+      links={links}
+      imageUrls={imageUrls}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
+      text={text}
+      view={draftsView}
+    />
+  ))
   .add('past due', () => (
     <MultipleImagesPost
       draftDetails={draftDetailsPastDue}
@@ -83,6 +106,7 @@ storiesOf('MultipleImagesPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       text={text}
       view={draftsView}
     />
@@ -100,6 +124,7 @@ storiesOf('MultipleImagesPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       text={text}
       view={draftsView}
     />

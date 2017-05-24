@@ -23,6 +23,7 @@ const VideoPost = ({
   text,
   tag,
   retweetProfile,
+  scheduledAt,
   view,
 }) =>
   <ImagePost
@@ -47,6 +48,7 @@ const VideoPost = ({
     onRequestApprovalClick={onRequestApprovalClick}
     onRescheduleClick={onRescheduleClick}
     retweetProfile={retweetProfile}
+    scheduledAt={scheduledAt}
     view={view}
   />;
 

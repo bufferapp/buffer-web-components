@@ -20,7 +20,7 @@ const draftDetails = {
   createdAt: 'on March 2nd at 12:45pm (GMT)',
   email: 'ash@buffer.com',
   isRetweet: false,
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
   userName: 'Ash',
   via: 'web',
 };
@@ -33,6 +33,11 @@ const isARetweetDraftDetails = {
 const draftDetailsPastDue = {
   ...draftDetails,
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
+};
+
+const draftDetailsScheduled = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for March 12 at 9:42pm (GMT)',
 };
 
 const retweetProfile = {
@@ -48,6 +53,7 @@ const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
 const draftsView = 'drafts';
+const scheduledAt = 123456789;
 
 storiesOf('ImagePost')
   .addDecorator(checkA11y)
@@ -63,6 +69,22 @@ storiesOf('ImagePost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={draftsView}
+    />
+  ))
+  .add('scheduled', () => (
+    <ImagePost
+      hasPermission
+      imageSrc={imageSrc}
+      links={links}
+      draftDetails={draftDetailsScheduled}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     />
   ))
@@ -157,6 +179,7 @@ storiesOf('ImagePost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     />
   ))
@@ -174,6 +197,7 @@ storiesOf('ImagePost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={draftsView}
     />
   ))

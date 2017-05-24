@@ -101,6 +101,7 @@ const Post = ({
   retweetComment,
   retweetCommentLinks,
   retweetProfile,
+  scheduledAt,
   view,
 }) =>
   <div style={postContainerStyle}>
@@ -135,6 +136,7 @@ const Post = ({
           onRequestApprovalClick={onRequestApprovalClick}
           onRescheduleClick={onRescheduleClick}
           draftDetails={draftDetails}
+          scheduledAt={scheduledAt}
           view={view}
         />
       </Card>
@@ -180,6 +182,7 @@ Post.commonPropTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ),
+  scheduledAt: PropTypes.number,
   view: PropTypes.string.isRequired,
 };
 

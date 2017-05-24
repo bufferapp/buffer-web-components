@@ -28,7 +28,7 @@ const draftDetails = {
   email: 'ash@buffer.com',
   via: 'web',
   createdAt: 'March 2nd at 12:45pm (GMT)',
-  postAction: 'This post is scheduled for 9:42pm (GMT)',
+  postAction: 'This post will be added to the queue',
 };
 
 const draftDetailsPastDue = {
@@ -36,11 +36,17 @@ const draftDetailsPastDue = {
   postAction: 'This post was scheduled for March 12 at 9:42pm (GMT)',
 };
 
+const draftDetailsScheduled = {
+  ...draftDetails,
+  postAction: 'This post is scheduled for 9:42pm (GMT)',
+};
+
 const squareImage = 'http://lorempixel.com/400/400/cats/';
 const tallImage = 'http://lorempixel.com/400/900/cats/';
 const wideImage = 'http://lorempixel.com/900/400/cats/';
 
 const approvalView = 'approval';
+const scheduledAt = 123456789;
 
 storiesOf('LinkPost')
   .addDecorator(checkA11y)
@@ -56,6 +62,22 @@ storiesOf('LinkPost')
       onDeleteClick={action('delete-click')}
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
+      view={approvalView}
+    />
+  ))
+  .add('scheduled', () => (
+    <LinkPost
+      hasPermission
+      links={links}
+      linkAttachment={linkAttachment}
+      draftDetails={draftDetailsScheduled}
+      text={text}
+      onApproveClick={action('approve-click')}
+      onCancelConfirmClick={action('cancel-confirm-click')}
+      onDeleteClick={action('delete-click')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+      onEditClick={action('edit-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))
@@ -134,6 +156,7 @@ storiesOf('LinkPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))
@@ -151,6 +174,7 @@ storiesOf('LinkPost')
       onDeleteConfirmClick={action('delete-confirm-click')}
       onEditClick={action('edit-click')}
       onRescheduleClick={action('reschedule-click')}
+      scheduledAt={scheduledAt}
       view={approvalView}
     />
   ))

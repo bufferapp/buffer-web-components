@@ -57,6 +57,7 @@ const ImagePost = ({
   text,
   tag,
   retweetProfile,
+  scheduledAt,
   view,
 }) => {
   const children = (
@@ -108,6 +109,7 @@ const ImagePost = ({
       draftDetails={draftDetails}
       text={text}
       retweetProfile={retweetProfile}
+      scheduledAt={scheduledAt}
       view={view}
     >
       {children}
