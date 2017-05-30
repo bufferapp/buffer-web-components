@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.8 (May 30, 2017)
+
+- Add `ScheduleTable` component and its children components; `ScheduleTableColumn`, `ScheduleTableHeader`, and a`ScheduleTableCell`
+- Add `TableCell` component
+
 ## 0.1.7 (May 24, 2017)
 
 - Update `@bufferapp/components` dependency number to `0.5.3`
