@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.10 (June 5, 2017)
+
+- Add `paddingTop` and `paddingBottom` styles to `ScheduleTableColumn`
+- Switch out `CloseIcon` with `CloseSmallIcon` in `ScheduleTableCell`
+
 ## 0.1.9 (June 5, 2017)
 
 - Fix how we assign `select24Hours` on `ScheduleTable` and its children
