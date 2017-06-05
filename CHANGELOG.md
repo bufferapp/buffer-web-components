@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.9 (June 5, 2017)
+
+- Fix how we assign `select24Hours` on `ScheduleTable` and its children
+- Add a `disabled` config to `ScheduleTable`
+- Update `ScheduleTable` UI as per the design changes introduced on Friday, June 2, 2017
+
 ## 0.1.8 (May 30, 2017)
 
 - Add `ScheduleTable` component and its children components; `ScheduleTableColumn`, `ScheduleTableHeader`, and a`ScheduleTableCell`
