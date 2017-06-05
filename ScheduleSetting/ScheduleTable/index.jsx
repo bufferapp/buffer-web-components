@@ -11,15 +11,19 @@ const tableStyle = {
   border: `${borderWidth} solid ${mystic}`,
   borderRadius,
   display: 'flex',
+  overflow: 'hidden',
 };
 
-const tableColumnWrapper = {
+const tableColumnWrapperStyle = {
   display: 'flex',
   flexGrow: '1',
+  marginRight: '-1px',
 };
 
 const ScheduleTable = ({
   day,
+  disabled,
+  select24Hours,
 }) => (
   <div style={tableStyle}>
     {
@@ -28,10 +32,12 @@ const ScheduleTable = ({
         postingTimesTotal,
         times,
       }) =>
-        <div key={dayName} style={tableColumnWrapper}>
+        <div key={dayName} style={tableColumnWrapperStyle}>
           <ScheduleTableColumn
             dayName={dayName}
+            disabled={disabled}
             postingTimesTotal={postingTimesTotal}
+            select24Hours={select24Hours}
             times={times}
           />
         </div>,
@@ -39,6 +45,11 @@ const ScheduleTable = ({
     }
   </div>
 );
+
+ScheduleTable.defaultProps = {
+  disabled: false,
+  select24Hours: false,
+};
 
 ScheduleTable.propTypes = {
   day: PropTypes.arrayOf(
@@ -59,6 +70,8 @@ ScheduleTable.propTypes = {
       ).isRequired,
     }),
   ).isRequired,
+  disabled: PropTypes.bool.isRequired,
+  select24Hours: PropTypes.bool.isRequired,
 };
 
 export default ScheduleTable;

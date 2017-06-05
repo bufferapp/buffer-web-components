@@ -43,7 +43,29 @@ storiesOf('ScheduleTableColumn')
       times={times}
     />
   ))
-  .add('with a single time', () => (
+  .add('disabled', () => (
+    <ScheduleTableColumn
+      dayName={dayName}
+      disabled
+      times={times}
+    />
+  ))
+  .add('24-hour time setting', () => (
+    <ScheduleTableColumn
+      dayName={dayName}
+      select24Hours
+      times={times}
+    />
+  ))
+  .add('24-hour time setting, disabled', () => (
+    <ScheduleTableColumn
+      dayName={dayName}
+      disabled
+      select24Hours
+      times={times}
+    />
+  ))
+  .add('single time', () => (
     <ScheduleTableColumn
       dayName={dayName}
       times={timesSingle}

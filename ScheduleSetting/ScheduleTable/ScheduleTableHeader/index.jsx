@@ -1,27 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { borderWidth } from '@bufferapp/components/style/border';
-import { mystic } from '@bufferapp/components/style/color';
-import { Text } from '@bufferapp/components';
+import {
+  mystic,
+  outerSpace,
+} from '@bufferapp/components/style/color';
+import {
+  fontFamily,
+  fontSizeSmall,
+  fontWeight,
+} from '@bufferapp/components/style/font';
+
+const collectiveHeight = '2.75rem';
 
 const headerStyle = {
   borderBottom: `${borderWidth} solid ${mystic}`,
-  padding: '0.25rem',
+  color: outerSpace,
+  fontFamily,
+  fontSize: fontSizeSmall,
+  fontWeight,
+  height: collectiveHeight,
+  lineHeight: collectiveHeight,
 };
 
 const ScheduleTableHeader = ({
   dayName,
-  postingTimesTotal,
 }) => (
   <div style={headerStyle}>
-    <Text color={'outerSpace'} size={'small'} weight={'bold'}>{dayName}</Text><br />
-    <Text size={'small'}>{postingTimesTotal} Posting Times</Text>
+    {dayName}
   </div>
 );
 
 ScheduleTableHeader.propTypes = {
   dayName: PropTypes.string.isRequired,
-  postingTimesTotal: PropTypes.number.isRequired,
 };
 
 export default ScheduleTableHeader;

@@ -5,50 +5,122 @@ import {
   CloseIcon,
   InputTime,
 } from '@bufferapp/components';
-import { boxShadowLevelOne } from '@bufferapp/components/style/dropShadow';
 import { calculateStyles } from '@bufferapp/components/lib/utils';
 import TableCell from '../../../TableCell';
 
 /* eslint-disable react/prop-types */
 const TableCellContents = ({
+  disabled,
   hovered,
+  select24Hours,
   time,
 }) => {
+  const cellHeight = '2rem';
+
   const style = calculateStyles({
     default: {
       alignItems: 'center',
       display: 'flex',
+      height: cellHeight,
       justifyContent: 'center',
-      paddingBottom: '0.5rem',
-      paddingTop: '0.5rem',
+      lineHeight: cellHeight,
       position: 'relative',
     },
-    hovered: {
-      boxShadow: boxShadowLevelOne,
-    },
-  }, {
-    hovered,
   });
 
   const buttonStyle = calculateStyles({
     default: {
       display: 'flex',
-      left: '0.5rem',
+      right: '0.5rem',
       position: 'absolute',
     },
   });
 
-  return (
-    <div style={style}>
-      { hovered ?
+  if (disabled && hovered && select24Hours) {
+    return (
+      <div style={style}>
+        <InputTime
+          disabled
+          input={time}
+          noStyle
+          select24Hours
+        />
+      </div>
+    );
+  } else if (disabled && !hovered && select24Hours) {
+    return (
+      <div style={style}>
+        <InputTime
+          disabled
+          input={time}
+          noStyle
+          select24Hours
+        />
+      </div>
+    );
+  } else if (!disabled && hovered && select24Hours) {
+    return (
+      <div style={style}>
         <div style={buttonStyle}>
           <Button noStyle>
             <CloseIcon />
           </Button>
         </div>
-        :
-        null
-      }
+        <InputTime
+          input={time}
+          noStyle
+          select24Hours
+        />
+      </div>
+    );
+  } else if (!disabled && !hovered && select24Hours) {
+    return (
+      <div style={style}>
+        <InputTime
+          input={time}
+          noStyle
+          select24Hours
+        />
+      </div>
+    );
+  } else if (disabled && hovered && !select24Hours) {
+    return (
+      <div style={style}>
+        <InputTime
+          disabled
+          input={time}
+          noStyle
+        />
+      </div>
+    );
+  } else if (disabled && !hovered && !select24Hours) {
+    return (
+      <div style={style}>
+        <InputTime
+          disabled
+          input={time}
+          noStyle
+        />
+      </div>
+    );
+  } else if (!disabled && hovered && !select24Hours) {
+    return (
+      <div style={style}>
+        <div style={buttonStyle}>
+          <Button noStyle>
+            <CloseIcon />
+          </Button>
+        </div>
+        <InputTime
+          input={time}
+          noStyle
+        />
+      </div>
+    );
+  }
+
+  return (
+    <div style={style}>
       <InputTime
         input={time}
         noStyle
@@ -58,13 +130,24 @@ const TableCellContents = ({
 };
 /* eslint-enable react/prop-types */
 
-const ScheduleTableCell = ({ time }) => (
+const ScheduleTableCell = ({
+  disabled,
+  select24Hours,
+  time,
+}) => (
   <TableCell>
-    <TableCellContents time={time} />
+    <TableCellContents disabled={disabled} select24Hours={select24Hours} time={time} />
   </TableCell>
   );
 
+ScheduleTableCell.defaultProps = {
+  disabled: false,
+  select24Hours: false,
+};
+
 ScheduleTableCell.propTypes = {
+  disabled: PropTypes.bool.isRequired,
+  select24Hours: PropTypes.bool.isRequired,
   time: PropTypes.shape({
     value: PropTypes.oneOfType([
       PropTypes.shape({

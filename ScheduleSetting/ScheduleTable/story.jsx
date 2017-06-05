@@ -6,6 +6,8 @@ import {
 import { checkA11y } from 'storybook-addon-a11y';
 import ScheduleTable from './index';
 
+const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 const times = [
   {
     value: {
@@ -22,8 +24,7 @@ const times = [
     onChange: action('on-change'),
   },
 ];
-
-const timesSingle = [
+const singleTime = [
   {
     value: {
       hours: 9,
@@ -32,172 +33,63 @@ const timesSingle = [
     onChange: action('on-change'),
   },
 ];
+const noTimes = [];
 
-const timesEmpty = [];
+const days = [];
+const daysSingleTime = [];
+const daysNoTimes = [];
 
-const days = [
-  {
-    dayName: 'Monday',
+daysOfWeek.forEach((dayName) => {
+  days.push({
+    dayName,
     postingTimesTotal: times.length,
     times,
-  },
-  {
-    dayName: 'Tuesday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Wednesday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Thursday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Friday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Saturday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Sunday',
-    postingTimesTotal: times.length,
-    times,
-  },
-];
-
-const withSingleTime = [
-  {
-    dayName: 'Monday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Tuesday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Wednesday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Thursday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Friday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Saturday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-  {
-    dayName: 'Sunday',
-    postingTimesTotal: timesSingle.length,
-    times: timesSingle,
-  },
-];
-
-const withoutTimes = [
-  {
-    dayName: 'Monday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Tuesday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Wednesday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Thursday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Friday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Saturday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Sunday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-];
-
-const someWithoutTimes = [
-  {
-    dayName: 'Monday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Tuesday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Wednesday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Thursday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Friday',
-    postingTimesTotal: times.length,
-    times,
-  },
-  {
-    dayName: 'Saturday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-  {
-    dayName: 'Sunday',
-    postingTimesTotal: timesEmpty.length,
-    times: timesEmpty,
-  },
-];
+  });
+  daysSingleTime.push({
+    dayName,
+    postingTimesTotal: singleTime.length,
+    times: singleTime,
+  });
+  daysNoTimes.push({
+    dayName,
+    postingTimesTotal: noTimes.length,
+    times: noTimes,
+  });
+});
 
 storiesOf('ScheduleTable')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <ScheduleTable day={days} />
+    <ScheduleTable
+      day={days}
+    />
   ))
-  .add('with a single time', () => (
-    <ScheduleTable day={withSingleTime} />
+  .add('disabled', () => (
+    <ScheduleTable
+      day={days}
+      disabled
+    />
   ))
-  .add('without any times', () => (
-    <ScheduleTable day={withoutTimes} />
+  .add('24-hour time setting', () => (
+    <ScheduleTable
+      day={days}
+      select24Hours
+    />
   ))
-  .add('some days without times', () => (
-    <ScheduleTable day={someWithoutTimes} />
+  .add('24-hour time setting, disabled', () => (
+    <ScheduleTable
+      day={days}
+      disabled
+      select24Hours
+    />
+  ))
+  .add('single time', () => (
+    <ScheduleTable
+      day={daysSingleTime}
+    />
+  ))
+  .add('no times', () => (
+    <ScheduleTable
+      day={daysNoTimes}
+    />
   ));
