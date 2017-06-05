@@ -75,7 +75,7 @@
     "style-loader": "0.16.1"
   },
   "dependencies": {
-    "@bufferapp/components": "0.5.14",
+    "@bufferapp/components": "0.5.16",
     "prop-types": "^15.5.10",
     "redux-form": "6.6.3"
   }

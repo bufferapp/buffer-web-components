@@ -1,26 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { borderWidth } from '@bufferapp/components/style/border';
-import { aquaHaze, geyser, mystic } from '@bufferapp/components/style/color';
+import {
+  mystic,
+  geyser,
+} from '@bufferapp/components/style/color';
 import ScheduleTableHeader from '../ScheduleTableHeader';
 import ScheduleTableCell from '../ScheduleTableCell';
 
 const columnHeight = '6.8125rem';
 
 const columnStyle = {
-  borderRight: `${borderWidth} solid ${mystic}`,
-  flexGrow: '1',
   minHeight: columnHeight,
   textAlign: 'center',
+  borderRight: `${borderWidth} solid ${mystic}`,
+  flexGrow: '1',
 };
 
 const columnNoTimesStyle = {
-  backgroundColor: aquaHaze,
-  borderRight: `${borderWidth} solid ${mystic}`,
-  color: geyser,
-  flexGrow: '1',
   minHeight: columnHeight,
+  color: geyser,
   textAlign: 'center',
+  borderRight: `${borderWidth} solid ${mystic}`,
+  flexGrow: '1',
+};
+
+const columnWrapperStyle = {
+  paddingTop: '0.5rem',
+  paddingBottom: '0.5rem',
 };
 
 const ScheduleTableColumn = ({
@@ -34,16 +41,18 @@ const ScheduleTableColumn = ({
       dayName={dayName}
       postingTimesTotal={times.length}
     />
-    {
-      times.map((time, index) =>
-        <ScheduleTableCell
-          disabled={disabled}
-          key={index}
-          select24Hours={select24Hours}
-          time={time}
-        />,
-      )
-    }
+    <div style={columnWrapperStyle}>
+      {
+        times.map((time, index) =>
+          <ScheduleTableCell
+            disabled={disabled}
+            key={index}
+            select24Hours={select24Hours}
+            time={time}
+          />,
+        )
+      }
+    </div>
   </div>
   );
 

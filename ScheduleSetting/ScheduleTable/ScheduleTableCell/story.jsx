@@ -20,11 +20,21 @@ storiesOf('ScheduleTableCell')
     <ScheduleTableCell time={time} />
   ))
   .add('disabled', () => (
-    <ScheduleTableCell disabled time={time} />
+    <ScheduleTableCell
+      disabled
+      time={time}
+    />
   ))
   .add('24-hour time setting', () => (
-    <ScheduleTableCell select24Hours time={time} />
+    <ScheduleTableCell
+      select24Hours
+      time={time}
+    />
   ))
   .add('24-hour time setting, disabled', () => (
-    <ScheduleTableCell disabled select24Hours time={time} />
+    <ScheduleTableCell
+      disabled
+      select24Hours
+      time={time}
+    />
   ));

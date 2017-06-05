@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {
   Button,
-  CloseIcon,
+  CloseSmallIcon,
   InputTime,
 } from '@bufferapp/components';
 import { calculateStyles } from '@bufferapp/components/lib/utils';
@@ -19,20 +19,23 @@ const TableCellContents = ({
 
   const style = calculateStyles({
     default: {
-      alignItems: 'center',
+      position: 'relative',
       display: 'flex',
       height: cellHeight,
-      justifyContent: 'center',
       lineHeight: cellHeight,
-      position: 'relative',
+      justifyContent: 'center',
+      alignItems: 'center',
     },
   });
 
   const buttonStyle = calculateStyles({
     default: {
-      display: 'flex',
-      right: '0.5rem',
       position: 'absolute',
+      right: '0.5rem',
+      display: 'flex',
+      width: '0.59rem',
+      height: '0.59rem',
+      textAlign: 'center',
     },
   });
 
@@ -62,9 +65,7 @@ const TableCellContents = ({
     return (
       <div style={style}>
         <div style={buttonStyle}>
-          <Button noStyle>
-            <CloseIcon />
-          </Button>
+          <Button noStyle><CloseSmallIcon /></Button>
         </div>
         <InputTime
           input={time}
@@ -107,9 +108,7 @@ const TableCellContents = ({
     return (
       <div style={style}>
         <div style={buttonStyle}>
-          <Button noStyle>
-            <CloseIcon />
-          </Button>
+          <Button noStyle><CloseSmallIcon /></Button>
         </div>
         <InputTime
           input={time}
@@ -136,7 +135,11 @@ const ScheduleTableCell = ({
   time,
 }) => (
   <TableCell>
-    <TableCellContents disabled={disabled} select24Hours={select24Hours} time={time} />
+    <TableCellContents
+      disabled={disabled}
+      select24Hours={select24Hours}
+      time={time}
+    />
   </TableCell>
   );
 

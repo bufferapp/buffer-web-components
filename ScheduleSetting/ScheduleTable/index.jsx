@@ -32,7 +32,10 @@ const ScheduleTable = ({
         postingTimesTotal,
         times,
       }) =>
-        <div key={dayName} style={tableColumnWrapperStyle}>
+        <div
+          key={dayName}
+          style={tableColumnWrapperStyle}
+        >
           <ScheduleTableColumn
             dayName={dayName}
             disabled={disabled}
