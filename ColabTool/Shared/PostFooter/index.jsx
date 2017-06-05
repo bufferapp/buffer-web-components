@@ -40,10 +40,6 @@ const postControlsStyle = {
   display: 'flex',
 };
 
-const postActionStyle = {
-  marginRight: '0.5rem',
-};
-
 const postButtonEdit = {
   marginLeft: '0.7rem',
 };
@@ -80,9 +76,17 @@ const renderEdit = ({
 
 const renderIcon = ({ isPastDue, scheduledAt }) => {
   if (isPastDue) {
-    return (<WarningIcon color={'torchRed'} />);
+    return (
+      <div style={postActionDetailsIconStyle}>
+        <WarningIcon color={'torchRed'} />
+      </div>
+    );
   } else if (scheduledAt) {
-    return (<ClockIcon />);
+    return (
+      <div style={postActionDetailsIconStyle}>
+        <ClockIcon />
+      </div>
+    );
   }
   return null;
 };
@@ -113,8 +117,13 @@ const renderText = ({
   isPastDue,
   view,
 }) =>
-  <span style={postActionStyle}>
-    <Text size={'small'} color={isPastDue ? 'torchRed' : undefined}>{draftDetails.postAction}</Text>
+  <span>
+    <Text
+      size={'small'}
+      color={isPastDue ? 'torchRed' : undefined}
+    >
+      {draftDetails.postAction}
+    </Text>
     {
       isPastDue && view === 'drafts' ?
         <Text size={'small'}> - Please reschedule or delete.</Text>
@@ -225,10 +234,8 @@ const PostFooter = ({
 }) =>
   <div style={postDetailsStyle}>
     <div style={postActionDetailsStyle}>
-      <div style={postActionDetailsIconStyle}>
-        {renderIcon({ isPastDue, scheduledAt })}
-      </div>
-      {renderText({ draftDetails, isPastDue, view })}
+      {renderIcon({ isPastDue, scheduledAt })}
+      {renderText({ draftDetails, scheduledAt, isPastDue, view })}
     </div>
     <div style={postControlsStyle}>
       {renderControls({

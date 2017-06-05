@@ -6653,22 +6653,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -7060,22 +7045,7 @@ exports[`Snapshots ImagePost manager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -7467,22 +7437,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -7742,13 +7697,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -8185,13 +8134,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -8515,22 +8458,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -8970,13 +8898,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -9368,22 +9290,7 @@ exports[`Snapshots ImagePost square image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -9809,22 +9716,7 @@ exports[`Snapshots ImagePost tag 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -10216,22 +10108,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -10623,22 +10500,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -11129,22 +10991,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -11582,22 +11429,7 @@ exports[`Snapshots LinkPost manager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -12144,22 +11976,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -12518,13 +12335,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -13051,13 +12862,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -13431,13 +13236,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -13875,22 +13674,7 @@ exports[`Snapshots LinkPost square image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -14328,22 +14112,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -14781,22 +14550,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -15235,22 +14989,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -15742,22 +15481,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -16117,13 +15841,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -16660,13 +16378,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -17053,13 +16765,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -17394,22 +17100,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -17590,22 +17281,7 @@ exports[`Snapshots Post default 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -17940,22 +17616,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -18344,22 +18005,7 @@ exports[`Snapshots Post isDeleting 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -18540,22 +18186,7 @@ exports[`Snapshots Post isWorking 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -18736,22 +18367,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -18932,22 +18548,7 @@ exports[`Snapshots Post manager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -19282,22 +18883,7 @@ exports[`Snapshots Post no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -19500,13 +19086,7 @@ exports[`Snapshots Post past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -19886,13 +19466,7 @@ exports[`Snapshots Post past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -20159,22 +19733,7 @@ exports[`Snapshots Post retweet 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -20629,22 +20188,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -21027,13 +20571,7 @@ exports[`Snapshots Post scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -21250,22 +20788,7 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -21535,22 +21058,7 @@ exports[`Snapshots PostFooter approval view: manager moving to drafts 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -21643,13 +21151,7 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -21919,22 +21421,7 @@ exports[`Snapshots PostFooter approval view: managerIsApproving 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -21994,22 +21481,7 @@ exports[`Snapshots PostFooter approval view: not a manager 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22203,13 +21675,7 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22426,22 +21892,7 @@ exports[`Snapshots PostFooter approval view: not manager moving to drafts 1`] = 
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22501,22 +21952,7 @@ exports[`Snapshots PostFooter approval view: not manager, no permission 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22565,22 +22001,7 @@ exports[`Snapshots PostFooter drafts view: isWorking 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22688,13 +22109,7 @@ exports[`Snapshots PostFooter drafts view: manager - scheduled post 1`] = `
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -22908,22 +22323,7 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -23170,13 +22570,7 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -23402,22 +22796,7 @@ exports[`Snapshots PostFooter drafts view: managerIsApproving 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -23477,22 +22856,7 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -23739,13 +23103,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24004,13 +23362,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due, no permission 1
           </g>
         </svg>
       </div>
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24071,22 +23423,7 @@ exports[`Snapshots PostFooter drafts view: not manager, no permission 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24135,22 +23472,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24417,22 +23739,7 @@ exports[`Snapshots PostFooter isDeleting 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24492,22 +23799,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -24774,22 +24066,7 @@ exports[`Snapshots PostFooter no permission 1`] = `
         }
       }
     >
-      <div
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "marginRight": "0.5rem",
-          }
-        }
-      />
-      <span
-        style={
-          Object {
-            "marginRight": "0.5rem",
-          }
-        }
-      >
+      <span>
         <span
           style={
             Object {
@@ -26575,13 +25852,7 @@ exports[`Snapshots PostList default 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -26992,13 +26263,7 @@ exports[`Snapshots PostList default 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -27448,13 +26713,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -27889,13 +27148,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -28460,13 +27713,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -29016,13 +28263,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -29448,13 +28689,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -29865,13 +29100,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -30421,13 +29650,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -30962,13 +30185,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -31346,22 +30563,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                     }
                   }
                 >
-                  <div
-                    style={
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  />
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -31724,22 +30926,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                     }
                   }
                 >
-                  <div
-                    style={
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  />
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -32223,13 +31410,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -32698,13 +31879,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       </g>
                     </svg>
                   </div>
-                  <span
-                    style={
-                      Object {
-                        "marginRight": "0.5rem",
-                      }
-                    }
-                  >
+                  <span>
                     <span
                       style={
                         Object {
@@ -71980,22 +71155,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -72310,22 +71470,7 @@ exports[`Snapshots TextPost manager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -72749,22 +71894,7 @@ exports[`Snapshots TextPost no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -73000,13 +72130,7 @@ exports[`Snapshots TextPost past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -73410,13 +72534,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -73704,22 +72822,7 @@ exports[`Snapshots TextPost retweet 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -74154,22 +73257,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -74532,13 +73620,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -74911,22 +73993,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -75352,22 +74419,7 @@ exports[`Snapshots VideoPost manager 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -75793,22 +74845,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -76102,13 +75139,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -76579,13 +75610,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -76943,22 +75968,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -77432,13 +76442,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
                 </g>
               </svg>
             </div>
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -77864,22 +76868,7 @@ exports[`Snapshots VideoPost square image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -78305,22 +77294,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
@@ -78746,22 +77720,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
               }
             }
           >
-            <div
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "marginRight": "0.5rem",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "marginRight": "0.5rem",
-                }
-              }
-            >
+            <span>
               <span
                 style={
                   Object {
