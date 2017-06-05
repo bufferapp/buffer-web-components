@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.11 (June 5, 2017)
+
+- Fix text padding in `PostFooter` text
+
 ## 0.1.10 (June 5, 2017)
 
 - Add `paddingTop` and `paddingBottom` styles to `ScheduleTableColumn`
