@@ -873,7 +873,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.5rem",
           "textAlign": "center",
         }
       }
@@ -1297,7 +1297,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.4rem",
           "textAlign": "center",
         }
       }
@@ -1322,7 +1322,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
             "fontWeight": 400,
             "margin": "0",
             "outline": "none",
-            "padding": "0.5rem 2rem",
+            "padding": "0.25rem 2rem",
             "transition": "background-color 0.1s linear",
           }
         }
@@ -2121,7 +2121,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.5rem",
           "textAlign": "center",
         }
       }
@@ -2545,7 +2545,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.4rem",
           "textAlign": "center",
         }
       }
@@ -2570,7 +2570,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
             "fontWeight": 400,
             "margin": "0",
             "outline": "none",
-            "padding": "0.5rem 2rem",
+            "padding": "0.25rem 2rem",
             "transition": "background-color 0.1s linear",
           }
         }
@@ -3369,7 +3369,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.5rem",
           "textAlign": "center",
         }
       }
@@ -3793,7 +3793,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.4rem",
           "textAlign": "center",
         }
       }
@@ -3818,7 +3818,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
             "fontWeight": 400,
             "margin": "0",
             "outline": "none",
-            "padding": "0.5rem 2rem",
+            "padding": "0.25rem 2rem",
             "transition": "background-color 0.1s linear",
           }
         }
@@ -4617,7 +4617,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.5rem",
           "textAlign": "center",
         }
       }
@@ -5041,7 +5041,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.4rem",
           "textAlign": "center",
         }
       }
@@ -5066,7 +5066,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
             "fontWeight": 400,
             "margin": "0",
             "outline": "none",
-            "padding": "0.5rem 2rem",
+            "padding": "0.25rem 2rem",
             "transition": "background-color 0.1s linear",
           }
         }
@@ -5865,7 +5865,7 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.5rem",
           "textAlign": "center",
         }
       }
@@ -6285,11 +6285,31 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
           </option>
         </select>
       </div>
+      <div
+        style={
+          Object {
+            "marginTop": "0.5rem",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "#59626a",
+              "fontFamily": "\\"Open Sans\\" sans-serif",
+              "fontSize": "0.8rem",
+              "fontWeight": 400,
+            }
+          }
+        >
+          Europe: London
+        </span>
+      </div>
     </div>
     <div
       style={
         Object {
-          "marginTop": "1rem",
+          "marginTop": "1.4rem",
           "textAlign": "center",
         }
       }
@@ -6314,34 +6334,13 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
             "fontWeight": 400,
             "margin": "0",
             "outline": "none",
-            "padding": "0.5rem 2rem",
+            "padding": "0.25rem 2rem",
             "transition": "background-color 0.1s linear",
           }
         }
       >
         Schedule
       </button>
-    </div>
-    <div
-      style={
-        Object {
-          "marginTop": "1rem",
-          "textAlign": "center",
-        }
-      }
-    >
-      <span
-        style={
-          Object {
-            "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
-            "fontSize": "1rem",
-            "fontWeight": 400,
-          }
-        }
-      >
-        Europe: London
-      </span>
     </div>
   </form>
 </span>

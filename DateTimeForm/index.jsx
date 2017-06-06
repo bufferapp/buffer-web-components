@@ -8,13 +8,22 @@ import {
 } from '@bufferapp/components';
 
 const formItemStyle = {
-  marginTop: '1rem',
+  marginTop: '1.5rem',
   textAlign: 'center',
 };
 
+const timezoneStyle = {
+  marginTop: '0.5rem',
+};
+
+const buttonStyle = {
+  ...formItemStyle,
+  marginTop: '1.4rem',
+};
+
 const renderTimezoneLabel = timezoneLabel =>
-  <div style={formItemStyle}>
-    <Text>{timezoneLabel}</Text>
+  <div style={timezoneStyle}>
+    <Text size={'small'}>{timezoneLabel}</Text>
   </div>;
 
 const renderError = error =>
@@ -41,17 +50,18 @@ const DateTimeForm = ({
     </div>
     <div style={formItemStyle}>
       <Field name={'time'} component={InputTime} />
+      { timezoneLabel ? renderTimezoneLabel(timezoneLabel) : null }
     </div>
     { error ? renderError(error) : null }
-    <div style={formItemStyle}>
+    <div style={buttonStyle}>
       <Button
         onClick={handleSubmit}
         disabled={submitting}
+        small
       >
           Schedule
       </Button>
     </div>
-    { timezoneLabel ? renderTimezoneLabel(timezoneLabel) : null }
   </form>;
 
 DateTimeForm.propTypes = {
