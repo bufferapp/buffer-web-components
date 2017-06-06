@@ -7719,7 +7719,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -8156,7 +8156,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -15863,7 +15863,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -16400,7 +16400,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -19108,7 +19108,7 @@ exports[`Snapshots Post past due 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -19488,7 +19488,7 @@ exports[`Snapshots Post past due no permission 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -22592,7 +22592,7 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
             }
           }
         >
-           - Please reschedule or delete.
+           Please reschedule or delete.
         </span>
       </span>
     </div>
@@ -23125,7 +23125,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
             }
           }
         >
-           - Please reschedule or delete.
+           Please reschedule or delete.
         </span>
       </span>
     </div>
@@ -23384,7 +23384,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due, no permission 1
             }
           }
         >
-           - Please reschedule or delete.
+           Please reschedule or delete.
         </span>
       </span>
     </div>
@@ -75161,7 +75161,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>
@@ -75632,7 +75632,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                   }
                 }
               >
-                 - Please reschedule or delete.
+                 Please reschedule or delete.
               </span>
             </span>
           </div>

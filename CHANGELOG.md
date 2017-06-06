@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.13 (June 6, 2017)
+
+- Remove `-` from post footer copy
+
 ## 0.1.12 (June 5, 2017)
 
 - Update `DateTimeForm` to bring timezone display closer to time input

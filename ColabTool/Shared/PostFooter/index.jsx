@@ -126,7 +126,7 @@ const renderText = ({
     </Text>
     {
       isPastDue && view === 'drafts' ?
-        <Text size={'small'}> - Please reschedule or delete.</Text>
+        <Text size={'small'}> Please reschedule or delete.</Text>
       : null
     }
   </span>;
