@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.12 (June 5, 2017)
+
+- Update `DateTimeForm` to bring timezone display closer to time input
+
 ## 0.1.11 (June 5, 2017)
 
 - Fix text padding in `PostFooter` text
