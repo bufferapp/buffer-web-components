@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.14 (June 6, 2017)
+
+- Update `PostFooter` copy to `Please reschedule.`
+
 ## 0.1.13 (June 6, 2017)
 
 - Remove `-` from post footer copy
