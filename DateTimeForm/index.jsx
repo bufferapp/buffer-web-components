@@ -38,6 +38,8 @@ const DateTimeForm = ({
   timezoneLabel,
   initialMonthYear,
   disableBefore,
+  select24Hours,
+  firstDayOfWeek,
 }) =>
   <form>
     <div>
@@ -46,10 +48,11 @@ const DateTimeForm = ({
         component={InputDate}
         disableBefore={disableBefore}
         initialMonthYear={initialMonthYear}
+        firstDayOfWeek={firstDayOfWeek}
       />
     </div>
     <div style={formItemStyle}>
-      <Field name={'time'} component={InputTime} />
+      <Field name={'time'} component={InputTime} select24Hours={select24Hours} />
       { timezoneLabel ? renderTimezoneLabel(timezoneLabel) : null }
     </div>
     { error ? renderError(error) : null }
@@ -77,6 +80,8 @@ DateTimeForm.propTypes = {
     month: PropTypes.number,
     year: PropTypes.number,
   }),
+  select24Hours: PropTypes.bool,
+  firstDayOfWeek: InputDate.defaultProps.firstDayOfWeek,
 };
 
 export default reduxForm({

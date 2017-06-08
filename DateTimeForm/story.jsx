@@ -88,4 +88,20 @@ storiesOf('DateTimeForm')
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
     />
+  ))
+  .add('with 24 hour time selector', () => (
+    <DateTimeForm
+      onSubmit={action('on-submit')}
+      initialMonthYear={initialMonthYear}
+      initialValues={initialValues}
+      select24Hours
+    />
+  ))
+  .add('with first day of week monday', () => (
+    <DateTimeForm
+      onSubmit={action('on-submit')}
+      initialMonthYear={initialMonthYear}
+      initialValues={initialValues}
+      firstDayOfWeek={1}
+    />
   ));
