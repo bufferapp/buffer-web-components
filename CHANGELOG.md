@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.18 (June 8, 2017)
+
+- Update `PostFooter` to only show 'Please reschedule' if user has permission or is admin
+
 ## 0.1.17 (June 8, 2017)
 
 - Update `@bufferapp/components` dependency to `0.5.20`
