@@ -116,6 +116,8 @@ const renderText = ({
   draftDetails,
   isPastDue,
   view,
+  hasPermission,
+  manager,
 }) =>
   <span>
     <Text
@@ -125,7 +127,7 @@ const renderText = ({
       {draftDetails.postAction}
     </Text>
     {
-      isPastDue && view === 'drafts' ?
+      (hasPermission || manager) && isPastDue && view === 'drafts' ?
         <Text size={'small'}> Please reschedule.</Text>
       : null
     }
@@ -235,7 +237,7 @@ const PostFooter = ({
   <div style={postDetailsStyle}>
     <div style={postActionDetailsStyle}>
       {renderIcon({ isPastDue, scheduledAt })}
-      {renderText({ draftDetails, scheduledAt, isPastDue, view })}
+      {renderText({ draftDetails, scheduledAt, isPastDue, view, hasPermission, manager })}
     </div>
     <div style={postControlsStyle}>
       {renderControls({
