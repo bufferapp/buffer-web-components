@@ -3922,6 +3922,16 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                   role="columnheader"
                 >
                   <abbr
+                    title="Sunday"
+                  >
+                    Su
+                  </abbr>
+                </div>
+                <div
+                  className="DayPicker-Weekday"
+                  role="columnheader"
+                >
+                  <abbr
                     title="Monday"
                   >
                     Mo
@@ -3977,16 +3987,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                     Sa
                   </abbr>
                 </div>
-                <div
-                  className="DayPicker-Weekday"
-                  role="columnheader"
-                >
-                  <abbr
-                    title="Sunday"
-                  >
-                    Su
-                  </abbr>
-                </div>
               </div>
             </div>
             <div
@@ -3997,6 +3997,12 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 className="DayPicker-Week"
                 role="row"
               >
+                <div
+                  aria-disabled={true}
+                  className="DayPicker-Day DayPicker-Day--outside"
+                  role="gridcell"
+                  style={undefined}
+                />
                 <div
                   aria-disabled={true}
                   className="DayPicker-Day DayPicker-Day--outside"
@@ -4045,6 +4051,11 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   1
                 </div>
+              </div>
+              <div
+                className="DayPicker-Week"
+                role="row"
+              >
                 <div
                   aria-disabled="false"
                   aria-label="Sun Aug 02 2015"
@@ -4063,11 +4074,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   2
                 </div>
-              </div>
-              <div
-                className="DayPicker-Week"
-                role="row"
-              >
                 <div
                   aria-disabled="false"
                   aria-label="Mon Aug 03 2015"
@@ -4176,6 +4182,11 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   8
                 </div>
+              </div>
+              <div
+                className="DayPicker-Week"
+                role="row"
+              >
                 <div
                   aria-disabled="false"
                   aria-label="Sun Aug 09 2015"
@@ -4194,11 +4205,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   9
                 </div>
-              </div>
-              <div
-                className="DayPicker-Week"
-                role="row"
-              >
                 <div
                   aria-disabled="false"
                   aria-label="Mon Aug 10 2015"
@@ -4307,6 +4313,11 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   15
                 </div>
+              </div>
+              <div
+                className="DayPicker-Week"
+                role="row"
+              >
                 <div
                   aria-disabled="false"
                   aria-label="Sun Aug 16 2015"
@@ -4325,11 +4336,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   16
                 </div>
-              </div>
-              <div
-                className="DayPicker-Week"
-                role="row"
-              >
                 <div
                   aria-disabled="false"
                   aria-label="Mon Aug 17 2015"
@@ -4438,6 +4444,11 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   22
                 </div>
+              </div>
+              <div
+                className="DayPicker-Week"
+                role="row"
+              >
                 <div
                   aria-disabled="false"
                   aria-label="Sun Aug 23 2015"
@@ -4456,11 +4467,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   23
                 </div>
-              </div>
-              <div
-                className="DayPicker-Week"
-                role="row"
-              >
                 <div
                   aria-disabled="false"
                   aria-label="Mon Aug 24 2015"
@@ -4569,6 +4575,11 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   29
                 </div>
+              </div>
+              <div
+                className="DayPicker-Week"
+                role="row"
+              >
                 <div
                   aria-disabled="false"
                   aria-label="Sun Aug 30 2015"
@@ -4587,11 +4598,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   30
                 </div>
-              </div>
-              <div
-                className="DayPicker-Week"
-                role="row"
-              >
                 <div
                   aria-disabled="false"
                   aria-label="Mon Aug 31 2015"
@@ -4610,12 +4616,6 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                 >
                   31
                 </div>
-                <div
-                  aria-disabled={true}
-                  className="DayPicker-Day DayPicker-Day--outside"
-                  role="gridcell"
-                  style={undefined}
-                />
                 <div
                   aria-disabled={true}
                   className="DayPicker-Day DayPicker-Day--outside"
