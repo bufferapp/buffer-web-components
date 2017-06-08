@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.16 (June 6, 2017)
+
+- Fix `DateTimeForm` proptype was not defined
+
 ## 0.1.15 (June 6, 2017)
 
 - Update `DateTimeForm` to accept 12/24 hour configuration and start day of week

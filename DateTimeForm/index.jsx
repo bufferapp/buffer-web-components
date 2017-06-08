@@ -81,7 +81,7 @@ DateTimeForm.propTypes = {
     year: PropTypes.number,
   }),
   select24Hours: PropTypes.bool,
-  firstDayOfWeek: InputDate.defaultProps.firstDayOfWeek,
+  firstDayOfWeek: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6]),
 };
 
 export default reduxForm({
