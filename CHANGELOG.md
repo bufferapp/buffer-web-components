@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.17 (June 8, 2017)
+
+- Update `@bufferapp/components` dependency to `0.5.20`
+
 ## 0.1.16 (June 6, 2017)
 
 - Fix `DateTimeForm` proptype was not defined
