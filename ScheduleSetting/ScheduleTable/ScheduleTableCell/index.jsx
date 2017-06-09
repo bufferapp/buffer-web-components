@@ -108,7 +108,7 @@ const TableCellContents = ({
     return (
       <div style={style}>
         <div style={buttonStyle}>
-          <Button noStyle><CloseSmallIcon /></Button>
+          <Button onClick={time.onRemoveTimeClick} noStyle on><CloseSmallIcon /></Button>
         </div>
         <InputTime
           input={time}
@@ -160,6 +160,7 @@ ScheduleTableCell.propTypes = {
       PropTypes.string,
     ]),
     onChange: PropTypes.func.isRequired,
+    onRemoveTimeClick: PropTypes.func.isRequired,
   }).isRequired,
 };
 

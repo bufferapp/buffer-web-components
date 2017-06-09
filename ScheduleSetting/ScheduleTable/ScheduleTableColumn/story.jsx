@@ -14,6 +14,7 @@ const times = [
       minutes: 41,
     },
     onChange: action('on-change'),
+    onRemoveTimeClick: action('on-remove-time-click')
   },
   {
     value: {
@@ -21,6 +22,7 @@ const times = [
       minutes: 0,
     },
     onChange: action('on-change'),
+    onRemoveTimeClick: action('on-remove-time-click')
   },
 ];
 const timesSingle = [
@@ -30,6 +32,7 @@ const timesSingle = [
       minutes: 41,
     },
     onChange: action('on-change'),
+    onRemoveTimeClick: action('on-remove-time-click')
   },
 ];
 
