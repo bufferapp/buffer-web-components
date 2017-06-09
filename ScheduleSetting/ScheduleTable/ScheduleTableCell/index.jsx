@@ -108,7 +108,7 @@ const TableCellContents = ({
     return (
       <div style={style}>
         <div style={buttonStyle}>
-          <Button onClick={time.onRemoveTimeClick} noStyle on><CloseSmallIcon /></Button>
+          <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon /></Button>
         </div>
         <InputTime
           input={time}
