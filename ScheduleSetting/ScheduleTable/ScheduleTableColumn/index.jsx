@@ -75,6 +75,7 @@ ScheduleTableColumn.propTypes = {
         PropTypes.string,
       ]),
       onChange: PropTypes.func.isRequired,
+      onRemoveTimeClick: PropTypes.func.isRequired,
     }).isRequired,
   ).isRequired,
 };

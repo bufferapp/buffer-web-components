@@ -12,6 +12,7 @@ const time = {
     minutes: 41,
   },
   onChange: action('on-change'),
+  onRemoveTimeClick: action('on-remove-time-click')
 };
 
 storiesOf('ScheduleTableCell')
