@@ -1,12 +1,18 @@
 # Changelog
 
+## 0.1.21 (June 9, 2017)
+
+- Clean up code styling in `ScheduleTable` and its children
+- Remove `CloseSmallIcon` and opt for `<CloseIcon size={'small'} />` instead
+- Reorder JSS within `ScheduleTable` and its children to comply with box-model declaration order
+
 ## 0.1.20 (June 9, 2017)
 
-- Refactor 'ScheduleTableCell'.
+- Refactor `ScheduleTableCell`
 
 ## 0.1.19 (June 9, 2017)
 
-- Update 'ScheduleTable', 'ScheduleTableColumn' and 'ScheduleTableCell' to add onRemoveTimeClick action.
+- Update `ScheduleTable`, `ScheduleTableColumn`, and `ScheduleTableCell` to add `onRemoveTimeClick` action
 
 ## 0.1.18 (June 8, 2017)
 
