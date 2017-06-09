@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.20 (June 9, 2017)
+
+- Refactor 'ScheduleTableCell'.
+
 ## 0.1.19 (June 9, 2017)
 
 - Update 'ScheduleTable', 'ScheduleTableColumn' and 'ScheduleTableCell' to add onRemoveTimeClick action.
