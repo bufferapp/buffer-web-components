@@ -43,7 +43,7 @@ const TableCellContents = ({
 
   if(hovered && !disabled){
     removeButton = <div style={buttonStyle}>
-                    <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon size={small} /></Button>
+                    <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon size={'small'} /></Button>
                   </div>;
   }
 
