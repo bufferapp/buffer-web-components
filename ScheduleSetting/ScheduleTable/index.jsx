@@ -8,16 +8,16 @@ import { mystic } from '@bufferapp/components/style/color';
 import ScheduleTableColumn from './ScheduleTableColumn';
 
 const tableStyle = {
+  display: 'flex',
   border: `${borderWidth} solid ${mystic}`,
   borderRadius,
-  display: 'flex',
   overflow: 'hidden',
 };
 
 const tableColumnWrapperStyle = {
   display: 'flex',
-  flexGrow: '1',
   marginRight: '-1px',
+  flexGrow: '1',
 };
 
 const ScheduleTable = ({

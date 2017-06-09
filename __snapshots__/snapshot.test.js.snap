@@ -34812,8 +34812,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -34822,16 +34822,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -35851,8 +35858,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -35861,16 +35868,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -36890,8 +36904,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -36900,16 +36914,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -37929,8 +37950,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -37939,16 +37960,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -38968,8 +38996,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -38978,16 +39006,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -40007,8 +40042,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -40017,16 +40052,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -41046,8 +41088,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -41056,16 +41098,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -42101,8 +42150,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -42111,16 +42160,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -43140,8 +43196,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -43150,16 +43206,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -44179,8 +44242,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -44189,16 +44252,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -45218,8 +45288,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -45228,16 +45298,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -46257,8 +46334,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -46267,16 +46344,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -47296,8 +47380,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -47306,16 +47390,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -48335,8 +48426,8 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -48345,16 +48436,23 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -49390,8 +49488,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -49400,16 +49498,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -50363,8 +50468,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -50373,16 +50478,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -51336,8 +51448,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -51346,16 +51458,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -52309,8 +52428,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -52319,16 +52438,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -53282,8 +53408,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -53292,16 +53418,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -54255,8 +54388,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -54265,16 +54398,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -55228,8 +55368,8 @@ exports[`Snapshots ScheduleTable default 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -55238,16 +55378,23 @@ exports[`Snapshots ScheduleTable default 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -56217,8 +56364,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -56227,16 +56374,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -57190,8 +57344,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -57200,16 +57354,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -58163,8 +58324,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -58173,16 +58334,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -59136,8 +59304,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -59146,16 +59314,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -60109,8 +60284,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -60119,16 +60294,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -61082,8 +61264,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -61092,16 +61274,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -62055,8 +62244,8 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -62065,16 +62254,23 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -63045,8 +63241,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63055,16 +63251,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -63090,8 +63293,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63100,16 +63303,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -63135,8 +63345,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63145,16 +63355,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -63180,8 +63397,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63190,16 +63407,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -63225,8 +63449,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63235,16 +63459,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -63270,8 +63501,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63280,16 +63511,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -63315,8 +63553,8 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           Object {
             "borderRight": "0.063rem solid #e6ebef",
             "color": "#ced7df",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63325,16 +63563,23 @@ exports[`Snapshots ScheduleTable no times 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -63375,8 +63620,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63385,16 +63630,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Monday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Monday
+          </span>
         </div>
         <div
           style={
@@ -63884,8 +64136,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -63894,16 +64146,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Tuesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Tuesday
+          </span>
         </div>
         <div
           style={
@@ -64393,8 +64652,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -64403,16 +64662,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Wednesday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Wednesday
+          </span>
         </div>
         <div
           style={
@@ -64902,8 +65168,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -64912,16 +65178,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Thursday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Thursday
+          </span>
         </div>
         <div
           style={
@@ -65411,8 +65684,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -65421,16 +65694,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Friday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Friday
+          </span>
         </div>
         <div
           style={
@@ -65920,8 +66200,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -65930,16 +66210,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Saturday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Saturday
+          </span>
         </div>
         <div
           style={
@@ -66429,8 +66716,8 @@ exports[`Snapshots ScheduleTable single time 1`] = `
         style={
           Object {
             "borderRight": "0.063rem solid #e6ebef",
-            "flexGrow": "1",
-            "minHeight": "6.8125rem",
+            "flexGrow": 1,
+            "minHeight": "8rem",
             "textAlign": "center",
           }
         }
@@ -66439,16 +66726,23 @@ exports[`Snapshots ScheduleTable single time 1`] = `
           style={
             Object {
               "borderBottom": "0.063rem solid #e6ebef",
-              "color": "#323b43",
-              "fontFamily": "\\"Open Sans\\", sans-serif",
-              "fontSize": "0.8rem",
-              "fontWeight": 400,
-              "height": "2.75rem",
-              "lineHeight": "2.75rem",
+              "paddingBottom": "1rem",
+              "paddingTop": "1rem",
             }
           }
         >
-          Sunday
+          <span
+            style={
+              Object {
+                "color": "#323b43",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.8rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            Sunday
+          </span>
         </div>
         <div
           style={
@@ -68877,8 +69171,8 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
     style={
       Object {
         "borderRight": "0.063rem solid #e6ebef",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -68887,16 +69181,23 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -69911,8 +70212,8 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
     style={
       Object {
         "borderRight": "0.063rem solid #e6ebef",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -69921,16 +70222,23 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -70945,8 +71253,8 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
     style={
       Object {
         "borderRight": "0.063rem solid #e6ebef",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -70955,16 +71263,23 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -71913,8 +72228,8 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
     style={
       Object {
         "borderRight": "0.063rem solid #e6ebef",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -71923,16 +72238,23 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -72881,8 +73203,8 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
     style={
       Object {
         "borderRight": "0.063rem solid #e6ebef",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -72891,16 +73213,23 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -73386,8 +73715,8 @@ exports[`Snapshots ScheduleTableColumn without times 1`] = `
       Object {
         "borderRight": "0.063rem solid #e6ebef",
         "color": "#ced7df",
-        "flexGrow": "1",
-        "minHeight": "6.8125rem",
+        "flexGrow": 1,
+        "minHeight": "8rem",
         "textAlign": "center",
       }
     }
@@ -73396,16 +73725,23 @@ exports[`Snapshots ScheduleTableColumn without times 1`] = `
       style={
         Object {
           "borderBottom": "0.063rem solid #e6ebef",
-          "color": "#323b43",
-          "fontFamily": "\\"Open Sans\\", sans-serif",
-          "fontSize": "0.8rem",
-          "fontWeight": 400,
-          "height": "2.75rem",
-          "lineHeight": "2.75rem",
+          "paddingBottom": "1rem",
+          "paddingTop": "1rem",
         }
       }
     >
-      Monday
+      <span
+        style={
+          Object {
+            "color": "#323b43",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Monday
+      </span>
     </div>
     <div
       style={
@@ -73425,16 +73761,23 @@ exports[`Snapshots ScheduleTableHeader default 1`] = `
     style={
       Object {
         "borderBottom": "0.063rem solid #e6ebef",
-        "color": "#323b43",
-        "fontFamily": "\\"Open Sans\\", sans-serif",
-        "fontSize": "0.8rem",
-        "fontWeight": 400,
-        "height": "2.75rem",
-        "lineHeight": "2.75rem",
+        "paddingBottom": "1rem",
+        "paddingTop": "1rem",
       }
     }
   >
-    Monday
+    <span
+      style={
+        Object {
+          "color": "#323b43",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Monday
+    </span>
   </div>
 </span>
 `;

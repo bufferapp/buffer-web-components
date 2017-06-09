@@ -8,13 +8,13 @@ import {
 import ScheduleTableHeader from '../ScheduleTableHeader';
 import ScheduleTableCell from '../ScheduleTableCell';
 
-const columnHeight = '6.8125rem';
+const columnHeight = '8rem';
 
 const columnStyle = {
   minHeight: columnHeight,
   textAlign: 'center',
   borderRight: `${borderWidth} solid ${mystic}`,
-  flexGrow: '1',
+  flexGrow: 1,
 };
 
 const columnNoTimesStyle = {
@@ -22,7 +22,7 @@ const columnNoTimesStyle = {
   color: geyser,
   textAlign: 'center',
   borderRight: `${borderWidth} solid ${mystic}`,
-  flexGrow: '1',
+  flexGrow: 1,
 };
 
 const columnWrapperStyle = {

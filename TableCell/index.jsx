@@ -16,7 +16,11 @@ const TableCellStateless = ({
     hovered,
   });
   return (
-    <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={style}>
+    <div
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      style={style}
+    >
       {children}
     </div>
   );

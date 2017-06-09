@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {
   Button,
-  CloseSmallIcon,
+  CloseIcon,
   InputTime,
 } from '@bufferapp/components';
 import { calculateStyles } from '@bufferapp/components/lib/utils';
@@ -31,20 +31,21 @@ const TableCellContents = ({
   const buttonStyle = calculateStyles({
     default: {
       position: 'absolute',
+      top: '50%',
       right: '0.5rem',
       display: 'flex',
-      width: '0.59rem',
-      height: '0.59rem',
+      marginTop: '-0.375rem',
       textAlign: 'center',
     },
   });
 
   let removeButton = '';
 
-  if(hovered && !disabled){
-    removeButton = <div style={buttonStyle}>
-                    <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon size={'small'} /></Button>
-                  </div>;
+  if (hovered && !disabled) {
+    removeButton =
+      <div style={buttonStyle}>
+        <Button onClick={time.onRemoveTimeClick} noStyle><CloseIcon size={'small'} /></Button>
+      </div>;
   }
 
   return (
