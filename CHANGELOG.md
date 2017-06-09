@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.22 (June 9, 2017)
+
+- Remove `top` and `marginTop` JSS keys from `ScheduleTableCell` and clean up keys that have no effect on component
+
 ## 0.1.21 (June 9, 2017)
 
 - Clean up code styling in `ScheduleTable` and its children
