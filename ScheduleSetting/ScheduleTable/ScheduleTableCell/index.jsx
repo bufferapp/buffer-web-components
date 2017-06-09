@@ -39,90 +39,22 @@ const TableCellContents = ({
     },
   });
 
-  if (disabled && hovered && select24Hours) {
-    return (
-      <div style={style}>
-        <InputTime
-          disabled
-          input={time}
-          noStyle
-          select24Hours
-        />
-      </div>
-    );
-  } else if (disabled && !hovered && select24Hours) {
-    return (
-      <div style={style}>
-        <InputTime
-          disabled
-          input={time}
-          noStyle
-          select24Hours
-        />
-      </div>
-    );
-  } else if (!disabled && hovered && select24Hours) {
-    return (
-      <div style={style}>
-        <div style={buttonStyle}>
-          <Button noStyle><CloseSmallIcon /></Button>
-        </div>
-        <InputTime
-          input={time}
-          noStyle
-          select24Hours
-        />
-      </div>
-    );
-  } else if (!disabled && !hovered && select24Hours) {
-    return (
-      <div style={style}>
-        <InputTime
-          input={time}
-          noStyle
-          select24Hours
-        />
-      </div>
-    );
-  } else if (disabled && hovered && !select24Hours) {
-    return (
-      <div style={style}>
-        <InputTime
-          disabled
-          input={time}
-          noStyle
-        />
-      </div>
-    );
-  } else if (disabled && !hovered && !select24Hours) {
-    return (
-      <div style={style}>
-        <InputTime
-          disabled
-          input={time}
-          noStyle
-        />
-      </div>
-    );
-  } else if (!disabled && hovered && !select24Hours) {
-    return (
-      <div style={style}>
-        <div style={buttonStyle}>
-          <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon /></Button>
-        </div>
-        <InputTime
-          input={time}
-          noStyle
-        />
-      </div>
-    );
-  }
+  let removeButton = '';
 
+  if(hovered && !disabled){
+    removeButton = <div style={buttonStyle}>
+                    <Button onClick={time.onRemoveTimeClick} noStyle><CloseSmallIcon /></Button>
+                  </div>;
+  }
+  
   return (
     <div style={style}>
+      {removeButton}
       <InputTime
+        disabled={disabled}
         input={time}
         noStyle
+        select24Hours={select24Hours}
       />
     </div>
   );
