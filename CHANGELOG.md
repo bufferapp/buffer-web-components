@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.19 (June 9, 2017)
+
+- Update 'ScheduleTable', 'ScheduleTableColumn' and 'ScheduleTableCell' to add onRemoveTimeClick action.
+
 ## 0.1.18 (June 8, 2017)
 
 - Update `PostFooter` to only show 'Please reschedule' if user has permission or is admin
