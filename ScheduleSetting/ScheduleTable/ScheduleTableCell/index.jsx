@@ -31,11 +31,7 @@ const TableCellContents = ({
   const buttonStyle = calculateStyles({
     default: {
       position: 'absolute',
-      top: '50%',
       right: '0.5rem',
-      display: 'flex',
-      marginTop: '-0.375rem',
-      textAlign: 'center',
     },
   });
 
