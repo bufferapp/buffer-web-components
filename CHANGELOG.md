@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.23 (June 23, 2017)
+
+- Set `ScheduleTableColumn` `width` to `0`
+
 ## 0.1.22 (June 9, 2017)
 
 - Remove `top` and `marginTop` JSS keys from `ScheduleTableCell` and clean up keys that have no effect on component
