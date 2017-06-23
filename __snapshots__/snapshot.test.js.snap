@@ -34815,6 +34815,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -35861,6 +35862,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -36907,6 +36909,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -37953,6 +37956,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -38999,6 +39003,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -40045,6 +40050,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -41091,6 +41097,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -42153,6 +42160,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -43199,6 +43207,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -44245,6 +44254,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -45291,6 +45301,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -46337,6 +46348,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -47383,6 +47395,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -48429,6 +48442,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -49491,6 +49505,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -50471,6 +50486,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -51451,6 +51467,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -52431,6 +52448,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -53411,6 +53429,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -54391,6 +54410,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -55371,6 +55391,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -56367,6 +56388,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -57347,6 +57369,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -58327,6 +58350,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -59307,6 +59331,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -60287,6 +60312,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -61267,6 +61293,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -62247,6 +62274,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63244,6 +63272,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63296,6 +63325,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63348,6 +63378,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63400,6 +63431,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63452,6 +63484,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63504,6 +63537,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63556,6 +63590,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -63623,6 +63658,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -64139,6 +64175,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -64655,6 +64692,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -65171,6 +65209,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -65687,6 +65726,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -66203,6 +66243,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -66719,6 +66760,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
             "flexGrow": 1,
             "minHeight": "8rem",
             "textAlign": "center",
+            "width": 0,
           }
         }
       >
@@ -69174,6 +69216,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >
@@ -70215,6 +70258,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >
@@ -71256,6 +71300,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >
@@ -72231,6 +72276,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >
@@ -73206,6 +73252,7 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >
@@ -73718,6 +73765,7 @@ exports[`Snapshots ScheduleTableColumn without times 1`] = `
         "flexGrow": 1,
         "minHeight": "8rem",
         "textAlign": "center",
+        "width": 0,
       }
     }
   >

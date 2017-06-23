@@ -11,6 +11,7 @@ import ScheduleTableCell from '../ScheduleTableCell';
 const columnHeight = '8rem';
 
 const columnStyle = {
+  width: 0,
   minHeight: columnHeight,
   textAlign: 'center',
   borderRight: `${borderWidth} solid ${mystic}`,
@@ -18,6 +19,7 @@ const columnStyle = {
 };
 
 const columnNoTimesStyle = {
+  width: 0,
   minHeight: columnHeight,
   color: geyser,
   textAlign: 'center',
