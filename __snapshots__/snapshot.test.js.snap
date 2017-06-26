@@ -34861,7 +34861,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -35358,7 +35357,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -35908,7 +35906,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -36405,7 +36402,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -36955,7 +36951,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -37452,7 +37447,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -38002,7 +37996,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -38499,7 +38492,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -39049,7 +39041,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -39546,7 +39537,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -40096,7 +40086,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -40593,7 +40582,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -41143,7 +41131,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -41640,7 +41627,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -42206,7 +42192,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -42703,7 +42688,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -43253,7 +43237,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -43750,7 +43733,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -44300,7 +44282,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -44797,7 +44778,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -45347,7 +45327,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -45844,7 +45823,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -46394,7 +46372,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -46891,7 +46868,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -47441,7 +47417,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -47938,7 +47913,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -48488,7 +48462,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -48985,7 +48958,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -49551,7 +49523,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -50015,7 +49986,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -50532,7 +50502,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -50996,7 +50965,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -51513,7 +51481,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -51977,7 +51944,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -52494,7 +52460,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -52958,7 +52923,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -53475,7 +53439,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -53939,7 +53902,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -54456,7 +54418,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -54920,7 +54881,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -55437,7 +55397,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -55901,7 +55860,6 @@ exports[`Snapshots ScheduleTable default 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -56434,7 +56392,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -56898,7 +56855,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -57415,7 +57371,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -57879,7 +57834,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -58396,7 +58350,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -58860,7 +58813,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -59377,7 +59329,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -59841,7 +59792,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -60358,7 +60308,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -60822,7 +60771,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -61339,7 +61287,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -61803,7 +61750,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -62320,7 +62266,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -62784,7 +62729,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -63704,7 +63648,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -64221,7 +64164,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -64738,7 +64680,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -65255,7 +65196,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -65772,7 +65712,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -66289,7 +66228,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -66806,7 +66744,6 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                   "display": "flex",
                   "height": "2rem",
                   "justifyContent": "center",
-                  "lineHeight": "2rem",
                   "position": "relative",
                 }
               }
@@ -67279,7 +67216,6 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting 1`] = `
           "display": "flex",
           "height": "2rem",
           "justifyContent": "center",
-          "lineHeight": "2rem",
           "position": "relative",
         }
       }
@@ -67781,7 +67717,6 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting, disabled 1`] = `
           "display": "flex",
           "height": "2rem",
           "justifyContent": "center",
-          "lineHeight": "2rem",
           "position": "relative",
         }
       }
@@ -68283,7 +68218,6 @@ exports[`Snapshots ScheduleTableCell default 1`] = `
           "display": "flex",
           "height": "2rem",
           "justifyContent": "center",
-          "lineHeight": "2rem",
           "position": "relative",
         }
       }
@@ -68752,7 +68686,6 @@ exports[`Snapshots ScheduleTableCell disabled 1`] = `
           "display": "flex",
           "height": "2rem",
           "justifyContent": "center",
-          "lineHeight": "2rem",
           "position": "relative",
         }
       }
@@ -69262,7 +69195,6 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -69759,7 +69691,6 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -70304,7 +70235,6 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -70801,7 +70731,6 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -71346,7 +71275,6 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -71810,7 +71738,6 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -72322,7 +72249,6 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -72786,7 +72712,6 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }
@@ -73298,7 +73223,6 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
               "display": "flex",
               "height": "2rem",
               "justifyContent": "center",
-              "lineHeight": "2rem",
               "position": "relative",
             }
           }

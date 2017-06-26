@@ -15,14 +15,11 @@ const TableCellContents = ({
   select24Hours,
   time,
 }) => {
-  const cellHeight = '2rem';
-
   const style = calculateStyles({
     default: {
       position: 'relative',
       display: 'flex',
-      height: cellHeight,
-      lineHeight: cellHeight,
+      height: '2rem',
       justifyContent: 'center',
       alignItems: 'center',
     },
@@ -35,12 +32,20 @@ const TableCellContents = ({
     },
   });
 
+  const iconWrapperStyle = {
+    marginTop: '0.1rem',
+  };
+
   let removeButton = '';
 
   if (hovered && !disabled) {
     removeButton =
       <div style={buttonStyle}>
-        <Button onClick={time.onRemoveTimeClick} noStyle><CloseIcon size={'small'} /></Button>
+        <Button onClick={time.onRemoveTimeClick} noStyle>
+          <div style={iconWrapperStyle}>
+            <CloseIcon size={'small'} />
+          </div>
+        </Button>
       </div>;
   }
 
