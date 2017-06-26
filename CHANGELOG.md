@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.24 (June 26, 2017)
+
+- Remove a redundant `lineHeight` rule from `ScheduleTableCell`
+- Wrap a `div` element around the `CloseIcon` to address vertical misalignment
+
 ## 0.1.23 (June 23, 2017)
 
 - Set `ScheduleTableColumn` `width` to `0`
