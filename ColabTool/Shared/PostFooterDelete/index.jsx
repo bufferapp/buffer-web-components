@@ -11,16 +11,23 @@ const postButtonDeleteStyle = {
 /* eslint-disable react/prop-types */
 
 const renderConfirmDelete = ({
+  color,
   onCancelConfirmClick,
 }) =>
   <span style={postButtonDeleteStyle}>
     <Button onClick={onCancelConfirmClick} noStyle>
-      <HoverableText size={'small'}>Cancel</HoverableText>
+      <HoverableText
+        size={'small'}
+        color={color}
+      >
+        Cancel
+      </HoverableText>
     </Button>
   </span>;
 
 
 const renderDeleteButton = ({
+  color,
   isConfirmingDelete,
   onDeleteConfirmClick,
   onDeleteClick,
@@ -28,7 +35,7 @@ const renderDeleteButton = ({
   <span style={postButtonDeleteStyle}>
     <Button onClick={isConfirmingDelete ? onDeleteConfirmClick : onDeleteClick} noStyle>
       <HoverableText
-        color={isConfirmingDelete ? 'torchRed' : undefined}
+        color={isConfirmingDelete ? 'torchRed' : color}
         size={'small'}
       >
         {isConfirmingDelete ? 'Confirm' : 'Delete'}
@@ -39,6 +46,7 @@ const renderDeleteButton = ({
 /* eslint-enable react/prop-types */
 
 const PostFooterDelete = ({
+  color,
   isConfirmingDelete,
   onCancelConfirmClick,
   onDeleteConfirmClick,
@@ -46,10 +54,11 @@ const PostFooterDelete = ({
 }) =>
   <span>
     {isConfirmingDelete ?
-      renderConfirmDelete({ onCancelConfirmClick }) :
+      renderConfirmDelete({ onCancelConfirmClick, color }) :
       undefined
     }
     {renderDeleteButton({
+      color,
       isConfirmingDelete,
       onDeleteConfirmClick,
       onDeleteClick,
@@ -61,6 +70,32 @@ PostFooterDelete.propTypes = {
   onCancelConfirmClick: PropTypes.func.isRequired,
   onDeleteConfirmClick: PropTypes.func.isRequired,
   onDeleteClick: PropTypes.func.isRequired,
+  color: PropTypes.oneOf([
+    'appdotnet',
+    'aquaHaze',
+    'black',
+    'curiousBlue',
+    'curiousBlueLight',
+    'curiousBlueUltraLight',
+    'denim',
+    'facebook',
+    'geyser',
+    'googleplus',
+    'linkedin',
+    'mystic',
+    'nevada',
+    'outerSpace',
+    'outerSpaceLight',
+    'outerSpaceUltraLight',
+    'pinterest',
+    'saffron',
+    'shamrock',
+    'shuttleGray',
+    'toryBlue',
+    'torchRed',
+    'twitter',
+    'white',
+  ]),
 };
 
 PostFooterDelete.defaultProps = {
