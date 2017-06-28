@@ -52,26 +52,26 @@ const verticalLineStyle = {
 const renderEdit = ({
   onEditClick,
 }) =>
-    <span style={postButtonEdit}>
-      <Button onClick={onEditClick} noStyle>
-        <HoverableText
-          size={'small'}
-          color={'black'}
-        >
-          Edit
-        </HoverableText>
-      </Button>
-    </span>;
+  (<span style={postButtonEdit}>
+    <Button onClick={onEditClick} noStyle>
+      <HoverableText
+        size={'small'}
+        color={'black'}
+      >
+        Edit
+      </HoverableText>
+    </Button>
+  </span>);
 
 const renderIcon = () =>
-      <div style={postActionDetailsIconStyle}>
-        <WarningIcon color={'torchRed'} />
-      </div>;
+  (<div style={postActionDetailsIconStyle}>
+    <WarningIcon color={'torchRed'} />
+  </div>);
 
 const renderShareNow = ({
   onShareNowClick,
 }) =>
-  <span>
+  (<span>
     <span style={verticalLineStyle} />
     <Button onClick={onShareNowClick} noStyle>
       <HoverableText
@@ -81,19 +81,19 @@ const renderShareNow = ({
         Share Now
       </HoverableText>
     </Button>
-  </span>;
+  </span>);
 
 const renderText = ({
   postDetails,
 }) =>
-  <span>
+  (<span>
     <Text
       size={'small'}
       color={postDetails.error ? 'torchRed' : 'black'}
     >
       {postDetails.postAction}
     </Text>
-  </span>;
+  </span>);
 
 const renderControls = ({
   isDeleting,
@@ -127,7 +127,7 @@ const renderControls = ({
         onDeleteClick={onDeleteClick}
       />
       {renderEdit({
-        onEditClick
+        onEditClick,
       })}
       {renderShareNow({
         onShareNowClick,
@@ -150,7 +150,7 @@ const DashboardPostFooter = ({
   postDetails,
   sent,
 }) =>
-  <div style={postDetailsStyle}>
+  (<div style={postDetailsStyle}>
     <div style={postActionDetailsStyle}>
       {postDetails.error && renderIcon()}
       {renderText({ postDetails })}
@@ -169,7 +169,7 @@ const DashboardPostFooter = ({
         })}
       </div>)
     }
-  </div>;
+  </div>);
 
 DashboardPostFooter.propTypes = {
   isDeleting: PropTypes.bool,

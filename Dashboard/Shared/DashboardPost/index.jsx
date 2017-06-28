@@ -94,7 +94,7 @@ const DashboardPost = ({
   retweetProfile,
   sent,
 }) =>
-  <div style={postContainerStyle}>
+  (<div style={postContainerStyle}>
     <div style={postStyle}>
       <Card
         faded={isDeleting}
@@ -120,7 +120,7 @@ const DashboardPost = ({
         />
       </Card>
     </div>
-  </div>;
+  </div>);
 
 DashboardPost.commonPropTypes = {
   isConfirmingDelete: PropTypes.bool,
