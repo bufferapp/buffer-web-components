@@ -56,6 +56,7 @@ const renderEdit = ({
       <Button onClick={onEditClick} noStyle>
         <HoverableText
           size={'small'}
+          color={'black'}
         >
           Edit
         </HoverableText>
@@ -75,6 +76,7 @@ const renderShareNow = ({
     <Button onClick={onShareNowClick} noStyle>
       <HoverableText
         size={'small'}
+        color={'black'}
       >
         Share Now
       </HoverableText>
@@ -87,7 +89,7 @@ const renderText = ({
   <span>
     <Text
       size={'small'}
-      color={postDetails.error ? 'torchRed' : undefined}
+      color={postDetails.error ? 'torchRed' : 'black'}
     >
       {postDetails.postAction}
     </Text>
@@ -118,6 +120,7 @@ const renderControls = ({
   return (
     <div>
       <PostFooterDelete
+        color={'black'}
         isConfirmingDelete={isConfirmingDelete}
         onCancelConfirmClick={onCancelConfirmClick}
         onDeleteConfirmClick={onDeleteConfirmClick}

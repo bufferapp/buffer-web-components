@@ -16,6 +16,14 @@ storiesOf('PostFooterDelete')
       onDeleteConfirmClick={action('delete-confirm-click')}
     />
   ))
+  .add('black text', () => (
+    <PostFooterDelete
+      color={'black'}
+      onCancelConfirmClick={linkTo('PostFooterDelete', 'default')}
+      onDeleteClick={linkTo('PostFooterDelete', 'isConfirmingDelete')}
+      onDeleteConfirmClick={action('delete-confirm-click')}
+    />
+  ))
   .add('isConfirmingDelete', () => (
     <PostFooterDelete
       onDeleteClick={action('on-delete-click')}
