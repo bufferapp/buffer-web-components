@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.25 (July 13, 2017)
+
+- Reflect line breaks in shared `Post` for content.
+
 ## 0.1.24 (June 26, 2017)
 
 - Remove a redundant `lineHeight` rule from `ScheduleTableCell`
