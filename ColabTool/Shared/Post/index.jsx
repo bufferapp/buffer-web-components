@@ -19,6 +19,7 @@ const postStyle = {
 
 const postContentStyle = {
   padding: '1rem',
+  whiteSpace: 'pre-line',
 };
 
 const retweetProfileWrapperStyle = {

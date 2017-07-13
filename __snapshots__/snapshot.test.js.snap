@@ -9088,6 +9088,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -9480,6 +9481,7 @@ exports[`Snapshots ImagePost manager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -9872,6 +9874,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -10099,6 +10102,7 @@ exports[`Snapshots ImagePost past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -10536,6 +10540,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -10796,6 +10801,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -11273,6 +11279,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -11713,6 +11720,7 @@ exports[`Snapshots ImagePost square image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -12105,6 +12113,7 @@ exports[`Snapshots ImagePost tag 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -12531,6 +12540,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -12923,6 +12933,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -13315,6 +13326,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -13753,6 +13765,7 @@ exports[`Snapshots LinkPost manager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -14300,6 +14313,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -14626,6 +14640,7 @@ exports[`Snapshots LinkPost past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -15153,6 +15168,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -15512,6 +15528,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -15998,6 +16015,7 @@ exports[`Snapshots LinkPost square image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -16436,6 +16454,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -16874,6 +16893,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -17312,6 +17332,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -17804,6 +17825,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -18131,6 +18153,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -18668,6 +18691,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -19028,6 +19052,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -19568,6 +19593,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -19749,6 +19775,7 @@ exports[`Snapshots Post default 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -20084,6 +20111,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -20473,6 +20501,7 @@ exports[`Snapshots Post isDeleting 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -20654,6 +20683,7 @@ exports[`Snapshots Post isWorking 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -20835,6 +20865,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -21016,6 +21047,7 @@ exports[`Snapshots Post manager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -21351,6 +21383,7 @@ exports[`Snapshots Post no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -21521,6 +21554,7 @@ exports[`Snapshots Post past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -21901,6 +21935,7 @@ exports[`Snapshots Post past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -21992,6 +22027,344 @@ exports[`Snapshots Post past due no permission 1`] = `
             }
           >
             <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Post post text with line breaks 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "flexGrow": 1,
+          "minWidth": 0,
+        }
+      }
+    >
+      <div
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": 0,
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#fff",
+              "borderBottom": "0.063rem solid #e6ebef",
+              "display": "flex",
+              "padding": "0.5rem 1rem",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "display": "flex",
+                  "marginRight": "0.75rem",
+                }
+              }
+            >
+              <img
+                alt="Ash"
+                src="https://buffer-uploads.s3.amazonaws.com/510521020a19000b6a00001e/a476fed03b1de4e06563d6063d7d3ee0.jpg"
+                style={
+                  Object {
+                    "borderRadius": "50%",
+                    "height": "1.25rem",
+                    "maxHeight": undefined,
+                    "maxWidth": undefined,
+                    "minHeight": undefined,
+                    "minWidth": undefined,
+                    "objectFit": undefined,
+                    "width": "1.25rem",
+                  }
+                }
+              />
+            </span>
+            <span
+              style={
+                Object {
+                  "marginRight": "0.5rem",
+                }
+              }
+            >
+              <span
+                style={
+                  Object {
+                    "color": "#59626a",
+                    "fontFamily": "\\"Open Sans\\", sans-serif",
+                    "fontSize": "0.8rem",
+                    "fontWeight": 400,
+                  }
+                }
+              >
+                Ash created this on March 2nd at 12:45pm (GMT)
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "padding": "1rem",
+              "whiteSpace": "pre-line",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "color": "#59626a",
+                "fontFamily": "\\"Open Sans\\", sans-serif",
+                "fontSize": "0.9rem",
+                "fontWeight": 400,
+              }
+            }
+          >
+            I am a text-only 
+             test post 
+             with line breaks.
+          </span>
+        </div>
+        <div
+          style={
+            Object {
+              "backgroundColor": "#fcfcfc",
+              "borderTop": "0.063rem solid #e6ebef",
+              "display": "flex",
+              "padding": "0.5rem 1rem",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "#59626a",
+                    "fontFamily": "\\"Open Sans\\", sans-serif",
+                    "fontSize": "0.8rem",
+                    "fontWeight": 400,
+                  }
+                }
+              >
+                This post will be added to the queue
+              </span>
+            </span>
+          </div>
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <div>
+              <span>
+                <span
+                  style={
+                    Object {
+                      "marginLeft": "0.5rem",
+                    }
+                  }
+                >
+                  <button
+                    disabled={undefined}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "background": "none",
+                        "backgroundColor": "unset",
+                        "border": "none",
+                        "borderRadius": "unset",
+                        "color": "unset",
+                        "cursor": "pointer",
+                        "display": "unset",
+                        "fontFamily": "unset",
+                        "fontSize": "unset",
+                        "fontWeight": "unset",
+                        "lineHeight": "unset",
+                        "margin": "unset",
+                        "outline": "none",
+                        "padding": 0,
+                        "transition": "unset",
+                      }
+                    }
+                  >
+                    <span
+                      onMouseEnter={undefined}
+                      onMouseLeave={undefined}
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#59626a",
+                            "fontFamily": "\\"Open Sans\\", sans-serif",
+                            "fontSize": "0.8rem",
+                            "fontWeight": 400,
+                          }
+                        }
+                      >
+                        Delete
+                      </span>
+                    </span>
+                  </button>
+                </span>
+              </span>
+              <span
+                style={
+                  Object {
+                    "marginLeft": "0.7rem",
+                  }
+                }
+              >
+                <button
+                  disabled={undefined}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "background": "none",
+                      "backgroundColor": "unset",
+                      "border": "none",
+                      "borderRadius": "unset",
+                      "color": "unset",
+                      "cursor": "pointer",
+                      "display": "unset",
+                      "fontFamily": "unset",
+                      "fontSize": "unset",
+                      "fontWeight": "unset",
+                      "lineHeight": "unset",
+                      "margin": "unset",
+                      "outline": "none",
+                      "padding": 0,
+                      "transition": "unset",
+                    }
+                  }
+                >
+                  <span
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#59626a",
+                          "fontFamily": "\\"Open Sans\\", sans-serif",
+                          "fontSize": "0.8rem",
+                          "fontWeight": 400,
+                        }
+                      }
+                    >
+                      Edit
+                    </span>
+                  </span>
+                </button>
+              </span>
+              <span>
+                <span
+                  style={
+                    Object {
+                      "borderLeft": "0.063rem solid #e6ebef",
+                      "marginLeft": "0.7rem",
+                      "marginRight": "0.7rem",
+                    }
+                  }
+                />
+                <button
+                  disabled={undefined}
+                  onBlur={[Function]}
+                  onClick={undefined}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "background": "none",
+                      "backgroundColor": "unset",
+                      "border": "none",
+                      "borderRadius": "unset",
+                      "color": "unset",
+                      "cursor": "pointer",
+                      "display": "unset",
+                      "fontFamily": "unset",
+                      "fontSize": "unset",
+                      "fontWeight": "unset",
+                      "lineHeight": "unset",
+                      "margin": "unset",
+                      "outline": "none",
+                      "padding": 0,
+                      "transition": "unset",
+                    }
+                  }
+                >
+                  <span
+                    onMouseEnter={undefined}
+                    onMouseLeave={undefined}
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#168eea",
+                          "fontFamily": "\\"Open Sans\\", sans-serif",
+                          "fontSize": "0.8rem",
+                          "fontWeight": 400,
+                        }
+                      }
+                    >
+                      Request Approval
+                    </span>
+                  </span>
+                </button>
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -22104,6 +22477,7 @@ exports[`Snapshots Post retweet 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -22524,6 +22898,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -22979,6 +23354,7 @@ exports[`Snapshots Post scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -28231,6 +28607,7 @@ exports[`Snapshots PostList default 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -28642,6 +29019,7 @@ exports[`Snapshots PostList default 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -29068,6 +29446,7 @@ exports[`Snapshots PostList image posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -29503,6 +29882,7 @@ exports[`Snapshots PostList image posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -29953,6 +30333,7 @@ exports[`Snapshots PostList link posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -30503,6 +30884,7 @@ exports[`Snapshots PostList link posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -31068,6 +31450,7 @@ exports[`Snapshots PostList missing type 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -31479,6 +31862,7 @@ exports[`Snapshots PostList missing type 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -31905,6 +32289,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -32440,6 +32825,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -32990,6 +33376,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -33353,6 +33740,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -33731,6 +34119,7 @@ exports[`Snapshots PostList video posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -34200,6 +34589,7 @@ exports[`Snapshots PostList video posts 1`] = `
                 style={
                   Object {
                     "padding": "1rem",
+                    "whiteSpace": "pre-line",
                   }
                 }
               >
@@ -73915,6 +74305,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -74230,6 +74621,7 @@ exports[`Snapshots TextPost manager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -74654,6 +75046,7 @@ exports[`Snapshots TextPost no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -74857,6 +75250,7 @@ exports[`Snapshots TextPost past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -75261,6 +75655,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -75497,6 +75892,7 @@ exports[`Snapshots TextPost retweet 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -75897,6 +76293,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -76332,6 +76729,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -76695,6 +77093,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -77121,6 +77520,7 @@ exports[`Snapshots VideoPost manager 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -77547,6 +77947,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -77808,6 +78209,7 @@ exports[`Snapshots VideoPost past due 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -78279,6 +78681,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -78573,6 +78976,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -79084,6 +79488,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -79558,6 +79963,7 @@ exports[`Snapshots VideoPost square image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -79984,6 +80390,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >
@@ -80410,6 +80817,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
           style={
             Object {
               "padding": "1rem",
+              "whiteSpace": "pre-line",
             }
           }
         >

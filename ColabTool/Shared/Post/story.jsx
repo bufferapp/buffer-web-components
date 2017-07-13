@@ -53,6 +53,12 @@ const children = (
   </Text>
 );
 
+const childrenLineBreaks = (
+  <Text size={'mini'}>
+    {'I am a text-only \n test post \n with line breaks.'}
+  </Text>
+);
+
 storiesOf('Post')
   .addDecorator(checkA11y)
   .add('default', () => (
@@ -67,6 +73,20 @@ storiesOf('Post')
       view={draftsView}
     >
       {children}
+    </Post>
+  ))
+  .add('post text with line breaks', () => (
+    <Post
+      hasPermission
+      draftDetails={draftDetails}
+      onApproveClick={linkTo('Post', 'isWorking')}
+      onCancelConfirmClick={linkTo('Post', 'hovered')}
+      onDeleteClick={linkTo('Post', 'isConfirmingDelete')}
+      onDeleteConfirmClick={linkTo('Post', 'isDeleting')}
+      onEditClick={action('edit-click')}
+      view={draftsView}
+    >
+      {childrenLineBreaks}
     </Post>
   ))
   .add('scheduled', () => (
