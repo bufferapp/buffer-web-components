@@ -54,6 +54,7 @@ const TableCellContents = ({
       {removeButton}
       <InputTime
         disabled={disabled}
+        displayTimeColon
         input={time}
         noStyle
         select24Hours={select24Hours}
