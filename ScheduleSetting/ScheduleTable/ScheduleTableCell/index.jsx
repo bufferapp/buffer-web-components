@@ -28,7 +28,7 @@ const TableCellContents = ({
   const buttonStyle = calculateStyles({
     default: {
       position: 'absolute',
-      right: '0.5rem',
+      right: '0.25rem',
     },
   });
 
@@ -52,12 +52,20 @@ const TableCellContents = ({
   return (
     <div style={style}>
       {removeButton}
-      <InputTime
-        disabled={disabled}
-        input={time}
-        noStyle
-        select24Hours={select24Hours}
-      />
+      <div
+        style={{
+          width: '4.5rem',
+        }}
+      >
+        <InputTime
+          disabled={disabled}
+          input={time}
+          select24Hours={select24Hours}
+          minimal
+          centerText
+          displayTimeColon
+        />
+      </div>
     </div>
   );
 };
