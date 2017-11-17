@@ -14,6 +14,14 @@ const tableStyle = {
   overflow: 'hidden',
 };
 
+const pausedColumnStyle = {
+  display: 'flex',
+  marginRight: '-1px',
+  flexGrow: '1',
+  backgroundColor: '#f8f8f8',
+  borderLeft: `${borderWidth} solid ${mystic}`,
+};
+
 const tableColumnWrapperStyle = {
   display: 'flex',
   marginRight: '-1px',
@@ -24,6 +32,7 @@ const ScheduleTable = ({
   day,
   disabled,
   select24Hours,
+  onPauseToggleClick,
 }) => (
   <div style={tableStyle}>
     {
@@ -34,7 +43,7 @@ const ScheduleTable = ({
       }) =>
         <div
           key={dayName}
-          style={tableColumnWrapperStyle}
+          style={paused ? pausedColumnStyle : tableColumnWrapperStyle}
         >
           <ScheduleTableColumn
             dayName={dayName}
@@ -42,6 +51,7 @@ const ScheduleTable = ({
             postingTimesTotal={postingTimesTotal}
             select24Hours={select24Hours}
             times={times}
+            onPauseToggleClick={onPauseToggleClick}
           />
         </div>,
       )
@@ -76,6 +86,7 @@ ScheduleTable.propTypes = {
   ).isRequired,
   disabled: PropTypes.bool.isRequired,
   select24Hours: PropTypes.bool.isRequired,
+  onPauseToggleClick: PropTypes.func.isRequired,
 };
 
 export default ScheduleTable;
