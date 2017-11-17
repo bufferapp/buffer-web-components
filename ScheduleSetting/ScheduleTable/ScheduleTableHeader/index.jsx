@@ -21,7 +21,7 @@ const ScheduleTableHeader = ({
       color={'outerSpace'}
       size={'small'}
     >
-      {dayName}
+      {'Bob'}
     </Text>
     <Button linkStyle onClick={() => onPauseToggleClick({ profileId, dayName, paused })}>
       {`Turn ${paused ? 'on' : 'off'}`}
