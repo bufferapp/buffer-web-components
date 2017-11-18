@@ -40,6 +40,7 @@ const ScheduleTable = ({
         dayName,
         postingTimesTotal,
         times,
+        paused,
       }) =>
         <div
           key={dayName}
@@ -52,6 +53,7 @@ const ScheduleTable = ({
             select24Hours={select24Hours}
             times={times}
             onPauseToggleClick={onPauseToggleClick}
+            paused={paused}
           />
         </div>,
       )
