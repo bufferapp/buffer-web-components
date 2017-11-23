@@ -39,6 +39,7 @@ const ScheduleTableColumn = ({
   times,
   onPauseToggleClick,
   paused,
+  profileId,
 }) => (
   <div style={(times.length === 0) ? columnNoTimesStyle : columnStyle}>
     <ScheduleTableHeader
@@ -46,6 +47,7 @@ const ScheduleTableColumn = ({
       postingTimesTotal={times.length}
       paused={paused}
       onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
     <div style={columnWrapperStyle}>
       {
@@ -86,6 +88,7 @@ ScheduleTableColumn.propTypes = {
     }).isRequired,
   ).isRequired,
   onPauseToggleClick: PropTypes.func.isRequired,
+  profileId: PropTypes.string.isRequired,
 };
 
 export default ScheduleTableColumn;

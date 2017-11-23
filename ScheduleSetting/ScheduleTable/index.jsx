@@ -33,6 +33,7 @@ const ScheduleTable = ({
   disabled,
   select24Hours,
   onPauseToggleClick,
+  profileId,
 }) => (
   <div style={tableStyle}>
     {
@@ -53,6 +54,7 @@ const ScheduleTable = ({
             select24Hours={select24Hours}
             times={times}
             onPauseToggleClick={onPauseToggleClick}
+            profileId={profileId}
             paused={paused}
           />
         </div>,
@@ -89,6 +91,7 @@ ScheduleTable.propTypes = {
   disabled: PropTypes.bool.isRequired,
   select24Hours: PropTypes.bool.isRequired,
   onPauseToggleClick: PropTypes.func.isRequired,
+  profileId: PropTypes.string.isRequired,
 };
 
 export default ScheduleTable;
