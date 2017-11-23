@@ -14,6 +14,7 @@ const ScheduleTableHeader = ({
   dayName,
   paused,
   onPauseToggleClick,
+  profileId,
 }) => (
   <div style={headerStyle}>
     <Text
@@ -22,7 +23,7 @@ const ScheduleTableHeader = ({
     >
       {dayName}
     </Text>
-    <Button linkStyle onClick={() => onPauseToggleClick(dayName, paused)}>
+    <Button linkStyle onClick={() => onPauseToggleClick({ profileId, dayName, paused })}>
       {`Turn ${paused ? 'on' : 'off'}`}
     </Button>
   </div>
@@ -32,6 +33,7 @@ ScheduleTableHeader.propTypes = {
   dayName: PropTypes.string.isRequired,
   paused: PropTypes.bool.isRequired,
   onPauseToggleClick: PropTypes.func.isRequired,
+  profileId: PropTypes.string.isRequired,
 };
 
 export default ScheduleTableHeader;
