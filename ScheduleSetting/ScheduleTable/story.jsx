@@ -37,14 +37,23 @@ const singleTime = [
 const noTimes = [];
 
 const days = [];
+const pausedDays = [];
 const daysSingleTime = [];
 const daysNoTimes = [];
+const profileId = '12345678';
+const onPauseToggleClick = action('on-pause-toggle-click');
 
 daysOfWeek.forEach((dayName) => {
   days.push({
     dayName,
     postingTimesTotal: times.length,
     times,
+  });
+  pausedDays.push({
+    dayName,
+    postingTimesTotal: times.length,
+    times,
+    paused: true,
   });
   daysSingleTime.push({
     dayName,
@@ -63,18 +72,32 @@ storiesOf('ScheduleTable')
   .add('default', () => (
     <ScheduleTable
       day={days}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
+    />
+  ))
+  .add('paused', () => (
+    <ScheduleTable
+      day={pausedDays}
+      disabled
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('disabled', () => (
     <ScheduleTable
       day={days}
       disabled
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('24-hour time setting', () => (
     <ScheduleTable
       day={days}
       select24Hours
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('24-hour time setting, disabled', () => (
@@ -82,15 +105,21 @@ storiesOf('ScheduleTable')
       day={days}
       disabled
       select24Hours
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('single time', () => (
     <ScheduleTable
       day={daysSingleTime}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('no times', () => (
     <ScheduleTable
       day={daysNoTimes}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ));
