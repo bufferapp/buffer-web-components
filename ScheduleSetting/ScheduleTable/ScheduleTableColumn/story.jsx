@@ -35,6 +35,8 @@ const timesSingle = [
 ];
 
 const timesEmpty = [];
+const profileId = '12345678';
+const onPauseToggleClick = action('on-pause-toggle-click');
 
 storiesOf('ScheduleTableColumn')
   .addDecorator(checkA11y)
@@ -42,6 +44,8 @@ storiesOf('ScheduleTableColumn')
     <ScheduleTableColumn
       dayName={dayName}
       times={times}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('disabled', () => (
@@ -49,6 +53,18 @@ storiesOf('ScheduleTableColumn')
       dayName={dayName}
       disabled
       times={times}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
+    />
+  ))
+  .add('paused', () => (
+    <ScheduleTableColumn
+      dayName={dayName}
+      disabled
+      paused
+      times={times}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('24-hour time setting', () => (
@@ -56,6 +72,8 @@ storiesOf('ScheduleTableColumn')
       dayName={dayName}
       select24Hours
       times={times}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('24-hour time setting, disabled', () => (
@@ -64,17 +82,23 @@ storiesOf('ScheduleTableColumn')
       disabled
       select24Hours
       times={times}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('single time', () => (
     <ScheduleTableColumn
       dayName={dayName}
       times={timesSingle}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ))
   .add('without times', () => (
     <ScheduleTableColumn
       dayName={dayName}
       times={timesEmpty}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
   ));
