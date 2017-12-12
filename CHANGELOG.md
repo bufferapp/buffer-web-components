@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 (December 12, 2017)
+
+- Update storybook dependencies and tests in `story.jsx` files to use updated dependencies.
+- Update `@bufferapp/components` version to latest version (2.1.1)
+
 ## 0.1.25 (July 13, 2017)
 
 - Reflect line breaks in shared `Post` for content.
