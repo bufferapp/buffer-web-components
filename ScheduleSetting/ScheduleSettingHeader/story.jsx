@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import ScheduleSettingHeader from './index';
 
@@ -7,10 +7,10 @@ const profileName = 'Buffer Admin';
 const profileService = 'Twitter';
 const profileServiceType = 'Profile';
 const timezoneOptions = [
-  'London',
-  'New York',
-  'San Francisco',
-  'Tokyo',
+  { name: 'London', value: 'London' },
+  { name: 'New York', value: 'New York' },
+  { name: 'San Francisco', value: 'San Francisco' },
+  { name: 'Tokyo', value: 'Tokyo' },
 ];
 
 storiesOf('ScheduleSettingHeader')

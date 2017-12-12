@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { action } from '@kadira/storybook';
+import { action } from '@storybook/react';
 import ScheduleTableCell from './index';
 
 const time = {

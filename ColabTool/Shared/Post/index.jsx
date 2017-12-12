@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Card,
   LinkifiedText,
@@ -180,7 +181,7 @@ Post.commonPropTypes = {
       rawString: PropTypes.string,
       displayString: PropTypes.string,
       expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(React.PropTypes.number),
+      indices: PropTypes.arrayOf(PropTypes.number),
     }),
   ),
   scheduledAt: PropTypes.number,

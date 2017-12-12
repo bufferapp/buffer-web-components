@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   LinkifiedText,
 } from '@bufferapp/components';
@@ -94,7 +95,7 @@ TextPost.propTypes = {
       rawString: PropTypes.string,
       displayString: PropTypes.string,
       expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(React.PropTypes.number),
+      indices: PropTypes.arrayOf(PropTypes.number),
     }),
   ).isRequired,
   retweetCommentLinks: PropTypes.arrayOf(
@@ -102,7 +103,7 @@ TextPost.propTypes = {
       rawString: PropTypes.string,
       displayString: PropTypes.string,
       expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(React.PropTypes.number),
+      indices: PropTypes.arrayOf(PropTypes.number),
     }),
   ),
   text: PropTypes.string.isRequired,

@@ -1,4 +1,4 @@
-import { configure } from '@kadira/storybook';
+import { configure } from '@storybook/react';
 
 // automatically import all story.js files, excluding buffer components
 const req = require.context('../', true, /^(?!.*@bufferapp\/components).*(story\.jsx)$/);

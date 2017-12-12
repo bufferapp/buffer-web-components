@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-  action,
-  storiesOf,
-} from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 import {

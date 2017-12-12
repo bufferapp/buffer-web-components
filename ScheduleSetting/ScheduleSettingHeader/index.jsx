@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   SectionHeader,
   Select,
@@ -51,7 +52,7 @@ ScheduleSettingHeader.propTypes = {
   profileName: PropTypes.string.isRequired,
   profileService: PropTypes.string.isRequired,
   profileServiceType: PropTypes.string.isRequired,
-  timezoneOptions: PropTypes.arrayOf(PropTypes.string).isRequired,
+  timezoneOptions: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default ScheduleSettingHeader;

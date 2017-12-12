@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   storiesOf,
-} from '@kadira/storybook';
+} from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import BreadCrumb from './index';
 
