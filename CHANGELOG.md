@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 (December 12, 2017)
+
+- Update story.jsx files to use 'modules'.
+- Add `paused` handling to `ScheduleTable`, `ScheduleTableColumn`, `ScheduleTableHeader`
+
 ## 0.2.0 (December 12, 2017)
 
 - Update storybook dependencies and tests in `story.jsx` files to use updated dependencies.
