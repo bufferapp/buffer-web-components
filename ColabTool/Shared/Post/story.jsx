@@ -57,7 +57,7 @@ const childrenLineBreaks = (
   </Text>
 );
 
-storiesOf('Post')
+storiesOf('Post', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Post

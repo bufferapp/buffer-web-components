@@ -53,7 +53,7 @@ const wideImage = 'http://lorempixel.com/900/400/cats/';
 const draftsView = 'drafts';
 const scheduledAt = 123456789;
 
-storiesOf('ImagePost')
+storiesOf('ImagePost', module)
   .addDecorator(checkA11y)
   .add('default. All drafts view.', () => (
     <ImagePost

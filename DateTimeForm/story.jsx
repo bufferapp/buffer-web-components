@@ -35,7 +35,7 @@ const disableBefore = {
 
 const store = createStore(combineReducers({ form: formReducer }));
 
-storiesOf('DateTimeForm')
+storiesOf('DateTimeForm', module)
   .addDecorator(checkA11y)
   .addDecorator(getStory =>
     <Provider store={store}>

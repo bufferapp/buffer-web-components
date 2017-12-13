@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import HoverableText from './index';
 
-storiesOf('HoverableText')
+storiesOf('HoverableText', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <HoverableText

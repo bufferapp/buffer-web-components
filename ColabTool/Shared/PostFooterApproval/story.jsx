@@ -7,7 +7,7 @@ import PostFooterApproval from './index';
 const draftsView = 'drafts';
 const approvalView = 'approval';
 
-storiesOf('PostFooterApproval')
+storiesOf('PostFooterApproval', module)
   .addDecorator(checkA11y)
   .add('drafts view: manager', () => (
     <PostFooterApproval

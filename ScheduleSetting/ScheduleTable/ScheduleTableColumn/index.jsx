@@ -37,11 +37,17 @@ const ScheduleTableColumn = ({
   disabled,
   select24Hours,
   times,
+  onPauseToggleClick,
+  paused,
+  profileId,
 }) => (
   <div style={(times.length === 0) ? columnNoTimesStyle : columnStyle}>
     <ScheduleTableHeader
       dayName={dayName}
       postingTimesTotal={times.length}
+      paused={paused}
+      onPauseToggleClick={onPauseToggleClick}
+      profileId={profileId}
     />
     <div style={columnWrapperStyle}>
       {
@@ -61,12 +67,14 @@ const ScheduleTableColumn = ({
 ScheduleTableColumn.defaultProps = {
   disabled: false,
   select24Hours: false,
+  paused: false,
 };
 
 ScheduleTableColumn.propTypes = {
   dayName: PropTypes.string.isRequired,
   disabled: PropTypes.bool.isRequired,
   select24Hours: PropTypes.bool.isRequired,
+  paused: PropTypes.bool,
   times: PropTypes.arrayOf(
     PropTypes.shape({
       value: PropTypes.oneOfType([
@@ -80,6 +88,8 @@ ScheduleTableColumn.propTypes = {
       onRemoveTimeClick: PropTypes.func.isRequired,
     }).isRequired,
   ).isRequired,
+  onPauseToggleClick: PropTypes.func.isRequired,
+  profileId: PropTypes.string.isRequired,
 };
 
 export default ScheduleTableColumn;

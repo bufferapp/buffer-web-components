@@ -13,7 +13,7 @@ import {
   unscheduledPosts,
 } from './postData';
 
-storiesOf('PostList')
+storiesOf('PostList', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <PostList

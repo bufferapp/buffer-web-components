@@ -46,7 +46,7 @@ const wideImage = 'http://lorempixel.com/900/400/cats/';
 const approvalView = 'approval';
 const scheduledAt = 123456789;
 
-storiesOf('LinkPost')
+storiesOf('LinkPost', module)
   .addDecorator(checkA11y)
   .add('default. All approval view.', () => (
     <LinkPost

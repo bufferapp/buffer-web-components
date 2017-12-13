@@ -7,7 +7,7 @@ import TableCell from './index';
 const HoverableFocusableThing = ({ hovered, focused }) => <div>{hovered} - {focused}</div>;
 /* eslint-enable react/prop-types */
 
-storiesOf('TableCell')
+storiesOf('TableCell', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <TableCell>

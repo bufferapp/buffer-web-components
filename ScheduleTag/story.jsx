@@ -5,7 +5,7 @@ import ScheduleTag from './index';
 
 const date = '08:52am (GMC)';
 
-storiesOf('ScheduleTag')
+storiesOf('ScheduleTag', module)
   .addDecorator(checkA11y)
   .add('Default', () => (
     <ScheduleTag dateString={date} />

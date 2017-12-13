@@ -82,7 +82,7 @@ const noUsernameOrEmailIsRetweetDraftDetails = {
   email: '',
 };
 
-storiesOf('PostHeader')
+storiesOf('PostHeader', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <PostHeader

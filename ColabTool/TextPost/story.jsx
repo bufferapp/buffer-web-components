@@ -57,7 +57,7 @@ const approvalView = 'approval';
 const scheduledAt = 123456789;
 
 
-storiesOf('TextPost')
+storiesOf('TextPost', module)
   .addDecorator(checkA11y)
   .add('default. All approval view.', () => (
     <TextPost

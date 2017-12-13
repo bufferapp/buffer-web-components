@@ -13,7 +13,7 @@ const time = {
   onRemoveTimeClick: action('on-remove-time-click')
 };
 
-storiesOf('ScheduleTableCell')
+storiesOf('ScheduleTableCell', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <ScheduleTableCell time={time} />
