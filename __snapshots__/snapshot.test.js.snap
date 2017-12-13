@@ -11831,7 +11831,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -11934,7 +11934,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -12233,7 +12233,7 @@ exports[`Snapshots ImagePost manager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -12336,7 +12336,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -12635,7 +12635,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -12738,7 +12738,7 @@ exports[`Snapshots ImagePost no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -12869,7 +12869,7 @@ exports[`Snapshots ImagePost past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -12972,7 +12972,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -13316,7 +13316,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -13419,7 +13419,7 @@ exports[`Snapshots ImagePost past due no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -13583,7 +13583,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -13676,7 +13676,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -13772,7 +13772,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "fontWeight": 400,
                   }
                 }
@@ -14072,7 +14072,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -14175,7 +14175,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -14522,7 +14522,7 @@ exports[`Snapshots ImagePost square image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -14625,7 +14625,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -14924,7 +14924,7 @@ exports[`Snapshots ImagePost tag 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -15027,7 +15027,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -15360,7 +15360,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -15463,7 +15463,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -15762,7 +15762,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -15865,7 +15865,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -16164,7 +16164,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -16267,7 +16267,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -16323,7 +16323,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -16615,7 +16615,7 @@ exports[`Snapshots LinkPost manager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -16718,7 +16718,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -16774,7 +16774,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -17177,7 +17177,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -17280,7 +17280,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -17336,7 +17336,7 @@ exports[`Snapshots LinkPost no permission 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -17514,7 +17514,7 @@ exports[`Snapshots LinkPost past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -17617,7 +17617,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -17673,7 +17673,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -18055,7 +18055,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -18158,7 +18158,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -18214,7 +18214,7 @@ exports[`Snapshots LinkPost past due no permission 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -18425,7 +18425,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -18528,7 +18528,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -18584,7 +18584,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -18924,7 +18924,7 @@ exports[`Snapshots LinkPost square image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -19027,7 +19027,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -19083,7 +19083,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -19375,7 +19375,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -19478,7 +19478,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -19534,7 +19534,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -19826,7 +19826,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -19929,7 +19929,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -19985,7 +19985,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                     "border": "0.063rem solid #e6ebef",
                     "borderRadius": "0.126rem",
                     "color": "#323b43",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "lineHeight": 1.5,
                     "padding": 0,
                     "transition": "box-shadow 0.2s linear",
@@ -20277,7 +20277,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -20380,7 +20380,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -20789,7 +20789,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -20892,7 +20892,7 @@ exports[`Snapshots MultipleImagesPost no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -21133,7 +21133,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -21236,7 +21236,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -21690,7 +21690,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -21793,7 +21793,7 @@ exports[`Snapshots MultipleImagesPost past due no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -22067,7 +22067,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -22170,7 +22170,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -22627,7 +22627,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -22715,7 +22715,7 @@ exports[`Snapshots Post approval view: isMoving 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -22809,7 +22809,7 @@ exports[`Snapshots Post default 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -22897,7 +22897,7 @@ exports[`Snapshots Post default 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -23148,7 +23148,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -23236,7 +23236,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -23541,7 +23541,7 @@ exports[`Snapshots Post isDeleting 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "opacity": 0.5,
           "padding": 0,
@@ -23630,7 +23630,7 @@ exports[`Snapshots Post isDeleting 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -23724,7 +23724,7 @@ exports[`Snapshots Post isWorking 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -23812,7 +23812,7 @@ exports[`Snapshots Post isWorking 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -23906,7 +23906,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -23994,7 +23994,7 @@ exports[`Snapshots Post isWorkingManager 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -24088,7 +24088,7 @@ exports[`Snapshots Post manager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -24176,7 +24176,7 @@ exports[`Snapshots Post manager 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -24427,7 +24427,7 @@ exports[`Snapshots Post no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -24515,7 +24515,7 @@ exports[`Snapshots Post no permission 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -24598,7 +24598,7 @@ exports[`Snapshots Post past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -24686,7 +24686,7 @@ exports[`Snapshots Post past due 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -24982,7 +24982,7 @@ exports[`Snapshots Post past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -25070,7 +25070,7 @@ exports[`Snapshots Post past due no permission 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -25186,7 +25186,7 @@ exports[`Snapshots Post post text with line breaks 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -25274,7 +25274,7 @@ exports[`Snapshots Post post text with line breaks 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -25527,7 +25527,7 @@ exports[`Snapshots Post retweet 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -25620,7 +25620,7 @@ exports[`Snapshots Post retweet 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -25701,7 +25701,7 @@ exports[`Snapshots Post retweet 1`] = `
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "fontWeight": 400,
               }
             }
@@ -25953,7 +25953,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -26048,7 +26048,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "fontWeight": 400,
               }
             }
@@ -26085,7 +26085,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -26166,7 +26166,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "fontWeight": 400,
               }
             }
@@ -26418,7 +26418,7 @@ exports[`Snapshots Post scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -26506,7 +26506,7 @@ exports[`Snapshots Post scheduled 1`] = `
             Object {
               "color": "#59626a",
               "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "fontWeight": 400,
             }
           }
@@ -31660,7 +31660,7 @@ exports[`Snapshots PostList default 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -31763,7 +31763,7 @@ exports[`Snapshots PostList default 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -32077,7 +32077,7 @@ exports[`Snapshots PostList default 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -32180,7 +32180,7 @@ exports[`Snapshots PostList default 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -32507,7 +32507,7 @@ exports[`Snapshots PostList image posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -32610,7 +32610,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -32950,7 +32950,7 @@ exports[`Snapshots PostList image posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -33053,7 +33053,7 @@ exports[`Snapshots PostList image posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -33406,7 +33406,7 @@ exports[`Snapshots PostList link posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -33509,7 +33509,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -33565,7 +33565,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "border": "0.063rem solid #e6ebef",
                           "borderRadius": "0.126rem",
                           "color": "#323b43",
-                          "fontSize": "0.5rem",
+                          "fontSize": "0.9rem",
                           "lineHeight": 1.5,
                           "padding": 0,
                           "transition": "box-shadow 0.2s linear",
@@ -33972,7 +33972,7 @@ exports[`Snapshots PostList link posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -34075,7 +34075,7 @@ exports[`Snapshots PostList link posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -34131,7 +34131,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "border": "0.063rem solid #e6ebef",
                           "borderRadius": "0.126rem",
                           "color": "#323b43",
-                          "fontSize": "0.5rem",
+                          "fontSize": "0.9rem",
                           "lineHeight": 1.5,
                           "padding": 0,
                           "transition": "box-shadow 0.2s linear",
@@ -34551,7 +34551,7 @@ exports[`Snapshots PostList missing type 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -34654,7 +34654,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -34968,7 +34968,7 @@ exports[`Snapshots PostList missing type 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -35071,7 +35071,7 @@ exports[`Snapshots PostList missing type 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -35398,7 +35398,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -35501,7 +35501,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -35951,7 +35951,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -36054,7 +36054,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -36517,7 +36517,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -36620,7 +36620,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -36886,7 +36886,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -36989,7 +36989,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -37268,7 +37268,7 @@ exports[`Snapshots PostList video posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -37371,7 +37371,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -37745,7 +37745,7 @@ exports[`Snapshots PostList video posts 1`] = `
                 "border": "0.063rem solid #e6ebef",
                 "borderRadius": "0.126rem",
                 "color": "#323b43",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "lineHeight": 1.5,
                 "padding": 0,
                 "transition": "box-shadow 0.2s linear",
@@ -37848,7 +37848,7 @@ exports[`Snapshots PostList video posts 1`] = `
                       Object {
                         "color": "#59626a",
                         "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
+                        "fontSize": "0.9rem",
                         "fontWeight": 400,
                       }
                     }
@@ -96638,7 +96638,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -96741,7 +96741,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -96960,7 +96960,7 @@ exports[`Snapshots TextPost manager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -97063,7 +97063,7 @@ exports[`Snapshots TextPost manager 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -97393,7 +97393,7 @@ exports[`Snapshots TextPost no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -97496,7 +97496,7 @@ exports[`Snapshots TextPost no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -97601,7 +97601,7 @@ exports[`Snapshots TextPost past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -97704,7 +97704,7 @@ exports[`Snapshots TextPost past due 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -98013,7 +98013,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -98116,7 +98116,7 @@ exports[`Snapshots TextPost past due no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -98254,7 +98254,7 @@ exports[`Snapshots TextPost retweet 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -98347,7 +98347,7 @@ exports[`Snapshots TextPost retweet 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -98443,7 +98443,7 @@ exports[`Snapshots TextPost retweet 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "fontWeight": 400,
                   }
                 }
@@ -98663,7 +98663,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -98758,7 +98758,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.5rem",
+                "fontSize": "0.9rem",
                 "fontWeight": 400,
               }
             }
@@ -98795,7 +98795,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -98891,7 +98891,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "fontWeight": 400,
                   }
                 }
@@ -99111,7 +99111,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -99214,7 +99214,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -99481,7 +99481,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -99584,7 +99584,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -99917,7 +99917,7 @@ exports[`Snapshots VideoPost manager 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -100020,7 +100020,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -100353,7 +100353,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -100456,7 +100456,7 @@ exports[`Snapshots VideoPost no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -100621,7 +100621,7 @@ exports[`Snapshots VideoPost past due 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -100724,7 +100724,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -101102,7 +101102,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -101205,7 +101205,7 @@ exports[`Snapshots VideoPost past due no permission 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -101403,7 +101403,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -101496,7 +101496,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
               "border": "0.063rem solid #e6ebef",
               "borderRadius": "0.126rem",
               "color": "#323b43",
-              "fontSize": "0.5rem",
+              "fontSize": "0.9rem",
               "lineHeight": 1.5,
               "padding": "1rem",
               "transition": "box-shadow 0.2s linear",
@@ -101592,7 +101592,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.5rem",
+                    "fontSize": "0.9rem",
                     "fontWeight": 400,
                   }
                 }
@@ -101926,7 +101926,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -102029,7 +102029,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -102410,7 +102410,7 @@ exports[`Snapshots VideoPost square image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -102513,7 +102513,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -102846,7 +102846,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -102949,7 +102949,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
@@ -103282,7 +103282,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#323b43",
-          "fontSize": "0.5rem",
+          "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": 0,
           "transition": "box-shadow 0.2s linear",
@@ -103385,7 +103385,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                 Object {
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "0.5rem",
+                  "fontSize": "0.9rem",
                   "fontWeight": 400,
                 }
               }
