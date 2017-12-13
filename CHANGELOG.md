@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 (December 13, 2017)
+
+- Update `components` dependency version to `2.1.3` for font size updates
+
 ## 0.2.1 (December 12, 2017)
 
 - Update story.jsx files to use 'modules'.
