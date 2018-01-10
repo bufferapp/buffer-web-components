@@ -76,7 +76,7 @@
   },
   "dependencies": {
     "@bufferapp/components": "2.1.3",
-    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "prop-types": "^15.6.0",
     "redux-form": "^7.2.0"
   }

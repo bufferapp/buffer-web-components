@@ -47184,35 +47184,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Monday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -48426,35 +48397,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Tuesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -49668,35 +49610,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Wednesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -50910,35 +50823,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Thursday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -52152,35 +52036,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Friday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -53394,35 +53249,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Saturday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -54636,35 +54462,6 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
         >
           Sunday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -64600,35 +64397,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Monday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -65842,35 +65610,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Tuesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -67084,35 +66823,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Wednesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -68326,35 +68036,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Thursday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -69568,35 +69249,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Friday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -70810,35 +70462,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Saturday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -72052,35 +71675,6 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
         >
           Sunday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn off
-        </button>
       </div>
       <div
         style={
@@ -73898,35 +73492,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Monday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -75142,35 +74707,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Tuesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -76386,35 +75922,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Wednesday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -77630,35 +77137,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Thursday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -78874,35 +78352,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Friday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -80118,35 +79567,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Saturday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -81362,35 +80782,6 @@ exports[`Snapshots ScheduleTable paused 1`] = `
         >
           Sunday
         </span>
-        <button
-          aria-label={null}
-          disabled={undefined}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          style={
-            Object {
-              "background": "none",
-              "backgroundColor": "unset",
-              "border": "none",
-              "borderRadius": "unset",
-              "color": "#168eea",
-              "cursor": "pointer",
-              "display": "block",
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontSize": "0.75rem",
-              "fontWeight": 400,
-              "margin": "0 auto",
-              "outline": "none",
-              "padding": 0,
-              "transition": "background-color 0.2s linear",
-            }
-          }
-        >
-          Turn on
-        </button>
       </div>
       <div
         style={
@@ -90814,35 +90205,6 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
     >
       Monday
     </span>
-    <button
-      aria-label={null}
-      disabled={undefined}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "#168eea",
-          "cursor": "pointer",
-          "display": "block",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "0.75rem",
-          "fontWeight": 400,
-          "margin": "0 auto",
-          "outline": "none",
-          "padding": 0,
-          "transition": "background-color 0.2s linear",
-        }
-      }
-    >
-      Turn off
-    </button>
   </div>
   <div
     style={
@@ -93284,35 +92646,6 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
     >
       Monday
     </span>
-    <button
-      aria-label={null}
-      disabled={undefined}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "#168eea",
-          "cursor": "pointer",
-          "display": "block",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "0.75rem",
-          "fontWeight": 400,
-          "margin": "0 auto",
-          "outline": "none",
-          "padding": 0,
-          "transition": "background-color 0.2s linear",
-        }
-      }
-    >
-      Turn off
-    </button>
   </div>
   <div
     style={
@@ -94519,35 +93852,6 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
     >
       Monday
     </span>
-    <button
-      aria-label={null}
-      disabled={undefined}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "#168eea",
-          "cursor": "pointer",
-          "display": "block",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "0.75rem",
-          "fontWeight": 400,
-          "margin": "0 auto",
-          "outline": "none",
-          "padding": 0,
-          "transition": "background-color 0.2s linear",
-        }
-      }
-    >
-      Turn on
-    </button>
   </div>
   <div
     style={
