@@ -41,7 +41,7 @@ describe('DateTimeForm', () => {
       </Provider>,
     );
     wrapper
-      .find('button')
+      .findWhere(node => node.key() === 'scheduleSubmit')
       .simulate('click');
     expect(wrapper.text())
       .toContain(error);
