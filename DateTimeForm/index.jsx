@@ -41,6 +41,7 @@ const DateTimeForm = ({
   disableBefore,
   select24Hours,
   firstDayOfWeek,
+  firstMonthToDisplay,
 }) =>
   <form>
     <div>
@@ -50,6 +51,7 @@ const DateTimeForm = ({
         disableBefore={disableBefore}
         initialMonthYear={initialMonthYear}
         firstDayOfWeek={firstDayOfWeek}
+        firstMonthToDisplay={firstMonthToDisplay}
       />
     </div>
     <div style={formItemStyle}>
@@ -84,6 +86,7 @@ DateTimeForm.propTypes = {
   }),
   select24Hours: PropTypes.bool,
   firstDayOfWeek: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6]),
+  firstMonthToDisplay: PropTypes.instanceOf(Date),
 };
 
 export default reduxForm({

@@ -9,6 +9,9 @@ import {
 } from 'redux-form';
 import { checkA11y } from 'storybook-addon-a11y';
 import DateTimeForm from './index';
+import moment from 'moment';
+
+const firstMonthToDisplay = moment('2015-08-01').toDate();
 
 const initialValues = {
   date: {
@@ -47,6 +50,7 @@ storiesOf('DateTimeForm', module)
       onSubmit={action('on-submit')}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
+      firstMonthToDisplay={firstMonthToDisplay}
     />
   ))
   .add('with timezone label', () => (
@@ -55,6 +59,7 @@ storiesOf('DateTimeForm', module)
       initialValues={initialValues}
       onSubmit={action('on-submit')}
       timezoneLabel={'Europe: London'}
+      firstMonthToDisplay={firstMonthToDisplay}
     />
   ))
   .add('with some dates disabled', () => (
@@ -63,6 +68,7 @@ storiesOf('DateTimeForm', module)
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
       disableBefore={disableBefore}
+      firstMonthToDisplay={firstMonthToDisplay}
     />
   ))
   .add('with error', () => (
@@ -74,6 +80,7 @@ storiesOf('DateTimeForm', module)
       }}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
+      firstMonthToDisplay={firstMonthToDisplay}
     />
   ))
   .add('with submitting delay', () => (
@@ -85,6 +92,7 @@ storiesOf('DateTimeForm', module)
       })}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
+      firstMonthToDisplay={firstMonthToDisplay}
     />
   ))
   .add('with 24 hour time selector', () => (
@@ -92,6 +100,7 @@ storiesOf('DateTimeForm', module)
       onSubmit={action('on-submit')}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
+      firstMonthToDisplay={firstMonthToDisplay}
       select24Hours
     />
   ))
@@ -100,6 +109,7 @@ storiesOf('DateTimeForm', module)
       onSubmit={action('on-submit')}
       initialMonthYear={initialMonthYear}
       initialValues={initialValues}
+      firstMonthToDisplay={firstMonthToDisplay}
       firstDayOfWeek={1}
     />
   ));
