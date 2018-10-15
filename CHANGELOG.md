@@ -1,7 +1,10 @@
 # Changelog
 
-## 0.2.3 (October 15, 2018)
+## 0.2.4 (October 15, 2018)
 - Update `components` dependency version to `3.0.0` for InputDate updates.
+
+## 0.2.3 (January 10, 2018)
+- Disable `pause` if contributor.
 
 ## 0.2.2 (December 13, 2017)
 

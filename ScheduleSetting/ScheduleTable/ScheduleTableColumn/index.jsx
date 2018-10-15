@@ -48,6 +48,7 @@ const ScheduleTableColumn = ({
       paused={paused}
       onPauseToggleClick={onPauseToggleClick}
       profileId={profileId}
+      disabled={disabled}
     />
     <div style={columnWrapperStyle}>
       {
