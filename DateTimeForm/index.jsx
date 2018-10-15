@@ -59,6 +59,7 @@ const DateTimeForm = ({
     { error ? renderError(error) : null }
     <div style={buttonStyle}>
       <Button
+        key='scheduleSubmit'
         onClick={handleSubmit}
         disabled={submitting}
         small

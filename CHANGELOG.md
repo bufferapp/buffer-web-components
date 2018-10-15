@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.3 (October 15, 2018)
+- Update `components` dependency version to `3.0.0` for InputDate updates.
+
 ## 0.2.2 (December 13, 2017)
 
 - Update `components` dependency version to `2.1.3` for font size updates
