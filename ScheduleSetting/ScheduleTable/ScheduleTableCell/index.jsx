@@ -58,6 +58,7 @@ const TableCellContents = ({
         }}
       >
         <InputTime
+          fontSize={'small'}
           disabled={disabled}
           input={time}
           select24Hours={select24Hours}
