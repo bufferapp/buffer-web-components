@@ -155,6 +155,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -224,6 +225,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -1417,18 +1419,18 @@ exports[`Snapshots DateTimeForm default 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -2801,6 +2803,7 @@ exports[`Snapshots DateTimeForm default 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -2879,6 +2882,7 @@ exports[`Snapshots DateTimeForm with 24 hour time selector 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -2948,6 +2952,7 @@ exports[`Snapshots DateTimeForm with 24 hour time selector 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -4141,18 +4146,18 @@ exports[`Snapshots DateTimeForm with 24 hour time selector 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -5441,6 +5446,7 @@ exports[`Snapshots DateTimeForm with 24 hour time selector 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -5519,6 +5525,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -5588,6 +5595,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -6781,18 +6789,18 @@ exports[`Snapshots DateTimeForm with error 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -8165,6 +8173,7 @@ exports[`Snapshots DateTimeForm with error 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -8243,6 +8252,7 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -8312,6 +8322,7 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -9470,18 +9481,18 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -10889,6 +10900,7 @@ exports[`Snapshots DateTimeForm with first day of week monday 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -10967,6 +10979,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -11036,6 +11049,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -12255,18 +12269,18 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -13639,6 +13653,7 @@ exports[`Snapshots DateTimeForm with some dates disabled 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -13717,6 +13732,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -13786,6 +13802,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -14979,18 +14996,18 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -16363,6 +16380,7 @@ exports[`Snapshots DateTimeForm with submitting delay 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -16441,6 +16459,7 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -16510,6 +16529,7 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
                     "transition": "unset",
                   }
                 }
+                type="button"
               >
                 <span
                   style={
@@ -17703,18 +17723,18 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
                     style={
                       Object {
                         "backgroundColor": "#323b43",
-                        "border": "none",
+                        "border": "0.5px solid #eff1f1",
                         "boxSizing": "border-box",
                         "color": "#fff",
                         "cursor": "pointer",
                         "display": "inline-block",
                         "fontSize": "0.9rem",
-                        "outline": "none",
+                        "outline": "0.5px solid #eff1f1",
                         "overflow": "hidden",
                         "padding": ".6rem 0rem",
                         "textAlign": "center",
                         "verticalAlign": "middle",
-                        "width": "3rem",
+                        "width": "calc(100% / 7)",
                       }
                     }
                     tabIndex={-1}
@@ -19107,6 +19127,7 @@ exports[`Snapshots DateTimeForm with timezone label 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Schedule
     </button>
@@ -19475,6 +19496,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -19530,6 +19552,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -19587,6 +19610,7 @@ exports[`Snapshots ImagePost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -19876,6 +19900,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -19931,6 +19956,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -19988,6 +20014,7 @@ exports[`Snapshots ImagePost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -20555,6 +20582,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -20610,6 +20638,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -20667,6 +20696,7 @@ exports[`Snapshots ImagePost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -21308,6 +21338,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -21363,6 +21394,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -21420,6 +21452,7 @@ exports[`Snapshots ImagePost retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -21757,6 +21790,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -21812,6 +21846,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -21869,6 +21904,7 @@ exports[`Snapshots ImagePost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -22158,6 +22194,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -22213,6 +22250,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -22270,6 +22308,7 @@ exports[`Snapshots ImagePost square image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -22593,6 +22632,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -22648,6 +22688,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -22705,6 +22746,7 @@ exports[`Snapshots ImagePost tag 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -22994,6 +23036,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -23049,6 +23092,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -23106,6 +23150,7 @@ exports[`Snapshots ImagePost tall image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -23395,6 +23440,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -23450,6 +23496,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -23507,6 +23554,7 @@ exports[`Snapshots ImagePost wide image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -23898,6 +23946,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -23956,6 +24005,7 @@ exports[`Snapshots LinkPost default. All approval view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -24347,6 +24397,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -24402,6 +24453,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -24459,6 +24511,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -24516,6 +24569,7 @@ exports[`Snapshots LinkPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -25275,6 +25329,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -25333,6 +25388,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -25390,6 +25446,7 @@ exports[`Snapshots LinkPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -26197,6 +26254,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -26255,6 +26313,7 @@ exports[`Snapshots LinkPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -26646,6 +26705,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -26704,6 +26764,7 @@ exports[`Snapshots LinkPost square image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -27095,6 +27156,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -27153,6 +27215,7 @@ exports[`Snapshots LinkPost tall image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -27544,6 +27607,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -27602,6 +27666,7 @@ exports[`Snapshots LinkPost wide image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -28001,6 +28066,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -28056,6 +28122,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -28113,6 +28180,7 @@ exports[`Snapshots MultipleImagesPost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -28900,6 +28968,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -28955,6 +29024,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -29012,6 +29082,7 @@ exports[`Snapshots MultipleImagesPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -29835,6 +29906,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -29890,6 +29962,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -29947,6 +30020,7 @@ exports[`Snapshots MultipleImagesPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -30354,6 +30428,7 @@ exports[`Snapshots Post default 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -30409,6 +30484,7 @@ exports[`Snapshots Post default 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -30466,6 +30542,7 @@ exports[`Snapshots Post default 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -30692,6 +30769,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -30746,6 +30824,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -30801,6 +30880,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -30858,6 +30938,7 @@ exports[`Snapshots Post isConfirmingDelete 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -31628,6 +31709,7 @@ exports[`Snapshots Post manager 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -31683,6 +31765,7 @@ exports[`Snapshots Post manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -31740,6 +31823,7 @@ exports[`Snapshots Post manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -32181,6 +32265,7 @@ exports[`Snapshots Post past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -32236,6 +32321,7 @@ exports[`Snapshots Post past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -32293,6 +32379,7 @@ exports[`Snapshots Post past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -32724,6 +32811,7 @@ exports[`Snapshots Post post text with line breaks 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -32779,6 +32867,7 @@ exports[`Snapshots Post post text with line breaks 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -32836,6 +32925,7 @@ exports[`Snapshots Post post text with line breaks 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -33148,6 +33238,7 @@ exports[`Snapshots Post retweet 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -33203,6 +33294,7 @@ exports[`Snapshots Post retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -33260,6 +33352,7 @@ exports[`Snapshots Post retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -33611,6 +33704,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -33666,6 +33760,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -33723,6 +33818,7 @@ exports[`Snapshots Post retweet with comment 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -33997,6 +34093,7 @@ exports[`Snapshots Post scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -34052,6 +34149,7 @@ exports[`Snapshots Post scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -34109,6 +34207,7 @@ exports[`Snapshots Post scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -34215,6 +34314,7 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -34270,6 +34370,7 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34327,6 +34428,7 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34384,6 +34486,7 @@ exports[`Snapshots PostFooter approval view: manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34578,6 +34681,7 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -34633,6 +34737,7 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34690,6 +34795,7 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34747,6 +34853,7 @@ exports[`Snapshots PostFooter approval view: manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -34908,6 +35015,7 @@ exports[`Snapshots PostFooter approval view: not a manager 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -34966,6 +35074,7 @@ exports[`Snapshots PostFooter approval view: not a manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35102,6 +35211,7 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -35160,6 +35270,7 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35217,6 +35328,7 @@ exports[`Snapshots PostFooter approval view: not a manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35531,6 +35643,7 @@ exports[`Snapshots PostFooter drafts view: manager - scheduled post 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -35586,6 +35699,7 @@ exports[`Snapshots PostFooter drafts view: manager - scheduled post 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35643,6 +35757,7 @@ exports[`Snapshots PostFooter drafts view: manager - scheduled post 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35746,6 +35861,7 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -35801,6 +35917,7 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -35858,6 +35975,7 @@ exports[`Snapshots PostFooter drafts view: manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36006,6 +36124,7 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -36061,6 +36180,7 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36118,6 +36238,7 @@ exports[`Snapshots PostFooter drafts view: manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36279,6 +36400,7 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -36334,6 +36456,7 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36391,6 +36514,7 @@ exports[`Snapshots PostFooter drafts view: not manager 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36539,6 +36663,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -36594,6 +36719,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36651,6 +36777,7 @@ exports[`Snapshots PostFooter drafts view: not manager past due 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -36881,6 +37008,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -36935,6 +37063,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -36990,6 +37119,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -37047,6 +37177,7 @@ exports[`Snapshots PostFooter isConfirmingDelete 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -37208,6 +37339,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -37262,6 +37394,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
                 "transition": "unset",
               }
             }
+            type={undefined}
           >
             <span
               onMouseEnter={undefined}
@@ -37317,6 +37450,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -37374,6 +37508,7 @@ exports[`Snapshots PostFooter managerIsConfirmingDelete 1`] = `
               "transition": "unset",
             }
           }
+          type={undefined}
         >
           <span
             onMouseEnter={undefined}
@@ -37484,6 +37619,7 @@ exports[`Snapshots PostFooterApproval approval view: manager 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37544,6 +37680,7 @@ exports[`Snapshots PostFooterApproval approval view: manager past due 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37606,6 +37743,7 @@ exports[`Snapshots PostFooterApproval approval view: not manager. past due 1`] =
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37668,6 +37806,7 @@ exports[`Snapshots PostFooterApproval drafts view: manager 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37728,6 +37867,7 @@ exports[`Snapshots PostFooterApproval drafts view: manager past due 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37788,6 +37928,7 @@ exports[`Snapshots PostFooterApproval drafts view: not manager 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37850,6 +37991,7 @@ exports[`Snapshots PostFooterApproval drafts view: not manager. past due 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       onMouseEnter={undefined}
@@ -37910,6 +38052,7 @@ exports[`Snapshots PostFooterDelete default 1`] = `
           "transition": "unset",
         }
       }
+      type={undefined}
     >
       <span
         onMouseEnter={undefined}
@@ -37969,6 +38112,7 @@ exports[`Snapshots PostFooterDelete isConfirmingDelete 1`] = `
           "transition": "unset",
         }
       }
+      type={undefined}
     >
       <span
         onMouseEnter={undefined}
@@ -38023,6 +38167,7 @@ exports[`Snapshots PostFooterDelete isConfirmingDelete 1`] = `
           "transition": "unset",
         }
       }
+      type={undefined}
     >
       <span
         onMouseEnter={undefined}
@@ -39255,6 +39400,7 @@ exports[`Snapshots PostList default 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -39310,6 +39456,7 @@ exports[`Snapshots PostList default 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -39367,6 +39514,7 @@ exports[`Snapshots PostList default 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -39671,6 +39819,7 @@ exports[`Snapshots PostList default 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -39726,6 +39875,7 @@ exports[`Snapshots PostList default 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -39783,6 +39933,7 @@ exports[`Snapshots PostList default 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -40126,6 +40277,7 @@ exports[`Snapshots PostList image posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -40181,6 +40333,7 @@ exports[`Snapshots PostList image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -40238,6 +40391,7 @@ exports[`Snapshots PostList image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -40568,6 +40722,7 @@ exports[`Snapshots PostList image posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -40623,6 +40778,7 @@ exports[`Snapshots PostList image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -40680,6 +40836,7 @@ exports[`Snapshots PostList image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -41145,6 +41302,7 @@ exports[`Snapshots PostList link posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -41200,6 +41358,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -41257,6 +41416,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -41709,6 +41869,7 @@ exports[`Snapshots PostList link posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -41764,6 +41925,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -41821,6 +41983,7 @@ exports[`Snapshots PostList link posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -42138,6 +42301,7 @@ exports[`Snapshots PostList missing type 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -42193,6 +42357,7 @@ exports[`Snapshots PostList missing type 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -42250,6 +42415,7 @@ exports[`Snapshots PostList missing type 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -42554,6 +42720,7 @@ exports[`Snapshots PostList missing type 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -42609,6 +42776,7 @@ exports[`Snapshots PostList missing type 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -42666,6 +42834,7 @@ exports[`Snapshots PostList missing type 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -43119,6 +43288,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -43174,6 +43344,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -43231,6 +43402,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -43671,6 +43843,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -43726,6 +43899,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -43783,6 +43957,7 @@ exports[`Snapshots PostList multiple image posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -44052,6 +44227,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -44107,6 +44283,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -44164,6 +44341,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -44420,6 +44598,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -44475,6 +44654,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -44532,6 +44712,7 @@ exports[`Snapshots PostList unscheduled posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -44909,6 +45090,7 @@ exports[`Snapshots PostList video posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -44964,6 +45146,7 @@ exports[`Snapshots PostList video posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -45021,6 +45204,7 @@ exports[`Snapshots PostList video posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -45385,6 +45569,7 @@ exports[`Snapshots PostList video posts 1`] = `
                             "transition": "unset",
                           }
                         }
+                        type={undefined}
                       >
                         <span
                           onMouseEnter={undefined}
@@ -45440,6 +45625,7 @@ exports[`Snapshots PostList video posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -45497,6 +45683,7 @@ exports[`Snapshots PostList video posts 1`] = `
                           "transition": "unset",
                         }
                       }
+                      type={undefined}
                     >
                       <span
                         onMouseEnter={undefined}
@@ -45846,6 +46033,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -45927,7 +46115,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -46123,7 +46311,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -46511,7 +46699,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -46707,7 +46895,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -47096,6 +47284,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -47177,7 +47366,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -47373,7 +47562,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -47761,7 +47950,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -47957,7 +48146,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -48346,6 +48535,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -48427,7 +48617,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -48623,7 +48813,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -49011,7 +49201,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -49207,7 +49397,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -49596,6 +49786,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -49677,7 +49868,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -49873,7 +50064,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -50261,7 +50452,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -50457,7 +50648,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -50846,6 +51037,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -50927,7 +51119,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -51123,7 +51315,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -51511,7 +51703,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -51707,7 +51899,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -52096,6 +52288,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -52177,7 +52370,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -52373,7 +52566,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -52761,7 +52954,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -52957,7 +53150,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -53346,6 +53539,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -53427,7 +53621,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -53623,7 +53817,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -54011,7 +54205,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -54207,7 +54401,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -54662,7 +54856,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -54858,7 +55052,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -55246,7 +55440,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -55442,7 +55636,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -55883,7 +56077,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -56079,7 +56273,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -56467,7 +56661,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -56663,7 +56857,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -57104,7 +57298,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -57300,7 +57494,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -57688,7 +57882,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -57884,7 +58078,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -58325,7 +58519,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -58521,7 +58715,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -58909,7 +59103,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -59105,7 +59299,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -59546,7 +59740,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -59742,7 +59936,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -60130,7 +60324,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -60326,7 +60520,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -60767,7 +60961,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -60963,7 +61157,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -61351,7 +61545,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -61547,7 +61741,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -61988,7 +62182,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -62184,7 +62378,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -62572,7 +62766,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -62768,7 +62962,7 @@ exports[`Snapshots ScheduleTable 24-hour time setting, disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -63171,6 +63365,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -63252,7 +63447,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -63388,7 +63583,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -63740,7 +63935,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -63838,7 +64033,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -63974,7 +64169,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -64326,7 +64521,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -64425,6 +64620,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -64506,7 +64702,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -64642,7 +64838,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -64994,7 +65190,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -65092,7 +65288,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -65228,7 +65424,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -65580,7 +65776,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -65679,6 +65875,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -65760,7 +65957,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -65896,7 +66093,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -66248,7 +66445,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -66346,7 +66543,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -66482,7 +66679,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -66834,7 +67031,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -66933,6 +67130,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -67014,7 +67212,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -67150,7 +67348,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -67502,7 +67700,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -67600,7 +67798,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -67736,7 +67934,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68088,7 +68286,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68187,6 +68385,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -68268,7 +68467,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68404,7 +68603,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68756,7 +68955,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68854,7 +69053,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -68990,7 +69189,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -69342,7 +69541,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -69441,6 +69640,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -69522,7 +69722,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -69658,7 +69858,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70010,7 +70210,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70108,7 +70308,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70244,7 +70444,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70596,7 +70796,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70695,6 +70895,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -70776,7 +70977,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -70912,7 +71113,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -71264,7 +71465,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -71362,7 +71563,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -71498,7 +71699,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -71850,7 +72051,7 @@ exports[`Snapshots ScheduleTable default 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -72015,7 +72216,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -72151,7 +72352,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -72503,7 +72704,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -72601,7 +72802,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -72737,7 +72938,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73089,7 +73290,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73240,7 +73441,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73376,7 +73577,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73728,7 +73929,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73826,7 +74027,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -73962,7 +74163,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -74314,7 +74515,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -74465,7 +74666,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -74601,7 +74802,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -74953,7 +75154,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -75051,7 +75252,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -75187,7 +75388,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -75539,7 +75740,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -75690,7 +75891,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -75826,7 +76027,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -76178,7 +76379,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -76276,7 +76477,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -76412,7 +76613,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -76764,7 +76965,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -76915,7 +77116,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -77051,7 +77252,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -77403,7 +77604,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -77501,7 +77702,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -77637,7 +77838,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -77989,7 +78190,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -78140,7 +78341,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -78276,7 +78477,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -78628,7 +78829,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -78726,7 +78927,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -78862,7 +79063,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -79214,7 +79415,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -79365,7 +79566,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -79501,7 +79702,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -79853,7 +80054,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -79951,7 +80152,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -80087,7 +80288,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -80439,7 +80640,7 @@ exports[`Snapshots ScheduleTable disabled 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -80553,6 +80754,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -80635,6 +80837,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -80717,6 +80920,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -80799,6 +81003,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -80881,6 +81086,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -80963,6 +81169,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -81045,6 +81252,7 @@ exports[`Snapshots ScheduleTable no times 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -81194,7 +81402,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -81330,7 +81538,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -81682,7 +81890,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -81780,7 +81988,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -81916,7 +82124,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -82268,7 +82476,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -82421,7 +82629,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -82557,7 +82765,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -82909,7 +83117,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -83007,7 +83215,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -83143,7 +83351,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -83495,7 +83703,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -83648,7 +83856,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -83784,7 +83992,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -84136,7 +84344,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -84234,7 +84442,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -84370,7 +84578,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -84722,7 +84930,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -84875,7 +85083,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -85011,7 +85219,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -85363,7 +85571,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -85461,7 +85669,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -85597,7 +85805,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -85949,7 +86157,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -86102,7 +86310,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -86238,7 +86446,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -86590,7 +86798,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -86688,7 +86896,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -86824,7 +87032,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -87176,7 +87384,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -87329,7 +87537,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -87465,7 +87673,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -87817,7 +88025,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -87915,7 +88123,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -88051,7 +88259,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -88403,7 +88611,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -88556,7 +88764,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -88692,7 +88900,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89044,7 +89252,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89142,7 +89350,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89278,7 +89486,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89630,7 +89838,7 @@ exports[`Snapshots ScheduleTable paused 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89743,6 +89951,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -89824,7 +90033,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -89960,7 +90169,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -90312,7 +90521,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -90411,6 +90620,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -90492,7 +90702,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -90628,7 +90838,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -90980,7 +91190,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -91079,6 +91289,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -91160,7 +91371,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -91296,7 +91507,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -91648,7 +91859,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -91747,6 +91958,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -91828,7 +92040,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -91964,7 +92176,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -92316,7 +92528,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -92415,6 +92627,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -92496,7 +92709,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -92632,7 +92845,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -92984,7 +93197,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -93083,6 +93296,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -93164,7 +93378,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -93300,7 +93514,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -93652,7 +93866,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -93751,6 +93965,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
               "transition": "background-color 0.2s linear",
             }
           }
+          type={undefined}
         >
           Turn off
         </button>
@@ -93832,7 +94047,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -93968,7 +94183,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -94320,7 +94535,7 @@ exports[`Snapshots ScheduleTable single time 1`] = `
                           "borderRadius": "0.126rem",
                           "color": "#59626a",
                           "fontFamily": "\\"Roboto\\", sans-serif",
-                          "fontSize": "1rem",
+                          "fontSize": "0.75rem",
                           "height": "auto",
                           "margin": 0,
                           "outline": "none",
@@ -94425,7 +94640,7 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -94621,7 +94836,7 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -95012,7 +95227,7 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting, disabled 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -95208,7 +95423,7 @@ exports[`Snapshots ScheduleTableCell 24-hour time setting, disabled 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -95599,7 +95814,7 @@ exports[`Snapshots ScheduleTableCell default 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -95735,7 +95950,7 @@ exports[`Snapshots ScheduleTableCell default 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -96087,7 +96302,7 @@ exports[`Snapshots ScheduleTableCell default 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -96188,7 +96403,7 @@ exports[`Snapshots ScheduleTableCell disabled 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -96324,7 +96539,7 @@ exports[`Snapshots ScheduleTableCell disabled 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -96676,7 +96891,7 @@ exports[`Snapshots ScheduleTableCell disabled 1`] = `
                   "borderRadius": "0.126rem",
                   "color": "#59626a",
                   "fontFamily": "\\"Roboto\\", sans-serif",
-                  "fontSize": "1rem",
+                  "fontSize": "0.75rem",
                   "height": "auto",
                   "margin": 0,
                   "outline": "none",
@@ -96766,6 +96981,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Turn off
     </button>
@@ -96847,7 +97063,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -97043,7 +97259,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -97431,7 +97647,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -97627,7 +97843,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -98061,7 +98277,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -98257,7 +98473,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -98645,7 +98861,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -98841,7 +99057,7 @@ exports[`Snapshots ScheduleTableColumn 24-hour time setting, disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -99223,6 +99439,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Turn off
     </button>
@@ -99304,7 +99521,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -99440,7 +99657,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -99792,7 +100009,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -99890,7 +100107,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -100026,7 +100243,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -100378,7 +100595,7 @@ exports[`Snapshots ScheduleTableColumn default 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -100522,7 +100739,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -100658,7 +100875,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101010,7 +101227,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101108,7 +101325,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101244,7 +101461,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101596,7 +101813,7 @@ exports[`Snapshots ScheduleTableColumn disabled 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101740,7 +101957,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -101876,7 +102093,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -102228,7 +102445,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -102326,7 +102543,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -102462,7 +102679,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -102814,7 +103031,7 @@ exports[`Snapshots ScheduleTableColumn paused 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -102906,6 +103123,7 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Turn off
     </button>
@@ -102987,7 +103205,7 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -103123,7 +103341,7 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -103475,7 +103693,7 @@ exports[`Snapshots ScheduleTableColumn single time 1`] = `
                       "borderRadius": "0.126rem",
                       "color": "#59626a",
                       "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "1rem",
+                      "fontSize": "0.75rem",
                       "height": "auto",
                       "margin": 0,
                       "outline": "none",
@@ -103568,6 +103786,7 @@ exports[`Snapshots ScheduleTableColumn without times 1`] = `
           "transition": "background-color 0.2s linear",
         }
       }
+      type={undefined}
     >
       Turn off
     </button>
@@ -103631,6 +103850,7 @@ exports[`Snapshots ScheduleTableHeader default unpaused 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Turn off
   </button>
@@ -103685,6 +103905,7 @@ exports[`Snapshots ScheduleTableHeader paused 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Turn on
   </button>
@@ -103979,6 +104200,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -104037,6 +104259,7 @@ exports[`Snapshots TextPost default. All approval view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -104300,6 +104523,7 @@ exports[`Snapshots TextPost manager 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -104355,6 +104579,7 @@ exports[`Snapshots TextPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -104412,6 +104637,7 @@ exports[`Snapshots TextPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -104469,6 +104695,7 @@ exports[`Snapshots TextPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -104972,6 +105199,7 @@ exports[`Snapshots TextPost past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -105030,6 +105258,7 @@ exports[`Snapshots TextPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -105087,6 +105316,7 @@ exports[`Snapshots TextPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -105676,6 +105906,7 @@ exports[`Snapshots TextPost retweet 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -105734,6 +105965,7 @@ exports[`Snapshots TextPost retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -106122,6 +106354,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -106180,6 +106413,7 @@ exports[`Snapshots TextPost retweet with comment 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -106491,6 +106725,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -106549,6 +106784,7 @@ exports[`Snapshots TextPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -106872,6 +107108,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -106927,6 +107164,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -106984,6 +107222,7 @@ exports[`Snapshots VideoPost default. All drafts view. 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -107307,6 +107546,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -107362,6 +107602,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -107419,6 +107660,7 @@ exports[`Snapshots VideoPost manager 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -108054,6 +108296,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -108109,6 +108352,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -108166,6 +108410,7 @@ exports[`Snapshots VideoPost past due 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -108875,6 +109120,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -108930,6 +109176,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -108987,6 +109234,7 @@ exports[`Snapshots VideoPost retweet 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -109358,6 +109606,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -109413,6 +109662,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -109470,6 +109720,7 @@ exports[`Snapshots VideoPost scheduled 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -109793,6 +110044,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -109848,6 +110100,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -109905,6 +110158,7 @@ exports[`Snapshots VideoPost square image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -110228,6 +110482,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -110283,6 +110538,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -110340,6 +110596,7 @@ exports[`Snapshots VideoPost tall image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -110663,6 +110920,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                       "transition": "unset",
                     }
                   }
+                  type={undefined}
                 >
                   <span
                     onMouseEnter={undefined}
@@ -110718,6 +110976,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
@@ -110775,6 +111034,7 @@ exports[`Snapshots VideoPost wide image 1`] = `
                     "transition": "unset",
                   }
                 }
+                type={undefined}
               >
                 <span
                   onMouseEnter={undefined}
