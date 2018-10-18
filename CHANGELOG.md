@@ -1,4 +1,9 @@
 # Changelog
+
+## 0.2.6 (October 18, 2018)
+- Update `components` dependency version to `3.0.2` for Button updates.
+- Set `ScheduleTableCell` `fontsize` to `small`.
+
 ## 0.2.5 (October 15, 2018)
 - Add `FirstMonthToDisplay` prop to DateTimeForm
 - Update `components` dependency version to `3.0.1` for InputDate updates.
